@@ -1,0 +1,1554 @@
+﻿video_seconds,timecode,blue,red,green,control,status,source_file,control_raw
+180.0,00:03:00.000,0,0,0,,reviewed,,
+360.0,00:06:00.000,0,0,0,,reviewed,,
+481.05,00:08:01.050,0,0,0,,machine_checked,assets/hud-0000481050.webp,
+485.217,00:08:05.217,0,0,0,,machine_checked,assets/hud-0000485217.webp,
+489.383,00:08:09.383,0,0,0,,machine_checked,assets/hud-0000489383.webp,
+493.55,00:08:13.550,0,0,0,,machine_checked,assets/hud-0000493550.webp,
+497.717,00:08:17.717,0,0,0,,machine_checked,assets/hud-0000497717.webp,
+501.883,00:08:21.883,0,0,0,,machine_checked,assets/hud-0000501883.webp,
+506.05,00:08:26.050,0,0,0,,machine_checked,assets/hud-0000506050.webp,
+510.217,00:08:30.217,0,0,0,,machine_checked,assets/hud-0000510217.webp,
+514.383,00:08:34.383,0,0,0,,machine_checked,assets/hud-0000514383.webp,
+518.55,00:08:38.550,0,0,0,Blue,machine_checked,assets/hud-0000518550.webp,CONTROL:LONESTAROTN
+522.717,00:08:42.717,0,0,0,Blue,machine_checked,assets/hud-0000522717.webp,CONTROL:LONESTAR
+526.883,00:08:46.883,0,0,0,Blue,machine_checked,assets/hud-0000526883.webp,CONTROLLONESTAR
+531.05,00:08:51.050,0,0,0,Blue,machine_checked,assets/hud-0000531050.webp,CONTROL:LONESTAR
+535.217,00:08:55.217,0,0,0,,machine_checked,assets/hud-0000535217.webp,
+539.383,00:08:59.383,0,0,0,,machine_checked,assets/hud-0000539383.webp,
+540.0,00:09:00.000,0,0,0,,reviewed,,
+543.55,00:09:03.550,1,0,0,,machine_checked,assets/hud-0000543550.webp,
+545.0,00:09:05.000,1,0,0,,reviewed,,
+547.717,00:09:07.717,1,0,0,Blue,machine_checked,assets/hud-0000547717.webp,CONTROL:LONESTAR
+550.0,00:09:10.000,1,0,0,,reviewed,,
+551.883,00:09:11.883,1,0,0,Blue,machine_checked,assets/hud-0000551883.webp,CONTROL:LONESTARSN
+555.0,00:09:15.000,1,0,0,,reviewed,,
+556.05,00:09:16.050,1,0,0,Red,machine_checked,assets/hud-0000556050.webp,CONTROL: VALKYRA
+560.217,00:09:20.217,1,0,0,Red,machine_checked,assets/hud-0000560217.webp,CONTROLVALKYRA
+564.383,00:09:24.383,1,0,0,Red,machine_checked,assets/hud-0000564383.webp,CONTROLVALKYRAU
+568.55,00:09:28.550,1,0,0,Blue,machine_checked,assets/hud-0000568550.webp,CONTROLLONESTAR
+572.717,00:09:32.717,2,0,0,Blue,machine_checked,assets/hud-0000572717.webp,CONTROL:LONESTAR
+576.883,00:09:36.883,2,0,0,Blue,machine_checked,assets/hud-0000576883.webp,CONTROL:LONESTAR
+581.05,00:09:41.050,2,0,0,Blue,machine_checked,assets/hud-0000581050.webp,CONTROL:LONESTAR
+585.217,00:09:45.217,2,0,0,Blue,machine_checked,assets/hud-0000585217.webp,CONTROL: LONESTAR
+589.383,00:09:49.383,2,0,0,Blue,machine_checked,assets/hud-0000589383.webp,CONTROL:LONESTAR
+593.55,00:09:53.550,2,0,0,Blue,machine_checked,assets/hud-0000593550.webp,CONTROL:LONESTAR
+597.717,00:09:57.717,2,0,0,Blue,machine_checked,assets/hud-0000597717.webp,CONTROL:LONESTAR
+601.883,00:10:01.883,2,0,0,Blue,machine_checked,assets/hud-0000601883.webp,CONTROL:LONESTAR
+606.05,00:10:06.050,3,0,0,Blue,machine_checked,assets/hud-0000606050.webp,CONTROL:LONESTAR
+610.217,00:10:10.217,3,0,0,Blue,machine_checked,assets/hud-0000610217.webp,CONTROLLONESTAR
+614.383,00:10:14.383,3,0,0,Blue,machine_checked,assets/hud-0000614383.webp,CONTROL:LONESTAR
+618.55,00:10:18.550,3,0,0,Blue,machine_checked,assets/hud-0000618550.webp,CONTROL:LONESTAR
+619.333,00:10:19.333,3,0,0,,machine_checked,assets/hud-0000619333.webp,
+620.183,00:10:20.183,,,,,machine_checked,assets/hud-0000620183.webp,
+622.867,00:10:22.867,3,,,,machine_checked,assets/hud-0000622867.webp,
+627.033,00:10:27.033,3,0,0,,machine_checked,assets/hud-0000627033.webp,
+630.517,00:10:30.517,3,0,0,,machine_checked,assets/hud-0000630517.webp,
+632.617,00:10:32.617,,0,,,machine_checked,assets/hud-0000632617.webp,
+636.783,00:10:36.783,4,0,0,,machine_checked,assets/hud-0000636783.webp,
+640.95,00:10:40.950,4,0,0,,machine_checked,assets/hud-0000640950.webp,
+645.117,00:10:45.117,4,0,0,,machine_checked,assets/hud-0000645117.webp,
+649.283,00:10:49.283,4,0,0,,machine_checked,assets/hud-0000649283.webp,
+653.45,00:10:53.450,4,0,0,,machine_checked,assets/hud-0000653450.webp,
+657.617,00:10:57.617,4,0,0,,machine_checked,assets/hud-0000657617.webp,
+661.783,00:11:01.783,4,0,0,,machine_checked,assets/hud-0000661783.webp,
+665.95,00:11:05.950,5,0,0,,machine_checked,assets/hud-0000665950.webp,
+667.433,00:11:07.433,5,0,,,machine_checked,assets/hud-0000667433.webp,
+668.983,00:11:08.983,,,,,machine_checked,assets/hud-0000668983.webp,
+673.15,00:11:13.150,5,0,0,,machine_checked,assets/hud-0000673150.webp,
+673.633,00:11:13.633,,0,0,,machine_checked,assets/hud-0000673633.webp,
+677.8,00:11:17.800,,0,0,,machine_checked,assets/hud-0000677800.webp,
+681.967,00:11:21.967,5,0,0,,machine_checked,assets/hud-0000681967.webp,
+682.917,00:11:22.917,5,0,0,,machine_checked,assets/hud-0000682917.webp,
+687.083,00:11:27.083,5,0,0,,machine_checked,assets/hud-0000687083.webp,
+689.433,00:11:29.433,,0,0,,machine_checked,assets/hud-0000689433.webp,
+693.6,00:11:33.600,6,0,,,machine_checked,assets/hud-0000693600.webp,
+697.767,00:11:37.767,6,0,0,,machine_checked,assets/hud-0000697767.webp,
+701.933,00:11:41.933,6,0,0,Blue,machine_checked,assets/hud-0000701933.webp,CONTROL:LONESTAR#
+706.1,00:11:46.100,6,0,0,Blue,machine_checked,assets/hud-0000706100.webp,CONTROL:LONESTAR
+710.267,00:11:50.267,6,0,0,Blue,machine_checked,assets/hud-0000710267.webp,CONTROL:LONESTAR
+710.983,00:11:50.983,6,0,0,,machine_checked,assets/hud-0000710983.webp,
+715.15,00:11:55.150,6,0,0,Contested,machine_checked,assets/hud-0000715150.webp,ZONECONTESTED
+719.317,00:11:59.317,6,0,0,Contested,machine_checked,assets/hud-0000719317.webp,ZONE CONTESTED
+720.0,00:12:00.000,6,0,0,,reviewed,,
+721.767,00:12:01.767,6,0,0,Contested,machine_checked,assets/hud-0000721767.webp,ZINE CONTESTED
+725.1,00:12:05.100,7,0,0,Blue,machine_checked,assets/hud-0000725100.webp,CONTROL:LONESTAR
+728.65,00:12:08.650,7,0,0,Blue,machine_checked,assets/hud-0000728650.webp,CONTRQLLONESTAR
+732.583,00:12:12.583,7,0,0,Blue,machine_checked,assets/hud-0000732583.webp,CONTROLLONESTAR
+736.75,00:12:16.750,7,0,0,Blue,machine_checked,assets/hud-0000736750.webp,CONTROL:LONESTAR
+740.917,00:12:20.917,7,0,0,Blue,machine_checked,assets/hud-0000740917.webp,CONTROLLONESTAR
+745.083,00:12:25.083,7,0,0,Blue,machine_checked,assets/hud-0000745083.webp,CONTROLLONESTARN
+749.25,00:12:29.250,7,0,0,Blue,machine_checked,assets/hud-0000749250.webp,CONTROLLONESTAR
+751.633,00:12:31.633,7,0,0,Blue,machine_checked,assets/hud-0000751633.webp,CONTROL:LONESTAR
+754.367,00:12:34.367,8,0,0,Blue,machine_checked,assets/hud-0000754367.webp,CONTROL:LONESTARY
+758.533,00:12:38.533,8,0,,Blue,machine_checked,assets/hud-0000758533.webp,CONTROL:LONESTAR
+759.067,00:12:39.067,8,0,0,Blue,machine_checked,assets/hud-0000759067.webp,CONTROL:LONESTAR
+763.233,00:12:43.233,8,0,0,Blue,machine_checked,assets/hud-0000763233.webp,CONTROL:LONESTAR
+767.4,00:12:47.400,8,0,0,Blue,machine_checked,assets/hud-0000767400.webp,CONTROL:LONESTAR
+771.567,00:12:51.567,8,0,0,Blue,machine_checked,assets/hud-0000771567.webp,CONTROL:LONESTAR
+775.733,00:12:55.733,,,,,machine_checked,assets/hud-0000775733.webp,
+779.9,00:12:59.900,8,0,0,Blue,machine_checked,assets/hud-0000779900.webp,CONTROLLONESTAR
+784.067,00:13:04.067,9,0,0,Blue,machine_checked,assets/hud-0000784067.webp,CONTROL:LONESTAR
+788.233,00:13:08.233,9,0,0,Blue,machine_checked,assets/hud-0000788233.webp,CONTROL:LONESTAR
+792.4,00:13:12.400,9,0,0,Blue,machine_checked,assets/hud-0000792400.webp,CONTROL:LONESTAR
+796.567,00:13:16.567,9,0,0,Blue,machine_checked,assets/hud-0000796567.webp,CONTROL:LONESTAR
+800.733,00:13:20.733,9,0,0,Blue,machine_checked,assets/hud-0000800733.webp,CONTROL:LONESTAR
+804.9,00:13:24.900,9,0,0,Blue,machine_checked,assets/hud-0000804900.webp,CONTROL:LONESTAR
+809.067,00:13:29.067,9,0,0,Blue,machine_checked,assets/hud-0000809067.webp,CONTROL:LONESTAR
+813.233,00:13:33.233,10,0,0,Blue,machine_checked,assets/hud-0000813233.webp,CONTROL:LONESTAR
+817.4,00:13:37.400,10,0,0,Blue,machine_checked,assets/hud-0000817400.webp,CONTROL:LONESTAR
+821.3,00:13:41.300,10,0,0,Blue,machine_checked,assets/hud-0000821300.webp,CONTROL:LONESTAR
+825.467,00:13:45.467,10,0,0,Blue,machine_checked,assets/hud-0000825467.webp,CONTROL:LONESTAR
+829.633,00:13:49.633,10,0,0,Blue,machine_checked,assets/hud-0000829633.webp,CONTROL:LONESTAR
+833.8,00:13:53.800,10,0,0,Blue,machine_checked,assets/hud-0000833800.webp,CONTROL:LONESTAR
+837.967,00:13:57.967,10,0,0,Blue,machine_checked,assets/hud-0000837967.webp,CONTROL:LONESTAR
+839.033,00:13:59.033,10,0,0,Blue,machine_checked,assets/hud-0000839033.webp,CONTROL:LONESTAR
+842.433,00:14:02.433,10,0,0,Blue,machine_checked,assets/hud-0000842433.webp,CONTROLLONESTAR
+846.6,00:14:06.600,11,0,0,Blue,machine_checked,assets/hud-0000846600.webp,CONTROL:LONESTAR
+850.767,00:14:10.767,11,0,0,Contested,machine_checked,assets/hud-0000850767.webp,ZONE CONTESTED IE
+854.933,00:14:14.933,11,0,0,Green,machine_checked,assets/hud-0000854933.webp,CONTROLMANTICORE
+859.1,00:14:19.100,11,0,0,Green,machine_checked,assets/hud-0000859100.webp,CONTROL:MANTICORE
+863.267,00:14:23.267,11,0,0,Green,machine_checked,assets/hud-0000863267.webp,CONTROLMANTICORE
+867.433,00:14:27.433,11,0,0,Green,machine_checked,assets/hud-0000867433.webp,CONTRQLMANTICORE
+868.817,00:14:28.817,,0,0,Green,machine_checked,assets/hud-0000868817.webp,CONTROLMANTICORE
+871.033,00:14:31.033,11,0,0,Green,machine_checked,assets/hud-0000871033.webp,CONTROLMANTICORE
+872.417,00:14:32.417,11,0,0,Green,machine_checked,assets/hud-0000872417.webp,CONTROLMANTICORE
+874.967,00:14:34.967,11,0,1,Contested,machine_checked,assets/hud-0000874967.webp,ANNECONTESTEDE
+879.133,00:14:39.133,11,0,1,Green,machine_checked,assets/hud-0000879133.webp,CONTROL:MANTICORE
+880.2,00:14:40.200,11,0,1,Green,machine_checked,assets/hud-0000880200.webp,CONTROLMANTICORE
+884.367,00:14:44.367,11,0,1,Contested,machine_checked,assets/hud-0000884367.webp,ZONE CONTESTEDEIELL
+885.283,00:14:45.283,11,0,1,Contested,machine_checked,assets/hud-0000885283.webp,ZONECONTESTLOFN
+887.9,00:14:47.900,11,0,1,Contested,machine_checked,assets/hud-0000887900.webp,ZONE CONTESTEDF
+892.067,00:14:52.067,11,0,1,Green,machine_checked,assets/hud-0000892067.webp,CONTROL:MANTICOREVNH
+896.233,00:14:56.233,11,0,1,Green,machine_checked,assets/hud-0000896233.webp,CONTROLMANTICORE
+900.0,00:15:00.000,11,0,1,,reviewed,,
+900.4,00:15:00.400,11,0,1,Green,machine_checked,assets/hud-0000900400.webp,CONTROLMANTICORE
+901.417,00:15:01.417,11,,1,Green,machine_checked,assets/hud-0000901417.webp,CONTROLMANTICOREN
+905.583,00:15:05.583,11,0,2,Green,machine_checked,assets/hud-0000905583.webp,CONTROL:MANTICORE
+909.75,00:15:09.750,11,0,2,Green,machine_checked,assets/hud-0000909750.webp,CONTROL MANTICORE
+913.917,00:15:13.917,11,0,2,,machine_checked,assets/hud-0000913917.webp,ZONE MNNTESTEONJIHY
+918.083,00:15:18.083,11,0,2,Contested,machine_checked,assets/hud-0000918083.webp,ZONE CONTESTEDEEEE
+922.25,00:15:22.250,11,0,2,Contested,machine_checked,assets/hud-0000922250.webp,ZONE CONTESTEDN
+926.417,00:15:26.417,11,0,2,Contested,machine_checked,assets/hud-0000926417.webp,ZONE CONTESTED
+930.583,00:15:30.583,11,0,2,Contested,machine_checked,assets/hud-0000930583.webp,ZONE CONTESTED
+934.75,00:15:34.750,,,,,machine_checked,assets/hud-0000934750.webp, 
+938.917,00:15:38.917,11,0,2,Blue,machine_checked,assets/hud-0000938917.webp,CONTROL:LONESTAR
+943.083,00:15:43.083,,0,2,,machine_checked,assets/hud-0000943083.webp,ZONE MNTESTEOUIN
+945.783,00:15:45.783,11,0,2,Blue,machine_checked,assets/hud-0000945783.webp,CONTROL:LONESTAR
+949.95,00:15:49.950,11,0,2,Contested,machine_checked,assets/hud-0000949950.webp,ZONE CONTESTED
+954.117,00:15:54.117,11,0,2,Contested,machine_checked,assets/hud-0000954117.webp,ZONE CONTESTED
+958.283,00:15:58.283,11,0,2,Blue,machine_checked,assets/hud-0000958283.webp,CONTROL:LONESTAR
+962.45,00:16:02.450,11,0,2,Blue,machine_checked,assets/hud-0000962450.webp,CONTROL:LONESTAR
+966.617,00:16:06.617,12,0,2,Blue,machine_checked,assets/hud-0000966617.webp,CONTROL:LONESTAR
+970.783,00:16:10.783,12,0,2,Blue,machine_checked,assets/hud-0000970783.webp,CONTROL:LONESTAR
+974.95,00:16:14.950,12,0,2,Blue,machine_checked,assets/hud-0000974950.webp,CONTROL:LONESTARZUKNGN
+979.117,00:16:19.117,12,0,2,Blue,machine_checked,assets/hud-0000979117.webp,CONTROL:LONESTARSNZIANE
+983.283,00:16:23.283,12,0,2,Blue,machine_checked,assets/hud-0000983283.webp,CONTROL:LONESTAR
+987.45,00:16:27.450,12,0,2,Blue,machine_checked,assets/hud-0000987450.webp,CONTROLLONESTAR
+991.617,00:16:31.617,12,0,2,Blue,machine_checked,assets/hud-0000991617.webp,CONTROLLONESTAR
+995.783,00:16:35.783,13,0,2,Blue,machine_checked,assets/hud-0000995783.webp,CONTROL:LONESTARVNS
+999.95,00:16:39.950,13,0,2,Blue,machine_checked,assets/hud-0000999950.webp,CONTROLLONESTAR
+1004.117,00:16:44.117,13,0,2,Blue,machine_checked,assets/hud-0001004117.webp,CONTROL:LONESTAR
+1008.283,00:16:48.283,13,0,2,Blue,machine_checked,assets/hud-0001008283.webp,CONTROL:LONESTARE
+1012.45,00:16:52.450,13,0,2,Blue,machine_checked,assets/hud-0001012450.webp,CONTROL:LONESTAR
+1016.617,00:16:56.617,13,0,2,Blue,machine_checked,assets/hud-0001016617.webp,CONTROL:LONESTAR
+1020.783,00:17:00.783,,,,,machine_checked,assets/hud-0001020783.webp,
+1024.95,00:17:04.950,14,0,2,Blue,machine_checked,assets/hud-0001024950.webp,CONTROL:LONESTAR
+1029.117,00:17:09.117,14,0,2,Blue,machine_checked,assets/hud-0001029117.webp,CONTROL:LONESTAR
+1030.35,00:17:10.350,14,0,2,Blue,machine_checked,assets/hud-0001030350.webp,CONTROLLONESTAR
+1034.517,00:17:14.517,14,0,2,Blue,machine_checked,assets/hud-0001034517.webp,CONTROL:LONESTARE
+1038.683,00:17:18.683,14,0,2,Blue,machine_checked,assets/hud-0001038683.webp,CONTROL:LONESTAR
+1042.85,00:17:22.850,14,0,2,Blue,machine_checked,assets/hud-0001042850.webp,CONTROL:LONESTAR
+1047.017,00:17:27.017,14,0,2,Blue,machine_checked,assets/hud-0001047017.webp,CONTROL:LONESTAR
+1051.183,00:17:31.183,14,0,2,Blue,machine_checked,assets/hud-0001051183.webp,CONTROL:LONESTAR
+1055.35,00:17:35.350,15,0,2,Blue,machine_checked,assets/hud-0001055350.webp,CONTROL:LONESTAR
+1057.95,00:17:37.950,15,0,2,,machine_checked,assets/hud-0001057950.webp,CONTROL:
+1062.117,00:17:42.117,15,0,2,Blue,machine_checked,assets/hud-0001062117.webp,CONTROL:LONESTAR
+1066.283,00:17:46.283,15,0,2,Blue,machine_checked,assets/hud-0001066283.webp,CONTROL:LONESTAR
+1070.45,00:17:50.450,15,0,2,,machine_checked,assets/hud-0001070450.webp,电
+1070.717,00:17:50.717,15,0,2,,machine_checked,assets/hud-0001070717.webp,610200002200227
+1074.883,00:17:54.883,,,,,machine_checked,assets/hud-0001074883.webp,
+1075.617,00:17:55.617,15,0,2,,machine_checked,assets/hud-0001075617.webp,010270002260221
+1079.783,00:17:59.783,15,0,2,,machine_checked,assets/hud-0001079783.webp,010200002200215
+1080.0,00:18:00.000,15,0,2,,reviewed,,
+1083.95,00:18:03.950,16,,2,,machine_checked,assets/hud-0001083950.webp,1810270002200222
+1088.117,00:18:08.117,16,,2,,machine_checked,assets/hud-0001088117.webp,910276002200222
+1092.283,00:18:12.283,,,2,,machine_checked,assets/hud-0001092283.webp,810276002200220
+1096.45,00:18:16.450,16,,2,,machine_checked,assets/hud-0001096450.webp,010-2000022:00223
+1100.617,00:18:20.617,16,,,,machine_checked,assets/hud-0001100617.webp,610200002200220
+1104.783,00:18:24.783,16,,2,,machine_checked,assets/hud-0001104783.webp,010200002906227
+1108.95,00:18:28.950,16,,2,,machine_checked,assets/hud-0001108950.webp,01020000230022
+1113.117,00:18:33.117,16,,2,Contested,machine_checked,assets/hud-0001113117.webp,ZONE CONTESTEDOOE
+1117.283,00:18:37.283,16,,2,Blue,machine_checked,assets/hud-0001117283.webp,CONTROL:LONESTAR ZE OOZZI
+1121.45,00:18:41.450,16,,2,Blue,machine_checked,assets/hud-0001121450.webp,CONTROL:LONESTAR Z OOZ ZI
+1125.617,00:18:45.617,16,,2,Blue,machine_checked,assets/hud-0001125617.webp,CONTROL:LONESTAR ZE OOE ZI
+1129.783,00:18:49.783,16,,2,Blue,machine_checked,assets/hud-0001129783.webp,CONTROL:LONESTAR LS OOE ZI
+1133.95,00:18:53.950,16,,2,Blue,machine_checked,assets/hud-0001133950.webp,CONTROL:LONESTAR ZO OOZZ
+1138.117,00:18:58.117,16,,,Blue,machine_checked,assets/hud-0001138117.webp,CONTROE LONESTAR  GOEE
+1142.283,00:19:02.283,16,,2,Blue,machine_checked,assets/hud-0001142283.webp,CONTROL:LONESTAR ZOOOEZA
+1146.45,00:19:06.450,17,,,Blue,machine_checked,assets/hud-0001146450.webp,CONTROLELONESTAR EIOOZA
+1150.617,00:19:10.617,17,,2,Blue,machine_checked,assets/hud-0001150617.webp,CONTROL LONESTAR ZOOOZZS
+1154.783,00:19:14.783,17,,2,Blue,machine_checked,assets/hud-0001154783.webp,CONTROLELONESTAR ZJ OOZ ZO
+1158.95,00:19:18.950,17,,2,Blue,machine_checked,assets/hud-0001158950.webp,CONTROLELONESTARZOOZA
+1163.117,00:19:23.117,17,,2,Blue,machine_checked,assets/hud-0001163117.webp,CONTROL LONESTARVOZ
+1167.283,00:19:27.283,17,,2,Blue,machine_checked,assets/hud-0001167283.webp,CONTROL:LONESTAR ZO OOZ Z3
+1171.45,00:19:31.450,17,,,Blue,machine_checked,assets/hud-0001171450.webp,CONTPOL LONESTAR  VOEU
+1175.617,00:19:35.617,18,,2,Blue,machine_checked,assets/hud-0001175617.webp,CONTROLELONESTAR SOOZE
+1179.783,00:19:39.783,18,,2,Blue,machine_checked,assets/hud-0001179783.webp,CONTROL LONESTAR ZO OOZZO
+1183.95,00:19:43.950,18,,2,Blue,machine_checked,assets/hud-0001183950.webp,CONTROL:LONESTAR OOZZ
+1188.117,00:19:48.117,18,,2,Blue,machine_checked,assets/hud-0001188117.webp,CONTROL:LONESTAR Z OOEZY
+1192.283,00:19:52.283,18,,2,Blue,machine_checked,assets/hud-0001192283.webp,CONTROLELONESTAR SOOZZ
+1196.45,00:19:56.450,18,,2,Blue,machine_checked,assets/hud-0001196450.webp,CONTROLLONESTAR OOZO
+1200.617,00:20:00.617,18,,2,Blue,machine_checked,assets/hud-0001200617.webp,CONTROL LONESTAR OOO
+1204.783,00:20:04.783,19,,,Blue,machine_checked,assets/hud-0001204783.webp,CONTROL LONESTAR ZOOOZEE
+1208.95,00:20:08.950,19,,,Blue,machine_checked,assets/hud-0001208950.webp,CONTROL:LONESTAR ZOOOZ
+1213.117,00:20:13.117,19,0,2,Blue,machine_checked,assets/hud-0001213117.webp,CONTROLELONESTAR ZOCOZ
+1217.283,00:20:17.283,19,0,,Blue,machine_checked,assets/hud-0001217283.webp,CONTROLILONESTAR ZOOOZ
+1221.45,00:20:21.450,19,,2,Blue,machine_checked,assets/hud-0001221450.webp,CONTROLLLONESTAR ZOVOZ ZO
+1225.617,00:20:25.617,19,,2,Blue,machine_checked,assets/hud-0001225617.webp,CONTROL LONESTAR ZOOOZZU
+1229.783,00:20:29.783,19,,2,Blue,machine_checked,assets/hud-0001229783.webp,CONTROL:LONESTAR ZO OOO
+1233.95,00:20:33.950,20,,2,Blue,machine_checked,assets/hud-0001233950.webp,CONTROL:LONESTAR ZOOOZU
+1238.117,00:20:38.117,20,,2,Blue,machine_checked,assets/hud-0001238117.webp,CONTROL:LONESTAR ZO OOZO
+1242.283,00:20:42.283,20,0,2,Blue,machine_checked,assets/hud-0001242283.webp,CONTROL:LONESTAR ZO OOZI
+1246.45,00:20:46.450,20,,2,Blue,machine_checked,assets/hud-0001246450.webp,CONTROL:LONESTAR ZOOOZO
+1250.617,00:20:50.617,,0,2,Blue,machine_checked,assets/hud-0001250617.webp,CONTROLLONESTAR ZDCOES
+1254.783,00:20:54.783,20,,2,Blue,machine_checked,assets/hud-0001254783.webp,CONTROL:LONESTAR ZOOOZ ZU
+1258.95,00:20:58.950,20,,2,Blue,machine_checked,assets/hud-0001258950.webp,CONTROL:LONESTAR ZO OOZZS
+1260.0,00:21:00.000,20,0,2,,reviewed,,
+1263.117,00:21:03.117,21,,2,Blue,machine_checked,assets/hud-0001263117.webp,CONTROL:LONESTAR ZO OOZ ZS
+1267.283,00:21:07.283,,0,2,,machine_checked,assets/hud-0001267283.webp,
+1271.45,00:21:11.450,21,0,2,,machine_checked,assets/hud-0001271450.webp,
+1275.617,00:21:15.617,21,0,2,,machine_checked,assets/hud-0001275617.webp,究的要有尿
+1279.783,00:21:19.783,21,0,2,,machine_checked,assets/hud-0001279783.webp,
+1283.95,00:21:23.950,21,0,2,,machine_checked,assets/hud-0001283950.webp,
+1284.317,00:21:24.317,21,0,2,,machine_checked,assets/hud-0001284317.webp,021256002066227
+1288.3,00:21:28.300,21,0,2,,machine_checked,assets/hud-0001288300.webp,
+1292.467,00:21:32.467,21,0,2,,machine_checked,assets/hud-0001292467.webp,
+1296.633,00:21:36.633,,0,2,,machine_checked,assets/hud-0001296633.webp,
+1300.8,00:21:40.800,,0,2,,machine_checked,assets/hud-0001300800.webp,
+1304.967,00:21:44.967,22,0,2,,machine_checked,assets/hud-0001304967.webp,
+1309.133,00:21:49.133,,0,2,,machine_checked,assets/hud-0001309133.webp,
+1313.3,00:21:53.300,22,0,2,,machine_checked,assets/hud-0001313300.webp,
+1317.467,00:21:57.467,22,0,2,,machine_checked,assets/hud-0001317467.webp,
+1321.633,00:22:01.633,22,0,2,,machine_checked,assets/hud-0001321633.webp,
+1325.8,00:22:05.800,,,,,machine_checked,assets/hud-0001325800.webp,区
+1329.967,00:22:09.967,23,0,2,,machine_checked,assets/hud-0001329967.webp,
+1334.133,00:22:14.133,23,0,2,,machine_checked,assets/hud-0001334133.webp,
+1338.3,00:22:18.300,,,,,machine_checked,assets/hud-0001338300.webp,
+1342.467,00:22:22.467,23,0,2,,machine_checked,assets/hud-0001342467.webp,
+1343.6,00:22:23.600,,,,,machine_checked,assets/hud-0001343600.webp,
+1347.767,00:22:27.767,23,0,2,,machine_checked,assets/hud-0001347767.webp,
+1351.933,00:22:31.933,23,0,2,,machine_checked,assets/hud-0001351933.webp,
+1356.1,00:22:36.100,24,0,2,,machine_checked,assets/hud-0001356100.webp,
+1360.267,00:22:40.267,24,0,2,,machine_checked,assets/hud-0001360267.webp,
+1361.317,00:22:41.317,24,0,2,,machine_checked,assets/hud-0001361317.webp,
+1365.483,00:22:45.483,,0,2,,machine_checked,assets/hud-0001365483.webp,
+1369.65,00:22:49.650,24,0,2,,machine_checked,assets/hud-0001369650.webp,
+1373.817,00:22:53.817,24,0,2,,machine_checked,assets/hud-0001373817.webp,
+1377.983,00:22:57.983,24,0,2,,machine_checked,assets/hud-0001377983.webp,
+1379.983,00:22:59.983,24,0,2,,machine_checked,assets/hud-0001379983.webp,
+1384.15,00:23:04.150,25,0,2,,machine_checked,assets/hud-0001384150.webp,
+1388.317,00:23:08.317,25,0,2,,machine_checked,assets/hud-0001388317.webp,
+1388.717,00:23:08.717,,0,2,,machine_checked,assets/hud-0001388717.webp,
+1392.85,00:23:12.850,25,0,2,,machine_checked,assets/hud-0001392850.webp,
+1395.167,00:23:15.167,,,,,machine_checked,assets/hud-0001395167.webp,
+1399.333,00:23:19.333,25,0,2,,machine_checked,assets/hud-0001399333.webp,
+1402.267,00:23:22.267,25,0,2,,machine_checked,assets/hud-0001402267.webp,
+1406.433,00:23:26.433,25,0,2,,machine_checked,assets/hud-0001406433.webp,
+1410.6,00:23:30.600,25,0,2,,machine_checked,assets/hud-0001410600.webp,
+1414.083,00:23:34.083,,0,2,,machine_checked,assets/hud-0001414083.webp,
+1418.25,00:23:38.250,26,,2,,machine_checked,assets/hud-0001418250.webp,ZONETONTESTEOR
+1422.417,00:23:42.417,26,0,2,Contested,machine_checked,assets/hud-0001422417.webp,ZONECONTESTEDI
+1424.383,00:23:44.383,26,0,2,Blue,machine_checked,assets/hud-0001424383.webp,CONTROL:LONESTAR
+1427.367,00:23:47.367,26,0,2,Blue,machine_checked,assets/hud-0001427367.webp,CONTROL:LONESTAR
+1428.333,00:23:48.333,26,,2,,machine_checked,assets/hud-0001428333.webp,CUNIROLILINETAR
+1432.5,00:23:52.500,26,0,2,Blue,machine_checked,assets/hud-0001432500.webp,CONTROL:LONESTAR
+1436.417,00:23:56.417,26,0,2,Blue,machine_checked,assets/hud-0001436417.webp,CONTROL:LONESTAR
+1439.583,00:23:59.583,26,0,2,Blue,machine_checked,assets/hud-0001439583.webp,CONTRNLILONESTAR
+1440.0,00:24:00.000,26,0,2,,reviewed,,
+1443.75,00:24:03.750,27,0,2,Blue,machine_checked,assets/hud-0001443750.webp,CONTROL:LONESTAR
+1447.1,00:24:07.100,27,,2,Blue,machine_checked,assets/hud-0001447100.webp,CONTROLLONESTAR
+1451.217,00:24:11.217,27,0,2,Blue,machine_checked,assets/hud-0001451217.webp,CONTROLLONESTAR
+1455.383,00:24:15.383,27,0,2,Blue,machine_checked,assets/hud-0001455383.webp,CONTROLLONESTAR
+1459.55,00:24:19.550,27,0,2,Blue,machine_checked,assets/hud-0001459550.webp,CONTROL:LONESTAR
+1459.85,00:24:19.850,27,,,,machine_checked,assets/hud-0001459850.webp,CONTROL LINIGI
+1464.017,00:24:24.017,27,0,2,Blue,machine_checked,assets/hud-0001464017.webp,CONTROL:LONESTAR
+1464.667,00:24:24.667,27,,2,Blue,machine_checked,assets/hud-0001464667.webp,CONTROLLONESTAR
+1468.833,00:24:28.833,27,0,2,Blue,machine_checked,assets/hud-0001468833.webp,CONTROLLONESTAR
+1472.467,00:24:32.467,27,,,Blue,machine_checked,assets/hud-0001472467.webp,CONTROL:LONESTAR
+1476.633,00:24:36.633,28,0,2,Blue,machine_checked,assets/hud-0001476633.webp,DONTROL:LONESTAR
+1477.683,00:24:37.683,28,0,2,Blue,machine_checked,assets/hud-0001477683.webp,CONTROL:LONESTAR
+1481.85,00:24:41.850,28,0,2,Blue,machine_checked,assets/hud-0001481850.webp,CONTROL:LONESTARK
+1486.017,00:24:46.017,28,0,2,Blue,machine_checked,assets/hud-0001486017.webp,CONTROL:LONESTAR
+1490.183,00:24:50.183,28,0,2,Blue,machine_checked,assets/hud-0001490183.webp,CONTROL:LONESTAR
+1494.35,00:24:54.350,28,0,2,Blue,machine_checked,assets/hud-0001494350.webp,CONTROLLONESTAR
+1498.517,00:24:58.517,28,0,2,Blue,machine_checked,assets/hud-0001498517.webp,CONTROLLONESTAR
+1502.683,00:25:02.683,28,,2,Blue,machine_checked,assets/hud-0001502683.webp,CONTROL:LONESTAR
+1506.85,00:25:06.850,29,0,2,Blue,machine_checked,assets/hud-0001506850.webp,CONTROL:LONESTAR
+1511.017,00:25:11.017,29,0,2,Blue,machine_checked,assets/hud-0001511017.webp,CONTROL:LONESTAR
+1513.883,00:25:13.883,29,0,2,Blue,machine_checked,assets/hud-0001513883.webp,CONTROLLONESTAR
+1515.15,00:25:15.150,,,,,machine_checked,assets/hud-0001515150.webp,UONTROL LINESTAR-X
+1519.317,00:25:19.317,29,0,2,Blue,machine_checked,assets/hud-0001519317.webp,CONTROL:LONESTAR
+1523.483,00:25:23.483,29,0,2,Blue,machine_checked,assets/hud-0001523483.webp,CONTROLLONESTAR
+1527.65,00:25:27.650,29,0,2,Blue,machine_checked,assets/hud-0001527650.webp,CONTROL:LONESTAR
+1531.817,00:25:31.817,29,0,2,Blue,machine_checked,assets/hud-0001531817.webp,CONTROL:LONESTAR
+1535.983,00:25:35.983,30,0,2,Blue,machine_checked,assets/hud-0001535983.webp,CONTROLLONESTAR
+1540.15,00:25:40.150,30,0,2,Blue,machine_checked,assets/hud-0001540150.webp,CONTROL:LONESTAR
+1544.317,00:25:44.317,30,0,2,Blue,machine_checked,assets/hud-0001544317.webp,CONTROL: LONESTAR
+1545.183,00:25:45.183,30,0,2,Blue,machine_checked,assets/hud-0001545183.webp,CONTROLI LONESTAR
+1549.35,00:25:49.350,30,0,2,Blue,machine_checked,assets/hud-0001549350.webp,CONTROL:LONESTAR
+1553.4,00:25:53.400,30,0,2,Blue,machine_checked,assets/hud-0001553400.webp,CONTROLLONESTAR
+1553.65,00:25:53.650,30,0,2,Blue,machine_checked,assets/hud-0001553650.webp,CONTROL:LONESTAR
+1557.817,00:25:57.817,30,0,2,Blue,machine_checked,assets/hud-0001557817.webp,CONTROL:LONESTAR
+1558.8,00:25:58.800,30,,,,machine_checked,assets/hud-0001558800.webp,CONTRL LIMEBI
+1561.867,00:26:01.867,30,0,2,Blue,machine_checked,assets/hud-0001561867.webp,CONTROL:LONESTAR
+1566.033,00:26:06.033,31,0,2,Blue,machine_checked,assets/hud-0001566033.webp,CONTROL:LONESTAR
+1566.6,00:26:06.600,31,0,2,Blue,machine_checked,assets/hud-0001566600.webp,CONTROL:LONESTAR
+1567.15,00:26:07.150,31,0,2,Blue,machine_checked,assets/hud-0001567150.webp,OONTROL:LONESTARU
+1567.583,00:26:07.583,31,0,2,Blue,machine_checked,assets/hud-0001567583.webp,CONIROL:LONESTAR
+1568.917,00:26:08.917,31,0,2,Blue,machine_checked,assets/hud-0001568917.webp,CONTROL:LONESTAR
+1573.083,00:26:13.083,31,0,2,Blue,machine_checked,assets/hud-0001573083.webp,CONTROL:LONESTAR
+1577.25,00:26:17.250,31,0,2,Blue,machine_checked,assets/hud-0001577250.webp,CONTROL:LONESTARW
+1581.417,00:26:21.417,31,0,2,Blue,machine_checked,assets/hud-0001581417.webp,CONTROL:LONESTARK
+1585.583,00:26:25.583,31,0,2,Blue,machine_checked,assets/hud-0001585583.webp,CONTROLLONESTAR
+1589.75,00:26:29.750,31,0,2,Blue,machine_checked,assets/hud-0001589750.webp,CONTROL:LONESTAR
+1593.35,00:26:33.350,32,0,2,Blue,machine_checked,assets/hud-0001593350.webp,CONTROL:LONESTAR
+1597.517,00:26:37.517,32,0,2,Blue,machine_checked,assets/hud-0001597517.webp,CONTROL:LONESTAR
+1601.683,00:26:41.683,32,0,2,Blue,machine_checked,assets/hud-0001601683.webp,CONTROL:LONESTAR
+1605.85,00:26:45.850,32,0,2,Blue,machine_checked,assets/hud-0001605850.webp,CONTROLLONESTARY
+1608.217,00:26:48.217,32,,,,machine_checked,assets/hud-0001608217.webp,UONTROLILONESTA
+1611.017,00:26:51.017,32,0,2,Blue,machine_checked,assets/hud-0001611017.webp,CONTROL:LONESTAR
+1615.183,00:26:55.183,32,0,2,Blue,machine_checked,assets/hud-0001615183.webp,CONTROL:LONESTAR
+1619.35,00:26:59.350,32,0,2,Blue,machine_checked,assets/hud-0001619350.webp,CONTROLLONESTAR
+1619.883,00:26:59.883,32,0,2,Blue,machine_checked,assets/hud-0001619883.webp,CONTROLLONESTAR
+1620.0,00:27:00.000,32,0,2,,reviewed,,
+1624.05,00:27:04.050,33,0,2,Blue,machine_checked,assets/hud-0001624050.webp,CONTROL: LONESTAR
+1625.617,00:27:05.617,33,0,2,Blue,machine_checked,assets/hud-0001625617.webp,CONTROL:LONESTAR
+1629.783,00:27:09.783,33,0,2,Blue,machine_checked,assets/hud-0001629783.webp,CONTROL:LONESTAR
+1633.95,00:27:13.950,33,0,2,,machine_checked,assets/hud-0001633950.webp,CONTRDLLINESTAR
+1638.117,00:27:18.117,33,0,2,Blue,machine_checked,assets/hud-0001638117.webp,CONTROL:LONESTAR
+1641.083,00:27:21.083,33,0,2,Blue,machine_checked,assets/hud-0001641083.webp,CONTROL:LONESTAR
+1642.367,00:27:22.367,33,0,2,Blue,machine_checked,assets/hud-0001642367.webp,CONTROL:LONESTAR
+1642.85,00:27:22.850,33,0,2,Blue,machine_checked,assets/hud-0001642850.webp,CONTROL:LONESTAR
+1647.017,00:27:27.017,33,0,2,Blue,machine_checked,assets/hud-0001647017.webp,UONTROLILONESTAR
+1651.183,00:27:31.183,33,0,2,Blue,machine_checked,assets/hud-0001651183.webp,CONTROLLONESTAR
+1654.783,00:27:34.783,34,0,2,Blue,machine_checked,assets/hud-0001654783.webp,CONTROL:LONESTAR
+1656.383,00:27:36.383,34,,,Blue,machine_checked,assets/hud-0001656383.webp,CONTROLLONESTAR
+1656.9,00:27:36.900,34,,2,Blue,machine_checked,assets/hud-0001656900.webp,CONTROL:LONESTAR
+1661.067,00:27:41.067,34,0,2,Blue,machine_checked,assets/hud-0001661067.webp,CONTROL:LONESTAR
+1661.883,00:27:41.883,34,,,Blue,machine_checked,assets/hud-0001661883.webp,CONTROLLONESTAR
+1666.05,00:27:46.050,34,0,2,Blue,machine_checked,assets/hud-0001666050.webp,CONTROL:LONESTARE
+1670.217,00:27:50.217,34,0,2,Blue,machine_checked,assets/hud-0001670217.webp,CONTROL:LONESTAR
+1673.117,00:27:53.117,34,,,Blue,machine_checked,assets/hud-0001673117.webp,OONTROLLLONESTAR
+1677.283,00:27:57.283,34,0,2,Blue,machine_checked,assets/hud-0001677283.webp,CONTROL:LONESTAR
+1681.45,00:28:01.450,34,0,2,Blue,machine_checked,assets/hud-0001681450.webp,CONTROL:LONESTAR
+1685.617,00:28:05.617,35,0,2,Blue,machine_checked,assets/hud-0001685617.webp,CONTROL:LONESTAR
+1689.783,00:28:09.783,35,0,2,Blue,machine_checked,assets/hud-0001689783.webp,CONTROL:LONESTAR
+1693.95,00:28:13.950,35,0,2,Blue,machine_checked,assets/hud-0001693950.webp,CONTROL:LONESTAREY
+1698.117,00:28:18.117,35,0,2,Blue,machine_checked,assets/hud-0001698117.webp,CONTROL:LONESTAR
+1698.433,00:28:18.433,35,0,2,Blue,machine_checked,assets/hud-0001698433.webp,CONTROLLONESTAR
+1702.6,00:28:22.600,35,0,2,Blue,machine_checked,assets/hud-0001702600.webp,CONTROL:LONESTAR
+1706.767,00:28:26.767,35,0,2,Blue,machine_checked,assets/hud-0001706767.webp,CONTROL:LONESTAR
+1710.933,00:28:30.933,35,0,2,Blue,machine_checked,assets/hud-0001710933.webp,CONTROL:LONESTAR
+1715.1,00:28:35.100,36,0,2,Blue,machine_checked,assets/hud-0001715100.webp,CONTROL: LONESTAR
+1719.267,00:28:39.267,36,0,2,Blue,machine_checked,assets/hud-0001719267.webp,CONTROL:LONESTAR
+1723.433,00:28:43.433,36,0,2,Blue,machine_checked,assets/hud-0001723433.webp,CONTROL:LONESTAR
+1725.033,00:28:45.033,36,,,Blue,machine_checked,assets/hud-0001725033.webp,DONTRDL LONESTAR
+1726.917,00:28:46.917,36,0,2,Blue,machine_checked,assets/hud-0001726917.webp,CONTROL:LONESTAR
+1731.083,00:28:51.083,36,0,2,Blue,machine_checked,assets/hud-0001731083.webp,CONTROL:LONESTAR
+1735.25,00:28:55.250,36,0,2,Blue,machine_checked,assets/hud-0001735250.webp,CONTROLLONESTAR
+1738.967,00:28:58.967,36,,2,Blue,machine_checked,assets/hud-0001738967.webp,CONTROLLONESTAR
+1743.133,00:29:03.133,,,,,machine_checked,assets/hud-0001743133.webp,
+1746.6,00:29:06.600,37,0,2,Blue,machine_checked,assets/hud-0001746600.webp,CONTROL:LONESTAR
+1749.817,00:29:09.817,37,0,2,Blue,machine_checked,assets/hud-0001749817.webp,CONTROL LONESTAR
+1751.883,00:29:11.883,37,,2,Blue,machine_checked,assets/hud-0001751883.webp,CONTROLLONESTAR
+1753.033,00:29:13.033,37,0,2,Blue,machine_checked,assets/hud-0001753033.webp,CONTROLLONESTAR
+1756.183,00:29:16.183,37,,2,Blue,machine_checked,assets/hud-0001756183.webp,CONTROL:LONESTARN
+1758.5,00:29:18.500,37,0,2,Blue,machine_checked,assets/hud-0001758500.webp,CONTROL:LONESTAR
+1762.667,00:29:22.667,37,0,2,Blue,machine_checked,assets/hud-0001762667.webp,CONTROL:LONESTAR
+1766.833,00:29:26.833,37,0,2,Blue,machine_checked,assets/hud-0001766833.webp,CONTROL:LONESTAR
+1771.0,00:29:31.000,37,0,2,Blue,machine_checked,assets/hud-0001771000.webp,CONTROLLONESTAR
+1773.533,00:29:33.533,38,0,2,Blue,machine_checked,assets/hud-0001773533.webp,CONTROL:LONESTAR
+1777.7,00:29:37.700,38,0,2,Blue,machine_checked,assets/hud-0001777700.webp,CONTROL:LONESTAR
+1781.867,00:29:41.867,38,0,2,Blue,machine_checked,assets/hud-0001781867.webp,CONTROL: LONESTAR
+1782.517,00:29:42.517,38,0,2,Blue,machine_checked,assets/hud-0001782517.webp,CONTROL:LONESTARS
+1786.683,00:29:46.683,38,0,2,Blue,machine_checked,assets/hud-0001786683.webp,CONTROL:LONESTART
+1790.85,00:29:50.850,38,0,2,Blue,machine_checked,assets/hud-0001790850.webp,CONTROL:LONESTAR
+1795.017,00:29:55.017,38,0,2,Blue,machine_checked,assets/hud-0001795017.webp,CONTROL:LONESTAR
+1799.183,00:29:59.183,38,0,2,Blue,machine_checked,assets/hud-0001799183.webp,CONTROL:LONESTAR
+1800.0,00:30:00.000,38,0,2,,reviewed,,
+1803.35,00:30:03.350,39,0,2,Blue,machine_checked,assets/hud-0001803350.webp,CONTROL:LONESTAR
+1807.517,00:30:07.517,39,0,2,Blue,machine_checked,assets/hud-0001807517.webp,CONTROL:LONESTAR
+1809.833,00:30:09.833,39,0,2,Blue,machine_checked,assets/hud-0001809833.webp,CONTROLELONESTAR
+1814.0,00:30:14.000,39,0,2,Blue,machine_checked,assets/hud-0001814000.webp,CONTROL:LONESTARY
+1818.167,00:30:18.167,39,0,2,Blue,machine_checked,assets/hud-0001818167.webp,CONTROL:LONESTARH
+1822.333,00:30:22.333,39,0,2,Blue,machine_checked,assets/hud-0001822333.webp,CONTROL:LONESTAR
+1822.5,00:30:22.500,39,0,2,Blue,machine_checked,assets/hud-0001822500.webp,CONTROL:LONESTAR
+1826.667,00:30:26.667,39,0,2,Blue,machine_checked,assets/hud-0001826667.webp,CONTROL:LONESTAR
+1830.833,00:30:30.833,39,0,2,Blue,machine_checked,assets/hud-0001830833.webp,CONTROL:LONESTAR
+1832.75,00:30:32.750,40,0,2,Blue,machine_checked,assets/hud-0001832750.webp,CONTROL:LONESTAR
+1836.917,00:30:36.917,40,0,2,Blue,machine_checked,assets/hud-0001836917.webp,CONTROL:LONESTAR
+1841.083,00:30:41.083,40,0,2,Blue,machine_checked,assets/hud-0001841083.webp,CONTROL:LONESTAR
+1844.367,00:30:44.367,40,,2,Blue,machine_checked,assets/hud-0001844367.webp,DONTROLILONESTARYS
+1848.533,00:30:48.533,40,0,2,Blue,machine_checked,assets/hud-0001848533.webp,CONTROL:LONESTAR
+1852.7,00:30:52.700,40,,2,Blue,machine_checked,assets/hud-0001852700.webp,CONTROLILONESTAR
+1855.483,00:30:55.483,40,0,2,Blue,machine_checked,assets/hud-0001855483.webp,CONTROL:LONESTAR
+1856.617,00:30:56.617,40,0,2,Blue,machine_checked,assets/hud-0001856617.webp,CONTROLLONESTAR
+1860.45,00:31:00.450,40,,2,Blue,machine_checked,assets/hud-0001860450.webp,CONTROLILONESTARJN
+1864.617,00:31:04.617,41,0,2,Blue,machine_checked,assets/hud-0001864617.webp,CONTROL:LONESTARHEEY
+1868.783,00:31:08.783,41,0,2,Blue,machine_checked,assets/hud-0001868783.webp,CONTROL:LONESTARNE
+1872.95,00:31:12.950,41,0,2,Blue,machine_checked,assets/hud-0001872950.webp,CONTROL:LONESTAR
+1877.117,00:31:17.117,41,0,2,Blue,machine_checked,assets/hud-0001877117.webp,CONTROL:LONESTARY
+1881.283,00:31:21.283,41,0,2,Blue,machine_checked,assets/hud-0001881283.webp,CONTROLLONESTARU
+1883.35,00:31:23.350,41,0,2,Blue,machine_checked,assets/hud-0001883350.webp,CONTROL:LONESTAR
+1886.3,00:31:26.300,41,0,2,Blue,machine_checked,assets/hud-0001886300.webp,CONTROL:LONESTAR
+1888.7,00:31:28.700,41,0,2,Blue,machine_checked,assets/hud-0001888700.webp,CONTROL:LONESTAR
+1892.867,00:31:32.867,42,0,2,Blue,machine_checked,assets/hud-0001892867.webp,CONTROL: LONESTAR
+1897.033,00:31:37.033,42,0,2,Blue,machine_checked,assets/hud-0001897033.webp,CONTROL: LONESTAR
+1901.2,00:31:41.200,42,0,2,Blue,machine_checked,assets/hud-0001901200.webp,CONTROL: LONESTAR
+1904.05,00:31:44.050,42,0,2,Blue,machine_checked,assets/hud-0001904050.webp,CONTROL:LONESTAR
+1908.217,00:31:48.217,42,0,2,Blue,machine_checked,assets/hud-0001908217.webp,CONTROL:LONESTAR
+1912.383,00:31:52.383,42,0,2,Blue,machine_checked,assets/hud-0001912383.webp,CONTROLLONESTAR
+1916.55,00:31:56.550,42,0,2,Blue,machine_checked,assets/hud-0001916550.webp,CONTROL:LONESTAR
+1920.717,00:32:00.717,42,0,2,Blue,machine_checked,assets/hud-0001920717.webp,CONTROLLONESTAR
+1924.883,00:32:04.883,43,0,2,Blue,machine_checked,assets/hud-0001924883.webp,CONTROL:LONESTAR
+1929.05,00:32:09.050,43,0,2,Blue,machine_checked,assets/hud-0001929050.webp,CONTROL:LONESTARY
+1930.333,00:32:10.333,43,0,2,Blue,machine_checked,assets/hud-0001930333.webp,CONTROL LONESTAR
+1934.5,00:32:14.500,43,0,2,Blue,machine_checked,assets/hud-0001934500.webp,CONTROLLONESTAR
+1938.667,00:32:18.667,43,0,2,Blue,machine_checked,assets/hud-0001938667.webp,CONTROL:LONESTARSY
+1942.833,00:32:22.833,43,0,2,Blue,machine_checked,assets/hud-0001942833.webp,CONTROL:LONESTAR
+1942.983,00:32:22.983,43,0,2,Blue,machine_checked,assets/hud-0001942983.webp,CONTROL:LONESTAR
+1947.15,00:32:27.150,43,0,2,Blue,machine_checked,assets/hud-0001947150.webp,CONTROL:LONESTAR
+1951.317,00:32:31.317,43,0,2,Blue,machine_checked,assets/hud-0001951317.webp,CONTROL:LONESTAR
+1955.483,00:32:35.483,44,0,2,Blue,machine_checked,assets/hud-0001955483.webp,CONTROL:LONESTARWAWBE
+1959.65,00:32:39.650,44,0,2,Blue,machine_checked,assets/hud-0001959650.webp,CONTROL:LONESTAR
+1963.817,00:32:43.817,44,0,2,Blue,machine_checked,assets/hud-0001963817.webp,CONTROL:LONESTAREHE
+1967.983,00:32:47.983,44,0,2,Blue,machine_checked,assets/hud-0001967983.webp,CONTROLLONESTARN
+1972.15,00:32:52.150,44,0,2,Blue,machine_checked,assets/hud-0001972150.webp,CONTROLLONESTAR
+1973.733,00:32:53.733,44,0,2,Blue,machine_checked,assets/hud-0001973733.webp,CONTROL:LONESTAR
+1977.733,00:32:57.733,44,,,Blue,machine_checked,assets/hud-0001977733.webp,CONTRDLILONESTAR
+1979.75,00:32:59.750,44,0,2,Blue,machine_checked,assets/hud-0001979750.webp,CONTROLLONESTAR
+1980.0,00:33:00.000,44,0,2,,reviewed,,
+1983.917,00:33:03.917,45,0,2,Blue,machine_checked,assets/hud-0001983917.webp,CONTROL: LONESTAR
+1988.083,00:33:08.083,45,0,2,Blue,machine_checked,assets/hud-0001988083.webp,CONTROL:LONESTAR
+1992.25,00:33:12.250,45,0,2,Blue,machine_checked,assets/hud-0001992250.webp,CONTROLLONESTARE
+1996.417,00:33:16.417,45,0,2,Blue,machine_checked,assets/hud-0001996417.webp,CONTROL:LONESTAR
+2000.583,00:33:20.583,45,0,2,Blue,machine_checked,assets/hud-0002000583.webp,CONTROLLONESTAR
+2004.75,00:33:24.750,45,0,2,Blue,machine_checked,assets/hud-0002004750.webp,CONTROL:LONESTAR
+2008.917,00:33:28.917,45,0,2,Blue,machine_checked,assets/hud-0002008917.webp,CONTROLLONESTAR
+2013.083,00:33:33.083,46,0,2,Blue,machine_checked,assets/hud-0002013083.webp,CONTROL:LONESTARVUENY
+2017.25,00:33:37.250,46,0,2,Contested,machine_checked,assets/hud-0002017250.webp,ZONECONTESTEDEEE
+2021.417,00:33:41.417,46,0,2,Contested,machine_checked,assets/hud-0002021417.webp,ZONE CONTESTED 
+2025.583,00:33:45.583,46,0,2,Blue,machine_checked,assets/hud-0002025583.webp,CONTROL:LONESTAR
+2028.317,00:33:48.317,46,,2,Blue,machine_checked,assets/hud-0002028317.webp,CONTROLLONESTAR
+2032.483,00:33:52.483,46,0,2,Blue,machine_checked,assets/hud-0002032483.webp,CONTROL:LONESTAR
+2036.65,00:33:56.650,46,0,2,Blue,machine_checked,assets/hud-0002036650.webp,CONTROL:LONESTAR
+2037.167,00:33:57.167,46,0,2,Blue,machine_checked,assets/hud-0002037167.webp,CONTROLLONESTAR
+2041.333,00:34:01.333,46,0,2,Blue,machine_checked,assets/hud-0002041333.webp,CONTROL:LONESTAR
+2041.617,00:34:01.617,46,0,2,Blue,machine_checked,assets/hud-0002041617.webp,CONTROL:LONESTAR
+2045.783,00:34:05.783,47,0,2,Blue,machine_checked,assets/hud-0002045783.webp,CONTROL:LONESTAR
+2046.9,00:34:06.900,47,0,2,Blue,machine_checked,assets/hud-0002046900.webp,CONTROL:LONESTAR
+2049.85,00:34:09.850,47,,2,Blue,machine_checked,assets/hud-0002049850.webp,CONTROL LONESTAR
+2054.017,00:34:14.017,47,0,2,Blue,machine_checked,assets/hud-0002054017.webp,CONTROL:LONESTAR
+2055.75,00:34:15.750,47,,2,Blue,machine_checked,assets/hud-0002055750.webp,CONTROLLONESTARAE
+2056.417,00:34:16.417,47,0,2,Blue,machine_checked,assets/hud-0002056417.webp,CONTROL:LONESTAR
+2060.583,00:34:20.583,47,0,2,Blue,machine_checked,assets/hud-0002060583.webp,CONTROL:LONESTAR
+2064.75,00:34:24.750,47,0,2,Blue,machine_checked,assets/hud-0002064750.webp,CONTROLLONESTAR
+2067.367,00:34:27.367,47,0,2,Blue,machine_checked,assets/hud-0002067367.webp,CONTROL:LONESTAR
+2071.533,00:34:31.533,47,0,2,Blue,machine_checked,assets/hud-0002071533.webp,CONTROL:LONESTAR
+2075.7,00:34:35.700,48,0,2,Blue,machine_checked,assets/hud-0002075700.webp,CONTROL: LONESTAR
+2076.933,00:34:36.933,48,0,2,Blue,machine_checked,assets/hud-0002076933.webp,CONTROL:LONESTAR
+2081.1,00:34:41.100,48,0,2,Blue,machine_checked,assets/hud-0002081100.webp,CONTROL:LONESTAR
+2085.267,00:34:45.267,48,0,2,Blue,machine_checked,assets/hud-0002085267.webp,CONTROL:LONESTAR
+2089.433,00:34:49.433,48,0,2,Blue,machine_checked,assets/hud-0002089433.webp,CONTROL:LONESTAR
+2093.6,00:34:53.600,,,,,machine_checked,assets/hud-0002093600.webp,
+2097.767,00:34:57.767,,,,,machine_checked,assets/hud-0002097767.webp,
+2101.933,00:35:01.933,48,0,,Blue,machine_checked,assets/hud-0002101933.webp,CONTROL:LONESTAR
+2106.1,00:35:06.100,,,,,machine_checked,assets/hud-0002106100.webp,
+2110.267,00:35:10.267,49,0,,Blue,machine_checked,assets/hud-0002110267.webp,CONTROL:LONESTAR
+2114.433,00:35:14.433,,,,,machine_checked,assets/hud-0002114433.webp,
+2118.6,00:35:18.600,,,,,machine_checked,assets/hud-0002118600.webp,
+2122.767,00:35:22.767,,,,,machine_checked,assets/hud-0002122767.webp,
+2126.933,00:35:26.933,,,,,machine_checked,assets/hud-0002126933.webp,
+2131.1,00:35:31.100,,,,,machine_checked,assets/hud-0002131100.webp,
+2135.267,00:35:35.267,,,,,machine_checked,assets/hud-0002135267.webp,
+2139.433,00:35:39.433,,,,,machine_checked,assets/hud-0002139433.webp,
+2139.767,00:35:39.767,50,0,2,Blue,machine_checked,assets/hud-0002139767.webp,CONTROLLONESTAR
+2143.933,00:35:43.933,,,,,machine_checked,assets/hud-0002143933.webp,
+2148.1,00:35:48.100,50,0,2,Blue,machine_checked,assets/hud-0002148100.webp,CONTROL:LONESTAR
+2152.267,00:35:52.267,,,,,machine_checked,assets/hud-0002152267.webp,
+2156.433,00:35:56.433,,,,,machine_checked,assets/hud-0002156433.webp,82
+2160.6,00:36:00.600,,,,,machine_checked,assets/hud-0002160600.webp,82
+2164.317,00:36:04.317,51,0,2,,machine_checked,assets/hud-0002164317.webp,
+2165.067,00:36:05.067,51,0,2,,machine_checked,assets/hud-0002165067.webp,
+2169.233,00:36:09.233,51,0,2,,machine_checked,assets/hud-0002169233.webp,
+2173.4,00:36:13.400,51,0,2,Green,machine_checked,assets/hud-0002173400.webp,CONTROL:MANTICOREWN
+2177.567,00:36:17.567,51,0,2,Contested,machine_checked,assets/hud-0002177567.webp,ZONE CONTESTEDA
+2181.733,00:36:21.733,51,0,2,Green,machine_checked,assets/hud-0002181733.webp,CONTROL:MANTICORE
+2183.983,00:36:23.983,51,0,2,Green,machine_checked,assets/hud-0002183983.webp,CONTROLMANTICORE
+2188.15,00:36:28.150,51,0,2,Green,machine_checked,assets/hud-0002188150.webp,CONTROLMANTICORE
+2192.317,00:36:32.317,52,,,Blue,machine_checked,assets/hud-0002192317.webp,CONTROL:LONESTAR
+2196.483,00:36:36.483,52,0,2,,machine_checked,assets/hud-0002196483.webp,C
+2200.65,00:36:40.650,52,0,2,Contested,machine_checked,assets/hud-0002200650.webp,ZONE CONTESTED IENE
+2204.817,00:36:44.817,52,0,2,,machine_checked,assets/hud-0002204817.webp,ZONEMONTESTEA
+2208.983,00:36:48.983,52,0,,,machine_checked,assets/hud-0002208983.webp,EISFA
+2213.15,00:36:53.150,52,0,2,Contested,machine_checked,assets/hud-0002213150.webp,ZONE CONTESTEDN
+2217.317,00:36:57.317,52,0,2,Red,machine_checked,assets/hud-0002217317.webp,CONTROL:VALKYRA
+2218.083,00:36:58.083,52,0,2,Red,machine_checked,assets/hud-0002218083.webp,CONTROLVALKYRA
+2222.25,00:37:02.250,52,1,2,Red,machine_checked,assets/hud-0002222250.webp,CONTROL:VALKYRA
+2222.733,00:37:02.733,52,1,2,Red,machine_checked,assets/hud-0002222733.webp,CONTROLVALKYRA
+2226.9,00:37:06.900,52,1,2,Contested,machine_checked,assets/hud-0002226900.webp,ZONE CONTESTEDB
+2231.067,00:37:11.067,52,1,2,Contested,machine_checked,assets/hud-0002231067.webp,ZONE CONTESTEDA
+2235.233,00:37:15.233,52,1,2,Green,machine_checked,assets/hud-0002235233.webp,CONTROL:MANTICORE
+2235.583,00:37:15.583,,1,2,Green,machine_checked,assets/hud-0002235583.webp,CONTROL:MANTICORE
+2239.133,00:37:19.133,52,1,2,Green,machine_checked,assets/hud-0002239133.webp,CONTROL MANTICORE
+2243.3,00:37:23.300,52,1,2,Green,machine_checked,assets/hud-0002243300.webp,CONTROLMANTICORE
+2247.467,00:37:27.467,52,1,2,Green,machine_checked,assets/hud-0002247467.webp,CONTROLMANTICORE
+2248.533,00:37:28.533,52,1,2,Green,machine_checked,assets/hud-0002248533.webp,CONTROLMANTICORE
+2252.7,00:37:32.700,52,1,3,Green,machine_checked,assets/hud-0002252700.webp,CONTROL:MANTICOREE
+2256.867,00:37:36.867,52,1,3,Green,machine_checked,assets/hud-0002256867.webp,CONTROL:MANTICORE
+2261.033,00:37:41.033,52,1,3,Red,machine_checked,assets/hud-0002261033.webp,CONTROL:VALKYRA
+2265.2,00:37:45.200,52,1,3,Red,machine_checked,assets/hud-0002265200.webp,CONTROL:VALKYRA
+2269.367,00:37:49.367,52,1,3,Contested,machine_checked,assets/hud-0002269367.webp,ZONE CONTESTED
+2271.783,00:37:51.783,52,1,3,,machine_checked,assets/hud-0002271783.webp,ZONE CONTESILDHN
+2275.95,00:37:55.950,52,1,3,Red,machine_checked,assets/hud-0002275950.webp,CONTROL: VALKYRA
+2280.117,00:38:00.117,52,1,3,Red,machine_checked,assets/hud-0002280117.webp,CONTROLVALKYRA
+2281.483,00:38:01.483,,1,,Red,machine_checked,assets/hud-0002281483.webp,CONTRIL VALKYRA
+2285.65,00:38:05.650,52,2,3,Contested,machine_checked,assets/hud-0002285650.webp,ZONE CONTESTED 
+2289.817,00:38:09.817,52,2,3,Green,machine_checked,assets/hud-0002289817.webp,CONTROL MANTICORE 
+2293.983,00:38:13.983,52,2,3,Green,machine_checked,assets/hud-0002293983.webp,CONTROL:MANTICORE
+2296.117,00:38:16.117,52,2,3,Green,machine_checked,assets/hud-0002296117.webp,CONTROL:MANTICORE
+2300.283,00:38:20.283,52,2,3,Contested,machine_checked,assets/hud-0002300283.webp,ZONE CONTESTED
+2301.633,00:38:21.633,52,2,3,Contested,machine_checked,assets/hud-0002301633.webp,ZONE CONTESTLO
+2305.8,00:38:25.800,52,2,3,Contested,machine_checked,assets/hud-0002305800.webp,ZONE CONTESTEDN
+2309.967,00:38:29.967,52,2,3,Contested,machine_checked,assets/hud-0002309967.webp,TONECONTESTED
+2313.633,00:38:33.633,53,2,3,Contested,machine_checked,assets/hud-0002313633.webp,ZONECONTESTEDJAAILLA
+2313.833,00:38:33.833,53,2,3,Contested,machine_checked,assets/hud-0002313833.webp,ZONE CONTESTED IT2
+2314.05,00:38:34.050,53,2,3,Contested,machine_checked,assets/hud-0002314050.webp,ZONE CONTESTED IEE
+2314.25,00:38:34.250,,2,3,Contested,machine_checked,assets/hud-0002314250.webp,ZN NE CONTESTEDJE
+2318.417,00:38:38.417,53,2,3,Green,machine_checked,assets/hud-0002318417.webp,CONTROL:MANTICORE
+2321.617,00:38:41.617,53,2,3,Contested,machine_checked,assets/hud-0002321617.webp,ZONECONTESTEDETEH
+2321.883,00:38:41.883,53,2,3,Contested,machine_checked,assets/hud-0002321883.webp,ZONE CONTESTEDTE
+2323.333,00:38:43.333,,,,,machine_checked,assets/hud-0002323333.webp,
+2327.5,00:38:47.500,53,2,3,Contested,machine_checked,assets/hud-0002327500.webp,ZONE CONTESTEDA
+2329.75,00:38:49.750,53,2,3,Contested,machine_checked,assets/hud-0002329750.webp,ZONE CONTESTEDHA
+2333.917,00:38:53.917,53,2,3,Contested,machine_checked,assets/hud-0002333917.webp,ZONE CONTESTED
+2338.083,00:38:58.083,53,2,3,,machine_checked,assets/hud-0002338083.webp,ONE N S
+2340.0,00:39:00.000,53,2,3,,reviewed,,
+2342.25,00:39:02.250,53,2,3,Contested,machine_checked,assets/hud-0002342250.webp,ZONE CONTESTEDEAR
+2345.75,00:39:05.750,,,,,machine_checked,assets/hud-0002345750.webp,
+2349.917,00:39:09.917,,,3,Green,machine_checked,assets/hud-0002349917.webp,CONTROLMANTICORE
+2352.783,00:39:12.783,,2,3,Green,machine_checked,assets/hud-0002352783.webp,CONIRNL MANTICORE
+2353.2,00:39:13.200,53,2,3,Green,machine_checked,assets/hud-0002353200.webp,CONTROL:MANTICORE
+2357.367,00:39:17.367,53,2,3,Contested,machine_checked,assets/hud-0002357367.webp,ZONE CONTESTEDE
+2361.533,00:39:21.533,53,2,3,Blue,machine_checked,assets/hud-0002361533.webp,CONTROL:LONESTAR
+2365.7,00:39:25.700,53,2,3,Blue,machine_checked,assets/hud-0002365700.webp,CONTROL:LONESTAR
+2365.883,00:39:25.883,53,2,3,Blue,machine_checked,assets/hud-0002365883.webp,CONTROLLONESTAR
+2367.283,00:39:27.283,53,2,3,Blue,machine_checked,assets/hud-0002367283.webp,CONTROL:LONESTAR
+2371.45,00:39:31.450,,,,,machine_checked,assets/hud-0002371450.webp,
+2375.617,00:39:35.617,,,,,machine_checked,assets/hud-0002375617.webp,
+2379.783,00:39:39.783,54,2,3,Blue,machine_checked,assets/hud-0002379783.webp,CONTROLLONESTAR
+2383.95,00:39:43.950,54,2,3,Blue,machine_checked,assets/hud-0002383950.webp,CONTROL:LONESTAR
+2385.433,00:39:45.433,54,2,3,Blue,machine_checked,assets/hud-0002385433.webp,CONTROL:LONESTAR
+2386.067,00:39:46.067,54,2,3,Blue,machine_checked,assets/hud-0002386067.webp,CONTROL:LONESTAR
+2390.233,00:39:50.233,54,2,3,Blue,machine_checked,assets/hud-0002390233.webp,CONTROL:LONESTAR
+2390.483,00:39:50.483,,,,,machine_checked,assets/hud-0002390483.webp,UONTROL LINEBTARAY
+2394.05,00:39:54.050,54,,3,,machine_checked,assets/hud-0002394050.webp,CGNTROL LLNEBTAA
+2398.217,00:39:58.217,54,2,,,machine_checked,assets/hud-0002398217.webp,CONTROLLLOHESTAR
+2400.033,00:40:00.033,54,2,3,Blue,machine_checked,assets/hud-0002400033.webp,CONTROL:LONESTAR
+2404.2,00:40:04.200,55,2,3,Blue,machine_checked,assets/hud-0002404200.webp,CONTROL: LONESTAR
+2405.8,00:40:05.800,55,2,3,Blue,machine_checked,assets/hud-0002405800.webp,CONTROL:LONESTARW
+2408.517,00:40:08.517,55,2,3,Blue,machine_checked,assets/hud-0002408517.webp,DONTROL:LONESTAR
+2412.683,00:40:12.683,55,2,3,Blue,machine_checked,assets/hud-0002412683.webp,CONTROL: LONESTAR
+2416.85,00:40:16.850,55,2,3,Blue,machine_checked,assets/hud-0002416850.webp,CONTROL:LONESTAR
+2421.017,00:40:21.017,55,2,3,Blue,machine_checked,assets/hud-0002421017.webp,CONTROL:LONESTAR
+2422.5,00:40:22.500,55,2,3,Blue,machine_checked,assets/hud-0002422500.webp,CONTROL:LONESTAR
+2426.667,00:40:26.667,55,2,3,Blue,machine_checked,assets/hud-0002426667.webp,CONTROLLONESTAR
+2430.833,00:40:30.833,55,2,3,Blue,machine_checked,assets/hud-0002430833.webp,CONTROL:LONESTAR
+2435.0,00:40:35.000,56,2,3,Blue,machine_checked,assets/hud-0002435000.webp,CONTROL:LONESTAR
+2438.867,00:40:38.867,56,2,3,Blue,machine_checked,assets/hud-0002438867.webp,CONTROI:LONESTARW
+2443.033,00:40:43.033,56,2,3,Blue,machine_checked,assets/hud-0002443033.webp,CONTROL:LONESTAR
+2445.6,00:40:45.600,56,2,3,Blue,machine_checked,assets/hud-0002445600.webp,CONTROLLONESTAR
+2449.767,00:40:49.767,56,2,3,Blue,machine_checked,assets/hud-0002449767.webp,CONTROL:LONESTAR
+2451.817,00:40:51.817,56,2,3,Blue,machine_checked,assets/hud-0002451817.webp,CONTROL:LONESTAR
+2454.867,00:40:54.867,56,2,3,Blue,machine_checked,assets/hud-0002454867.webp,CONTROL:LONESTAR
+2459.033,00:40:59.033,56,2,3,Green,machine_checked,assets/hud-0002459033.webp,CONTROLMANTICORE
+2459.617,00:40:59.617,56,2,3,Green,machine_checked,assets/hud-0002459617.webp,CONIROL MANTICORE
+2463.783,00:41:03.783,56,2,4,Green,machine_checked,assets/hud-0002463783.webp,CONTROL:MANTICORE
+2464.183,00:41:04.183,56,2,4,Green,machine_checked,assets/hud-0002464183.webp,CUNTROL MANTICORE
+2468.35,00:41:08.350,56,2,4,Green,machine_checked,assets/hud-0002468350.webp,CONTROLMANTICORE
+2472.517,00:41:12.517,56,2,4,Green,machine_checked,assets/hud-0002472517.webp,CONTROL:MANTICORE
+2476.683,00:41:16.683,56,2,4,Green,machine_checked,assets/hud-0002476683.webp,CONTROL:MANTICORE
+2480.85,00:41:20.850,56,2,4,Green,machine_checked,assets/hud-0002480850.webp,CONTROL MANTICORE
+2485.017,00:41:25.017,56,2,4,Blue,machine_checked,assets/hud-0002485017.webp,CONTROL:LONESTAR
+2486.95,00:41:26.950,56,2,4,Blue,machine_checked,assets/hud-0002486950.webp,CONTROL:LONESTAR
+2490.1,00:41:30.100,56,2,4,Contested,machine_checked,assets/hud-0002490100.webp,ZONE CONTESTED
+2494.267,00:41:34.267,57,2,4,Blue,machine_checked,assets/hud-0002494267.webp,CONTROL:LONESTAR
+2498.433,00:41:38.433,57,2,4,Blue,machine_checked,assets/hud-0002498433.webp,CONTROL:LONESTARN
+2502.6,00:41:42.600,57,2,4,Blue,machine_checked,assets/hud-0002502600.webp,CONTROL: LONESTAR
+2506.767,00:41:46.767,57,2,4,Blue,machine_checked,assets/hud-0002506767.webp,CONTROL:LONESTAR
+2510.933,00:41:50.933,57,2,4,Blue,machine_checked,assets/hud-0002510933.webp,CONTROL:LONESTAR
+2515.1,00:41:55.100,57,2,4,Blue,machine_checked,assets/hud-0002515100.webp,CONTROL:LONESTAR
+2519.267,00:41:59.267,57,2,4,Blue,machine_checked,assets/hud-0002519267.webp,CONTROL:LONESTAR
+2520.0,00:42:00.000,57,2,4,,reviewed,,
+2523.433,00:42:03.433,58,2,4,Blue,machine_checked,assets/hud-0002523433.webp,CONTROL:LONESTAR
+2526.35,00:42:06.350,58,2,4,Blue,machine_checked,assets/hud-0002526350.webp,CONTROL:LONESTAR
+2530.517,00:42:10.517,58,2,4,Blue,machine_checked,assets/hud-0002530517.webp,CONTROL:LONESTARHEY
+2534.683,00:42:14.683,58,2,4,Blue,machine_checked,assets/hud-0002534683.webp,CONTROL:LONESTARR
+2538.85,00:42:18.850,58,2,4,Blue,machine_checked,assets/hud-0002538850.webp,CONTROL:LONESTARXT
+2543.017,00:42:23.017,58,2,4,Blue,machine_checked,assets/hud-0002543017.webp,CONTROL:LONESTAR
+2546.3,00:42:26.300,58,2,4,Blue,machine_checked,assets/hud-0002546300.webp,CONTROL:LONESTAR
+2550.45,00:42:30.450,58,2,4,Blue,machine_checked,assets/hud-0002550450.webp,CONTROLLONESTAR
+2554.617,00:42:34.617,59,2,4,Blue,machine_checked,assets/hud-0002554617.webp,CONTROL:LONESTARU
+2558.783,00:42:38.783,59,2,4,Blue,machine_checked,assets/hud-0002558783.webp,CONTROL:LONESTAR
+2561.017,00:42:41.017,59,2,4,Blue,machine_checked,assets/hud-0002561017.webp,CONTROL:LONESTAR
+2562.1,00:42:42.100,59,2,4,Blue,machine_checked,assets/hud-0002562100.webp,CONTROL:LONESTARSY
+2564.917,00:42:44.917,59,2,4,Blue,machine_checked,assets/hud-0002564917.webp,CONTROL:LONESTAR
+2569.083,00:42:49.083,59,2,4,Blue,machine_checked,assets/hud-0002569083.webp,CONTROL:LONESTAR
+2570.35,00:42:50.350,59,2,4,Blue,machine_checked,assets/hud-0002570350.webp,CONTROL:LONESTAR
+2574.517,00:42:54.517,59,2,4,Contested,machine_checked,assets/hud-0002574517.webp,ZONE CONTESTED
+2578.683,00:42:58.683,59,2,4,Blue,machine_checked,assets/hud-0002578683.webp,CONTROL:LONESTAR
+2579.717,00:42:59.717,59,2,4,Contested,machine_checked,assets/hud-0002579717.webp,ZONE CONTESTED
+2583.767,00:43:03.767,59,2,4,Contested,machine_checked,assets/hud-0002583767.webp,ZONE CONTESTEDEE
+2585.483,00:43:05.483,59,2,4,,machine_checked,assets/hud-0002585483.webp,
+2588.883,00:43:08.883,59,2,4,Contested,machine_checked,assets/hud-0002588883.webp,ZONE CONTESTEDHIEN
+2593.05,00:43:13.050,59,2,4,Red,machine_checked,assets/hud-0002593050.webp,CONTROL:VALKYRA
+2597.217,00:43:17.217,59,2,4,Contested,machine_checked,assets/hud-0002597217.webp,ZONE CONTESTED
+2601.383,00:43:21.383,59,2,4,Green,machine_checked,assets/hud-0002601383.webp,CONTROL:MANTICORE
+2605.55,00:43:25.550,59,2,4,Green,machine_checked,assets/hud-0002605550.webp,CONTROL:MANTICORE
+2609.717,00:43:29.717,59,2,4,Green,machine_checked,assets/hud-0002609717.webp,CONTROLMANTICORE
+2613.883,00:43:33.883,59,2,5,Contested,machine_checked,assets/hud-0002613883.webp,ZONE CONTESTEDEELE
+2618.05,00:43:38.050,59,2,5,Contested,machine_checked,assets/hud-0002618050.webp,ZONE CONTESTED E
+2622.217,00:43:42.217,59,2,5,Red,machine_checked,assets/hud-0002622217.webp,CONTROL: VALKYRA
+2626.383,00:43:46.383,,,,,machine_checked,assets/hud-0002626383.webp,
+2630.55,00:43:50.550,59,2,5,Blue,machine_checked,assets/hud-0002630550.webp,CONTROL:LONESTAR
+2634.717,00:43:54.717,59,2,5,Blue,machine_checked,assets/hud-0002634717.webp,CONTROL:LONESTAR
+2638.883,00:43:58.883,59,2,5,Blue,machine_checked,assets/hud-0002638883.webp,CONTROL:LONESTAR
+2643.05,00:44:03.050,60,2,5,Blue,machine_checked,assets/hud-0002643050.webp,CONTROL: LONESTAR
+2647.217,00:44:07.217,60,2,5,Blue,machine_checked,assets/hud-0002647217.webp,CONTROL:LONESTAR
+2650.767,00:44:10.767,60,2,5,Blue,machine_checked,assets/hud-0002650767.webp,CONTROL:LONESTAR
+2654.933,00:44:14.933,60,2,5,Blue,machine_checked,assets/hud-0002654933.webp,CONTROL:LONESTAR
+2659.1,00:44:19.100,60,2,5,Blue,machine_checked,assets/hud-0002659100.webp,CONTROLLONESTAR
+2663.267,00:44:23.267,60,2,5,Blue,machine_checked,assets/hud-0002663267.webp,CONTROLLONESTAR
+2667.433,00:44:27.433,60,2,5,Blue,machine_checked,assets/hud-0002667433.webp,CONTROLLONESTAR
+2671.6,00:44:31.600,61,2,5,Blue,machine_checked,assets/hud-0002671600.webp,CONTROL:LONESTAR
+2675.767,00:44:35.767,61,2,5,Blue,machine_checked,assets/hud-0002675767.webp,CONTROL:LONESTAR
+2679.933,00:44:39.933,61,2,5,Blue,machine_checked,assets/hud-0002679933.webp,CONTROL:LONESTAR
+2684.1,00:44:44.100,61,2,5,Blue,machine_checked,assets/hud-0002684100.webp,CONTROL:LONESTAR
+2688.15,00:44:48.150,61,2,5,Blue,machine_checked,assets/hud-0002688150.webp,CONTROL:LONESTAR
+2692.317,00:44:52.317,61,2,5,Blue,machine_checked,assets/hud-0002692317.webp,CONTROL:LONESTAR
+2693.45,00:44:53.450,61,2,5,Blue,machine_checked,assets/hud-0002693450.webp,CONTROL:LONESTAR
+2697.617,00:44:57.617,61,2,5,Blue,machine_checked,assets/hud-0002697617.webp,CONTROL:LONESTAR
+2700.0,00:45:00.000,61,2,5,,reviewed,,
+2701.783,00:45:01.783,62,2,5,Blue,machine_checked,assets/hud-0002701783.webp,CONTROL:LONESTAR
+2702.883,00:45:02.883,62,2,5,Blue,machine_checked,assets/hud-0002702883.webp,CONTROL:LONESTAR
+2707.05,00:45:07.050,62,2,5,Blue,machine_checked,assets/hud-0002707050.webp,CONTROL:LONESTARET
+2711.217,00:45:11.217,62,2,5,Blue,machine_checked,assets/hud-0002711217.webp,CONTROL:LONESTARNZ
+2715.383,00:45:15.383,62,2,5,Blue,machine_checked,assets/hud-0002715383.webp,CONTROL:LONESTARNZEEN
+2719.55,00:45:19.550,62,2,5,Blue,machine_checked,assets/hud-0002719550.webp,CONTROL:LONESTARKERIN
+2723.717,00:45:23.717,62,2,5,Blue,machine_checked,assets/hud-0002723717.webp,CONTROLLONESTAR
+2727.883,00:45:27.883,62,2,5,Blue,machine_checked,assets/hud-0002727883.webp,CONTROLLONESTAR
+2732.05,00:45:32.050,63,2,5,Blue,machine_checked,assets/hud-0002732050.webp,CONTROL:LONESTAR
+2736.217,00:45:36.217,63,2,5,Blue,machine_checked,assets/hud-0002736217.webp,CONTROL:LONESTAR
+2740.383,00:45:40.383,63,2,5,Blue,machine_checked,assets/hud-0002740383.webp,CONTROLLONESTAR
+2744.55,00:45:44.550,63,2,5,Blue,machine_checked,assets/hud-0002744550.webp,CONTROL:LONESTAR
+2748.717,00:45:48.717,63,2,5,Blue,machine_checked,assets/hud-0002748717.webp,CONTROL:LONESTARS
+2752.883,00:45:52.883,63,2,5,Blue,machine_checked,assets/hud-0002752883.webp,CONTROLLONESTAR
+2757.05,00:45:57.050,63,2,5,Blue,machine_checked,assets/hud-0002757050.webp,CONTROL:LONESTAR
+2761.217,00:46:01.217,63,2,5,Blue,machine_checked,assets/hud-0002761217.webp,CONTROL:LONESTAR
+2765.383,00:46:05.383,64,2,5,Blue,machine_checked,assets/hud-0002765383.webp,CONTROL:LONESTAR
+2769.55,00:46:09.550,64,2,5,Blue,machine_checked,assets/hud-0002769550.webp,CONTROLLONESTAR
+2773.717,00:46:13.717,64,2,5,Blue,machine_checked,assets/hud-0002773717.webp,CONTROL: LONESTAR
+2777.883,00:46:17.883,64,2,5,Blue,machine_checked,assets/hud-0002777883.webp,CONTROL:LONESTAR
+2782.05,00:46:22.050,64,2,5,Blue,machine_checked,assets/hud-0002782050.webp,CONTROL:LONESTAR
+2786.217,00:46:26.217,64,2,5,Green,machine_checked,assets/hud-0002786217.webp,CONTROLMANTICORE
+2790.383,00:46:30.383,64,2,5,Contested,machine_checked,assets/hud-0002790383.webp,ZONE CONTESTED
+2794.55,00:46:34.550,64,2,6,Green,machine_checked,assets/hud-0002794550.webp,CONTROL:MANTICORE
+2798.717,00:46:38.717,,,,,machine_checked,assets/hud-0002798717.webp,
+2802.883,00:46:42.883,,,,,machine_checked,assets/hud-0002802883.webp,
+2807.05,00:46:47.050,64,2,6,Green,machine_checked,assets/hud-0002807050.webp,CONTROLMANTICORE 
+2811.217,00:46:51.217,64,2,6,Green,machine_checked,assets/hud-0002811217.webp,CONTROLMANTICOREEV
+2815.383,00:46:55.383,64,2,6,Green,machine_checked,assets/hud-0002815383.webp,CONTROLMANTICORE
+2819.55,00:46:59.550,64,2,6,Green,machine_checked,assets/hud-0002819550.webp,CONTROLMANTICORE
+2823.717,00:47:03.717,64,2,6,Contested,machine_checked,assets/hud-0002823717.webp,ZONE CONTESTEDEEE
+2827.883,00:47:07.883,64,2,6,Contested,machine_checked,assets/hud-0002827883.webp,ZONE CONTESTEDEAE
+2832.05,00:47:12.050,64,2,6,Blue,machine_checked,assets/hud-0002832050.webp,CONTROL:LONESTARY
+2836.217,00:47:16.217,64,2,6,Blue,machine_checked,assets/hud-0002836217.webp,CONTROL:LONESTAR
+2840.383,00:47:20.383,64,2,6,Blue,machine_checked,assets/hud-0002840383.webp,CONTROL:LONESTAR
+2844.55,00:47:24.550,64,2,6,Blue,machine_checked,assets/hud-0002844550.webp,CONTROLLONESTAR
+2848.717,00:47:28.717,64,2,6,Blue,machine_checked,assets/hud-0002848717.webp,CONTROLLONESTAR
+2852.883,00:47:32.883,65,2,6,Blue,machine_checked,assets/hud-0002852883.webp,CONTROL:LONESTAR
+2857.05,00:47:37.050,65,2,6,Blue,machine_checked,assets/hud-0002857050.webp,CONTROLLONESTAR
+2861.217,00:47:41.217,65,2,6,Blue,machine_checked,assets/hud-0002861217.webp,CONTROL: LONESTAR
+2865.383,00:47:45.383,65,2,6,Blue,machine_checked,assets/hud-0002865383.webp,CONTROL:LONESTARW
+2869.55,00:47:49.550,65,2,6,Blue,machine_checked,assets/hud-0002869550.webp,CONTROL:LONESTAR
+2873.717,00:47:53.717,65,2,6,Contested,machine_checked,assets/hud-0002873717.webp,ZONE CONTESTED
+2877.883,00:47:57.883,65,2,6,Green,machine_checked,assets/hud-0002877883.webp,CONTROLMANTICORE
+2879.167,00:47:59.167,65,2,6,Green,machine_checked,assets/hud-0002879167.webp,CONTROL MANTICORE
+2880.0,00:48:00.000,65,2,6,,reviewed,,
+2883.333,00:48:03.333,65,2,7,Green,machine_checked,assets/hud-0002883333.webp,CONTROL:MANTICORE
+2887.5,00:48:07.500,65,2,7,Green,machine_checked,assets/hud-0002887500.webp,CONTROL:MANTICORE
+2891.667,00:48:11.667,65,2,7,Contested,machine_checked,assets/hud-0002891667.webp,ZONE CONTESTEDTF
+2892.65,00:48:12.650,65,2,7,Blue,machine_checked,assets/hud-0002892650.webp,CONTROL:LONESTAR
+2896.3,00:48:16.300,,2,7,Green,machine_checked,assets/hud-0002896300.webp,CONTROL MANTICORE
+2897.133,00:48:17.133,65,2,7,Green,machine_checked,assets/hud-0002897133.webp,CONTRDLI MANTICOREZ
+2897.35,00:48:17.350,,2,7,Green,machine_checked,assets/hud-0002897350.webp,CONTROL:MANTICORE
+2901.517,00:48:21.517,65,2,7,Green,machine_checked,assets/hud-0002901517.webp,CONTROLMANTICORE
+2905.683,00:48:25.683,65,2,7,Green,machine_checked,assets/hud-0002905683.webp,CONTROLMANTICORE
+2909.85,00:48:29.850,65,2,7,Blue,machine_checked,assets/hud-0002909850.webp,CONTROLLONESTAR
+2914.017,00:48:34.017,66,2,7,Blue,machine_checked,assets/hud-0002914017.webp,CONTROL:LONESTAR
+2914.367,00:48:34.367,66,2,7,Blue,machine_checked,assets/hud-0002914367.webp,CONTROL:LONESTAR
+2918.533,00:48:38.533,66,2,7,Blue,machine_checked,assets/hud-0002918533.webp,CONTROLLONESTAR
+2922.7,00:48:42.700,66,2,7,Blue,machine_checked,assets/hud-0002922700.webp,CONTROL: LONESTAR
+2926.867,00:48:46.867,66,2,7,Blue,machine_checked,assets/hud-0002926867.webp,CONTROL: LONESTAR
+2928.35,00:48:48.350,66,2,7,Blue,machine_checked,assets/hud-0002928350.webp,CONTROL:LONESTAR
+2932.517,00:48:52.517,66,2,7,Blue,machine_checked,assets/hud-0002932517.webp,CONTROLLONESTAR
+2936.683,00:48:56.683,66,2,7,Blue,machine_checked,assets/hud-0002936683.webp,CONTROL:LONESTAR
+2940.417,00:49:00.417,,2,7,Red,machine_checked,assets/hud-0002940417.webp,CONTROLVALKYRA
+2944.583,00:49:04.583,66,3,7,Red,machine_checked,assets/hud-0002944583.webp,CONTROL:VALKYRA
+2944.883,00:49:04.883,66,3,7,Red,machine_checked,assets/hud-0002944883.webp,CONTROL:VALKYRA
+2949.05,00:49:09.050,66,3,7,Contested,machine_checked,assets/hud-0002949050.webp,ZONE CONTESTED AGIR
+2953.217,00:49:13.217,66,3,7,Red,machine_checked,assets/hud-0002953217.webp,CONTROL:VALKYRA
+2957.383,00:49:17.383,66,3,7,Red,machine_checked,assets/hud-0002957383.webp,CONTROL:VALKYRA
+2961.55,00:49:21.550,66,3,7,Green,machine_checked,assets/hud-0002961550.webp,CONTROLMANTICORE
+2962.6,00:49:22.600,66,3,7,Green,machine_checked,assets/hud-0002962600.webp,CONTROLMANTICOREM
+2963.767,00:49:23.767,66,3,7,Contested,machine_checked,assets/hud-0002963767.webp,ZINECONTESTEN
+2967.933,00:49:27.933,66,3,7,Green,machine_checked,assets/hud-0002967933.webp,CONTROLMANTICORE
+2972.1,00:49:32.100,66,3,8,Green,machine_checked,assets/hud-0002972100.webp,CONTROL:MANTICORE
+2974.517,00:49:34.517,66,3,8,Green,machine_checked,assets/hud-0002974517.webp,CONTROLMANTICORE
+2978.683,00:49:38.683,,3,8,Green,machine_checked,assets/hud-0002978683.webp,CONTROL MANTICORE
+2982.85,00:49:42.850,66,3,8,Green,machine_checked,assets/hud-0002982850.webp,CONTROLMANTICORE
+2983.35,00:49:43.350,66,3,8,Green,machine_checked,assets/hud-0002983350.webp,CONTROL:MANTICOREYS-
+2987.517,00:49:47.517,66,3,8,Green,machine_checked,assets/hud-0002987517.webp,CONTROL:MANTICORE
+2990.65,00:49:50.650,66,3,8,Green,machine_checked,assets/hud-0002990650.webp,CONTROLMANTICORE
+2994.817,00:49:54.817,66,3,8,Contested,machine_checked,assets/hud-0002994817.webp,ZONE CONTESTED
+2998.233,00:49:58.233,66,3,8,Contested,machine_checked,assets/hud-0002998233.webp,ZNQE CONTESTEDW
+3002.4,00:50:02.400,66,3,8,Contested,machine_checked,assets/hud-0003002400.webp,ZONE CONTESTEDALL
+3006.567,00:50:06.567,66,3,8,Green,machine_checked,assets/hud-0003006567.webp,CONTROL:MANTICORE
+3010.733,00:50:10.733,66,3,8,Contested,machine_checked,assets/hud-0003010733.webp,ZONECONTESTED EHIN
+3011.067,00:50:11.067,66,3,8,Contested,machine_checked,assets/hud-0003011067.webp,ZONE CONTESTEDHN
+3011.583,00:50:11.583,66,3,8,,machine_checked,assets/hud-0003011583.webp,QINNEIONTESEOSAA
+3015.75,00:50:15.750,66,3,8,Contested,machine_checked,assets/hud-0003015750.webp,ZONECONTESTEDH
+3019.917,00:50:19.917,66,3,8,Contested,machine_checked,assets/hud-0003019917.webp,ZONE CONTESTED
+3024.083,00:50:24.083,66,3,8,Red,machine_checked,assets/hud-0003024083.webp,CONTROLVALKYRA
+3028.25,00:50:28.250,66,3,8,Contested,machine_checked,assets/hud-0003028250.webp,ZONE CONTESTED
+3030.067,00:50:30.067,66,3,8,,machine_checked,assets/hud-0003030067.webp,ZONECONTESIED
+3034.233,00:50:34.233,66,3,8,Contested,machine_checked,assets/hud-0003034233.webp,ZONE CONTESTED A
+3035.8,00:50:35.800,66,3,8,Red,machine_checked,assets/hud-0003035800.webp,CONTROL:VALKYRA
+3039.967,00:50:39.967,66,3,8,Red,machine_checked,assets/hud-0003039967.webp,CONTROL:VALKYRA
+3044.133,00:50:44.133,66,3,8,Red,machine_checked,assets/hud-0003044133.webp,CONTROL:VALKYRA
+3048.3,00:50:48.300,66,3,8,Red,machine_checked,assets/hud-0003048300.webp,CONTROL:VALKYRA
+3052.467,00:50:52.467,66,3,8,,machine_checked,assets/hud-0003052467.webp,ZONEMONTESTED
+3056.633,00:50:56.633,66,3,8,Red,machine_checked,assets/hud-0003056633.webp,CONTROL:VALKYRA
+3060.0,00:51:00.000,66,3,8,,reviewed,,
+3060.8,00:51:00.800,66,3,8,Red,machine_checked,assets/hud-0003060800.webp,CONTROLVALKYRA
+3064.967,00:51:04.967,66,4,8,Red,machine_checked,assets/hud-0003064967.webp,CONTROL:VALKYRAWY
+3069.133,00:51:09.133,66,4,8,,machine_checked,assets/hud-0003069133.webp,ZONEINTESTED
+3073.3,00:51:13.300,66,4,8,Blue,machine_checked,assets/hud-0003073300.webp,CONTROL:LONESTAR
+3074.833,00:51:14.833,,,,,machine_checked,assets/hud-0003074833.webp,
+3079.0,00:51:19.000,,,,,machine_checked,assets/hud-0003079000.webp,
+3083.167,00:51:23.167,66,4,8,Blue,machine_checked,assets/hud-0003083167.webp,CONTROL:LONESTAR
+3087.333,00:51:27.333,66,4,8,Blue,machine_checked,assets/hud-0003087333.webp,CONTROL:LONESTAR
+3091.5,00:51:31.500,67,4,8,Blue,machine_checked,assets/hud-0003091500.webp,CONTROL LONESTAR
+3095.667,00:51:35.667,67,,8,Blue,machine_checked,assets/hud-0003095667.webp,TOONTROL:LONESTAR
+3099.833,00:51:39.833,67,4,8,Blue,machine_checked,assets/hud-0003099833.webp,CONTROLILONESTAR
+3104.0,00:51:44.000,67,4,8,Blue,machine_checked,assets/hud-0003104000.webp,CONTROL:LONESTAR
+3108.167,00:51:48.167,67,4,8,Blue,machine_checked,assets/hud-0003108167.webp,CONTROL:LONESTAR
+3111.817,00:51:51.817,67,4,8,Blue,machine_checked,assets/hud-0003111817.webp,CONTROLLONESTAR
+3115.983,00:51:55.983,67,4,8,Blue,machine_checked,assets/hud-0003115983.webp,CONTROLLONESTAR
+3120.15,00:52:00.150,67,4,8,Blue,machine_checked,assets/hud-0003120150.webp,CONTROLLONESTAR
+3124.3,00:52:04.300,67,4,8,Blue,machine_checked,assets/hud-0003124300.webp,CONTROL:LONESTARUG
+3128.467,00:52:08.467,67,4,8,Blue,machine_checked,assets/hud-0003128467.webp,CONTROLLONESTAR
+3130.75,00:52:10.750,67,4,8,Blue,machine_checked,assets/hud-0003130750.webp,CONTROL:LONESTAR
+3131.8,00:52:11.800,67,4,8,Blue,machine_checked,assets/hud-0003131800.webp,CONTROL:LONESTAR
+3135.967,00:52:15.967,67,4,8,Blue,machine_checked,assets/hud-0003135967.webp,CONTROL:LONESTAR
+3140.133,00:52:20.133,67,4,8,Blue,machine_checked,assets/hud-0003140133.webp,CONTROL:LONESTAR
+3144.3,00:52:24.300,67,4,8,Blue,machine_checked,assets/hud-0003144300.webp,CONTROL:LONESTAR
+3148.45,00:52:28.450,67,4,8,Blue,machine_checked,assets/hud-0003148450.webp,CONTROLLONESTARI
+3152.617,00:52:32.617,68,4,8,Blue,machine_checked,assets/hud-0003152617.webp,CONTROL:LONESTAR
+3156.783,00:52:36.783,68,4,8,Blue,machine_checked,assets/hud-0003156783.webp,CONTROL:LONESTAR
+3160.95,00:52:40.950,68,4,8,Red,machine_checked,assets/hud-0003160950.webp,CONTROL:VALKYRA
+3165.117,00:52:45.117,68,4,8,Red,machine_checked,assets/hud-0003165117.webp,CONTROL:VALKYRA
+3169.283,00:52:49.283,68,4,8,Red,machine_checked,assets/hud-0003169283.webp,CONTROL:VALKYRA
+3171.8,00:52:51.800,68,4,8,Red,machine_checked,assets/hud-0003171800.webp,CONTROLVALKYRA
+3174.267,00:52:54.267,68,4,8,Contested,machine_checked,assets/hud-0003174267.webp,ZONECONTESTED
+3178.433,00:52:58.433,68,4,8,Contested,machine_checked,assets/hud-0003178433.webp,ZONE CONTESTED
+3182.6,00:53:02.600,68,4,8,Contested,machine_checked,assets/hud-0003182600.webp,ZONE CONTESTEDAA
+3183.883,00:53:03.883,68,4,8,Contested,machine_checked,assets/hud-0003183883.webp,ZONE CONTESTEDREI
+3188.05,00:53:08.050,68,4,8,Contested,machine_checked,assets/hud-0003188050.webp,ZONE CONTESTED
+3192.217,00:53:12.217,68,4,8,Red,machine_checked,assets/hud-0003192217.webp,CONTROL:VALKYRAY
+3196.383,00:53:16.383,68,4,8,Red,machine_checked,assets/hud-0003196383.webp,CONTROL:VALKYRA
+3197.483,00:53:17.483,68,4,8,Red,machine_checked,assets/hud-0003197483.webp,CONTROLVALKYRA
+3201.65,00:53:21.650,68,4,8,Red,machine_checked,assets/hud-0003201650.webp,CONTROL:VALKYRA
+3202.783,00:53:22.783,68,4,8,Red,machine_checked,assets/hud-0003202783.webp,CONTROL:VALKYRA
+3202.983,00:53:22.983,68,4,8,Red,machine_checked,assets/hud-0003202983.webp,CONTROLVALKYRA
+3204.65,00:53:24.650,68,4,8,Red,machine_checked,assets/hud-0003204650.webp,CONTROLVALKYRA
+3208.817,00:53:28.817,68,4,8,Red,machine_checked,assets/hud-0003208817.webp,CONTROLVALKYRA
+3209.133,00:53:29.133,68,4,8,Red,machine_checked,assets/hud-0003209133.webp,CONTROLVALKYRA
+3210.517,00:53:30.517,68,4,8,Red,machine_checked,assets/hud-0003210517.webp,CONTROL:VALKYRA
+3211.433,00:53:31.433,,5,8,Red,machine_checked,assets/hud-0003211433.webp,CONTROL:VALKYRA
+3213.383,00:53:33.383,68,5,8,Red,machine_checked,assets/hud-0003213383.webp,CONTROL:VALKYRA
+3217.55,00:53:37.550,68,5,8,Red,machine_checked,assets/hud-0003217550.webp,CONTROL VALKYRA
+3220.683,00:53:40.683,68,5,8,Red,machine_checked,assets/hud-0003220683.webp,CONTROL:VALKYRA
+3223.95,00:53:43.950,68,5,8,Red,machine_checked,assets/hud-0003223950.webp,CONTROLVALKYRA
+3228.117,00:53:48.117,68,5,8,Contested,machine_checked,assets/hud-0003228117.webp,ZONE CONTESTEDE
+3232.283,00:53:52.283,68,5,8,Red,machine_checked,assets/hud-0003232283.webp,CONTROLVALKYRA
+3236.45,00:53:56.450,68,5,8,Contested,machine_checked,assets/hud-0003236450.webp,ZONE CONTESTED
+3240.0,00:54:00.000,68,5,8,,reviewed,,
+3240.617,00:54:00.617,68,5,8,Red,machine_checked,assets/hud-0003240617.webp,CONTROLVALKYRA
+3244.75,00:54:04.750,68,6,8,Red,machine_checked,assets/hud-0003244750.webp,CONTROL:VALKYRA
+3248.917,00:54:08.917,68,6,8,Red,machine_checked,assets/hud-0003248917.webp,CONTROL:VALKYRA
+3249.433,00:54:09.433,68,6,8,Red,machine_checked,assets/hud-0003249433.webp,CONTROL:VALKYRAH
+3251.217,00:54:11.217,68,6,8,Red,machine_checked,assets/hud-0003251217.webp,CONTROL:VALKYRA
+3253.1,00:54:13.100,68,6,,Red,machine_checked,assets/hud-0003253100.webp,CONIROLVALKYRA
+3256.633,00:54:16.633,,6,8,Red,machine_checked,assets/hud-0003256633.webp,CONTROLVALKYRAH
+3258.733,00:54:18.733,,6,,Red,machine_checked,assets/hud-0003258733.webp,DONIROLVALKYRA
+3262.9,00:54:22.900,68,6,8,Red,machine_checked,assets/hud-0003262900.webp,CONTRGLVALKYRA
+3264.833,00:54:24.833,,6,8,Red,machine_checked,assets/hud-0003264833.webp,CONTROL VALKYRA
+3267.467,00:54:27.467,68,6,8,Red,machine_checked,assets/hud-0003267467.webp,CONTROLVALKYRA
+3271.567,00:54:31.567,68,7,8,Red,machine_checked,assets/hud-0003271567.webp,CONTROL:VALKYRA
+3275.733,00:54:35.733,68,7,8,Red,machine_checked,assets/hud-0003275733.webp,CONTROL:VALKYRA
+3278.1,00:54:38.100,,7,,Red,machine_checked,assets/hud-0003278100.webp,CONIROL VALKYRA
+3281.017,00:54:41.017,,7,8,Red,machine_checked,assets/hud-0003281017.webp,CONIRDLVALKYRA
+3285.15,00:54:45.150,68,7,8,Red,machine_checked,assets/hud-0003285150.webp,CONTROLVALKYRA
+3289.317,00:54:49.317,68,7,8,Red,machine_checked,assets/hud-0003289317.webp,CONTROL:VALKYRA
+3293.483,00:54:53.483,68,7,8,Red,machine_checked,assets/hud-0003293483.webp,CONTROL:VALKYRA
+3297.65,00:54:57.650,68,7,8,Red,machine_checked,assets/hud-0003297650.webp,CONTROL:VALKYRA
+3297.867,00:54:57.867,68,7,8,Red,machine_checked,assets/hud-0003297867.webp,CONTROL VALKYRA
+3299.35,00:54:59.350,68,7,8,Red,machine_checked,assets/hud-0003299350.webp,CONTROL:VALKYRA
+3301.533,00:55:01.533,68,8,8,Red,machine_checked,assets/hud-0003301533.webp,CONTROL:VALKYRA
+3305.5,00:55:05.500,,8,8,Red,machine_checked,assets/hud-0003305500.webp,CONTROL:VALKYRA
+3308.083,00:55:08.083,,8,8,Red,machine_checked,assets/hud-0003308083.webp,CONTROL VALKYRA
+3312.25,00:55:12.250,68,8,8,Red,machine_checked,assets/hud-0003312250.webp,CONTROL:VALKYRA
+3316.417,00:55:16.417,68,8,8,Red,machine_checked,assets/hud-0003316417.webp,CONTROL:VALKYRA
+3320.583,00:55:20.583,68,8,8,Red,machine_checked,assets/hud-0003320583.webp,CONTROL VALKYRA
+3324.75,00:55:24.750,,8,8,Red,machine_checked,assets/hud-0003324750.webp,CONTROLVALKYRA
+3328.283,00:55:28.283,,,,,machine_checked,assets/hud-0003328283.webp,
+3332.45,00:55:32.450,,,,,machine_checked,assets/hud-0003332450.webp,
+3336.617,00:55:36.617,68,9,8,Red,machine_checked,assets/hud-0003336617.webp,CONTROL VALKYRA
+3340.783,00:55:40.783,68,9,8,Red,machine_checked,assets/hud-0003340783.webp,CONTROL VALKYRA
+3344.95,00:55:44.950,68,9,8,Red,machine_checked,assets/hud-0003344950.webp,CONTROLVALKYRA
+3349.117,00:55:49.117,68,9,8,Red,machine_checked,assets/hud-0003349117.webp,CONTROL:VALKYRA
+3352.25,00:55:52.250,68,9,8,Red,machine_checked,assets/hud-0003352250.webp,CONTROLVALKYRA
+3356.417,00:55:56.417,68,9,8,Red,machine_checked,assets/hud-0003356417.webp,CONTROLVALKYRA
+3360.583,00:56:00.583,,9,8,,machine_checked,assets/hud-0003360583.webp,CONIRDLVALKYEA
+3364.75,00:56:04.750,68,10,8,Red,machine_checked,assets/hud-0003364750.webp,CONTROLVALKYRA
+3364.967,00:56:04.967,68,10,8,Red,machine_checked,assets/hud-0003364967.webp,CONTROL:VALKYRA
+3369.133,00:56:09.133,68,10,8,Red,machine_checked,assets/hud-0003369133.webp,CONTROL:VALKYRA
+3370.183,00:56:10.183,68,10,8,Red,machine_checked,assets/hud-0003370183.webp,CONTROL:VALKYRA
+3371.883,00:56:11.883,68,10,8,Red,machine_checked,assets/hud-0003371883.webp,CONIRDLVALKYRA
+3373.317,00:56:13.317,68,10,8,Red,machine_checked,assets/hud-0003373317.webp,CONTROLVALKYRA
+3377.483,00:56:17.483,68,10,8,Red,machine_checked,assets/hud-0003377483.webp,CONTROL:VALKYRA
+3378.533,00:56:18.533,68,10,8,Red,machine_checked,assets/hud-0003378533.webp,CONTROLVALKYRA
+3382.7,00:56:22.700,68,10,8,Red,machine_checked,assets/hud-0003382700.webp,CONTROL:VALKYRA
+3384.05,00:56:24.050,,10,,Red,machine_checked,assets/hud-0003384050.webp,CONTROLVALKYRA
+3387.0,00:56:27.000,68,10,8,Red,machine_checked,assets/hud-0003387000.webp,CONTROLVALKYRA
+3391.167,00:56:31.167,68,11,8,Red,machine_checked,assets/hud-0003391167.webp,CONTROL:VALKYRA
+3395.333,00:56:35.333,68,11,8,Red,machine_checked,assets/hud-0003395333.webp,CONTROL:VALKYRA
+3399.5,00:56:39.500,68,11,8,Red,machine_checked,assets/hud-0003399500.webp,CONTROL VALKYRA
+3403.667,00:56:43.667,68,11,8,Red,machine_checked,assets/hud-0003403667.webp,CONTROL:VALKYRA
+3404.817,00:56:44.817,68,11,8,Red,machine_checked,assets/hud-0003404817.webp,CONTROL:VALKYRA
+3408.783,00:56:48.783,68,11,8,Red,machine_checked,assets/hud-0003408783.webp,CONTROL:VALKYRA
+3412.95,00:56:52.950,68,11,8,Red,machine_checked,assets/hud-0003412950.webp,CONTROLVALKYRA
+3417.117,00:56:57.117,68,11,8,Red,machine_checked,assets/hud-0003417117.webp,CONTROLVALKYRA
+3420.0,00:57:00.000,68,11,8,,reviewed,,
+3421.283,00:57:01.283,68,12,8,Red,machine_checked,assets/hud-0003421283.webp,CONTROL: VALKYRA
+3425.45,00:57:05.450,68,12,8,Red,machine_checked,assets/hud-0003425450.webp,CONTROL:VALKYRA
+3429.617,00:57:09.617,68,12,8,Red,machine_checked,assets/hud-0003429617.webp,CONTROLVALKYRA
+3433.783,00:57:13.783,68,12,8,Red,machine_checked,assets/hud-0003433783.webp,CONTROL:VALKYRA
+3437.95,00:57:17.950,68,12,8,Red,machine_checked,assets/hud-0003437950.webp,CONTROLVALKYRA
+3442.117,00:57:22.117,68,12,8,Red,machine_checked,assets/hud-0003442117.webp,CONTROLVALKYRA
+3446.283,00:57:26.283,68,12,8,Red,machine_checked,assets/hud-0003446283.webp,CONTROL:VALKYRA
+3446.867,00:57:26.867,68,12,8,Red,machine_checked,assets/hud-0003446867.webp,CONTROLVALKYRA
+3447.583,00:57:27.583,68,12,8,Red,machine_checked,assets/hud-0003447583.webp,CONTROL VALKYRA
+3448.45,00:57:28.450,68,12,8,Red,machine_checked,assets/hud-0003448450.webp,CONTROLVALKYRA
+3450.85,00:57:30.850,68,13,8,Red,machine_checked,assets/hud-0003450850.webp,CONTROL:VALKYRA
+3454.917,00:57:34.917,,13,8,Red,machine_checked,assets/hud-0003454917.webp,CONTROL:VALKYRA
+3457.767,00:57:37.767,68,13,8,Red,machine_checked,assets/hud-0003457767.webp,CONTROL:VALKYRA
+3461.933,00:57:41.933,68,13,8,Red,machine_checked,assets/hud-0003461933.webp,CONTROL: VALKYRA
+3465.25,00:57:45.250,68,13,8,Red,machine_checked,assets/hud-0003465250.webp,CONTROL:VALKYRA
+3469.417,00:57:49.417,68,13,8,Red,machine_checked,assets/hud-0003469417.webp,CONTROLVALKYRA
+3473.583,00:57:53.583,68,13,8,Red,machine_checked,assets/hud-0003473583.webp,CONTROLVALKYRA
+3477.75,00:57:57.750,68,13,8,Red,machine_checked,assets/hud-0003477750.webp,CONTROL: VALKYRA
+3481.917,00:58:01.917,68,14,8,Red,machine_checked,assets/hud-0003481917.webp,CONTROL:VALKYRA
+3482.433,00:58:02.433,68,14,8,Red,machine_checked,assets/hud-0003482433.webp,CONTROLVALKYRA
+3482.683,00:58:02.683,,14,8,Red,machine_checked,assets/hud-0003482683.webp,CONTROL:VALKYRA
+3486.0,00:58:06.000,68,14,8,Red,machine_checked,assets/hud-0003486000.webp,CONTROL:VALKYRA
+3486.417,00:58:06.417,68,14,8,Red,machine_checked,assets/hud-0003486417.webp,CONTROL:VALKYRA
+3490.583,00:58:10.583,68,14,8,Red,machine_checked,assets/hud-0003490583.webp,CONTROL:VALKYRA
+3494.75,00:58:14.750,68,14,8,Red,machine_checked,assets/hud-0003494750.webp,CONTROL:VALKYRA
+3495.95,00:58:15.950,,14,,Red,machine_checked,assets/hud-0003495950.webp,CONIROLVALKYRA
+3499.983,00:58:19.983,68,14,8,Red,machine_checked,assets/hud-0003499983.webp,CONTROL:VALKYRA
+3503.583,00:58:23.583,68,14,8,Red,machine_checked,assets/hud-0003503583.webp,CONTROLVALKYRA
+3507.75,00:58:27.750,68,14,8,Red,machine_checked,assets/hud-0003507750.webp,CONTROL:VALKYRA
+3511.917,00:58:31.917,68,15,8,Red,machine_checked,assets/hud-0003511917.webp,CONTROL:VALKYRAU
+3516.083,00:58:36.083,68,15,8,Red,machine_checked,assets/hud-0003516083.webp,CONTROL: VALKYRA
+3519.767,00:58:39.767,68,15,8,Red,machine_checked,assets/hud-0003519767.webp,CONTROL:VALKYRA
+3523.933,00:58:43.933,68,15,8,Red,machine_checked,assets/hud-0003523933.webp,CONTROL:VALKYRA
+3528.1,00:58:48.100,68,15,8,Red,machine_checked,assets/hud-0003528100.webp,CONTROL:VALKYRA
+3532.267,00:58:52.267,68,15,8,Red,machine_checked,assets/hud-0003532267.webp,CONTROLVALKYRA
+3536.433,00:58:56.433,68,15,8,Red,machine_checked,assets/hud-0003536433.webp,CONTROL:VALKYRA
+3540.6,00:59:00.600,68,16,8,Red,machine_checked,assets/hud-0003540600.webp,CONTROL:VALKYRA
+3544.767,00:59:04.767,68,16,8,Red,machine_checked,assets/hud-0003544767.webp,CONTROL:VALKYRA
+3548.933,00:59:08.933,68,16,8,Red,machine_checked,assets/hud-0003548933.webp,CONTROL:VALKYRA
+3553.1,00:59:13.100,68,16,8,Red,machine_checked,assets/hud-0003553100.webp,CONTROL:VALKYRA
+3557.267,00:59:17.267,68,16,8,Red,machine_checked,assets/hud-0003557267.webp,CONTROL:VALKYRA
+3561.433,00:59:21.433,68,16,8,Red,machine_checked,assets/hud-0003561433.webp,CONTROL:VALKYRA
+3565.6,00:59:25.600,68,16,8,Red,machine_checked,assets/hud-0003565600.webp,CONTROLVALKYRA
+3569.767,00:59:29.767,68,16,8,Red,machine_checked,assets/hud-0003569767.webp,CONTROL:VALKYRA
+3573.933,00:59:33.933,68,17,8,Red,machine_checked,assets/hud-0003573933.webp,CONTROL:VALKYRA
+3578.1,00:59:38.100,68,17,8,Red,machine_checked,assets/hud-0003578100.webp,CONTROLVALKYRA
+3582.267,00:59:42.267,68,17,8,Red,machine_checked,assets/hud-0003582267.webp,CONTROL:VALKYRA
+3586.433,00:59:46.433,68,17,8,Red,machine_checked,assets/hud-0003586433.webp,CONTROL:VALKYRA
+3590.6,00:59:50.600,68,17,8,Red,machine_checked,assets/hud-0003590600.webp,CONTROL:VALKYRA
+3594.767,00:59:54.767,68,17,8,Red,machine_checked,assets/hud-0003594767.webp,CONTROL:VALKYRA
+3598.933,00:59:58.933,68,17,8,Red,machine_checked,assets/hud-0003598933.webp,CONTROL:VALKYRA
+3600.0,01:00:00.000,68,17,8,,reviewed,,
+3603.1,01:00:03.100,68,18,8,Red,machine_checked,assets/hud-0003603100.webp,CONTROL:VALKYRA
+3607.267,01:00:07.267,68,18,8,Red,machine_checked,assets/hud-0003607267.webp,CONTROL:VALKYRA
+3611.433,01:00:11.433,68,18,8,Red,machine_checked,assets/hud-0003611433.webp,CONTROL:VALKYRA
+3615.6,01:00:15.600,68,18,8,Red,machine_checked,assets/hud-0003615600.webp,CONTROL:VALKYRA
+3619.767,01:00:19.767,68,18,8,Red,machine_checked,assets/hud-0003619767.webp,CONTROL:VALKYRA
+3623.933,01:00:23.933,68,18,8,Red,machine_checked,assets/hud-0003623933.webp,CONTROLVALKYRA
+3628.1,01:00:28.100,68,18,8,Red,machine_checked,assets/hud-0003628100.webp,CONTROLVALKYRA
+3632.267,01:00:32.267,68,19,8,Red,machine_checked,assets/hud-0003632267.webp,CONTROL:VALKYRA
+3636.433,01:00:36.433,68,19,8,Red,machine_checked,assets/hud-0003636433.webp,CONTROL:VALKYRA
+3640.6,01:00:40.600,68,19,8,Red,machine_checked,assets/hud-0003640600.webp,CONTROL:VALKYRA
+3644.767,01:00:44.767,68,19,8,Red,machine_checked,assets/hud-0003644767.webp,CONTROL:VALKYRA
+3648.933,01:00:48.933,68,19,8,Red,machine_checked,assets/hud-0003648933.webp,CONTROL:VALKYRA
+3653.1,01:00:53.100,68,19,8,Red,machine_checked,assets/hud-0003653100.webp,CONTROLVALKYRA
+3657.267,01:00:57.267,68,19,8,Red,machine_checked,assets/hud-0003657267.webp,CONTROLVALKYRA
+3661.433,01:01:01.433,68,20,8,Red,machine_checked,assets/hud-0003661433.webp,CONTROL:VALKYRA
+3665.6,01:01:05.600,68,20,8,Red,machine_checked,assets/hud-0003665600.webp,CONTROL:VALKYRA
+3669.767,01:01:09.767,68,20,8,Red,machine_checked,assets/hud-0003669767.webp,CONTROL: VALKYRA
+3673.933,01:01:13.933,68,20,8,Red,machine_checked,assets/hud-0003673933.webp,CONTROL:VALKYRA
+3678.1,01:01:18.100,68,20,8,Red,machine_checked,assets/hud-0003678100.webp,CONTROL:VALKYRA
+3682.267,01:01:22.267,68,20,8,Red,machine_checked,assets/hud-0003682267.webp,CONTROL:VALKYRA
+3686.433,01:01:26.433,,,,,machine_checked,assets/hud-0003686433.webp,
+3690.6,01:01:30.600,,21,,,machine_checked,assets/hud-0003690600.webp,ARVARRA
+3694.767,01:01:34.767,,,,,machine_checked,assets/hud-0003694767.webp,1890
+3698.933,01:01:38.933,68,21,8,Red,machine_checked,assets/hud-0003698933.webp,CONTROL: VALKYRA
+3703.1,01:01:43.100,68,21,8,Red,machine_checked,assets/hud-0003703100.webp,CONTROL: VALKYRA
+3707.267,01:01:47.267,68,21,8,Red,machine_checked,assets/hud-0003707267.webp,CONTROL: VALKYRA
+3711.433,01:01:51.433,68,21,8,Red,machine_checked,assets/hud-0003711433.webp,CONTROL:VALKYRA
+3714.183,01:01:54.183,68,21,8,,machine_checked,assets/hud-0003714183.webp,CONTROL
+3718.35,01:01:58.350,,,,,machine_checked,assets/hud-0003718350.webp,
+3718.667,01:01:58.667,,,,,machine_checked,assets/hud-0003718667.webp,
+3722.833,01:02:02.833,68,22,8,Red,machine_checked,assets/hud-0003722833.webp,CONTROL: VALKYRA
+3727.0,01:02:07.000,68,22,8,Red,machine_checked,assets/hud-0003727000.webp,CONTROL VALKYRA
+3729.617,01:02:09.617,68,22,8,,machine_checked,assets/hud-0003729617.webp,
+3730.683,01:02:10.683,68,22,8,,machine_checked,assets/hud-0003730683.webp,660106225860010
+3734.85,01:02:14.850,68,22,8,,machine_checked,assets/hud-0003734850.webp,600106229460015
+3739.017,01:02:19.017,68,22,8,,machine_checked,assets/hud-0003739017.webp,00015622006918
+3743.183,01:02:23.183,68,22,8,,machine_checked,assets/hud-0003743183.webp,0000622300010
+3747.35,01:02:27.350,68,22,8,,machine_checked,assets/hud-0003747350.webp,00066224-00010
+3751.517,01:02:31.517,68,23,8,,machine_checked,assets/hud-0003751517.webp,00016205000
+3755.683,01:02:35.683,68,23,8,,machine_checked,assets/hud-0003755683.webp,BOOH62OHC098
+3759.85,01:02:39.850,68,23,8,,machine_checked,assets/hud-0003759850.webp,000H620640000
+3764.017,01:02:44.017,68,23,8,,machine_checked,assets/hud-0003764017.webp,000620300020
+3768.183,01:02:48.183,68,23,,,machine_checked,assets/hud-0003768183.webp,000.0200092
+3772.35,01:02:52.350,68,23,8,,machine_checked,assets/hud-0003772350.webp,500/902090892
+3776.517,01:02:56.517,68,23,,,machine_checked,assets/hud-0003776517.webp,800-56209006929
+3780.0,01:03:00.000,68,23,8,,reviewed,,
+3780.683,01:03:00.683,68,24,8,,machine_checked,assets/hud-0003780683.webp,10008621900020
+3784.85,01:03:04.850,68,24,,,machine_checked,assets/hud-0003784850.webp,00010621906020
+3789.017,01:03:09.017,68,24,,,machine_checked,assets/hud-0003789017.webp,00086219906020
+3793.183,01:03:13.183,68,24,8,,machine_checked,assets/hud-0003793183.webp,000100219009-20
+3797.35,01:03:17.350,68,24,8,,machine_checked,assets/hud-0003797350.webp,800186219060-20
+3801.517,01:03:21.517,68,24,8,,machine_checked,assets/hud-0003801517.webp,0001621900020
+3805.683,01:03:25.683,68,24,8,,machine_checked,assets/hud-0003805683.webp,0606627556602
+3809.85,01:03:29.850,68,24,,,machine_checked,assets/hud-0003809850.webp,86016627-906020
+3814.017,01:03:34.017,,25,8,,machine_checked,assets/hud-0003814017.webp,00900209006020
+3818.183,01:03:38.183,68,25,8,,machine_checked,assets/hud-0003818183.webp,000-16020800020
+3822.35,01:03:42.350,68,25,8,,machine_checked,assets/hud-0003822350.webp,00018620906020
+3826.517,01:03:46.517,68,25,8,,machine_checked,assets/hud-0003826517.webp,0000620960022
+3830.683,01:03:50.683,68,25,,,machine_checked,assets/hud-0003830683.webp,1000-18-62085069
+3834.85,01:03:54.850,68,25,8,,machine_checked,assets/hud-0003834850.webp,000-1620805020
+3839.017,01:03:59.017,68,25,,,machine_checked,assets/hud-0003839017.webp,000-20620-94-05020
+3843.183,01:04:03.183,,,8,,machine_checked,assets/hud-0003843183.webp,
+3847.35,01:04:07.350,68,26,8,,machine_checked,assets/hud-0003847350.webp,0002562020600.27
+3851.517,01:04:11.517,68,26,8,,machine_checked,assets/hud-0003851517.webp,00021020400027
+3855.683,01:04:15.683,68,26,8,,machine_checked,assets/hud-0003855683.webp,600-200202000020
+3857.183,01:04:17.183,,26,,,machine_checked,assets/hud-0003857183.webp,0005002020868-20
+3861.35,01:04:21.350,,,,,machine_checked,assets/hud-0003861350.webp,
+3865.517,01:04:25.517,,26,,,machine_checked,assets/hud-0003865517.webp,Q262709
+3869.683,01:04:29.683,,26,8,,machine_checked,assets/hud-0003869683.webp,0002002027609
+3873.85,01:04:33.850,,27,8,,machine_checked,assets/hud-0003873850.webp,28299
+3878.017,01:04:38.017,,27,8,,machine_checked,assets/hud-0003878017.webp,20818027296901
+3882.183,01:04:42.183,,27,8,,machine_checked,assets/hud-0003882183.webp,0000027228809
+3886.35,01:04:46.350,,27,,,machine_checked,assets/hud-0003886350.webp,00862722060
+3890.517,01:04:50.517,,27,,,machine_checked,assets/hud-0003890517.webp,000802720896
+3894.683,01:04:54.683,,27,8,,machine_checked,assets/hud-0003894683.webp,000186272908019
+3898.85,01:04:58.850,68,27,8,,machine_checked,assets/hud-0003898850.webp,600156272566015
+3903.017,01:05:03.017,68,28,,,machine_checked,assets/hud-0003903017.webp,D00062024000H
+3907.183,01:05:07.183,68,28,8,,machine_checked,assets/hud-0003907183.webp,00020204000
+3911.35,01:05:11.350,68,28,8,,machine_checked,assets/hud-0003911350.webp,000246202360015
+3915.517,01:05:15.517,68,28,8,Blue,machine_checked,assets/hud-0003915517.webp,CONTROL:LONESTAR Z4 OOOH
+3919.683,01:05:19.683,68,28,8,Blue,machine_checked,assets/hud-0003919683.webp,CONTROL:LONESTAR OOOH
+3923.85,01:05:23.850,,,,,machine_checked,assets/hud-0003923850.webp,
+3928.017,01:05:28.017,68,28,8,Red,machine_checked,assets/hud-0003928017.webp,CONTROL:VALKYRAOOO
+3932.183,01:05:32.183,68,29,8,Red,machine_checked,assets/hud-0003932183.webp,CONTROL:VALKYRACOOH
+3936.35,01:05:36.350,68,29,8,Red,machine_checked,assets/hud-0003936350.webp,CONTROL:VALKYRAZOOOI
+3940.517,01:05:40.517,68,29,,Red,machine_checked,assets/hud-0003940517.webp,CONTROL VALKYRA ZOOOOH
+3944.683,01:05:44.683,68,29,8,Red,machine_checked,assets/hud-0003944683.webp,CONTROL:VALKYRAOOSH
+3948.85,01:05:48.850,,29,,Red,machine_checked,assets/hud-0003948850.webp,CONIBOE VALKYRAIMSIM
+3953.017,01:05:53.017,,29,,,machine_checked,assets/hud-0003953017.webp,CONTROL YALKYRAOA
+3957.183,01:05:57.183,,29,,,machine_checked,assets/hud-0003957183.webp,OO
+3957.467,01:05:57.467,68,29,8,,machine_checked,assets/hud-0003957467.webp,
+3960.0,01:06:00.000,68,29,8,,reviewed,,
+3961.633,01:06:01.633,,30,8,Red,machine_checked,assets/hud-0003961633.webp,CONTROL:VALKYRA
+3965.8,01:06:05.800,68,30,8,Red,machine_checked,assets/hud-0003965800.webp,CONTROL:VALKYRA
+3967.9,01:06:07.900,68,30,8,Red,machine_checked,assets/hud-0003967900.webp,CONTROLVALKYRA
+3972.067,01:06:12.067,68,30,8,Red,machine_checked,assets/hud-0003972067.webp,CONTROL:VALKYRA
+3976.233,01:06:16.233,68,30,8,Red,machine_checked,assets/hud-0003976233.webp,CONTROL:VALKYRA
+3979.967,01:06:19.967,68,30,8,Red,machine_checked,assets/hud-0003979967.webp,CONTROL:VALKYRA
+3984.133,01:06:24.133,68,30,8,Red,machine_checked,assets/hud-0003984133.webp,CONTROLVALKYRA
+3988.3,01:06:28.300,68,30,8,Red,machine_checked,assets/hud-0003988300.webp,CONTROLVALKYRA
+3992.467,01:06:32.467,68,31,8,Red,machine_checked,assets/hud-0003992467.webp,CONTROL:VALKYRA
+3996.633,01:06:36.633,68,31,8,Red,machine_checked,assets/hud-0003996633.webp,CONTROL:VALKYRA
+4000.8,01:06:40.800,68,31,8,Red,machine_checked,assets/hud-0004000800.webp,CONTROL: VALKYRA
+4004.967,01:06:44.967,68,31,8,Red,machine_checked,assets/hud-0004004967.webp,CONTROL:VALKYRA
+4009.133,01:06:49.133,68,31,8,Red,machine_checked,assets/hud-0004009133.webp,CONTROL:VALKYRA
+4013.3,01:06:53.300,68,31,8,Red,machine_checked,assets/hud-0004013300.webp,CONTROLVALKYRA
+4017.467,01:06:57.467,68,31,8,Red,machine_checked,assets/hud-0004017467.webp,CONTROLVALKYRA
+4021.633,01:07:01.633,68,32,8,Red,machine_checked,assets/hud-0004021633.webp,CONTROL:VALKYRA
+4025.8,01:07:05.800,68,32,8,Red,machine_checked,assets/hud-0004025800.webp,CONTROL:VALKYRA
+4029.967,01:07:09.967,68,32,8,Red,machine_checked,assets/hud-0004029967.webp,CONTROL:VALKYRA
+4034.133,01:07:14.133,68,32,8,Red,machine_checked,assets/hud-0004034133.webp,CONTROL:VALKYRA
+4038.3,01:07:18.300,68,32,8,Red,machine_checked,assets/hud-0004038300.webp,CONTROL:VALKYRA
+4042.467,01:07:22.467,68,32,8,Red,machine_checked,assets/hud-0004042467.webp,CONTROL:VALKYRA
+4046.633,01:07:26.633,68,32,8,Red,machine_checked,assets/hud-0004046633.webp,CONTROLVALKYRA
+4048.3,01:07:28.300,68,32,8,Red,machine_checked,assets/hud-0004048300.webp,CONTROLVALKYRA
+4052.467,01:07:32.467,68,33,8,Red,machine_checked,assets/hud-0004052467.webp,CONTROL:VALKYRA
+4056.633,01:07:36.633,68,33,8,Red,machine_checked,assets/hud-0004056633.webp,CONTROL:VALKYRA
+4060.8,01:07:40.800,68,33,8,Red,machine_checked,assets/hud-0004060800.webp,CONTROL: VALKYRA
+4064.967,01:07:44.967,68,33,8,Red,machine_checked,assets/hud-0004064967.webp,CONTROL: VALKYRA
+4069.133,01:07:49.133,68,33,8,Red,machine_checked,assets/hud-0004069133.webp,CONTROL VALKYRA
+4073.3,01:07:53.300,68,33,8,Red,machine_checked,assets/hud-0004073300.webp,CONTROL VALKYRA
+4077.467,01:07:57.467,68,33,8,Red,machine_checked,assets/hud-0004077467.webp,CONTROLVALKYRA
+4081.633,01:08:01.633,68,34,8,Red,machine_checked,assets/hud-0004081633.webp,CONTROL:VALKYRA
+4085.8,01:08:05.800,68,34,8,Red,machine_checked,assets/hud-0004085800.webp,CONTROL:VALKYRA
+4089.967,01:08:09.967,68,34,8,Red,machine_checked,assets/hud-0004089967.webp,CONTROL:VALKYRA
+4094.133,01:08:14.133,68,34,8,Red,machine_checked,assets/hud-0004094133.webp,CONTROL:VALKYRA
+4098.3,01:08:18.300,68,34,8,Red,machine_checked,assets/hud-0004098300.webp,CONTROL:VALKYRA
+4102.467,01:08:22.467,68,34,8,Red,machine_checked,assets/hud-0004102467.webp,CONTROL:VALKYRA
+4106.633,01:08:26.633,68,34,8,Red,machine_checked,assets/hud-0004106633.webp,CONTROL:VALKYRA
+4110.8,01:08:30.800,68,35,8,Red,machine_checked,assets/hud-0004110800.webp,CONTROLVALKYRA
+4114.967,01:08:34.967,68,35,8,Red,machine_checked,assets/hud-0004114967.webp,CONTROL VALKYRA
+4119.133,01:08:39.133,68,35,8,Red,machine_checked,assets/hud-0004119133.webp,CONTROL VALKYRA
+4123.3,01:08:43.300,68,35,8,Red,machine_checked,assets/hud-0004123300.webp,CONTROL VALKYRA
+4127.467,01:08:47.467,68,35,8,Red,machine_checked,assets/hud-0004127467.webp,CONTROL VALKYRA
+4131.633,01:08:51.633,68,35,8,Red,machine_checked,assets/hud-0004131633.webp,CONTROL:VALKYRA
+4135.8,01:08:55.800,68,35,8,Red,machine_checked,assets/hud-0004135800.webp,CONTROLVALKYRA
+4139.967,01:08:59.967,68,35,8,Red,machine_checked,assets/hud-0004139967.webp,CONTROLVALKYRA
+4140.0,01:09:00.000,68,36,8,,reviewed,,
+4144.133,01:09:04.133,68,36,8,Red,machine_checked,assets/hud-0004144133.webp,CONTROL:VALKYRA
+4148.3,01:09:08.300,68,36,8,Red,machine_checked,assets/hud-0004148300.webp,CONTROL:VALKYRA
+4152.467,01:09:12.467,68,36,8,Red,machine_checked,assets/hud-0004152467.webp,CONTROL:VALKYRA
+4156.633,01:09:16.633,68,36,8,Red,machine_checked,assets/hud-0004156633.webp,CONTROL: VALKYRA
+4157.067,01:09:17.067,68,36,8,Red,machine_checked,assets/hud-0004157067.webp,CONTROL:VALKYRA
+4161.233,01:09:21.233,68,36,8,Red,machine_checked,assets/hud-0004161233.webp,CONTROL:VALKYRA
+4165.4,01:09:25.400,68,36,8,Red,machine_checked,assets/hud-0004165400.webp,CONTROLVALKYRA
+4169.567,01:09:29.567,68,36,8,Red,machine_checked,assets/hud-0004169567.webp,CONTROL:VALKYRA
+4173.733,01:09:33.733,68,37,8,Red,machine_checked,assets/hud-0004173733.webp,CONTROL:VALKYRA
+4177.9,01:09:37.900,68,37,8,Red,machine_checked,assets/hud-0004177900.webp,CONTROL:VALKYRA
+4182.067,01:09:42.067,68,37,8,Red,machine_checked,assets/hud-0004182067.webp,CONTROL:VALKYRA
+4186.233,01:09:46.233,68,37,8,Red,machine_checked,assets/hud-0004186233.webp,CONTROL:VALKYRA
+4190.4,01:09:50.400,68,37,8,Red,machine_checked,assets/hud-0004190400.webp,CONTROL:VALKYRA
+4194.567,01:09:54.567,68,37,8,Red,machine_checked,assets/hud-0004194567.webp,CONTROLVALKYRA
+4198.733,01:09:58.733,68,37,8,Red,machine_checked,assets/hud-0004198733.webp,CONTROL:VALKYRA
+4202.9,01:10:02.900,68,38,8,Red,machine_checked,assets/hud-0004202900.webp,CONTROL:VALKYRA
+4207.067,01:10:07.067,68,38,8,Red,machine_checked,assets/hud-0004207067.webp,CONTROL:VALKYRA
+4211.233,01:10:11.233,68,38,8,Red,machine_checked,assets/hud-0004211233.webp,CONTROL: VALKYRA
+4215.4,01:10:15.400,68,38,8,Red,machine_checked,assets/hud-0004215400.webp,CONTROL VALKYRA
+4219.567,01:10:19.567,68,38,8,Red,machine_checked,assets/hud-0004219567.webp,CONTROL:VALKYRA
+4223.733,01:10:23.733,68,38,8,Red,machine_checked,assets/hud-0004223733.webp,CONTROL:VALKYRA
+4227.9,01:10:27.900,68,38,8,Red,machine_checked,assets/hud-0004227900.webp,CONTROLVALKYRA
+4232.067,01:10:32.067,68,39,8,Red,machine_checked,assets/hud-0004232067.webp,CONTROL:VALKYRA
+4236.233,01:10:36.233,68,39,8,Red,machine_checked,assets/hud-0004236233.webp,CONTROLVALKYRA
+4240.4,01:10:40.400,68,39,8,Red,machine_checked,assets/hud-0004240400.webp,CONTROLVALKYRA
+4244.567,01:10:44.567,68,39,8,Red,machine_checked,assets/hud-0004244567.webp,CONTROL VALKYRA
+4248.733,01:10:48.733,68,39,8,Red,machine_checked,assets/hud-0004248733.webp,CONTROL: VALKYRA
+4252.9,01:10:52.900,68,39,8,Red,machine_checked,assets/hud-0004252900.webp,CONTROLVALKYRA
+4257.067,01:10:57.067,68,39,8,Red,machine_checked,assets/hud-0004257067.webp,CONTROL VALKYRA
+4261.233,01:11:01.233,68,40,8,Red,machine_checked,assets/hud-0004261233.webp,CONTROL: VALKYRA
+4265.4,01:11:05.400,68,40,8,Red,machine_checked,assets/hud-0004265400.webp,CONTROL:VALKYRA
+4269.567,01:11:09.567,68,40,8,Red,machine_checked,assets/hud-0004269567.webp,CONTROL:VALKYRA
+4273.733,01:11:13.733,68,40,8,Red,machine_checked,assets/hud-0004273733.webp,CONTROL:VALKYRA
+4277.9,01:11:17.900,68,40,8,Red,machine_checked,assets/hud-0004277900.webp,CONTROL VALKYRA
+4282.067,01:11:22.067,68,40,8,Red,machine_checked,assets/hud-0004282067.webp,CONTROLVALKYRA
+4285.317,01:11:25.317,68,40,8,Red,machine_checked,assets/hud-0004285317.webp,CONIROLVALKYRA
+4289.483,01:11:29.483,68,40,8,Red,machine_checked,assets/hud-0004289483.webp,CONTROLVALKYRA
+4293.65,01:11:33.650,68,41,8,Red,machine_checked,assets/hud-0004293650.webp,CONTROL: VALKYRA
+4297.817,01:11:37.817,68,41,8,Red,machine_checked,assets/hud-0004297817.webp,CONTROLVALKYRA
+4301.983,01:11:41.983,68,41,8,Red,machine_checked,assets/hud-0004301983.webp,CONTROL:VALKYRA
+4306.15,01:11:46.150,68,41,8,Red,machine_checked,assets/hud-0004306150.webp,CONTROL:VALKYRA
+4310.317,01:11:50.317,68,41,8,Red,machine_checked,assets/hud-0004310317.webp,CONTROL:VALKYRA
+4314.483,01:11:54.483,68,41,8,Blue,machine_checked,assets/hud-0004314483.webp,CONTROL:LONESTAR
+4318.65,01:11:58.650,68,41,8,Blue,machine_checked,assets/hud-0004318650.webp,CONTROLLONESTAR
+4320.0,01:12:00.000,69,41,8,,reviewed,,
+4322.817,01:12:02.817,69,41,8,Blue,machine_checked,assets/hud-0004322817.webp,CONTROL:LONESTAR
+4326.983,01:12:06.983,69,41,8,Blue,machine_checked,assets/hud-0004326983.webp,CONTROL: LONESTAR
+4331.15,01:12:11.150,69,41,8,Blue,machine_checked,assets/hud-0004331150.webp,CONTROL:LONESTAR
+4335.317,01:12:15.317,69,41,8,Blue,machine_checked,assets/hud-0004335317.webp,CONTROL:LONESTAREER
+4339.483,01:12:19.483,69,41,8,Blue,machine_checked,assets/hud-0004339483.webp,CONTROL:LONESTAR
+4343.65,01:12:23.650,69,41,8,Blue,machine_checked,assets/hud-0004343650.webp,CONTROL:LONESTAR
+4347.817,01:12:27.817,69,41,8,Blue,machine_checked,assets/hud-0004347817.webp,CONTROL:LONESTAR
+4351.983,01:12:31.983,70,41,8,Blue,machine_checked,assets/hud-0004351983.webp,CONTROL: LONESTAR
+4356.15,01:12:36.150,70,41,8,Blue,machine_checked,assets/hud-0004356150.webp,CONTRO:LONESTAR
+4360.317,01:12:40.317,70,41,8,Blue,machine_checked,assets/hud-0004360317.webp,CONTROL: LONESTAR
+4364.483,01:12:44.483,70,41,8,Blue,machine_checked,assets/hud-0004364483.webp,CONTROL:LONESTAR
+4368.65,01:12:48.650,70,41,8,Blue,machine_checked,assets/hud-0004368650.webp,CONTROL:LONESTAR
+4372.817,01:12:52.817,70,41,8,Blue,machine_checked,assets/hud-0004372817.webp,CONTROL:LONESTAR
+4376.983,01:12:56.983,70,41,8,Blue,machine_checked,assets/hud-0004376983.webp,CONTROLLONESTAR
+4381.15,01:13:01.150,71,41,8,Blue,machine_checked,assets/hud-0004381150.webp,CONTROL: LONESTAR
+4385.317,01:13:05.317,71,41,8,Blue,machine_checked,assets/hud-0004385317.webp,CONTROL:LONESTAR
+4389.483,01:13:09.483,71,41,8,Blue,machine_checked,assets/hud-0004389483.webp,CONTROL: LONESTAR
+4393.65,01:13:13.650,71,41,8,Blue,machine_checked,assets/hud-0004393650.webp,CONTROLLONESTAR
+4397.817,01:13:17.817,71,41,8,Blue,machine_checked,assets/hud-0004397817.webp,CONTROL: LONESTARW
+4401.983,01:13:21.983,71,41,8,Blue,machine_checked,assets/hud-0004401983.webp,CONTROLLONESTAR
+4406.15,01:13:26.150,71,41,8,Blue,machine_checked,assets/hud-0004406150.webp,CONTROL:LONESTAR
+4410.317,01:13:30.317,72,41,8,Blue,machine_checked,assets/hud-0004410317.webp,CONTROL: LONESTAR
+4414.483,01:13:34.483,72,41,8,Blue,machine_checked,assets/hud-0004414483.webp,CONTROL:LONESTAR
+4418.65,01:13:38.650,72,41,8,Blue,machine_checked,assets/hud-0004418650.webp,CONTROL: LONESTAR
+4422.817,01:13:42.817,72,41,8,Blue,machine_checked,assets/hud-0004422817.webp,CONTROL LONESTAR
+4426.983,01:13:46.983,72,41,8,Blue,machine_checked,assets/hud-0004426983.webp,CONTROL:LONESTAR
+4431.15,01:13:51.150,72,41,8,Blue,machine_checked,assets/hud-0004431150.webp,CONTROL:LONESTAR
+4435.317,01:13:55.317,72,41,8,Blue,machine_checked,assets/hud-0004435317.webp,CONTROLLONESTAR
+4439.483,01:13:59.483,72,41,8,Blue,machine_checked,assets/hud-0004439483.webp,CONTROL LONESTAR
+4443.65,01:14:03.650,73,41,8,Blue,machine_checked,assets/hud-0004443650.webp,CONTROL:LONESTAR
+4447.817,01:14:07.817,73,41,8,Blue,machine_checked,assets/hud-0004447817.webp,CONTROLLONESTAR
+4451.983,01:14:11.983,73,41,8,Blue,machine_checked,assets/hud-0004451983.webp,CONTROL: LONESTAR
+4456.15,01:14:16.150,73,41,8,Blue,machine_checked,assets/hud-0004456150.webp,CONTROL:LONESTAR
+4460.317,01:14:20.317,73,41,8,Blue,machine_checked,assets/hud-0004460317.webp,CONTROL:LONESTAR
+4464.483,01:14:24.483,73,41,8,Blue,machine_checked,assets/hud-0004464483.webp,CONTROL:LONESTAR
+4468.65,01:14:28.650,73,41,8,Blue,machine_checked,assets/hud-0004468650.webp,CONTROLLONESTAR
+4472.817,01:14:32.817,74,41,8,Blue,machine_checked,assets/hud-0004472817.webp,CONTROL: LONESTAR
+4476.983,01:14:36.983,74,41,8,Blue,machine_checked,assets/hud-0004476983.webp,CONTROLLONESTAR
+4481.15,01:14:41.150,74,41,8,Blue,machine_checked,assets/hud-0004481150.webp,CONTROL: LONESTAR
+4485.317,01:14:45.317,74,41,8,Blue,machine_checked,assets/hud-0004485317.webp,CONTROL:LONESTAR
+4489.483,01:14:49.483,74,41,8,Blue,machine_checked,assets/hud-0004489483.webp,CONTROL:LONESTAR
+4493.65,01:14:53.650,74,41,8,Blue,machine_checked,assets/hud-0004493650.webp,CONTROL:LONESTAR
+4497.817,01:14:57.817,74,41,8,Blue,machine_checked,assets/hud-0004497817.webp,CONTROL:LONESTAR
+4500.0,01:15:00.000,75,41,8,,reviewed,,
+4501.983,01:15:01.983,75,41,8,Blue,machine_checked,assets/hud-0004501983.webp,CONTROL:LONESTAR
+4506.15,01:15:06.150,75,41,8,Blue,machine_checked,assets/hud-0004506150.webp,CONTROL:LONESTAR
+4510.317,01:15:10.317,75,41,8,Blue,machine_checked,assets/hud-0004510317.webp,CONTROL:LONESTARG
+4514.483,01:15:14.483,75,41,8,Blue,machine_checked,assets/hud-0004514483.webp,CONTROL: LONESTAR
+4518.65,01:15:18.650,75,41,8,Blue,machine_checked,assets/hud-0004518650.webp,CONTROL:LONESTAR
+4522.817,01:15:22.817,75,41,8,Blue,machine_checked,assets/hud-0004522817.webp,CONTROL:LONESTAR
+4526.983,01:15:26.983,75,41,8,Blue,machine_checked,assets/hud-0004526983.webp,CONTROL:LONESTAR
+4531.15,01:15:31.150,76,41,8,Contested,machine_checked,assets/hud-0004531150.webp,ZONE CONTESTEDEEEEEEI
+4535.317,01:15:35.317,76,41,8,Contested,machine_checked,assets/hud-0004535317.webp,ZONE CONTESTEDI
+4539.483,01:15:39.483,76,41,8,Blue,machine_checked,assets/hud-0004539483.webp,CONTROL:LONESTAR
+4543.65,01:15:43.650,76,41,8,Blue,machine_checked,assets/hud-0004543650.webp,CONTROL: LONESTAR
+4547.817,01:15:47.817,76,41,8,Blue,machine_checked,assets/hud-0004547817.webp,CONTROL: LONESTAR
+4551.983,01:15:51.983,76,41,8,Blue,machine_checked,assets/hud-0004551983.webp,CONTROL:LONESTAR
+4556.15,01:15:56.150,76,41,8,Blue,machine_checked,assets/hud-0004556150.webp,CONTROL:LONESTAR
+4560.317,01:16:00.317,77,41,8,Blue,machine_checked,assets/hud-0004560317.webp,CONTROL: LONESTAR
+4564.483,01:16:04.483,77,41,8,Blue,machine_checked,assets/hud-0004564483.webp,CONTROL:LONESTAR
+4568.65,01:16:08.650,77,41,8,Blue,machine_checked,assets/hud-0004568650.webp,CONTROL:LONESTAR
+4572.817,01:16:12.817,77,41,8,Blue,machine_checked,assets/hud-0004572817.webp,CONTROL: LONESTAR
+4576.983,01:16:16.983,,,,,machine_checked,assets/hud-0004576983.webp,
+4581.15,01:16:21.150,,,,,machine_checked,assets/hud-0004581150.webp,4
+4585.317,01:16:25.317,77,41,8,Blue,machine_checked,assets/hud-0004585317.webp,CONTROL:LONESTAR
+4589.483,01:16:29.483,77,41,8,Blue,machine_checked,assets/hud-0004589483.webp,CONTROL:LONESTAR
+4593.65,01:16:33.650,78,41,8,Blue,machine_checked,assets/hud-0004593650.webp,CONTROL:LONESTAR
+4597.817,01:16:37.817,78,41,8,Blue,machine_checked,assets/hud-0004597817.webp,CONTROLLONESTAR
+4601.983,01:16:41.983,78,41,8,Blue,machine_checked,assets/hud-0004601983.webp,CONTROL: LONESTAR
+4606.15,01:16:46.150,78,41,8,Blue,machine_checked,assets/hud-0004606150.webp,CONTROL:LONESTAR
+4610.317,01:16:50.317,78,41,8,Blue,machine_checked,assets/hud-0004610317.webp,CONTROL:LONESTAR
+4614.483,01:16:54.483,78,41,8,Blue,machine_checked,assets/hud-0004614483.webp,CONTROL:LONESTAR
+4618.65,01:16:58.650,78,41,8,Blue,machine_checked,assets/hud-0004618650.webp,CONTROL:LONESTAR
+4622.817,01:17:02.817,79,41,8,Blue,machine_checked,assets/hud-0004622817.webp,CONTROL: LONESTAR
+4626.983,01:17:06.983,79,41,8,Blue,machine_checked,assets/hud-0004626983.webp,CONTROL:LONESTAR
+4631.15,01:17:11.150,79,41,8,Blue,machine_checked,assets/hud-0004631150.webp,CONTROL:LONESTAR
+4635.317,01:17:15.317,79,41,8,Blue,machine_checked,assets/hud-0004635317.webp,CONTROL: LONESTAR
+4639.483,01:17:19.483,79,41,8,Blue,machine_checked,assets/hud-0004639483.webp,CONTROL:LONESTAR
+4643.65,01:17:23.650,79,41,8,Blue,machine_checked,assets/hud-0004643650.webp,CONTROLLONESTAR
+4647.817,01:17:27.817,79,41,8,Contested,machine_checked,assets/hud-0004647817.webp,ZONE CONTESTED
+4651.983,01:17:31.983,79,41,8,Blue,machine_checked,assets/hud-0004651983.webp,CONTROL:LONESTAROYY
+4656.15,01:17:36.150,79,41,8,Blue,machine_checked,assets/hud-0004656150.webp,CONTROL:LONESTAR
+4660.317,01:17:40.317,79,41,8,Blue,machine_checked,assets/hud-0004660317.webp,CONTROL:LONESTARE
+4664.483,01:17:44.483,79,41,8,Blue,machine_checked,assets/hud-0004664483.webp,CONTROL: LONESTAR
+4668.65,01:17:48.650,79,41,8,Blue,machine_checked,assets/hud-0004668650.webp,CONTROL:LONESTAR
+4672.817,01:17:52.817,79,41,8,Blue,machine_checked,assets/hud-0004672817.webp,CONTROLLONESTAR
+4676.983,01:17:56.983,79,41,8,Blue,machine_checked,assets/hud-0004676983.webp,CONTROL:LONESTAR
+4680.0,01:18:00.000,79,41,8,,reviewed,,
+4681.15,01:18:01.150,80,41,8,Blue,machine_checked,assets/hud-0004681150.webp,CONTROL: LONESTAR
+4685.317,01:18:05.317,80,41,8,Blue,machine_checked,assets/hud-0004685317.webp,CONTROL:LONESTAR
+4689.483,01:18:09.483,80,41,8,Red,machine_checked,assets/hud-0004689483.webp,CONTROL:VALKYRA
+4693.65,01:18:13.650,80,41,8,Red,machine_checked,assets/hud-0004693650.webp,CONTROL:VALKYRA
+4697.817,01:18:17.817,80,41,8,Red,machine_checked,assets/hud-0004697817.webp,CONTROL:VALKYRA
+4701.983,01:18:21.983,80,41,8,Red,machine_checked,assets/hud-0004701983.webp,CONTROL VALKYRA
+4706.15,01:18:26.150,80,41,8,Red,machine_checked,assets/hud-0004706150.webp,CONTROLVALKYRA
+4710.317,01:18:30.317,80,41,8,Red,machine_checked,assets/hud-0004710317.webp,CONTROLVALKYRA
+4714.483,01:18:34.483,,,,,machine_checked,assets/hud-0004714483.webp,
+4718.65,01:18:38.650,,,,,machine_checked,assets/hud-0004718650.webp,
+4722.817,01:18:42.817,80,42,8,Red,machine_checked,assets/hud-0004722817.webp,CONTROL VALKYRA
+4726.983,01:18:46.983,80,42,8,Red,machine_checked,assets/hud-0004726983.webp,CONTROL:VALKYRA
+4731.15,01:18:51.150,80,42,8,Red,machine_checked,assets/hud-0004731150.webp,CONTROL:VALKYRA
+4735.317,01:18:55.317,80,42,8,Red,machine_checked,assets/hud-0004735317.webp,CONTROL:VALKYRA
+4739.483,01:18:59.483,80,42,8,Red,machine_checked,assets/hud-0004739483.webp,CONTROLVALKYRA
+4743.65,01:19:03.650,80,43,8,Red,machine_checked,assets/hud-0004743650.webp,CONTROL VALKYRA
+4747.817,01:19:07.817,80,43,8,Red,machine_checked,assets/hud-0004747817.webp,CONTROL VALKYRA
+4751.983,01:19:11.983,80,43,8,Red,machine_checked,assets/hud-0004751983.webp,CONTROLVALKYRA
+4756.15,01:19:16.150,80,43,8,Red,machine_checked,assets/hud-0004756150.webp,CONTROL:VALKYRA
+4760.317,01:19:20.317,80,43,8,Red,machine_checked,assets/hud-0004760317.webp,CONTROL:VALKYRA
+4764.483,01:19:24.483,80,43,8,Red,machine_checked,assets/hud-0004764483.webp,CONTROLVALKYRA
+4768.65,01:19:28.650,80,43,8,Red,machine_checked,assets/hud-0004768650.webp,CONTROL VALKYRA
+4772.817,01:19:32.817,80,43,8,Contested,machine_checked,assets/hud-0004772817.webp,ZONE CONTESTEDI
+4776.983,01:19:36.983,80,43,8,Blue,machine_checked,assets/hud-0004776983.webp,CONTROL:LONESTAR
+4781.15,01:19:41.150,80,43,8,Contested,machine_checked,assets/hud-0004781150.webp,ZONECONTESTED E
+4785.317,01:19:45.317,80,43,8,Contested,machine_checked,assets/hud-0004785317.webp,ZONE CONTESTEDA
+4789.483,01:19:49.483,80,43,8,Contested,machine_checked,assets/hud-0004789483.webp,ZONE CONTESTEDIE
+4793.65,01:19:53.650,80,43,8,Blue,machine_checked,assets/hud-0004793650.webp,CONTROLLONESTAR
+4797.817,01:19:57.817,80,43,8,Blue,machine_checked,assets/hud-0004797817.webp,CONTROLLONESTAR
+4801.983,01:20:01.983,81,43,8,Blue,machine_checked,assets/hud-0004801983.webp,CONTROL:LONESTAR
+4803.983,01:20:03.983,81,43,8,Blue,machine_checked,assets/hud-0004803983.webp,CONTROL:LONESTAR
+4806.217,01:20:06.217,81,43,8,Blue,machine_checked,assets/hud-0004806217.webp,CONTROL:LONESTAR
+4810.383,01:20:10.383,81,43,8,Blue,machine_checked,assets/hud-0004810383.webp,CONTROL: LONESTARSNS
+4813.0,01:20:13.000,81,43,8,Blue,machine_checked,assets/hud-0004813000.webp,CONTROL:LONESTAR
+4817.167,01:20:17.167,81,43,8,Green,machine_checked,assets/hud-0004817167.webp,CONTROL:MANTICOREXT
+4821.333,01:20:21.333,81,43,8,Green,machine_checked,assets/hud-0004821333.webp,CONTROL:MANTICORE
+4825.5,01:20:25.500,81,43,8,Green,machine_checked,assets/hud-0004825500.webp,CONTROLMANTICORE
+4829.667,01:20:29.667,81,43,8,,machine_checked,assets/hud-0004829667.webp,
+4833.833,01:20:33.833,82,43,8,Contested,machine_checked,assets/hud-0004833833.webp,ZONE CONTESTED EARS
+4838.0,01:20:38.000,82,43,8,Green,machine_checked,assets/hud-0004838000.webp,CONTROL:MANTICORE
+4842.167,01:20:42.167,82,43,8,Green,machine_checked,assets/hud-0004842167.webp,CONTROL:MANTICORE
+4846.333,01:20:46.333,82,43,8,Green,machine_checked,assets/hud-0004846333.webp,CONTROL:MANTICORE 
+4850.5,01:20:50.500,82,43,8,Green,machine_checked,assets/hud-0004850500.webp,CONTROLMANTICORE
+4854.667,01:20:54.667,82,43,8,Green,machine_checked,assets/hud-0004854667.webp,CONTROLMANTICORE
+4858.833,01:20:58.833,82,43,8,Green,machine_checked,assets/hud-0004858833.webp,CONTROLMANTICORE
+4860.0,01:21:00.000,82,43,8,,reviewed,,
+4863.0,01:21:03.000,82,43,9,Green,machine_checked,assets/hud-0004863000.webp,CONTROL:MANTICORETY
+4867.167,01:21:07.167,82,43,9,Green,machine_checked,assets/hud-0004867167.webp,CONTROL:MANTICORE
+4871.333,01:21:11.333,82,43,9,Green,machine_checked,assets/hud-0004871333.webp,CONTROL:MANTICORE
+4875.5,01:21:15.500,82,43,9,Green,machine_checked,assets/hud-0004875500.webp,CONTROL:MANTICORE
+4879.667,01:21:19.667,82,43,9,Green,machine_checked,assets/hud-0004879667.webp,CONTROLMANTICORE
+4883.833,01:21:23.833,82,43,9,Green,machine_checked,assets/hud-0004883833.webp,CONTROLMANTICORE
+4888.0,01:21:28.000,82,43,9,Contested,machine_checked,assets/hud-0004888000.webp,ZONE CONTESTED
+4892.167,01:21:32.167,82,43,10,Green,machine_checked,assets/hud-0004892167.webp,CONTROL MANTICORE
+4896.333,01:21:36.333,82,43,10,Green,machine_checked,assets/hud-0004896333.webp,CONTROL:MANTICOREN
+4900.5,01:21:40.500,82,43,10,Green,machine_checked,assets/hud-0004900500.webp,CONTROLMANTICORE
+4904.667,01:21:44.667,82,43,10,Green,machine_checked,assets/hud-0004904667.webp,CONTROL:MANTICORE
+4908.833,01:21:48.833,82,43,10,Green,machine_checked,assets/hud-0004908833.webp,CONTROL:MANTICORE
+4913.0,01:21:53.000,82,43,10,Blue,machine_checked,assets/hud-0004913000.webp,CONTROL:LONESTAR
+4917.167,01:21:57.167,,,,,machine_checked,assets/hud-0004917167.webp,
+4921.333,01:22:01.333,82,43,10,Green,machine_checked,assets/hud-0004921333.webp,CONTROL:MANTICORE
+4925.0,01:22:05.000,82,43,11,Green,machine_checked,assets/hud-0004925000.webp,CONTROL:MANTICORE
+4927.05,01:22:07.050,82,43,11,Contested,machine_checked,assets/hud-0004927050.webp,ZONE CONTESTED TIIA
+4931.217,01:22:11.217,82,43,11,Green,machine_checked,assets/hud-0004931217.webp,CONTROL:MANTICORE
+4935.383,01:22:15.383,82,43,11,Green,machine_checked,assets/hud-0004935383.webp,CONTROL:MANTICORE
+4939.55,01:22:19.550,82,43,11,Green,machine_checked,assets/hud-0004939550.webp,CONTROL:MANTICORE
+4943.717,01:22:23.717,82,43,11,Green,machine_checked,assets/hud-0004943717.webp,CONTROLMANTICORE
+4947.883,01:22:27.883,82,43,11,Green,machine_checked,assets/hud-0004947883.webp,CONTROLMANTICORE
+4952.05,01:22:32.050,82,43,12,Green,machine_checked,assets/hud-0004952050.webp,CONTROL:MANTICORE
+4956.217,01:22:36.217,82,43,12,Green,machine_checked,assets/hud-0004956217.webp,CONTROL:MANTICORE YEE
+4960.383,01:22:40.383,82,43,12,Green,machine_checked,assets/hud-0004960383.webp,CONTROLMANTICORE
+4964.55,01:22:44.550,82,43,12,Green,machine_checked,assets/hud-0004964550.webp,CONTROLMANTICOREA
+4968.717,01:22:48.717,82,43,12,Green,machine_checked,assets/hud-0004968717.webp,CONTROLMANTICORE
+4972.883,01:22:52.883,82,43,12,Green,machine_checked,assets/hud-0004972883.webp,CONTROLMANTICORE
+4977.05,01:22:57.050,82,43,12,Green,machine_checked,assets/hud-0004977050.webp,CONTROLMANTICORE
+4981.217,01:23:01.217,82,43,12,Green,machine_checked,assets/hud-0004981217.webp,CONTROL:MANTICORE
+4985.383,01:23:05.383,82,43,13,Green,machine_checked,assets/hud-0004985383.webp,CONTROL:MANTICORE
+4989.55,01:23:09.550,82,43,13,Green,machine_checked,assets/hud-0004989550.webp,CONTROLMANTICORE
+4993.717,01:23:13.717,82,43,13,Green,machine_checked,assets/hud-0004993717.webp,CONTROL:MANTICOREK
+4997.883,01:23:17.883,82,43,13,Green,machine_checked,assets/hud-0004997883.webp,CONTROLMANTICORE
+5002.05,01:23:22.050,82,43,13,Green,machine_checked,assets/hud-0005002050.webp,CONTROLMANTICORE
+5006.217,01:23:26.217,82,43,13,Green,machine_checked,assets/hud-0005006217.webp,CONTROLMANTICORE
+5010.383,01:23:30.383,82,43,13,Green,machine_checked,assets/hud-0005010383.webp,CONTROLMANTICORE
+5014.55,01:23:34.550,82,43,14,Green,machine_checked,assets/hud-0005014550.webp,CONTROL:MANTICORE
+5018.717,01:23:38.717,82,43,14,Green,machine_checked,assets/hud-0005018717.webp,CONTROL:MANTICORE
+5022.883,01:23:42.883,82,43,14,Green,machine_checked,assets/hud-0005022883.webp,CONTROL: MANTICORE
+5027.05,01:23:47.050,82,43,14,Green,machine_checked,assets/hud-0005027050.webp,CONTROL:MANTICORENSNEA
+5031.217,01:23:51.217,82,43,14,Green,machine_checked,assets/hud-0005031217.webp,CONTROL:MANTICORE
+5035.383,01:23:55.383,82,43,14,Green,machine_checked,assets/hud-0005035383.webp,CONTROLMANTICORE
+5039.55,01:23:59.550,82,43,14,Green,machine_checked,assets/hud-0005039550.webp,CONTROLMANTICORE
+5040.0,01:24:00.000,82,43,14,,reviewed,,
+5043.717,01:24:03.717,82,43,15,Green,machine_checked,assets/hud-0005043717.webp,CONTROL:MANTICORE
+5047.883,01:24:07.883,82,43,15,Green,machine_checked,assets/hud-0005047883.webp,CONTROL:MANTICORE
+5052.05,01:24:12.050,82,43,15,Green,machine_checked,assets/hud-0005052050.webp,CONTROL:MANTICOREHGN
+5056.217,01:24:16.217,82,43,15,Green,machine_checked,assets/hud-0005056217.webp,CONTROL:MANTICORE
+5060.383,01:24:20.383,82,43,15,Green,machine_checked,assets/hud-0005060383.webp,CONTROL:MANTICORE
+5064.55,01:24:24.550,82,43,15,Green,machine_checked,assets/hud-0005064550.webp,CONTROLMANTICORE
+5068.717,01:24:28.717,82,43,15,Green,machine_checked,assets/hud-0005068717.webp,CONTROL:MANTICORE
+5072.883,01:24:32.883,82,43,16,Green,machine_checked,assets/hud-0005072883.webp,CONTROL:MANTICORE 
+5077.05,01:24:37.050,82,43,16,Green,machine_checked,assets/hud-0005077050.webp,CONTROL:MANTICORE
+5081.217,01:24:41.217,82,43,16,Green,machine_checked,assets/hud-0005081217.webp,CONTROL:MANTICORE
+5085.383,01:24:45.383,82,43,16,Green,machine_checked,assets/hud-0005085383.webp,CONTROL:MANTICORE 
+5089.55,01:24:49.550,82,43,16,Contested,machine_checked,assets/hud-0005089550.webp,ZONE CONTESTEDA
+5093.717,01:24:53.717,82,43,16,Contested,machine_checked,assets/hud-0005093717.webp,ZONE CONTESTED
+5097.883,01:24:57.883,82,43,16,Green,machine_checked,assets/hud-0005097883.webp,CONTROLMANTICORE
+5102.05,01:25:02.050,82,43,16,Green,machine_checked,assets/hud-0005102050.webp,CONTROL:MANTICORE
+5106.217,01:25:06.217,82,43,17,Green,machine_checked,assets/hud-0005106217.webp,CONTROL:MANTICORE
+5110.383,01:25:10.383,82,43,17,Green,machine_checked,assets/hud-0005110383.webp,CONTROLMANTICORE
+5114.55,01:25:14.550,82,43,17,Green,machine_checked,assets/hud-0005114550.webp,CONTROL:MANTICORE
+5118.717,01:25:18.717,82,43,17,Green,machine_checked,assets/hud-0005118717.webp,CONTROL:MANTICORE
+5122.883,01:25:22.883,82,43,17,Green,machine_checked,assets/hud-0005122883.webp,CONTROLMANTICORE
+5127.05,01:25:27.050,82,43,17,Green,machine_checked,assets/hud-0005127050.webp,CONTROLMANTICORE
+5131.217,01:25:31.217,82,43,17,Green,machine_checked,assets/hud-0005131217.webp,CONTROL:MANTICORE
+5135.383,01:25:35.383,82,43,18,Green,machine_checked,assets/hud-0005135383.webp,CONTROL:MANTICORE
+5139.55,01:25:39.550,82,43,18,Green,machine_checked,assets/hud-0005139550.webp,CONTROL:MANTICORE
+5143.717,01:25:43.717,82,43,18,Green,machine_checked,assets/hud-0005143717.webp,CONTROL:MANTICORE
+5147.883,01:25:47.883,82,43,18,Green,machine_checked,assets/hud-0005147883.webp,CONTROL:MANTICORE
+5152.05,01:25:52.050,82,43,18,Green,machine_checked,assets/hud-0005152050.webp,CONTROLMANTICORE
+5156.217,01:25:56.217,82,43,18,Green,machine_checked,assets/hud-0005156217.webp,CONTROLMANTICORE
+5160.383,01:26:00.383,82,43,18,Green,machine_checked,assets/hud-0005160383.webp,CONTROL:MANTICORE
+5164.55,01:26:04.550,82,43,19,Green,machine_checked,assets/hud-0005164550.webp,CONTROL:MANTICORENR
+5168.717,01:26:08.717,82,43,19,Green,machine_checked,assets/hud-0005168717.webp,CONTROLMANTICORE
+5172.883,01:26:12.883,82,43,19,Green,machine_checked,assets/hud-0005172883.webp,CONTROL:MANTICORERCH
+5177.05,01:26:17.050,82,43,19,Green,machine_checked,assets/hud-0005177050.webp,CONTROL:MANTICORE
+5181.217,01:26:21.217,82,43,19,Green,machine_checked,assets/hud-0005181217.webp,CONTROL:MANTICORE
+5185.383,01:26:25.383,82,43,19,Green,machine_checked,assets/hud-0005185383.webp,CONTROLMANTICORE
+5189.55,01:26:29.550,82,43,19,Green,machine_checked,assets/hud-0005189550.webp,CONTROLMANTICORE
+5193.717,01:26:33.717,82,43,20,Green,machine_checked,assets/hud-0005193717.webp,CONTROLMANTICORE
+5197.883,01:26:37.883,82,43,20,Green,machine_checked,assets/hud-0005197883.webp,CONTROL:MANTICORE
+5200.25,01:26:40.250,82,43,20,Green,machine_checked,assets/hud-0005200250.webp,CONTROL MANTICORE
+5204.417,01:26:44.417,82,43,20,Green,machine_checked,assets/hud-0005204417.webp,CONTROL:MANTICORE
+5208.583,01:26:48.583,82,43,20,Green,machine_checked,assets/hud-0005208583.webp,CONTROL:MANTICORE
+5212.75,01:26:52.750,82,43,20,Green,machine_checked,assets/hud-0005212750.webp,CONTROLMANTICORE
+5216.917,01:26:56.917,82,43,20,Green,machine_checked,assets/hud-0005216917.webp,CONTROLMANTICORE
+5220.0,01:27:00.000,82,43,20,,reviewed,,
+5221.083,01:27:01.083,82,43,20,Green,machine_checked,assets/hud-0005221083.webp,CONTROLMANTICORE
+5225.25,01:27:05.250,82,43,21,Green,machine_checked,assets/hud-0005225250.webp,CONTROLMANTICORE
+5229.417,01:27:09.417,82,43,21,Green,machine_checked,assets/hud-0005229417.webp,CONTROLMANTICORE
+5233.583,01:27:13.583,82,43,21,Blue,machine_checked,assets/hud-0005233583.webp,CONTROL:LONESTAR
+5237.75,01:27:17.750,82,43,21,Contested,machine_checked,assets/hud-0005237750.webp,ZONE CONTESTEDE
+5241.917,01:27:21.917,82,43,21,Blue,machine_checked,assets/hud-0005241917.webp,CONTROL:LONESTAR
+5246.083,01:27:26.083,82,43,21,Blue,machine_checked,assets/hud-0005246083.webp,CONTROL:LONESTAR
+5250.25,01:27:30.250,82,43,21,Blue,machine_checked,assets/hud-0005250250.webp,CONTROL:LONESTAR
+5254.417,01:27:34.417,83,43,21,Blue,machine_checked,assets/hud-0005254417.webp,CONTROL: LONESTARNGER
+5258.583,01:27:38.583,83,43,21,Blue,machine_checked,assets/hud-0005258583.webp,CONTROL: LONESTAR
+5262.75,01:27:42.750,83,43,21,Red,machine_checked,assets/hud-0005262750.webp,CONTROL: VALKYRA
+5266.917,01:27:46.917,83,43,21,Blue,machine_checked,assets/hud-0005266917.webp,CONTROL LONESTAR
+5271.083,01:27:51.083,83,43,21,Blue,machine_checked,assets/hud-0005271083.webp,CONTROL:LONESTART
+5275.25,01:27:55.250,83,43,21,Blue,machine_checked,assets/hud-0005275250.webp,CONTROL:LONESTAR
+5279.417,01:27:59.417,83,43,21,Blue,machine_checked,assets/hud-0005279417.webp,CONTROL:LONESTAR
+5283.583,01:28:03.583,83,43,21,Blue,machine_checked,assets/hud-0005283583.webp,CONTROLLONESTAR
+5287.75,01:28:07.750,84,43,21,Blue,machine_checked,assets/hud-0005287750.webp,CONTROL:LONESTAR
+5291.917,01:28:11.917,84,43,21,Blue,machine_checked,assets/hud-0005291917.webp,CONTROL:LONESTAR
+5296.083,01:28:16.083,84,43,21,Blue,machine_checked,assets/hud-0005296083.webp,CONTROL:LONESTAR
+5300.25,01:28:20.250,84,43,21,Blue,machine_checked,assets/hud-0005300250.webp,CONTROL:LONESTAR
+5304.417,01:28:24.417,84,43,21,Blue,machine_checked,assets/hud-0005304417.webp,CONTROLLONESTAR
+5308.583,01:28:28.583,84,43,21,Red,machine_checked,assets/hud-0005308583.webp,CONTROLVALKYRA
+5312.75,01:28:32.750,84,43,21,Red,machine_checked,assets/hud-0005312750.webp,CONTROLVALKYRA
+5316.917,01:28:36.917,84,44,21,Contested,machine_checked,assets/hud-0005316917.webp,ZONE CONTESTED U
+5321.083,01:28:41.083,84,44,21,Red,machine_checked,assets/hud-0005321083.webp,CONTROLVALKYRA
+5325.25,01:28:45.250,84,44,21,Contested,machine_checked,assets/hud-0005325250.webp,ZONE CONTESTED
+5329.417,01:28:49.417,84,44,21,Red,machine_checked,assets/hud-0005329417.webp,CONTROL:VALKYRA
+5333.583,01:28:53.583,84,44,21,Red,machine_checked,assets/hud-0005333583.webp,CONTROLVALKYRA
+5337.75,01:28:57.750,84,44,21,Red,machine_checked,assets/hud-0005337750.webp,CONTROLVALKYRA
+5341.917,01:29:01.917,84,44,21,Red,machine_checked,assets/hud-0005341917.webp,CONTROL VALKYRA
+5346.083,01:29:06.083,84,45,21,Red,machine_checked,assets/hud-0005346083.webp,CONTROL:VALKYRA
+5350.25,01:29:10.250,84,45,21,Red,machine_checked,assets/hud-0005350250.webp,CONTROL:VALKYRA
+5354.417,01:29:14.417,84,45,21,Contested,machine_checked,assets/hud-0005354417.webp,ZONE CONTESTEDE
+5358.583,01:29:18.583,84,45,21,Red,machine_checked,assets/hud-0005358583.webp,CONTROL:VALKYRA
+5362.75,01:29:22.750,84,45,21,Blue,machine_checked,assets/hud-0005362750.webp,CONTROL:LONESTAR
+5366.917,01:29:26.917,84,45,21,Blue,machine_checked,assets/hud-0005366917.webp,CONTROL:LONESTAR
+5371.083,01:29:31.083,84,45,21,Blue,machine_checked,assets/hud-0005371083.webp,CONTROL:LONESTAR
+5375.25,01:29:35.250,85,45,21,Blue,machine_checked,assets/hud-0005375250.webp,CONTROLLONESTAR
+5379.417,01:29:39.417,85,45,21,Red,machine_checked,assets/hud-0005379417.webp,CONTROL:VALKYRA
+5383.583,01:29:43.583,85,45,21,Red,machine_checked,assets/hud-0005383583.webp,CONTROL:VALKYRA
+5387.75,01:29:47.750,85,45,21,Red,machine_checked,assets/hud-0005387750.webp,CONTROL:VALKYRA
+5391.917,01:29:51.917,85,45,21,Red,machine_checked,assets/hud-0005391917.webp,CONTROL:VALKYRA
+5396.083,01:29:56.083,85,45,21,Red,machine_checked,assets/hud-0005396083.webp,CONTROLVALKYRA
+5400.0,01:30:00.000,85,45,21,,reviewed,,
+5400.25,01:30:00.250,85,45,21,Red,machine_checked,assets/hud-0005400250.webp,CONTROLVALKYRA
+5404.417,01:30:04.417,85,46,21,Red,machine_checked,assets/hud-0005404417.webp,CONTROL:VALKYRA
+5408.583,01:30:08.583,85,46,21,Contested,machine_checked,assets/hud-0005408583.webp,ZONE CONTESTED E
+5412.75,01:30:12.750,85,46,21,Red,machine_checked,assets/hud-0005412750.webp,CONTROL: VALKYRA
+5416.917,01:30:16.917,,,,,machine_checked,assets/hud-0005416917.webp,
+5421.083,01:30:21.083,,,,,machine_checked,assets/hud-0005421083.webp, 
+5425.25,01:30:25.250,,,,,machine_checked,assets/hud-0005425250.webp,
+5429.417,01:30:29.417,85,46,21,Red,machine_checked,assets/hud-0005429417.webp,CONTROL:VALKYRA
+5433.583,01:30:33.583,85,46,21,Red,machine_checked,assets/hud-0005433583.webp,CONTROL:VALKYRA
+5437.75,01:30:37.750,85,47,21,Red,machine_checked,assets/hud-0005437750.webp,CONTROL:VALKYRA
+5441.917,01:30:41.917,85,47,21,Red,machine_checked,assets/hud-0005441917.webp,CONTROLVALKYRA
+5446.083,01:30:46.083,85,47,21,Red,machine_checked,assets/hud-0005446083.webp,CONTROL:VALKYRA
+5450.25,01:30:50.250,85,47,21,Red,machine_checked,assets/hud-0005450250.webp,CONTROL:VALKYRA
+5454.417,01:30:54.417,85,47,21,Red,machine_checked,assets/hud-0005454417.webp,CONTROL:VALKYRA
+5458.583,01:30:58.583,85,47,21,Red,machine_checked,assets/hud-0005458583.webp,CONTROLVALKYRA
+5462.75,01:31:02.750,85,47,21,Red,machine_checked,assets/hud-0005462750.webp,CONTROLVALKYRA
+5466.917,01:31:06.917,85,48,21,Red,machine_checked,assets/hud-0005466917.webp,CONTROL:VALKYRA
+5471.083,01:31:11.083,85,48,21,Red,machine_checked,assets/hud-0005471083.webp,CONTROL:VALKYRA
+5475.25,01:31:15.250,85,48,21,Red,machine_checked,assets/hud-0005475250.webp,CONTROL:VALKYRA
+5479.417,01:31:19.417,85,48,21,Red,machine_checked,assets/hud-0005479417.webp,CONTROL:VALKYRA
+5483.583,01:31:23.583,85,48,21,Red,machine_checked,assets/hud-0005483583.webp,CONTROL:VALKYRA
+5487.75,01:31:27.750,85,48,21,Red,machine_checked,assets/hud-0005487750.webp,CONTROLVALKYRA
+5491.917,01:31:31.917,85,48,21,Contested,machine_checked,assets/hud-0005491917.webp,ZONE CONTESTED
+5496.083,01:31:36.083,85,49,21,Red,machine_checked,assets/hud-0005496083.webp,CONTROLVALKYRA
+5500.25,01:31:40.250,85,49,21,Red,machine_checked,assets/hud-0005500250.webp,CONTROLVALKYRA
+5504.417,01:31:44.417,85,49,21,Contested,machine_checked,assets/hud-0005504417.webp,ZONE CONTESTED
+5508.583,01:31:48.583,85,49,21,Blue,machine_checked,assets/hud-0005508583.webp,CONTROL:LONESTAR
+5512.75,01:31:52.750,85,49,21,Contested,machine_checked,assets/hud-0005512750.webp,ZONE CONTESTEDI
+5516.917,01:31:56.917,85,49,21,Blue,machine_checked,assets/hud-0005516917.webp,CONTROLLONESTAR
+5521.083,01:32:01.083,85,49,21,Blue,machine_checked,assets/hud-0005521083.webp,CONTROLLONESTAR
+5525.25,01:32:05.250,86,49,21,Blue,machine_checked,assets/hud-0005525250.webp,CONTROL:LONESTAR
+5529.417,01:32:09.417,86,49,21,Blue,machine_checked,assets/hud-0005529417.webp,CONTROL: LONESTAR
+5533.583,01:32:13.583,86,49,21,Blue,machine_checked,assets/hud-0005533583.webp,CONTROL: LONESTAR
+5537.75,01:32:17.750,86,49,21,Blue,machine_checked,assets/hud-0005537750.webp,CONTROL: LONESTAR
+5541.917,01:32:21.917,86,49,21,Blue,machine_checked,assets/hud-0005541917.webp,CONTROL:LONESTAR
+5546.083,01:32:26.083,86,49,21,Blue,machine_checked,assets/hud-0005546083.webp,CONTROL:LONESTAR
+5550.25,01:32:30.250,86,49,21,Blue,machine_checked,assets/hud-0005550250.webp,CONTROL:LONESTAR
+5554.417,01:32:34.417,86,49,21,Blue,machine_checked,assets/hud-0005554417.webp,CONTROL:LONESTAR
+5558.583,01:32:38.583,87,49,21,Blue,machine_checked,assets/hud-0005558583.webp,CONTROL:LONESTAR
+5562.75,01:32:42.750,87,49,21,Blue,machine_checked,assets/hud-0005562750.webp,CONTROLLONESTAR
+5566.917,01:32:46.917,87,49,21,Blue,machine_checked,assets/hud-0005566917.webp,CONTROL:LONESTAR
+5571.083,01:32:51.083,87,49,21,Blue,machine_checked,assets/hud-0005571083.webp,CONTROL:LONESTAR
+5575.25,01:32:55.250,87,49,21,Blue,machine_checked,assets/hud-0005575250.webp,CONTROL:LONESTAR
+5579.417,01:32:59.417,87,49,21,Blue,machine_checked,assets/hud-0005579417.webp,CONTROL:LONESTAR
+5580.0,01:33:00.000,87,49,21,,reviewed,,
+5583.583,01:33:03.583,87,49,21,Blue,machine_checked,assets/hud-0005583583.webp,CONTROL:LONESTAR
+5587.75,01:33:07.750,88,49,21,Blue,machine_checked,assets/hud-0005587750.webp,CONTROL:LONESTAR
+5591.917,01:33:11.917,88,49,21,Blue,machine_checked,assets/hud-0005591917.webp,CONTROL:LONESTAR
+5596.083,01:33:16.083,88,49,21,Blue,machine_checked,assets/hud-0005596083.webp,CONTROL: LONESTAR
+5600.25,01:33:20.250,88,49,21,Blue,machine_checked,assets/hud-0005600250.webp,CONTROL: LONESTAR
+5604.417,01:33:24.417,88,49,21,Blue,machine_checked,assets/hud-0005604417.webp,CONTROL LONESTARY
+5608.583,01:33:28.583,88,49,21,Blue,machine_checked,assets/hud-0005608583.webp,CONTROL:LONESTAR
+5612.75,01:33:32.750,88,49,21,Blue,machine_checked,assets/hud-0005612750.webp,CONTROL:LONESTAR
+5616.917,01:33:36.917,89,49,21,Blue,machine_checked,assets/hud-0005616917.webp,CONTROL:LONESTAR
+5621.083,01:33:41.083,89,49,21,Blue,machine_checked,assets/hud-0005621083.webp,CONTROL:LONESTAR
+5625.25,01:33:45.250,89,49,21,Blue,machine_checked,assets/hud-0005625250.webp,CONTROL: LONESTAR
+5629.417,01:33:49.417,89,49,21,Blue,machine_checked,assets/hud-0005629417.webp,CONTROL:LONESTAR
+5633.583,01:33:53.583,89,49,21,Blue,machine_checked,assets/hud-0005633583.webp,CONTROL: LONESTAR
+5637.75,01:33:57.750,89,49,21,Blue,machine_checked,assets/hud-0005637750.webp,CONTROLLONESTAR
+5641.917,01:34:01.917,89,49,21,Blue,machine_checked,assets/hud-0005641917.webp,CONTROLLONESTAR
+5646.083,01:34:06.083,90,49,21,Blue,machine_checked,assets/hud-0005646083.webp,CONTROL: LONESTAR
+5650.25,01:34:10.250,90,49,21,Blue,machine_checked,assets/hud-0005650250.webp,CONTROL:LONESTAR
+5654.417,01:34:14.417,90,49,21,Blue,machine_checked,assets/hud-0005654417.webp,CONTROL:LONESTAR
+5658.583,01:34:18.583,90,49,21,Blue,machine_checked,assets/hud-0005658583.webp,CONTROL:LONESTAR
+5662.75,01:34:22.750,90,49,21,Blue,machine_checked,assets/hud-0005662750.webp,CONTROL:LONESTAR
+5666.917,01:34:26.917,90,49,21,Blue,machine_checked,assets/hud-0005666917.webp,CONTROL:LONESTAR
+5671.083,01:34:31.083,90,49,21,Blue,machine_checked,assets/hud-0005671083.webp,CONTROL:LONESTAR
+5675.25,01:34:35.250,90,49,21,Blue,machine_checked,assets/hud-0005675250.webp,CONTROL:LONESTAR
+5679.417,01:34:39.417,91,49,21,Blue,machine_checked,assets/hud-0005679417.webp,CONTROL:LONESTAR
+5683.583,01:34:43.583,91,49,21,Blue,machine_checked,assets/hud-0005683583.webp,CONTROL:LONESTAR
+5687.75,01:34:47.750,91,49,21,Blue,machine_checked,assets/hud-0005687750.webp,CONTROL: LONESTAR
+5691.917,01:34:51.917,91,49,21,Blue,machine_checked,assets/hud-0005691917.webp,CONTROL:LONESTAR
+5696.083,01:34:56.083,,,,,machine_checked,assets/hud-0005696083.webp,
+5700.25,01:35:00.250,,,,,machine_checked,assets/hud-0005700250.webp,
+5704.417,01:35:04.417,91,49,21,Blue,machine_checked,assets/hud-0005704417.webp,CONTROLLONESTAR
+5708.583,01:35:08.583,91,49,21,Contested,machine_checked,assets/hud-0005708583.webp,ZONE CONTESTED
+5712.75,01:35:12.750,91,49,21,Contested,machine_checked,assets/hud-0005712750.webp,ZONE CONTESTEDEE
+5716.917,01:35:16.917,91,49,21,Red,machine_checked,assets/hud-0005716917.webp,CONTROL:VALKYRA
+5721.083,01:35:21.083,91,49,21,Red,machine_checked,assets/hud-0005721083.webp,CONTROL:VALKYRA
+5725.25,01:35:25.250,91,49,21,Red,machine_checked,assets/hud-0005725250.webp,CONTROL:VALKYRA
+5729.417,01:35:29.417,91,49,21,Red,machine_checked,assets/hud-0005729417.webp,CONTROLVALKYRA
+5733.583,01:35:33.583,91,49,21,Red,machine_checked,assets/hud-0005733583.webp,CONTROLVALKYRA
+5737.75,01:35:37.750,91,50,21,Red,machine_checked,assets/hud-0005737750.webp,CONTROL:VALKYRA
+5741.917,01:35:41.917,91,50,21,Red,machine_checked,assets/hud-0005741917.webp,CONTROL:VALKYRA
+5746.083,01:35:46.083,91,50,21,Red,machine_checked,assets/hud-0005746083.webp,CONTROL:VALKYRA
+5750.25,01:35:50.250,91,50,21,Red,machine_checked,assets/hud-0005750250.webp,CONTROL: VALKYRA
+5754.417,01:35:54.417,91,50,21,Red,machine_checked,assets/hud-0005754417.webp,CONTROLVALKYRA
+5758.583,01:35:58.583,91,50,21,Red,machine_checked,assets/hud-0005758583.webp,CONTROL:VALKYRA
+5760.0,01:36:00.000,91,50,21,,reviewed,,
+5762.75,01:36:02.750,91,50,21,Red,machine_checked,assets/hud-0005762750.webp,CONTROLVALKYRA
+5766.917,01:36:06.917,91,51,21,Red,machine_checked,assets/hud-0005766917.webp,CONTROL:VALKYRA
+5771.083,01:36:11.083,91,51,21,Red,machine_checked,assets/hud-0005771083.webp,CONTROL:VALKYRA
+5775.25,01:36:15.250,91,51,21,Red,machine_checked,assets/hud-0005775250.webp,CONTROL:VALKYRA
+5779.417,01:36:19.417,91,51,21,Red,machine_checked,assets/hud-0005779417.webp,CONTROL:VALKYRA
+5783.583,01:36:23.583,91,51,21,Red,machine_checked,assets/hud-0005783583.webp,CONTROL VALKYRA
+5787.75,01:36:27.750,91,51,21,Red,machine_checked,assets/hud-0005787750.webp,CONTROLVALKYRA
+5791.917,01:36:31.917,91,51,21,Red,machine_checked,assets/hud-0005791917.webp,CONTROLVALKYRA
+5796.083,01:36:36.083,91,51,21,Contested,machine_checked,assets/hud-0005796083.webp,ZONE CONTESTED 
+5800.25,01:36:40.250,91,51,21,Blue,machine_checked,assets/hud-0005800250.webp,CONTROL:LONESTAR
+5804.417,01:36:44.417,91,51,21,Contested,machine_checked,assets/hud-0005804417.webp,ZONE CONTESTEDE
+5808.583,01:36:48.583,91,51,21,Blue,machine_checked,assets/hud-0005808583.webp,CONTROL:LONESTAR
+5812.75,01:36:52.750,91,51,21,Contested,machine_checked,assets/hud-0005812750.webp,ZONE CONTESTEDE
+5816.917,01:36:56.917,91,51,21,Red,machine_checked,assets/hud-0005816917.webp,CONTROL: VALKYRA
+5821.083,01:37:01.083,91,51,21,Red,machine_checked,assets/hud-0005821083.webp,CONTROLVALKYRA
+5825.25,01:37:05.250,91,51,21,Red,machine_checked,assets/hud-0005825250.webp,CONTROLVALKYRA
+5829.417,01:37:09.417,91,52,21,Red,machine_checked,assets/hud-0005829417.webp,CONTROL: VALKYRA
+5833.583,01:37:13.583,91,52,21,Red,machine_checked,assets/hud-0005833583.webp,CONTROLVALKYRA
+5837.75,01:37:17.750,91,52,21,Red,machine_checked,assets/hud-0005837750.webp,CONTROLVALKYRA
+5841.917,01:37:21.917,91,52,21,Red,machine_checked,assets/hud-0005841917.webp,CONTROL: VALKYRAIY
+5846.083,01:37:26.083,91,52,21,Red,machine_checked,assets/hud-0005846083.webp,CONTROL:VALKYRA
+5850.25,01:37:30.250,91,52,21,Red,machine_checked,assets/hud-0005850250.webp,CONTROLVALKYRA
+5854.417,01:37:34.417,91,52,21,Red,machine_checked,assets/hud-0005854417.webp,CONTROL:VALKYRA
+5858.583,01:37:38.583,91,53,21,Red,machine_checked,assets/hud-0005858583.webp,CONTROL:VALKYRA
+5862.75,01:37:42.750,91,53,21,Contested,machine_checked,assets/hud-0005862750.webp,ZONE CONTESTEDEE
+5866.917,01:37:46.917,91,53,21,Contested,machine_checked,assets/hud-0005866917.webp,ZONE CONTESTEDEL
+5871.083,01:37:51.083,91,53,21,Contested,machine_checked,assets/hud-0005871083.webp,ZONE CONTESTEDE
+5875.25,01:37:55.250,91,53,21,Red,machine_checked,assets/hud-0005875250.webp,CONTROL:VALKYRA
+5879.417,01:37:59.417,91,53,21,Red,machine_checked,assets/hud-0005879417.webp,CONTROLVALKYRA
+5883.583,01:38:03.583,91,53,21,Red,machine_checked,assets/hud-0005883583.webp,CONTROLVALKYRA
+5887.75,01:38:07.750,91,53,21,Blue,machine_checked,assets/hud-0005887750.webp,CONTROL:LONESTAR
+5891.917,01:38:11.917,91,53,21,Contested,machine_checked,assets/hud-0005891917.webp,ZONE CONTESTEDL
+5896.083,01:38:16.083,91,53,21,Blue,machine_checked,assets/hud-0005896083.webp,CONTROL: LONESTAR
+5900.25,01:38:20.250,91,53,21,Blue,machine_checked,assets/hud-0005900250.webp,CONTROL:LONESTAR
+5904.417,01:38:24.417,91,53,21,Blue,machine_checked,assets/hud-0005904417.webp,CONTROL:LONESTAR
+5908.583,01:38:28.583,91,53,21,Blue,machine_checked,assets/hud-0005908583.webp,CONTROLLONESTAR
+5911.933,01:38:31.933,91,53,21,Blue,machine_checked,assets/hud-0005911933.webp,CONTROL:LONESTAR
+5916.1,01:38:36.100,91,53,21,Blue,machine_checked,assets/hud-0005916100.webp,CONTROL:LONESTAR
+5920.267,01:38:40.267,92,53,21,Blue,machine_checked,assets/hud-0005920267.webp,CONTROL:LONESTAR
+5924.433,01:38:44.433,92,53,21,Blue,machine_checked,assets/hud-0005924433.webp,CONTROLLONESTAR
+5928.6,01:38:48.600,92,53,21,Blue,machine_checked,assets/hud-0005928600.webp,CONTROL:LONESTAR
+5932.767,01:38:52.767,92,53,21,Blue,machine_checked,assets/hud-0005932767.webp,CONTROL:LONESTAR
+5936.933,01:38:56.933,92,53,21,Blue,machine_checked,assets/hud-0005936933.webp,CONTROL:LONESTAR
+5940.0,01:39:00.000,92,53,21,,reviewed,,
+5941.1,01:39:01.100,92,53,21,Blue,machine_checked,assets/hud-0005941100.webp,CONTROL:LONESTAR
+5945.267,01:39:05.267,92,53,21,Blue,machine_checked,assets/hud-0005945267.webp,CONTROL:LONESTAR
+5949.433,01:39:09.433,93,53,21,Blue,machine_checked,assets/hud-0005949433.webp,CONTROL:LONESTAR
+5953.6,01:39:13.600,93,53,21,Blue,machine_checked,assets/hud-0005953600.webp,CONTROL:LONESTAR
+5957.767,01:39:17.767,93,53,21,Blue,machine_checked,assets/hud-0005957767.webp,CONTROL: LONESTARY
+5961.933,01:39:21.933,93,53,21,Blue,machine_checked,assets/hud-0005961933.webp,CONTROL: LONESTAR
+5966.1,01:39:26.100,93,53,21,Blue,machine_checked,assets/hud-0005966100.webp,CONTROL:LONESTAR
+5970.267,01:39:30.267,93,53,21,Blue,machine_checked,assets/hud-0005970267.webp,CONTROL:LONESTAR
+5974.433,01:39:34.433,93,53,21,Blue,machine_checked,assets/hud-0005974433.webp,CONTROL:LONESTAR
+5978.6,01:39:38.600,94,53,21,Blue,machine_checked,assets/hud-0005978600.webp,CONTROL:LONESTAR
+5982.767,01:39:42.767,94,53,21,Blue,machine_checked,assets/hud-0005982767.webp,CONTROL:LONESTAR
+5983.583,01:39:43.583,94,53,21,Blue,machine_checked,assets/hud-0005983583.webp,CONTROL:LONESTAR
+5987.75,01:39:47.750,94,53,21,Blue,machine_checked,assets/hud-0005987750.webp,CONTROL: LONESTAR
+5991.917,01:39:51.917,94,53,21,Blue,machine_checked,assets/hud-0005991917.webp,CONTROL:LONESTARHT
+5996.083,01:39:56.083,94,53,21,Blue,machine_checked,assets/hud-0005996083.webp,CONTROL:LONESTAR
+6000.25,01:40:00.250,94,53,21,Blue,machine_checked,assets/hud-0006000250.webp,CONTROLLONESTAR
+6004.417,01:40:04.417,94,53,21,Blue,machine_checked,assets/hud-0006004417.webp,CONTROL:LONESTAR
+6008.583,01:40:08.583,95,53,21,Blue,machine_checked,assets/hud-0006008583.webp,CONTROL:LONESTAR
+6012.75,01:40:12.750,95,53,21,Blue,machine_checked,assets/hud-0006012750.webp,CONTROL:LONESTAR
+6016.917,01:40:16.917,95,53,21,Blue,machine_checked,assets/hud-0006016917.webp,CONTROL:LONESTARO
+6021.083,01:40:21.083,95,53,21,Blue,machine_checked,assets/hud-0006021083.webp,CONTROL: LONESTAR
+6025.25,01:40:25.250,95,53,21,Blue,machine_checked,assets/hud-0006025250.webp,CONTROL:LONESTAR
+6029.417,01:40:29.417,95,53,21,Blue,machine_checked,assets/hud-0006029417.webp,CONTROL:LONESTAR
+6033.583,01:40:33.583,95,53,21,Blue,machine_checked,assets/hud-0006033583.webp,CONTROL:LONESTAR
+6037.75,01:40:37.750,96,53,21,Blue,machine_checked,assets/hud-0006037750.webp,CONTROL: LONESTAR
+6041.917,01:40:41.917,96,53,21,Blue,machine_checked,assets/hud-0006041917.webp,CONTROL:LONESTAR
+6046.083,01:40:46.083,96,53,21,Blue,machine_checked,assets/hud-0006046083.webp,CONTROL:LONESTAR
+6050.25,01:40:50.250,96,53,21,Blue,machine_checked,assets/hud-0006050250.webp,CONTROL: LONESTAR
+6054.417,01:40:54.417,96,53,21,Blue,machine_checked,assets/hud-0006054417.webp,CONTROL: LONESTAR
+6058.583,01:40:58.583,96,53,21,Blue,machine_checked,assets/hud-0006058583.webp,CONTROL:LONESTAR
+6062.75,01:41:02.750,96,53,21,Blue,machine_checked,assets/hud-0006062750.webp,CONTROL:LONESTAR
+6064.883,01:41:04.883,96,53,21,Blue,machine_checked,assets/hud-0006064883.webp,CONTROLLONESTAR
+6069.05,01:41:09.050,97,53,21,Blue,machine_checked,assets/hud-0006069050.webp,CONTROL:LONESTARIN
+6073.217,01:41:13.217,97,53,21,Blue,machine_checked,assets/hud-0006073217.webp,CONTROL:LONESTAR
+6077.383,01:41:17.383,97,53,21,Blue,machine_checked,assets/hud-0006077383.webp,CONTROL: LONESTAR
+6081.55,01:41:21.550,97,53,21,Blue,machine_checked,assets/hud-0006081550.webp,CONTROL:LONESTAR
+6085.717,01:41:25.717,97,53,21,Blue,machine_checked,assets/hud-0006085717.webp,CONTROL:LONESTAR
+6089.883,01:41:29.883,97,53,21,Blue,machine_checked,assets/hud-0006089883.webp,CONTROL:LONESTAR
+6094.05,01:41:34.050,97,53,21,Blue,machine_checked,assets/hud-0006094050.webp,CONTROLLONESTAR
+6098.217,01:41:38.217,98,53,21,Blue,machine_checked,assets/hud-0006098217.webp,CONTROL:LONESTAR
+6102.383,01:41:42.383,98,53,21,Blue,machine_checked,assets/hud-0006102383.webp,CONTROL:LONESTAR
+6106.55,01:41:46.550,98,53,21,Blue,machine_checked,assets/hud-0006106550.webp,CONTROL:LONESTAR
+6110.717,01:41:50.717,98,53,21,Blue,machine_checked,assets/hud-0006110717.webp,CONTROL: LONESTAR
+6114.883,01:41:54.883,98,53,21,Blue,machine_checked,assets/hud-0006114883.webp,CONTROL:LONESTAR
+6119.05,01:41:59.050,98,53,21,Blue,machine_checked,assets/hud-0006119050.webp,CONTROL:LONESTAR
+6120.0,01:42:00.000,98,53,21,,reviewed,,
+6123.217,01:42:03.217,98,53,21,Blue,machine_checked,assets/hud-0006123217.webp,CONTROL:LONESTAR
+6127.383,01:42:07.383,98,53,21,Blue,machine_checked,assets/hud-0006127383.webp,CONTROL: LONESTAR
+6131.55,01:42:11.550,99,53,21,Blue,machine_checked,assets/hud-0006131550.webp,CONTROLLONESTARY
+6135.717,01:42:15.717,99,53,21,Blue,machine_checked,assets/hud-0006135717.webp,CONTROL:LONESTARSEZ
+6139.883,01:42:19.883,99,53,21,Blue,machine_checked,assets/hud-0006139883.webp,CONTROL: LONESTAR
+6144.05,01:42:24.050,99,53,21,Blue,machine_checked,assets/hud-0006144050.webp,CONTROL:LONESTAR
+6148.217,01:42:28.217,99,53,21,Blue,machine_checked,assets/hud-0006148217.webp,CONTROL:LONESTAR
+6152.383,01:42:32.383,99,53,21,Blue,machine_checked,assets/hud-0006152383.webp,CONTROL:LONESTAR
+6156.55,01:42:36.550,99,53,21,Blue,machine_checked,assets/hud-0006156550.webp,CONTROLLONESTAR
+6160.717,01:42:40.717,,,,,machine_checked,assets/hud-0006160717.webp,
+6164.883,01:42:44.883,,,,,machine_checked,assets/hud-0006164883.webp,
+6169.05,01:42:49.050,,,,,machine_checked,assets/hud-0006169050.webp,
+6173.217,01:42:53.217,,,,,machine_checked,assets/hud-0006173217.webp,
+6177.383,01:42:57.383,,,,,machine_checked,assets/hud-0006177383.webp,
+6181.55,01:43:01.550,,,,,machine_checked,assets/hud-0006181550.webp,
+6185.717,01:43:05.717,,,,,machine_checked,assets/hud-0006185717.webp,
+6189.883,01:43:09.883,,,,,machine_checked,assets/hud-0006189883.webp,
+6194.05,01:43:14.050,,,,,machine_checked,assets/hud-0006194050.webp,
+6198.217,01:43:18.217,,,,,machine_checked,assets/hud-0006198217.webp,

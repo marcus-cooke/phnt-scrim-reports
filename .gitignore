@@ -3,5 +3,6 @@ node_modules/
 __pycache__/
 analysis/
 qa/
+.playwright-cli/
 *.log
 .DS_Store
