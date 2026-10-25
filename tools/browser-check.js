@@ -12,7 +12,7 @@ async(page)=>{
   if(newRings!==271)throw Error('New-match flags mismatch');
   await report().locator('[data-peak="Blue"]').click();
   await report().locator('#evidence').evaluate(el=>el.decode());
-  const peak=await report().locator('#inspect-title').innerText();
+  const peak=await report().locator('#inspect-title').textContent();
   if(peak!=='Blue strength: 53')throw Error('New peak mismatch');
   await report().getByRole('button',{name:'Play hosted source excerpt'}).click();
   await report().locator('#source-video').evaluate(el=>new Promise((resolve,reject)=>{if(el.readyState>=1)return resolve();el.addEventListener('loadedmetadata',resolve,{once:true});el.addEventListener('error',()=>reject(Error(el.error?.message)),{once:true})}));
