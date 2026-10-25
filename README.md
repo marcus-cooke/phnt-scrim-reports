@@ -6,6 +6,8 @@ Static, evidence-linked reports for PHNT's recorded War Dogs scrims.
 
 Choose a match to inspect ticket progression, sampled control, feed exchanges, team strength, map snapshots and selected source excerpts. The comparison view keeps PHNT's faction identity correct across both games, shows the verified result screens and provides a combined CSV/JSON download. Share links preserve the selected match and report section.
 
+The report uses the [official Phantom Regiment branding](https://phantomwardogs.com/): original SVG emblem and wordmark, self-hosted Oxanium and Instrument Sans fonts, signal-red accents and graphite surfaces. The shared assets and source fingerprints live in `site/brand/`; faction colours retain their data meaning. Run `python tools/apply_brand.py` to apply brand-only updates without reprocessing footage, and `python tools/check_brand.py` to verify the assets and styling links.
+
 | Recording | PHNT faction | Verified result | Report window |
 | --- | --- | --- | --- |
 | 24 October 2026 | Green / Manticore | Third place; 21 points | HUD scan from 08:00, plus earlier reviewed zero-score anchors |

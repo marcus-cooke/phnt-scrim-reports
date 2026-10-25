@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 — 25 October 2026
+
+- Match the official Phantom Regiment brand with its original SVG logo lockup, Oxanium headings and navigation, Instrument Sans body text, signal-red accents and graphite surfaces.
+- Self-host the exact reference font files and retain their licence notices. Share one brand stylesheet across the report shell and both matches.
+- Keep game-faction colours and all extracted match data intact. Keep report tabs visible when opening a shared link.
+
 ## 0.1.0 — 25 October 2026
 
 - Browse both recorded scrims in one shareable report, with the correct PHNT faction and verified result for each match.
