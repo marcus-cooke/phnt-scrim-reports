@@ -15,3 +15,5 @@ jobs:
           python-version: '3.13'
       - name: Validate reports, threshold flags and evidence links
         run: python tools/check_site.py
+      - name: Validate original Phantom branding and self-hosted fonts
+        run: python tools/check_brand.py

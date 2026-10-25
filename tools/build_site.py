@@ -164,7 +164,7 @@ coverage section for sampling coverage and machine confidence rules.
     cliphtml+='</div></section>';html=html.replace('<footer>',cliphtml+'<footer>')
     html=html.replace('<script id="match-data"', '<script id="match-data"')
     html=html.replace('__MATCH_DATA__',json.dumps(d,ensure_ascii=True,separators=(',',':')).replace('</','<\\/'))
-    sync='''<script>document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('video').forEach(v=>v.pause());window.parent.postMessage({type:'report-tab',tab:b.dataset.tab},location.origin)}));const target=document.getElementById('tab-'+location.hash.slice(1));if(target)target.click();</script>'''
+    sync='''<script>document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('video').forEach(v=>v.pause());window.parent.postMessage({type:'report-tab',tab:b.dataset.tab},location.origin)}));const requested=new URLSearchParams(location.hash.slice(1)).get('view')||location.hash.slice(1);const target=document.getElementById('tab-'+requested);if(target)target.click();window.addEventListener('load',()=>window.scrollTo(0,0),{once:true});</script>'''
     html=html.replace('</body>',sync+'</body>')
     (dest/'index.html').write_text(html,encoding='utf-8')
     summary=dict(meta=meta,summary=d['summary'],strength=d['strength']['summary'],clips=len(clips),points=[{k:r[k] for k in ['video_seconds','blue','red','green']} for r in d['tickets']])
@@ -181,4 +181,6 @@ if __name__=='__main__':
     (DOCS/'index.html').write_text(index,encoding='utf-8');(DOCS/'.nojekyll').write_text('')
     with zipfile.ZipFile(DOCS/'all-match-data.zip','w',zipfile.ZIP_DEFLATED) as z:
         for p in sorted((DOCS/'matches').glob('*/data/*')):z.write(p,str(p.relative_to(DOCS/'matches')))
+    from apply_brand import apply_brand
+    apply_brand()
     print('Static clan site ready',flush=True)

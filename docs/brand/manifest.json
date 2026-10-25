@@ -1,0 +1,51 @@
+{
+  "reference": "https://phantomwardogs.com/",
+  "captured": "2026-10-25",
+  "files": [
+    {
+      "path": "phantom-logomark.svg",
+      "source": "https://phantomwardogs.com/media/phantom-logomark.svg",
+      "sha256": "7364464415ae2fc4efaa24faa8f50c5fb89c2d57f7d5445ed0925cf3594bf9b4"
+    },
+    {
+      "path": "phantom-wordmark.svg",
+      "source": "https://phantomwardogs.com/media/phantom-wordmark.svg",
+      "sha256": "adafd02e6e0191c70f9fdd6844e0c92c4a0cc4a4a68693e0c80108736a5fe7ba"
+    },
+    {
+      "path": "favicon.svg",
+      "source": "https://phantomwardogs.com/favicon.svg",
+      "sha256": "3ad57eef505d6021689d2e42ca318f208bdd33fde6f4592997b75d94327f288d"
+    },
+    {
+      "path": "fonts/oxanium-600.woff2",
+      "source": "https://phantomwardogs.com/build/assets/oxanium-latin-600-normal-DW9ldEDP.woff2",
+      "sha256": "149d8c3d6fc6bbdbf3744cdcc585085b75ce21e444e6562ac257f8e43761e726"
+    },
+    {
+      "path": "fonts/oxanium-700.woff2",
+      "source": "https://phantomwardogs.com/build/assets/oxanium-latin-700-normal-l0hKEjh4.woff2",
+      "sha256": "19ac72d5a8b3b31316133df3dc8e5b47f93dfc4b85245b776dd6d70fc4b3504c"
+    },
+    {
+      "path": "fonts/oxanium-800.woff2",
+      "source": "https://phantomwardogs.com/build/assets/oxanium-latin-800-normal-C_tm0Sz6.woff2",
+      "sha256": "acb6db05b7b56c2d3b081f3cc1b2844ddadedd523fb1df921680372c685c52e0"
+    },
+    {
+      "path": "fonts/instrument-sans-400.woff2",
+      "source": "https://phantomwardogs.com/build/assets/instrument-sans-400-normal-DRC__1Mx.woff2",
+      "sha256": "9a91efaa3599a6ef01b2f49e9ec670e3a2f39baeef09c73198f1052cf3bb0850"
+    },
+    {
+      "path": "fonts/instrument-sans-500.woff2",
+      "source": "https://phantomwardogs.com/build/assets/instrument-sans-500-normal-Dk9ku72i.woff2",
+      "sha256": "9d3547da16d950d12a677c772a3ff9b69846e60e7dcd1b5efd540993f7286532"
+    },
+    {
+      "path": "fonts/instrument-sans-600.woff2",
+      "source": "https://phantomwardogs.com/build/assets/instrument-sans-600-normal-B7fBEWYG.woff2",
+      "sha256": "efb770916eda95a0e31d80cccde9651d4e8617010b21220e9f227c4820d675da"
+    }
+  ]
+}
