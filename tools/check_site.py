@@ -2,7 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
-import json,re
+import json,re,csv
 ROOT=Path(__file__).resolve().parents[1];DOCS=ROOT/'docs';errors=[]
 class Links(HTMLParser):
     def __init__(self,path):super().__init__();self.path=path
@@ -29,6 +29,22 @@ for m in catalog:
         assert (folder/r['source_image']).is_file()
     assert flags==sum(s['over_33_readings'] for s in d['strength']['summary'])
     for e in d['events']:assert (folder/e['source_image']).is_file()
+    def evidence_paths(value):
+        if isinstance(value,dict):
+            for key,v in value.items():
+                if key in ['source_file','source_image','snapshot','peak_source_image'] and isinstance(v,str) and v:
+                    assert v.startswith('assets/'),f'Nonpublic evidence path: {v}'
+                    assert (folder/v).is_file(),f'Broken evidence reference: {v}'
+                evidence_paths(v)
+        elif isinstance(value,list):
+            for item in value:evidence_paths(item)
+    evidence_paths(d)
+    for path in (folder/'data').glob('*.csv'):
+        with path.open(encoding='utf-8-sig',newline='') as f:
+            for row in csv.DictReader(f):
+                for key in ['source_file','source_image','snapshot','peak_source_image']:
+                    v=row.get(key)
+                    if v:assert v.startswith('assets/') and (folder/v).is_file(),f'Broken CSV evidence reference in {path}: {v}'
     for clip in d['clips']:
         assert (folder/clip['src']).is_file();assert (folder/clip['poster']).is_file()
         assert (folder/clip['src']).stat().st_size<30_000_000

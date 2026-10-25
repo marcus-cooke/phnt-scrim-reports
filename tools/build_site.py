@@ -30,7 +30,7 @@ def pack_match(meta,source,video,templates):
     def rewrite(obj):
         if isinstance(obj,dict):
             for k,v in list(obj.items()):
-                if k=='source_file' and isinstance(v,str):obj[k]=register('keyframes/'+v)
+                if k=='source_file' and isinstance(v,str):obj[k]=register('keyframes/'+v) if v else ''
                 elif isinstance(v,str):obj[k]=register(v)
                 else:rewrite(v)
         elif isinstance(obj,list):
@@ -94,6 +94,7 @@ def pack_match(meta,source,video,templates):
             for row in rows:
                 for k,v in row.items():
                     if k=='source_file' and v:v=images.get('keyframes/'+v,v)
+                    elif k in ['source_image','snapshot','peak_source_image'] and v and v.startswith(('keyframes/','evidence/','sample-')):v=images.get(v,'')
                     else:v=images.get(v,v)
                     row[k]=v
                 writer.writerow(row)
