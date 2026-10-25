@@ -1,0 +1,6 @@
+# Keep copied brand assets byte-identical across Windows and Linux checkouts.
+site/brand/** -text
+docs/brand/** -text
+# Upstream licence notices retain their original whitespace.
+site/brand/fonts/*-OFL.txt whitespace=-blank-at-eol
+docs/brand/fonts/*-OFL.txt whitespace=-blank-at-eol
