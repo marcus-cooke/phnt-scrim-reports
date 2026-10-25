@@ -1,0 +1,4 @@
+[
+  {"id":"2026-10-24","date":"24 October 2026","phnt_team":"Green","result":"3rd place","final_scores":{"Blue":100,"Red":53,"Green":21},"analysis_start_seconds":480,"outcome_seconds":6170,"recording":"2026-10-24 20-01-17.mp4","notes":"PHNT played Green / Manticore. Final score checked against the result screen."},
+  {"id":"2026-10-25","date":"25 October 2026","phnt_team":"Blue","result":"Victory","final_scores":{"Blue":100,"Red":80,"Green":62},"analysis_start_seconds":300,"outcome_seconds":6450,"recording":"2026-10-25 19-29-14.mp4","notes":"PHNT played Blue / Lonestar. The first five minutes contain a prior-round lead-in, transition and pre-scoring setup; excluded from this match's dataset. Final score checked against the result screen."}
+]
