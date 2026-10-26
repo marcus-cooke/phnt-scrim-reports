@@ -6,3 +6,5 @@ qa/
 .playwright-cli/
 *.log
 .DS_Store
+**/__pycache__/
+*.pyc
