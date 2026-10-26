@@ -1,0 +1,112 @@
+﻿window_start_seconds,window_duration_seconds,seen_seconds,attacker,target,icon_visual,carry_in,notes
+1440,60,1440,[AK-P]shz,[PHNT]Silverhand,weapon,1,Visible at validation start
+1440,60,1440,[AK-P]Benegog,[PHNT]Chicodi,weapon,1,Visible at validation start
+1440,60,1445,[AK-P]shz,[PHNT]CasualGuy,skull,0,
+1440,60,1448,[PV]CzapeLsoN,[PV]WizzWookie,other,0,Mounted weapon silhouette
+1440,60,1451,[PV]Angliczanin,[AK-P]gem,weapon,0,
+1440,60,1452,[PHNT]RobbinAK,[PV]Blaziakson,weapon,0,
+1440,60,1453,[AK-P]Smitty Bacall,[PV]< blank >,weapon,0,
+1440,60,1455,[PHNT]Marcus,[AK-P]Talos,skull,0,162 m displayed
+1440,60,1459,[AK]Flurgle,[PV]Hal9000,skull,0,
+1440,60,1464,[III]Chart,[AK-P]SK1LLIUS,weapon,0,Helicopter silhouette
+1440,60,1465,[PV]mtyys,[AK-P]Mathym04,weapon,0,
+1440,60,1468,[AK-P]Phillicious,[PHNT]Mr. Viking,other,0,Helicopter plus impact silhouette
+1440,60,1469,[AK-P]shz,[PHNT]Benny Leone,weapon,0,
+1440,60,1474,[PV]Snuffik,[AK]Steperfeeld,weapon,0,
+1440,60,1478,[III]Chart,[AK-P]Eistrias,skull,0,
+1440,60,1478,[III]Chart,[AK-P]Talos,weapon,0,
+1440,60,1480,[PHNT]Morix,[AK-P]Miller,weapon,0,
+1440,60,1481,[AK-P]Scarface,[PHNT]Miacatt,skull,0,
+1440,60,1482,[PHNT]Another,[AK-P]Alex[S],weapon,0,
+1440,60,1485,[AK-P]iCaAmPo131,[PHNT]A Randy Gypsy,weapon,0,
+1440,60,1487,[PV]MALAA G6ORG6,[AK-P]Curze,weapon,0,
+1440,60,1488,[AK-P]Benegog,[PHNT]Chicodi,weapon,0,Separate later display episode
+1440,60,1488,[PHNT]Hanthy,[AK-P]Ducky,skull,0,
+1440,60,1493,[PHNT]Morix,[AK]Sneaky Rafiki,weapon,0,
+1440,60,1493,[PHNT]Silverhand,[AK-P]Pallo,skull,0,
+1440,60,1497,[PV]Gora,[PV]GGIZI,other,0,Explosion and circular skull silhouette; final name character uncertain
+2400,60,2400,[PHNT]ftw,[GII]Falk,weapon,1,Target tag uncertain; red glyph
+2400,60,2400,[PHNT]Chicodi,[AK-P]shz,skull,1,
+2400,60,2400,[PV]GGIZI,[PHNT]Nugg,other,1,Impact silhouette
+2400,60,2402,[AK-P]Phillicious,[PHNT]Grynd,weapon,0,Helicopter silhouette
+2400,60,2404,[PV]Be(n)di,[PHNT]Marcus,weapon,0,5 m displayed
+2400,60,2405,[AK-P]Benegog,[PHNT]fishu,skull,0,
+2400,60,2406,[PHNT]Chicodi,[AK-P]iCaAmPo131,skull,0,
+2400,60,2415,[AK-P]Phillicious,[PHNT]Miacatt,weapon,0,First visible after black screen
+2400,60,2415,[AK-P]TOYOTA SUPRA MK4,[PHNT]Mr. Viking,weapon,0,First visible after black screen
+2400,60,2416,[AK]Trouser Trout,[PHNT]Tourist,weapon,0,Helicopter silhouette
+2400,60,2418,[AK]Hookz4,[PHNT]RobbinAK,skull,0,
+2400,60,2419,[PV]mtyys,[PHNT]A Randy Gypsy,skull,0,
+2400,60,2422,[PV]RedBull,[PHNT]Absynth,other,0,Grenade silhouette
+2400,60,2422,[AK-P]Phillicious,[PHNT]Kokiro,weapon,0,
+2400,60,2422,[PHNT]BlueFire07,[PV]Creed,weapon,0,
+2400,60,2422,[AK-P]Trigga,[PHNT]Chicodi,other,0,Grenade silhouette
+2400,60,2423,[AK-P]Twix,[PHNT]Morix,skull,0,Heart symbol before attacker name
+2400,60,2427,[AK-P]Twix,[PHNT]CasualGuy,skull,0,
+2400,60,2428,[DDPC]konop,[AK-P]Salbei,weapon,0,
+2400,60,2432,[PV]Vittex,[PHNT]MAXI#_o,weapon,0,Target uses boxed letters; exact punctuation uncertain
+2400,60,2432,[AK-P]Scarface,[PHNT]Aseiton,weapon,0,
+2400,60,2436,[AK]Flurgle,[PV][BRO]ondra2657,skull,0,
+2400,60,2436,[PHNT]BlackShadow,[BWT]Pyrochemist,weapon,0,Target tag uses Cyrillic-looking letters
+2400,60,2438,[PHNT]Jensen,[AK-P]austrian.cobra,skull,0,
+2400,60,2445,,[PV]CzapeLsoN,death_notice,0,Single-name skull notice
+2400,60,2453,[PV]gS,[PHNT]Lucif3R,skull,0,
+2400,60,2456,[PV]RedBull,[AK]Trouser Trout,weapon,0,
+3300,30,3300,[PV]Be(n)di,[AK-P]Eistrias,weapon,1,
+3300,30,3303,,[PHNT]Xinssan,death_notice,0,
+3300,30,3305,[PV]WizzWookie,[AK]Hookzi,weapon,0,
+3300,30,3309,[PHNT]Grynd,[AK]Omicronous,other,0,Launcher plus impact silhouette
+3300,30,3309,[PHNT]Grynd,[AK-P]LibiMcFly,other,0,Launcher plus impact silhouette
+3300,30,3309,kapk,[AK-P]Pallo,weapon,0,Untagged attacker with red glyph
+3300,30,3311,[PV]s1monsays,[PV]MandreV!aim.exe,skull,0,
+3300,30,3313,[PV]mtyys,[AK-P]Salbei,weapon,0,
+3300,30,3313,[AK-P]Scarface,[PV]GeNeTiKK,skull,0,
+3300,30,3317,[PV]mtyys,[AK-P]TOYOTA SUPRA MK4,skull,0,
+3300,30,3324,[AK-P]Smitty Bacall,[PHNT]Chamberz,skull,0,
+3300,30,3324,[PHNT]Marcus,[AK-P]Alex[S],skull,0,228 m displayed
+4320,60,4320,,[AK]Sneaky Rafiki,death_notice,1,
+4320,60,4321,[III]Chart,[AK]Omicronous,weapon,0,
+4320,60,4325,[PV][BRO]ondra2657,[AK]Steperfeeld,weapon,0,
+4320,60,4328,[AK-P]Benegog,[PHNT]Morix,weapon,0,
+4320,60,4329,[PV][BRO]ondra2657,[AK-P]gem,skull,0,
+4320,60,4333,[PV]Angliczanin,[AK-P]Eistrias,skull,0,
+4320,60,4334,[PV]mtyys,[AK-P]Caesar,skull,0,
+4320,60,4343,[PHNT]Chicodi,[AK-P]Trigga,skull,0,
+4320,60,4349,[AK-P]austrian.cobra,[PV][BRO]ondra2657,weapon,0,
+4320,60,4351,[AK-P]Benegog,[PHNT]A Randy Gypsy,weapon,0,
+4320,60,4351,[PHNT]ZioWillY,[PV]Vittex,other,0,Aircraft plus impact silhouette
+4320,60,4353,[PV]GeNeTiKK,[AK]Hookzi,weapon,0,
+4320,60,4353,[PV]Creed,[AK-P]austrian.cobra,skull,0,
+4320,60,4358,[PHNT]a cactus,[AK]Trouser Trout,other,0,Aircraft plus impact silhouette
+4320,60,4358,[PV]Angliczanin,[AK-P]Phillicious,skull,0,
+4320,60,4364,[PV]Angliczanin,[AK-P]Curze,weapon,0,
+4320,60,4365,[AK-P]Benegog,[PHNT]fishu,skull,0,
+4320,60,4375,[PV]mtyys,[AK-P]Caesar,skull,0,New later episode
+4320,60,4378,[PHNT]AceDude,[AK-P]Twix,skull,0,Heart symbol before target
+5880,60,5880,[PV][BRO]ondra2657,[AK-P]Mathym04,weapon,1,
+5880,60,5880,[PV]MALAA G6ORG6,[AK-P]Twix,skull,1,Heart symbol on target
+5880,60,5880,[AK-P]Benegog,[PV]GeNeTiKK,weapon,1,
+5880,60,5880,[PHNT]Morix,[PV]Creed,skull,1,Knife silhouette
+5880,60,5880,[AK-P]Necoss,[PV]Hal9000,weapon,1,
+5880,60,5882,[AK-P]gem,[PHNT]Raz1els,weapon,0,
+5880,60,5883,[AK-P]shz,[PV]Rogos,skull,0,
+5880,60,5885,[PV][BRO]ondra2657,[AK]Flurgle,skull,0,
+5880,60,5886,[AK-P]Eistrias,[PV]Angliczanin,weapon,0,
+5880,60,5887,[AK-P]gem,[PHNT]A Randy Gypsy,weapon,0,
+5880,60,5890,[AK-P]Necoss,kapk,weapon,0,Untagged target with red glyph
+5880,60,5899,[PV]D3VID,[AK-P]Curze,skull,0,Attacker uses stylised E
+5880,60,5901,[AK-P]SK1LLIUS,[PV]D3VID,weapon,0,
+5880,60,5902,[PHNT]a cactus,[PV]MandreV!aim.exe,weapon,0,Aircraft silhouette; punctuation uncertain
+5880,60,5902,[PHNT]a cactus,[PV]GGIZI,weapon,0,Aircraft silhouette
+5880,60,5905,[PHNT]ZioWillY,[PV]s1monsays,other,0,Vehicle plus impact silhouette
+5880,60,5906,[AK-P]Eistrias,[PV][PHX],skull,0,
+5880,60,5907,[PHNT]ZioWillY,[PV]Gora,skull,0,Aircraft silhouette
+5880,60,5909,[PV]mtyys,[AK]Hookzi,skull,0,
+5880,60,5911,[PHNT]Morix,[AK-P]gem,skull,0,Knife silhouette
+5880,60,5911,[PV]Snuffik,[AK-P]SK1LLIUS,weapon,0,
+5880,60,5914,[PV]Blaziakson,[PHNT]Morix,weapon,0,
+5880,60,5914,[BWT]Pyrochemist,[AK-P]Eistrias,weapon,0,Target tag Cyrillic-looking
+5880,60,5920,[PV]mtyys,[AK-P]Salbei,weapon,0,
+5880,60,5926,[PV]MALAA G6ORG6,[AK]Omicronous,weapon,0,
+5880,60,5927,[AK-P]LibiMcFly,kapk,skull,0,Untagged target with red glyph
+5880,60,5931,,[PHNT]Nugg,other_notice,0,Single-name hand silhouette

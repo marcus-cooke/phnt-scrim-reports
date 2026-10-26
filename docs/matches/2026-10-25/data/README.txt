@@ -14,3 +14,8 @@ assets/, relative to the match report. Native feed and HUD strips are retained.
 Only selected excerpts are included; original videos are not hosted.
 Manual records and review queues remain separate. See the report's Data &
 coverage section for sampling coverage and machine confidence rules.
+
+LATEST FEED AUDIT: At least 3 source observations and paired OCR score >=0.80, or 2 observations with both models agreeing and score >=0.92
+The dense feed has four source observations per second. Ticket, map and strength sampling retain their separate original coverage.
+Single-name notices are accepted table records, excluded from paired faction charts. observation_times counts distinct source frames, never recognizer calls.
+See feed-validation.json for sampled episode recovery, tolerant name matching, duplicate candidates and remaining misses. Exact name spelling and final-kill semantics are not fully verified.

@@ -1,0 +1,38 @@
+async(page)=>{
+  const base=new URL('./',page.url()).href,errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(base+'?match=2026-10-25&section=feed');
+  const frame=page.frameLocator('#report-frame');
+  await frame.getByRole('tab',{name:'Feed exchanges',exact:true}).waitFor({state:'visible'});
+  const d=JSON.parse(await frame.locator('#match-data').textContent());
+  if(d.feed_method.version!==2||d.summary.feed_frames!==24622)throw Error('Dense dataset missing');
+  if(d.summary.accepted_feed_entries!==1610||d.summary.charted_events!==1540)throw Error('Curated feed totals differ');
+  await frame.getByLabel('PHNT involved').uncheck();
+  await frame.getByRole('searchbox',{name:'Search player or clan'}).fill('kapk');
+  if(await frame.locator('#event-rows tr').count()===0)throw Error('Untagged names missing from search');
+  const columns=await frame.locator('#event-rows tr').first().locator('td').count();
+  if(columns!==8)throw Error('Icon/type table column mismatch');
+  await frame.getByRole('searchbox',{name:'Search player or clan'}).fill('');
+  await frame.locator('#quality').selectOption('reviewed');
+  if(await frame.locator('#event-rows tr').count()!==4)throw Error('Manual reviews lost');
+  const reviewed=frame.locator('#event-rows tr').filter({hasText:'ZioWillY'});
+  await reviewed.getByRole('button').click();
+  await frame.locator('#evidence').evaluate(el=>el.decode());
+  const image=await frame.locator('#evidence').evaluate(el=>({width:el.naturalWidth,height:el.naturalHeight,src:el.currentSrc}));
+  if(image.width!==900||image.height!==380||!image.src.includes('/assets/feed-'))throw Error('Wrong feed evidence asset');
+  if(!(await frame.locator('#inspect-title').textContent()).includes('Vittex'))throw Error('Reviewed recovery missing');
+  await page.screenshot({path:'qa/dense-feed-evidence.png'});
+  await frame.getByRole('button',{name:'Close evidence'}).click();
+  await frame.locator('#quality').selectOption('all');
+  await frame.getByRole('searchbox',{name:'Search player or clan'}).fill('10080');
+  if(!(await frame.locator('#event-rows').textContent()).includes('Excluded duplicate'))throw Error('Duplicate decision hidden');
+  await frame.getByRole('tab',{name:'Data & coverage',exact:true}).click();
+  if(!(await frame.locator('#data').textContent()).includes('110/111'))throw Error('Sample validation graphic missing');
+  await page.screenshot({path:'qa/dense-feed-coverage.png'});
+  await page.setViewportSize({width:390,height:844});
+  await page.screenshot({path:'qa/dense-feed-mobile.png'});
+  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+  if(overflow)throw Error('Mobile shell overflow');
+  await page.setViewportSize({width:1440,height:1000});
+  if(errors.length)throw Error(errors.join('\n'));
+  return {accepted:d.summary.accepted_feed_entries,charted:d.summary.charted_events,notices:d.summary.single_name_notices,reviewed:4,columns,image,mobileOverflow:overflow,pageErrors:errors};
+}
