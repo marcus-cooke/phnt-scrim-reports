@@ -29,6 +29,27 @@ for m in catalog:
         assert (folder/r['source_image']).is_file()
     assert flags==sum(s['over_33_readings'] for s in d['strength']['summary'])
     for e in d['events']:assert (folder/e['source_image']).is_file()
+    if d.get('feed_method',{}).get('version')==2:
+        assert d['summary']['feed_frames']==24622 and d['summary']['feed_sample_gap_seconds']==.25
+        assert len({e['event_id'] for e in d['events']})==len(d['events'])
+        for e in d['events']:
+            observations=e['observation_times']
+            assert len(set(observations))==len(observations)==e['observations'],'Count source frames, not recognizer invocations'
+            assert min(observations)==e['first_seen_seconds'] and max(observations)==e['last_seen_seconds']
+            assert e['evidence_seconds'] in observations,'Screenshot must come from an actual track observation'
+            expected=(e['observations']>=3 and e['ocr_confidence']>=.8) or (e['observations']>=2 and e['strong_model_agreement_observations']>=2)
+            for name in [e['attacker'],e['target']]:
+                if name.upper() in {'PHNT','PV','AK-P','AK'}:expected=False
+                if ('[' in name or ']' in name) and not re.match(r'^\[[^\[\]\s]{1,12}\].+',name):expected=False
+            if e['status']=='rejected_duplicate':
+                assert e.get('review_decision')=='exclude_duplicate'
+                assert any(p['event_id']==e.get('duplicate_of') and p['accepted_feed_entry'] for p in d['events'])
+                expected=False
+            assert e['accepted_feed_entry']==expected or e['status']=='reviewed'
+            if e['included_in_charts']:
+                assert e['accepted_feed_entry'] and e['event_kind']=='pair' and e['attacker_team']!='Unknown' and e['target_team']!='Unknown'
+        assert d['summary']['charted_events']==sum(e['included_in_charts'] for e in d['events'])
+        assert d['summary']['accepted_feed_entries']==sum(e['accepted_feed_entry'] for e in d['events'])
     def evidence_paths(value):
         if isinstance(value,dict):
             for key,v in value.items():

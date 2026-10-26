@@ -1,0 +1,35 @@
+{
+  "recording": "2026-10-25 19-29-14.mp4",
+  "analysis_start_seconds": 300,
+  "last_frame_seconds": 6455.25,
+  "sampling_hz": 4,
+  "frames": 24622,
+  "native_crop": {
+    "width": 900,
+    "height": 340,
+    "source_x": 0,
+    "source_y": 640
+  },
+  "recognition_streams": {
+    "ocr-en-native.jsonl": {
+      "bytes": 11320873,
+      "sha256": "4a4068efd90d86348b2d3a885c3ed8a54e8e39fa300fb6955f6f716f5c4ac800",
+      "frames": 24622
+    },
+    "ocr-en-v5-rerec.jsonl": {
+      "bytes": 12366486,
+      "sha256": "0d886b4bb691218ac02e259d83edac23232874f809644520f16a8cef1b856f20",
+      "frames": 24622
+    },
+    "combined-rows.jsonl": {
+      "bytes": 14061204,
+      "sha256": "876a196f94f7004f2cfb6ce34428408807e966fa7dc917777fad91573febb1ee",
+      "frames": 24622
+    }
+  },
+  "model_sha256": {
+    "en_PP-OCRv4_rec.onnx": "e8770c967605983d1570cdf5352041dfb68fa0c21664f49f47b155abd3e0e318",
+    "en_PP-OCRv5_rec.onnx": "c3461add59bb4323ecba96a492ab75e06dda42467c9e3d0c18db5d1d21924be8"
+  },
+  "caveats": "Recording observations, not server-event time. Automatic sample validation precedes separately recorded visual decisions. Frames, original video and OCR streams remain offline."
+}

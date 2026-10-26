@@ -1,0 +1,5 @@
+﻿event_id,decision,parent_event_id,video_seconds,source_image,notes
+D01413,exclude_duplicate,D01409,2436.0,assets/feed-0002436500-r3.webp,Same visible feed row; native source inspected
+D02928,exclude_duplicate,D02922,4349.0,assets/feed-0004349250-r2.webp,Same visible feed row; native source inspected
+D02207,exclude_duplicate,D02214,3310.25,assets/feed-0003317250-r4.webp,Same visible feed row; native source inspected
+D02933,recover_readable_entry,,4351.75,assets/feed-0004351750-r2.webp,Both names/factions visually read in the source frame
