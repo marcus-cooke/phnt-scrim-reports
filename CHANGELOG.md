@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.2.0 — 26 October 2026
+
+- Re-extract the latest game's feed from 24,622 native observations at four frames per second, independently of ticket visibility, using two English recognizers and temporal row tracking.
+- Show 1,610 accepted feed episodes: 1,540 paired exchanges enter the faction/activity charts, 43 single-name notices remain separately labelled, and 27 paired entries retain unresolved factions.
+- Retain source-frame timestamps, native row evidence, OCR aliases, review queues, and separately logged visual decisions. Preserve the four individually reviewed entries.
+- Add the sample-extraction comparison and downloadable automatic validation: 110 of 111 readable entries recovered in the 4.5 minutes used during refinement, with three duplicate fragments before visual correction. These are not final-kill totals or a whole-game accuracy estimate.
+- Keep the earlier game's data and both games' tickets, maps, map-symbol positions, scoreboard data and team-strength series unchanged, including every strictly-above-33 flag.
+- Include the analysis scripts, model provenance and manual reference samples for inspecting the method.
+
 ## 0.1.1 — 25 October 2026
 
 - Match the official Phantom Regiment brand with its original SVG logo lockup, Oxanium headings and navigation, Instrument Sans body text, signal-red accents and graphite surfaces.
