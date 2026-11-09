@@ -31,7 +31,8 @@ async(page)=>{
   await report().getByRole('searchbox',{name:'Search player or clan'}).fill('Xinssan');
   if(await report().locator('#event-rows tr').count()===0)throw Error('Feed search broken');
   await page.getByRole('tab',{name:'Compare matches',exact:true}).click();
-  if(await page.locator('#comparison-rows tr').count()!==2)throw Error('Comparison missing a match');
+  const comparisonRows=await page.locator('#comparison-rows tr').count();
+  if(comparisonRows!==await page.evaluate(()=>window.clanReport.catalog.length))throw Error('Comparison missing a match');
   await page.screenshot({path:'qa/compare-desktop.png'});
   await page.setViewportSize({width:390,height:844});
   await page.waitForFunction(()=>innerWidth===390);
@@ -42,5 +43,5 @@ async(page)=>{
   await page.getByRole('tab',{name:'Match report',exact:true}).click();
   await page.getByLabel('Select match').selectOption('2026-10-25');
   if(errors.length)throw Error(errors.join('\n'));
-  return {newMatch:{phnt:newer.meta.phnt_team,rings:newRings,firstTicket:Math.min(...newer.tickets.map(r=>r.video_seconds))},oldMatch:{phnt:older.meta.phnt_team,rings:oldRings},staticClip:clip,comparisonRows:2,mobileOverflow:overflow,pageErrors:errors};
+  return {newMatch:{phnt:newer.meta.phnt_team,rings:newRings,firstTicket:Math.min(...newer.tickets.map(r=>r.video_seconds))},oldMatch:{phnt:older.meta.phnt_team,rings:oldRings},staticClip:clip,comparisonRows,mobileOverflow:overflow,pageErrors:errors};
 }

@@ -106,6 +106,9 @@ def pack_match(meta,source,video,templates,feed_data=None):
     if feed_data:
         for name in ['feed-validation.json','feed-provenance.json']:
             (data/name).write_bytes((feed_data/name).read_bytes())
+    if d.get('source_recording'):
+        for name in ['feed-validation.json','recording-provenance.json']:
+            (data/name).write_bytes((source/'data'/name).read_bytes())
     if not d['scoreboard']:
         (data/'scoreboard-visible-phnt.csv').write_text('player,kills,assists,deaths,revives,status\n',encoding='utf-8-sig')
     (data/'README.txt').write_text(f'''PHNT SCRIM - {meta['date']}
@@ -128,9 +131,13 @@ coverage section for sampling coverage and machine confidence rules.
     if d.get('feed_method',{}).get('version')==2:
         with (data/'README.txt').open('a',encoding='utf-8') as f:
             f.write('\nLATEST FEED AUDIT: '+d['feed_method']['inclusion']+'\n')
-            f.write('The dense feed has four source observations per second. Ticket, map and strength sampling retain their separate original coverage.\n')
-            f.write('Single-name notices are accepted table records, excluded from paired faction charts. observation_times counts distinct source frames, never recognizer calls.\n')
-            f.write('See feed-validation.json for sampled episode recovery, tolerant name matching, duplicate candidates and remaining misses. Exact name spelling and final-kill semantics are not fully verified.\n')
+            f.write(f'The dense feed has {d["feed_method"]["sampling_hz"]:g} source observations per second. Ticket, map and strength sampling retain their separate coverage.\n')
+            if d.get('source_recording'):
+                f.write('Isolated one-name rows remain unresolved without verified icon templates. observation_times counts distinct source frames, never recognizer calls.\n')
+                f.write('See feed-validation.json for visual spot-check scope and separately logged sample additions. This is not a full reference census or whole-match accuracy estimate. Exact name spelling and final-kill semantics are not fully verified.\n')
+            else:
+                f.write('Single-name notices are accepted table records, excluded from paired faction charts. observation_times counts distinct source frames, never recognizer calls.\n')
+                f.write('See feed-validation.json for sampled episode recovery, tolerant name matching, duplicate candidates and remaining misses. Exact name spelling and final-kill semantics are not fully verified.\n')
     with zipfile.ZipFile(dest/'match-data.zip','w',zipfile.ZIP_DEFLATED) as z:
         for p in data.iterdir():z.write(p,p.name)
     html=(templates/'report-template.html').read_text(encoding='utf-8')
@@ -163,6 +170,15 @@ coverage section for sampling coverage and machine confidence rules.
         html=html.replace('These are scoreboard totals for the visible players. They are independent of the sampled feed counts and do not cover the full PHNT roster.','No per-player totals are carried over from the other match. The final result is independently verified from the result screen.')
         html=html.replace('PHNT → Green; 26TH → Red; TLL, 1G and N1 → Blue','PHNT → Blue; PV → Red; AK-P and AK → Green')
         html=html.replace('Green symbols','Friendly-coloured symbols').replace('Green components','Friendly-coloured components').replace('green symbol candidates','friendly-coloured symbol candidates')
+    if d.get('source_recording'):
+        html=html.replace('36 manually reviewed anchors',f'{d["ticket_anchor_count"]} manually reviewed anchors')
+        html=html.replace('Five visible PHNT rows at 1:43:15 · manually read',f'{len(d["scoreboard"])} visible PHNT rows at 1:52:25–1:52:30 · manually read')
+        html=html.replace('PHNT → Green; 26TH → Red; TLL, 1G and N1 → Blue','PHNT → Blue; HTD and GIII → Red; other factions require repeated coloured glyph evidence')
+        html=html.replace('Green colour components','Blue colour components')
+        html=html.replace('native-resolution left HUD crops','enlarged left HUD crops from the 1920 × 804 source')
+        html=html.replace('Readings are roughly 4.17 seconds apart','Readings are 5 seconds apart')
+        html=html.replace('Filenames encode video presentation timestamps in milliseconds.','Filenames encode approximate source times in milliseconds. Sampling-bin offsets are corrected; timing uncertainty is about one source frame (0.034 seconds).')
+        html=html.replace('<div id="coverage"></div>','<p>Player counts require agreement between two English recognizers at confidence ≥0.92 in both. Ambiguous 3/5 readings on the tiny green HUD remain unavailable. Selected peaks were checked against native frames.</p><p><a href="data/strength-model-reads.csv">Independent count reads and disagreements</a> · <a href="data/recording-provenance.json">Recording and calibration notes</a></p><div id="coverage"></div>')
     # Host only portable links and selected clips. No localhost or original file URL.
     a=html.index("$('play-source').onclick=");b=html.index('\nlet page=',a)
     html=html[:a]+'''$('play-source').onclick=()=>{const c=D.clips.find(c=>currentTime>=c.start_seconds&&currentTime<=c.end_seconds);if(!c)return;const v=$('source-video');v.pause();v.hidden=false;v.src=c.src;v.addEventListener('loadedmetadata',()=>{v.currentTime=Math.max(0,currentTime-c.start_seconds);v.play().catch(()=>{})},{once:true});v.load();};'''+html[b:]
@@ -219,14 +235,26 @@ def apply_dense_feed_ui(html,d):
         q+='</svg><p>Raw automatic results precede the separately logged visual corrections. Names, grouping and icons elsewhere remain machine-read.</p><div class="data-links"><a href="data/feed-validation.json">Automatic sample results</a><a href="data/manual-feed-reference.csv">Manual reference CSV</a><a href="data/feed-manual-decisions.csv">Visual review decisions CSV</a><a href="data/feed-provenance.json">Extraction provenance</a></div>'
         html=html.replace('<div id="coverage"></div>','<div id="coverage"></div>'+q)
     html=html.replace('Other clan tags remain unknown. Close OCR spelling variants within a clan can be mapped to a more frequent reading; those mappings are inspectable and remain unreviewed.','Unknown clan tags may be resolved using repeated coloured faction-glyph evidence. Gold squad styling is not treated as a separate faction. Names use temporal OCR consensus; unclear names and mappings remain uncertain.')
+    hz=d['feed_method']['sampling_hz']
+    if hz!=4:
+        html=html.replace('Four native feed observations per second',f'{hz:g} feed observations per second')
+        html=html.replace('at 0.25-second intervals',f'at {1/hz:g}-second intervals')
+        html=html.replace('four source observations per second',f'{hz:g} source observations per second')
+        html=html.replace('Two English recognizers read the original detector boxes.','Two English recognizers read shared detector boxes. The 1920 × 804 source is resized to align HUD coordinates; this adds no detail.')
     return html
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--templates',required=True);p.add_argument('--analysis',action='append',required=True);p.add_argument('--video',action='append',required=True);p.add_argument('--feed-data',action='append',default=[]);args=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--templates',required=True);p.add_argument('--analysis',action='append',required=True);p.add_argument('--video',action='append',required=True);p.add_argument('--feed-data',action='append',default=[]);p.add_argument('--only',action='append',default=[],help='Repackage only these match IDs, preserving existing reports');args=p.parse_args()
     analyses=mapping(args.analysis);videos=mapping(args.video);DOCS.mkdir(exist_ok=True)
     catalog=[]
     feeds=mapping(args.feed_data)
-    for m in json.loads((REPO/'matches.json').read_text()):catalog.append(pack_match(m,Path(analyses[m['id']]),Path(videos[m['id']]),Path(args.templates),Path(feeds[m['id']]) if m['id'] in feeds else None))
+    existing={m['meta']['id']:m for m in json.loads((DOCS/'catalog.json').read_text())} if args.only else {}
+    configured=json.loads((REPO/'matches.json').read_text())
+    if set(args.only)-{m['id'] for m in configured}:raise ValueError('Unknown --only match ID')
+    for m in configured:
+        if args.only and m['id'] not in args.only:
+            catalog.append(existing[m['id']]);continue
+        catalog.append(pack_match(m,Path(analyses[m['id']]),Path(videos[m['id']]),Path(args.templates),Path(feeds[m['id']]) if m['id'] in feeds else None))
     (DOCS/'catalog.json').write_text(json.dumps(catalog,separators=(',',':')))
     index=(REPO/'site/index.html').read_text(encoding='utf-8').replace('__CATALOG__',json.dumps(catalog,ensure_ascii=True,separators=(',',':')))
     (DOCS/'index.html').write_text(index,encoding='utf-8');(DOCS/'.nojekyll').write_text('')

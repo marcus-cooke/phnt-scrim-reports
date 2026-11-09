@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.3.0 — 9 November 2026
+
+- Add the undated WDL / Phantom scrim 2 recording from another PHNT POV, calibrated from its 1920 × 804 source. Verify PHNT as Blue / Lonestar and the 100–75–88 Blue–Red–Green result.
+- Include five-second HUD sampling, two feed observations per second, 29 reviewed ticket anchors, 12 map snapshots, ten manually read PHNT scoreboard rows and ten visually reviewed feed examples.
+- Require agreement between two English recognizers for player counts. Keep ambiguous Green 3/5 readings unavailable; verify sampled peaks of Blue 45, Red 41 and Green 41 against native footage.
+- Correct sampling-bin offsets, retain source fingerprints and uncertainty, and distinguish sampled feed display episodes from final kills. The recording date and POV identity remain unconfirmed.
+- Support additional matches in comparisons and targeted packaging without reprocessing the existing reports.
+
 ## 0.1.2.0 — 26 October 2026
 
 - Re-extract the latest game's feed from 24,622 native observations at four frames per second, independently of ticket visibility, using two English recognizers and temporal row tracking.

@@ -12,6 +12,7 @@ The report uses the [official Phantom Regiment branding](https://phantomwardogs.
 | --- | --- | --- | --- |
 | 24 October 2026 | Green / Manticore | Third place; 21 points | HUD scan from 08:00, plus earlier reviewed zero-score anchors |
 | 25 October 2026 | Blue / Lonestar | Victory; 100 points | From video **05:00**, at 0–0–0 |
+| WDL / Phantom scrim 2 (undated) | Blue / Lonestar | Victory; 100 points | From recording start; active HUD through about 1:51:48 |
 
 The 25 October recording begins with the tail of a preceding game, a round transition and setup. Everything before **300 seconds (05:00)** is excluded from that match's charts, statistics, downloads and hosted excerpts.
 
@@ -24,7 +25,20 @@ The 25 October recording begins with the tail of a preceding game, a round trans
 - Map markers are anonymous observations from one POV. They do not establish continuous named-player routes. Faction colours can change between games.
 - Sampling and extraction coverage differ between recordings. Do not treat the sampled feed totals as an overall performance comparison. Review flags and source evidence are retained alongside the data.
 
-## Latest-game feed audit
+## WDL / Phantom scrim 2
+
+The additional member recording is **1920 × 804**, about 1 hour 53 minutes long. Its recording date and POV identity are unconfirmed. The result screen verifies **Blue 100, Red 75, Green 88**. The report includes 29 visually checked score anchors, five-second HUD observations, two feed observations per second, 12 map snapshots and ten clear PHNT scoreboard rows from the final screens.
+
+Small HUD text is enlarged to align the existing coordinate layout; enlargement creates no new detail. Player counts require agreement between two English recognizers at confidence ≥0.92 in both. Ambiguous first-digit 3/5 readings on Green remain unavailable. Selected source frames verify sampled peaks of **Blue 45, Red 41 and Green 41**. Sampling-bin timing offsets are corrected, with about one source frame of remaining uncertainty.
+
+Ten feed entries were checked visually in selected source windows, with decisions logged separately from automatic output. This is a spot check, not a whole-match accuracy estimate. Unreadable pairs and isolated one-name notices stay unresolved. Feed episodes are not verified final kills.
+
+- [Recording provenance and calibration](docs/matches/wdl-phantom-scrim-2/data/recording-provenance.json)
+- [Count recognizer agreement and disagreements](docs/matches/wdl-phantom-scrim-2/data/strength-model-reads.csv)
+- [Visual feed review decisions](docs/matches/wdl-phantom-scrim-2/data/feed-manual-decisions.csv)
+- [Recording-specific processing scripts](tools/recording_import/README.md)
+
+## 25 October feed audit
 
 The **25 October feed** uses 24,622 native observations at **four frames per second**, from recording time **300 to 6455.25 seconds**. Two English recognizers and temporal row tracking read the feed independently of ticket visibility. The earlier game's extraction retains its original sampling.
 

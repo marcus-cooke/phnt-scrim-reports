@@ -1,0 +1,22 @@
+{
+  "source_frames": 13420,
+  "sampling_hz": 2,
+  "automatic_accepted_before_visual_review": 1200,
+  "visually_reviewed_entries": 10,
+  "visual_additions": 3,
+  "review_windows_seconds": [
+    [
+      900.25,
+      910.25
+    ],
+    [
+      3300.25,
+      3310.25
+    ],
+    [
+      6000.25,
+      6010.25
+    ]
+  ],
+  "limitations": "Selected visual spot checks only. Not a complete reference census, held-out evaluation, spelling accuracy or whole-match recovery estimate."
+}

@@ -17,7 +17,8 @@ for p in DOCS.rglob('*.html'):
     text=p.read_text(encoding='utf-8');Links(p).feed(text)
     if re.search(r'127\.0\.0\.1|localhost|file:///|C:\\\\Users',text):errors.append(f'Local-only URL/path in {p}')
 catalog=json.loads((DOCS/'catalog.json').read_text())
-assert {m['meta']['id'] for m in catalog}=={'2026-10-24','2026-10-25'}
+configured={m['id']:m for m in json.loads((ROOT/'matches.json').read_text())}
+assert {m['meta']['id'] for m in catalog}==set(configured)
 for m in catalog:
     folder=DOCS/'matches'/m['meta']['id'];d=json.loads((folder/'data/match-data.json').read_text())
     flags=0
@@ -30,7 +31,9 @@ for m in catalog:
     assert flags==sum(s['over_33_readings'] for s in d['strength']['summary'])
     for e in d['events']:assert (folder/e['source_image']).is_file()
     if d.get('feed_method',{}).get('version')==2:
-        assert d['summary']['feed_frames']==24622 and d['summary']['feed_sample_gap_seconds']==.25
+        gap=d['summary']['feed_sample_gap_seconds']
+        assert d['summary']['feed_frames']==round((d['summary']['feed_end_seconds']-d['summary']['feed_start_seconds'])/gap)+1
+        if m['meta']['id']=='2026-10-25':assert d['summary']['feed_frames']==24622 and gap==.25
         assert len({e['event_id'] for e in d['events']})==len(d['events'])
         for e in d['events']:
             observations=e['observation_times']
@@ -77,7 +80,29 @@ for m in catalog:
         assert all(c['start_seconds']>=300 for c in d['clips'])
         assert m['meta']['final_scores']=={'Blue':100,'Red':80,'Green':62}
         assert d['scoreboard']==[], 'Never reuse the first recording scoreboard'
-    else:assert m['meta']['phnt_team']=='Green'
+    else:assert m['meta']['phnt_team']==configured[m['meta']['id']]['phnt_team']
+    if d.get('source_recording'):
+        provenance=json.loads((folder/'data/recording-provenance.json').read_text())
+        assert (provenance['source_video_width'],provenance['source_video_height'])==(1920,804)
+        assert provenance['verified_result']['Blue']==100 and provenance['verified_result']['Green']==88 and provenance['verified_result']['Red']==75
+        assert d['summary']['feed_frames']==13420 and d['summary']['feed_sample_gap_seconds']==.5
+        assert len(d['scoreboard'])==10 and len({r['player'] for r in d['scoreboard']})==10
+        assert sum(e['status']=='reviewed' for e in d['events'])==10
+        assert all(.25<=e['first_seen_seconds']<=e['last_seen_seconds']<=6709.75 for e in d['events'])
+        assert {s['team']:s['peak'] for s in d['strength']['summary']}=={'Blue':45,'Red':41,'Green':41}
+        with (folder/'data/strength-model-reads.csv').open(encoding='utf-8-sig',newline='') as f:
+            independent={(float(r['video_seconds']),r['team']):r for r in csv.DictReader(f)}
+        for r in d['strength']['rows']:
+            for team in ['Blue','Red','Green']:
+                key=team.lower();audit=independent[(r['video_seconds'],team)]
+                if r[key+'_status']=='machine_read':
+                    assert audit['decision']=='machine_consensus'
+                    assert int(audit['english_v4'])==int(audit['english_v5'])==r[key]
+                    assert min(float(audit['v4_confidence']),float(audit['v5_confidence']))>=.92
+                if '3-versus-5' in audit['reason']:assert r[key] is None or r[key+'_status']=='reviewed'
+        for team in ['blue','red','green']:
+            values=[r[team] for r in d['tickets'] if r[team] is not None]
+            assert values==sorted(values),'Accepted ticket progression must be monotonic'
     print(m['meta']['id'],len(d['tickets']),'ticket rows;',len(d['events']),'feed candidates;',flags,'strength flags;',len(d['clips']),'clips')
 for p in DOCS.rglob('*'):
     if p.is_file() and p.stat().st_size>50_000_000:errors.append(f'Oversized file {p}')

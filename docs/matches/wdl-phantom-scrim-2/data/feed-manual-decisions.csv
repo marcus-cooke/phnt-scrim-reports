@@ -1,0 +1,11 @@
+﻿event_id,decision,reviewed_at_seconds,attacker,target,attacker_team,target_team,icon_class,source_image
+D00179,correct_existing_candidate,900.25,Spike,[PHNT]Jensen,Green,Blue,skull-marked,assets/feed-0000900750-r2.webp
+D00178,correct_existing_candidate,900.25,Ivary,[HTD]Ceddy,Green,Red,unclassified,assets/feed-0000906250-r4.webp
+D00180,correct_existing_candidate,902.25,hjp,[GIII]Falk,Green,Red,skull-marked,assets/feed-0000903750-r2.webp
+D00181,correct_existing_candidate,902.25,[PHNT]BlackShadow,DuckPuncher,Blue,Green,unclassified,assets/feed-0000904750-r5.webp
+D00182,correct_existing_candidate,904.25,[PHNT]Chamberz,[HTD]OhhMagxz,Blue,Red,unclassified,assets/feed-0000903750-r1.webp
+V00006,add_visual_sample,3304.25,[PHNT]Silverhand,[HTD]K1SHO,Blue,Red,unclassified,assets/feed-0003304250-r2.webp
+D01451,correct_existing_candidate,3304.25,[GIII]Bot Yuri,Zanshin,Red,Green,unclassified,assets/feed-0003304250-r1.webp
+D01453,correct_existing_candidate,3304.25,hjp,[GIII]leeven.berlin,Green,Red,unclassified,assets/feed-0003308250-r3.webp
+V00009,add_visual_sample,3310.25,j,[HTD]Kanonenfutter,Green,Red,unclassified,assets/feed-0003310250-r1.webp
+V00010,add_visual_sample,6004.25,[PHNT]fishu,[HTD]D3rPhil,Blue,Red,unclassified,assets/feed-0006004250-r1.webp

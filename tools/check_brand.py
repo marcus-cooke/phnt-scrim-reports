@@ -17,4 +17,4 @@ for p in [ROOT/'docs/index.html',*list((ROOT/'docs/matches').glob('*/index.html'
     assert '<title>Phantom Regiment' in html
 outer=(ROOT/'docs/index.html').read_text(encoding='utf-8')
 assert 'brand/phantom-logomark.svg' in outer and 'brand/phantom-wordmark.svg' in outer
-print('PASS: original logo/font fingerprints, self-hosted font URLs, shared branding on shell and both match reports')
+print('PASS: original logo/font fingerprints, self-hosted font URLs, shared branding on shell and all match reports')

@@ -1,0 +1,40 @@
+{
+  "recording": "YTDown.com_YouTube_Media_RQJOTLAqA7M_WDL-Phantom-scrim-2_001_1080p.mp4",
+  "source_video_sha256": "f8bf2b6d302c368eaac02507faa836d8f2bf7f54c1436b3746ae1176e03b5e6c",
+  "source_video_bytes": 2000516868,
+  "source_video_width": 1920,
+  "source_video_height": 804,
+  "source_fps": 29.935,
+  "duration_seconds": 6752.163019876399,
+  "recording_date": null,
+  "pov_identity": null,
+  "verified_result": {
+    "phnt_faction": "Blue",
+    "Blue": 100,
+    "Red": 75,
+    "Green": 88,
+    "result_screen_seconds": 6722.163
+  },
+  "sampling": {
+    "hud_gap_seconds": 5,
+    "feed_gap_seconds": 0.5,
+    "feed_start_seconds": 0.25,
+    "feed_end_seconds": 6709.75
+  },
+  "calibration": "Bicubic enlargement to the existing 3440x1440 layout; no new image detail is created. Source times corrected for nearest-rounding sampling bins; uncertainty about 0.034 seconds.",
+  "strength": "Two English recognizers agree, exact two digits, confidence >=0.92 in both, visible ticket HUD. Ambiguous first-digit 5 on Green is withheld for 3-versus-5 review. Three selected faction peaks visually verified; other observations remain machine reads.",
+  "score_anchors": 29,
+  "reviewed_scoreboard_rows": 10,
+  "reviewed_feed_entries": 10,
+  "limits": "Recording date and member POV identity unconfirmed. Feed samples are display episodes, not verified final kills. Selected visual checks do not establish whole-match accuracy. Anonymous map symbols do not identify player routes.",
+  "models": [
+    {
+      "file": "en_PP-OCRv4_rec.onnx",
+      "sha256": "e8770c967605983d1570cdf5352041dfb68fa0c21664f49f47b155abd3e0e318"
+    },
+    {
+      "file": "en_PP-OCRv5_rec.onnx",
+      "sha256": "c3461add59bb4323ecba96a492ab75e06dda42467c9e3d0c18db5d1d21924be8"
+    }
+  ]
+}
