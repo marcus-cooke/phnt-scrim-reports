@@ -1,6 +1,6 @@
 # WDL / Phantom scrim 2 import
 
-These scripts record the adaptations used for the **undated 1920 × 804 POV**.
+These scripts record the adaptations used for the **8 November 2026, 1920 × 804 POV against RMNT and HTD**.
 They are recording-specific analysis tools, not an automatic upload service.
 Date, player identity, faction, round window, anchors and visual decisions must
 be reviewed again for other footage. No previous match's manual feed decisions,
@@ -56,4 +56,7 @@ recording. Existing report files stay intact. Validate with `tools/check_site.py
 and `tools/check_brand.py`, then review the browser behavior and source evidence.
 
 The public exports distinguish sampled feed display episodes from verified
-final kills and leave recording date / POV identity unconfirmed.
+final kills. Date and opponents are confirmed by WDL fixture #114 and the user.
+The fixture snapshot is in `data/league-fixture.json`. Its faction assignments
+differ from the recorded round, so the report retains both sources separately.
+POV identity remains unconfirmed. Visible HTD/GIII player tags stay as observed.

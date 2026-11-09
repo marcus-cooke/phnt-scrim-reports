@@ -6,7 +6,7 @@
   "source_video_height": 804,
   "source_fps": 29.935,
   "duration_seconds": 6752.163019876399,
-  "recording_date": null,
+  "recording_date": "2026-11-08",
   "pov_identity": null,
   "verified_result": {
     "phnt_faction": "Blue",
@@ -26,7 +26,7 @@
   "score_anchors": 29,
   "reviewed_scoreboard_rows": 10,
   "reviewed_feed_entries": 10,
-  "limits": "Recording date and member POV identity unconfirmed. Feed samples are display episodes, not verified final kills. Selected visual checks do not establish whole-match accuracy. Anonymous map symbols do not identify player routes.",
+  "limits": "Member POV identity unconfirmed. League-listed factions differ from this recorded round; charts use source-video faction colours. League result was under review on 9 November 2026. Feed episodes are not verified final kills. Selected visual checks do not establish whole-match accuracy. Anonymous map symbols do not identify player routes.",
   "models": [
     {
       "file": "en_PP-OCRv4_rec.onnx",
@@ -36,5 +36,43 @@
       "file": "en_PP-OCRv5_rec.onnx",
       "sha256": "c3461add59bb4323ecba96a492ab75e06dda42467c9e3d0c18db5d1d21924be8"
     }
-  ]
+  ],
+  "opponents": [
+    "RMNT",
+    "HTD"
+  ],
+  "match_details_source": "Primary WDL fixture #114, linked by the user; user confirmed RMNT and HTD.",
+  "opponent_faction_mapping": null,
+  "player_tag_note": "Observed HTD/GIII player tags remain as transcribed. Clan tags and league team names are retained separately.",
+  "league": {
+    "url": "https://wardogsleague.net/matches/cmw7udybd00mzp701dzl4rk0l",
+    "match_id": "cmw7udybd00mzp701dzl4rk0l",
+    "fixture_number": 114,
+    "type": "Friendly",
+    "scheduled_start_utc": "2026-11-08T19:00:00Z",
+    "map": "Ozeti",
+    "zone": "Default",
+    "lighting": "DayEarlyFog",
+    "host": "RMNT",
+    "result_status": "Under review",
+    "checked_on": "2026-11-09",
+    "lineup": [
+      {
+        "tag": "RMNT",
+        "name": "Remnant",
+        "listed_faction": "Lonestar"
+      },
+      {
+        "tag": "HTD",
+        "name": "HaiiTeD",
+        "listed_faction": "Manticore"
+      },
+      {
+        "tag": "PHNT",
+        "name": "Phantom Regiment",
+        "listed_faction": "Valkyra"
+      }
+    ],
+    "faction_discrepancy": "League page lists PHNT as Valkyra, RMNT as Lonestar and HTD as Manticore. Recorded footage shows PHNT as Blue / Lonestar and HTD-tagged players as Red / Valkyra. Charts and the recorded result follow the footage; league-listed factions are retained separately."
+  }
 }

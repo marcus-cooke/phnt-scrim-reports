@@ -12,7 +12,7 @@ The report uses the [official Phantom Regiment branding](https://phantomwardogs.
 | --- | --- | --- | --- |
 | 24 October 2026 | Green / Manticore | Third place; 21 points | HUD scan from 08:00, plus earlier reviewed zero-score anchors |
 | 25 October 2026 | Blue / Lonestar | Victory; 100 points | From video **05:00**, at 0–0–0 |
-| WDL / Phantom scrim 2 (undated) | Blue / Lonestar | Victory; 100 points | From recording start; active HUD through about 1:51:48 |
+| 8 November 2026 · vs RMNT / HTD | Blue / Lonestar | Victory; 100 points | From recording start; active HUD through about 1:51:48 |
 
 The 25 October recording begins with the tail of a preceding game, a round transition and setup. Everything before **300 seconds (05:00)** is excluded from that match's charts, statistics, downloads and hosted excerpts.
 
@@ -27,7 +27,7 @@ The 25 October recording begins with the tail of a preceding game, a round trans
 
 ## WDL / Phantom scrim 2
 
-The additional member recording is **1920 × 804**, about 1 hour 53 minutes long. Its recording date and POV identity are unconfirmed. The result screen verifies **Blue 100, Red 75, Green 88**. The report includes 29 visually checked score anchors, five-second HUD observations, two feed observations per second, 12 map snapshots and ten clear PHNT scoreboard rows from the final screens.
+The additional member recording is **1920 × 804**, about 1 hour 53 minutes long. The [WDL fixture #114](https://wardogsleague.net/matches/cmw7udybd00mzp701dzl4rk0l) identifies **8 November 2026**, **19:00 GMT**, **PHNT vs Remnant (RMNT) and HaiiTeD (HTD)**: a friendly on **Ozeti**, Default zone, DayEarlyFog, hosted by RMNT. The league result was **under review** when checked on 9 November. Its listed faction assignments differ from this recorded round; report charts follow the footage. POV identity remains unconfirmed. The result screen verifies **Blue 100, Red 75, Green 88**. The report includes 29 visually checked score anchors, five-second HUD observations, two feed observations per second, 12 map snapshots and ten clear PHNT scoreboard rows from the final screens.
 
 Small HUD text is enlarged to align the existing coordinate layout; enlargement creates no new detail. Player counts require agreement between two English recognizers at confidence ≥0.92 in both. Ambiguous first-digit 3/5 readings on Green remain unavailable. Selected source frames verify sampled peaks of **Blue 45, Red 41 and Green 41**. Sampling-bin timing offsets are corrected, with about one source frame of remaining uncertainty.
 

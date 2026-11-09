@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3.1 — 9 November 2026
+
+- Confirm the added recording as 8 November 2026 against RMNT and HTD, using WDL fixture #114 and user confirmation. Show the date and opponents in the selector, heading and downloads, retaining its existing share URL.
+- Add the fixture's 19:00 GMT start, Ozeti map, Default zone, DayEarlyFog lighting, RMNT host and under-review league status. Keep league-listed faction assignments separate from the recorded round's colours and preserve observed player tags.
+
 ## 0.1.3.0 — 9 November 2026
 
 - Add the undated WDL / Phantom scrim 2 recording from another PHNT POV, calibrated from its 1920 × 804 source. Verify PHNT as Blue / Lonestar and the 100–75–88 Blue–Red–Green result.

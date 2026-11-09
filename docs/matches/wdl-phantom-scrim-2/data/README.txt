@@ -1,6 +1,6 @@
-PHNT SCRIM - WDL / Phantom scrim 2 (undated)
+PHNT SCRIM - 8 November 2026
 PHNT faction: Blue. Video: YTDown.com_YouTube_Media_RQJOTLAqA7M_WDL-Phantom-scrim-2_001_1080p.mp4.
-All times are elapsed recording seconds. New PHNT POV at 1920 Ã— 804. Recording date and POV identity are unconfirmed. PHNT is Blue / Lonestar; result verified on the final screen. Active HUD ends around 1:51:48; post-match scoreboard is reviewed separately.
+All times are elapsed recording seconds. 8 November 2026, PHNT vs Remnant (RMNT) and HaiiTeD (HTD). WDL fixture #114: friendly at 19:00 GMT on Ozeti, Default zone, DayEarlyFog; hosted by RMNT. League result under review when checked. This recorded round shows PHNT as Blue / Lonestar and a 100â€“75â€“88 Blueâ€“Redâ€“Green victory; league-listed factions differ and are kept separately. Another PHNT POV at 1920 Ã— 804; identity unconfirmed. Active HUD ends around 1:51:48; final scoreboard reviewed separately.
 Tickets are point totals; person-icon counts are a separate HUD metric.
 Strength flags use strictly >33 (34+). Blank readings remain unknown.
 Feed charts include reviewed entries or repeated, high-confidence machine

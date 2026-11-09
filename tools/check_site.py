@@ -83,6 +83,10 @@ for m in catalog:
     else:assert m['meta']['phnt_team']==configured[m['meta']['id']]['phnt_team']
     if d.get('source_recording'):
         provenance=json.loads((folder/'data/recording-provenance.json').read_text())
+        assert m['meta']['date_iso']==provenance['recording_date']=='2026-11-08'
+        assert m['meta']['opponents']==provenance['opponents']==['RMNT','HTD']
+        assert m['meta']['league']['fixture_number']==114
+        assert m['meta']['league']['result_status']=='Under review'
         assert (provenance['source_video_width'],provenance['source_video_height'])==(1920,804)
         assert provenance['verified_result']['Blue']==100 and provenance['verified_result']['Green']==88 and provenance['verified_result']['Red']==75
         assert d['summary']['feed_frames']==13420 and d['summary']['feed_sample_gap_seconds']==.5

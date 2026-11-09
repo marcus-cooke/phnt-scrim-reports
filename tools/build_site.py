@@ -109,6 +109,7 @@ def pack_match(meta,source,video,templates,feed_data=None):
     if d.get('source_recording'):
         for name in ['feed-validation.json','recording-provenance.json']:
             (data/name).write_bytes((source/'data'/name).read_bytes())
+        if (source/'data/league-fixture.json').exists():(data/'league-fixture.json').write_bytes((source/'data/league-fixture.json').read_bytes())
     if not d['scoreboard']:
         (data/'scoreboard-visible-phnt.csv').write_text('player,kills,assists,deaths,revives,status\n',encoding='utf-8-sig')
     (data/'README.txt').write_text(f'''PHNT SCRIM - {meta['date']}
@@ -179,6 +180,14 @@ coverage section for sampling coverage and machine confidence rules.
         html=html.replace('Readings are roughly 4.17 seconds apart','Readings are 5 seconds apart')
         html=html.replace('Filenames encode video presentation timestamps in milliseconds.','Filenames encode approximate source times in milliseconds. Sampling-bin offsets are corrected; timing uncertainty is about one source frame (0.034 seconds).')
         html=html.replace('<div id="coverage"></div>','<p>Player counts require agreement between two English recognizers at confidence ≥0.92 in both. Ambiguous 3/5 readings on the tiny green HUD remain unavailable. Selected peaks were checked against native frames.</p><p><a href="data/strength-model-reads.csv">Independent count reads and disagreements</a> · <a href="data/recording-provenance.json">Recording and calibration notes</a></p><div id="coverage"></div>')
+    if meta.get('opponents'):
+        from html import escape
+        details=escape(meta['date']+' · PHNT vs '+' / '.join(meta['opponents']))
+        html=re.sub(r'(<section id="overview"[^>]*>)',lambda m:m[1]+'<p class="muted">'+details+'</p>',html,count=1)
+    if meta.get('league'):
+        league=meta['league']
+        brief='<aside class="section"><h2>League fixture #'+str(league['fixture_number'])+'</h2><p>'+escape(meta['date'])+' · 19:00 GMT · '+escape(league['type'])+' · '+escape(league['map'])+' · '+escape(league['zone'])+' · '+escape(league['lighting'])+' · hosted by '+escape(league['host'])+'</p><p>League result: '+escape(league['result_status'])+' (checked '+escape(league['checked_on'])+'). The recorded result above is verified from the video.</p><p class="note">'+escape(league['faction_discrepancy'])+'</p><a href="'+escape(league['url'])+'" target="_blank" rel="noopener">View WDL fixture #'+str(league['fixture_number'])+'</a></aside>'
+        html=re.sub(r'(<section id="overview"[^>]*>)',lambda m:m[1]+brief,html,count=1)
     # Host only portable links and selected clips. No localhost or original file URL.
     a=html.index("$('play-source').onclick=");b=html.index('\nlet page=',a)
     html=html[:a]+'''$('play-source').onclick=()=>{const c=D.clips.find(c=>currentTime>=c.start_seconds&&currentTime<=c.end_seconds);if(!c)return;const v=$('source-video');v.pause();v.hidden=false;v.src=c.src;v.addEventListener('loadedmetadata',()=>{v.currentTime=Math.max(0,currentTime-c.start_seconds);v.play().catch(()=>{})},{once:true});v.load();};'''+html[b:]

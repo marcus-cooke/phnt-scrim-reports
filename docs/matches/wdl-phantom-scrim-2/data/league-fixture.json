@@ -1,0 +1,31 @@
+{
+  "url": "https://wardogsleague.net/matches/cmw7udybd00mzp701dzl4rk0l",
+  "match_id": "cmw7udybd00mzp701dzl4rk0l",
+  "fixture_number": 114,
+  "type": "Friendly",
+  "scheduled_start_utc": "2026-11-08T19:00:00Z",
+  "map": "Ozeti",
+  "zone": "Default",
+  "lighting": "DayEarlyFog",
+  "host": "RMNT",
+  "result_status": "Under review",
+  "checked_on": "2026-11-09",
+  "lineup": [
+    {
+      "tag": "RMNT",
+      "name": "Remnant",
+      "listed_faction": "Lonestar"
+    },
+    {
+      "tag": "HTD",
+      "name": "HaiiTeD",
+      "listed_faction": "Manticore"
+    },
+    {
+      "tag": "PHNT",
+      "name": "Phantom Regiment",
+      "listed_faction": "Valkyra"
+    }
+  ],
+  "faction_discrepancy": "League page lists PHNT as Valkyra, RMNT as Lonestar and HTD as Manticore. Recorded footage shows PHNT as Blue / Lonestar and HTD-tagged players as Red / Valkyra. Charts and the recorded result follow the footage; league-listed factions are retained separately."
+}
