@@ -1,0 +1,341 @@
+{
+  "reviewed_evidence": [
+    {
+      "id": "opening-transport",
+      "seconds": 100,
+      "decoded_seconds": 99.99990000000001,
+      "source_frame": 5994,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording."
+    },
+    {
+      "id": "pilot-bottleneck",
+      "seconds": 690,
+      "decoded_seconds": 690.0059833333333,
+      "source_frame": 41359,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording."
+    },
+    {
+      "id": "rotation-intent",
+      "seconds": 810,
+      "decoded_seconds": 809.9925166666667,
+      "source_frame": 48551,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified."
+    },
+    {
+      "id": "church-approach",
+      "seconds": 1310,
+      "decoded_seconds": 1309.9920166666668,
+      "source_frame": 78521,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified."
+    },
+    {
+      "id": "church-interior",
+      "seconds": 1390,
+      "decoded_seconds": 1390.0052833333334,
+      "source_frame": 83317,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified."
+    },
+    {
+      "id": "ambush-map",
+      "seconds": 2460,
+      "decoded_seconds": 2460.0075500000003,
+      "source_frame": 147453,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified."
+    },
+    {
+      "id": "ambush-hit",
+      "seconds": 2530,
+      "decoded_seconds": 2529.9941333333336,
+      "source_frame": 151648,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified."
+    },
+    {
+      "id": "spotting-gap",
+      "seconds": 2760,
+      "decoded_seconds": 2760.00725,
+      "source_frame": 165435,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified."
+    },
+    {
+      "id": "coverage-discipline",
+      "seconds": 3420,
+      "decoded_seconds": 3419.9999166666666,
+      "source_frame": 204995,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified."
+    },
+    {
+      "id": "green-pressure",
+      "seconds": 3600,
+      "decoded_seconds": 3599.9964,
+      "source_frame": 215784,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified."
+    },
+    {
+      "id": "transport-conflict",
+      "seconds": 3720,
+      "decoded_seconds": 3719.999616666667,
+      "source_frame": 222977,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording."
+    },
+    {
+      "id": "green-zone-map",
+      "seconds": 4080,
+      "decoded_seconds": 4079.9925833333336,
+      "source_frame": 244555,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified."
+    },
+    {
+      "id": "late-pull-before",
+      "seconds": 4560,
+      "decoded_seconds": 4560.005450000001,
+      "source_frame": 273327,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording."
+    },
+    {
+      "id": "late-pull-after",
+      "seconds": 4575,
+      "decoded_seconds": 4575.003766666667,
+      "source_frame": 274226,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording."
+    },
+    {
+      "id": "late-reset",
+      "seconds": 4680,
+      "decoded_seconds": 4679.991983333333,
+      "source_frame": 280519,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording."
+    },
+    {
+      "id": "late-deficit",
+      "seconds": 5310,
+      "decoded_seconds": 5310.0047,
+      "source_frame": 318282,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording."
+    },
+    {
+      "id": "recovery",
+      "seconds": 5340,
+      "decoded_seconds": 5340.001333333334,
+      "source_frame": 320080,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording."
+    },
+    {
+      "id": "closing-hold",
+      "seconds": 5460,
+      "decoded_seconds": 5460.004550000001,
+      "source_frame": 327273,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording."
+    },
+    {
+      "id": "last-hud",
+      "seconds": 5595,
+      "decoded_seconds": 5595.006083333334,
+      "source_frame": 335365,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "result",
+      "seconds": 5614,
+      "decoded_seconds": 5613.991716666667,
+      "source_frame": 336503,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-120",
+      "seconds": 120,
+      "decoded_seconds": 120.00321666666667,
+      "source_frame": 7193,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-600",
+      "seconds": 600,
+      "decoded_seconds": 599.9994,
+      "source_frame": 35964,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-1440",
+      "seconds": 1440,
+      "decoded_seconds": 1440.0052333333333,
+      "source_frame": 86314,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-1680",
+      "seconds": 1680,
+      "decoded_seconds": 1679.9949833333335,
+      "source_frame": 100699,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-2400",
+      "seconds": 2400,
+      "decoded_seconds": 2399.9976,
+      "source_frame": 143856,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-2520",
+      "seconds": 2520,
+      "decoded_seconds": 2520.000816666666,
+      "source_frame": 151049,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-3000",
+      "seconds": 3000,
+      "decoded_seconds": 2999.9970000000003,
+      "source_frame": 179820,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-3540",
+      "seconds": 3540,
+      "decoded_seconds": 3540.0031333333336,
+      "source_frame": 212188,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-3900",
+      "seconds": 3900,
+      "decoded_seconds": 3899.9961000000003,
+      "source_frame": 233766,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-4200",
+      "seconds": 4200,
+      "decoded_seconds": 4199.995800000001,
+      "source_frame": 251748,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-4500",
+      "seconds": 4500,
+      "decoded_seconds": 4499.9955,
+      "source_frame": 269730,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-5040",
+      "seconds": 5040,
+      "decoded_seconds": 5040.001633333332,
+      "source_frame": 302098,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-5160",
+      "seconds": 5160,
+      "decoded_seconds": 5160.00485,
+      "source_frame": 309291,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-5220",
+      "seconds": 5220,
+      "decoded_seconds": 5219.998116666667,
+      "source_frame": 312887,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    },
+    {
+      "id": "score-5400",
+      "seconds": 5400,
+      "decoded_seconds": 5399.9946,
+      "source_frame": 323676,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent."
+    }
+  ],
+  "coverage": {
+    "video_download_complete": true,
+    "video_size_bytes": 3345474275,
+    "audio_size_bytes": 90970642,
+    "extracted_unique_frames": 214,
+    "overview_gap_seconds": 60,
+    "score_anchors": 21,
+    "detailed_review_windows": [
+      {
+        "start_seconds": 40,
+        "end_seconds": 180,
+        "sample_gap_seconds": 20
+      },
+      {
+        "start_seconds": 1260,
+        "end_seconds": 1450,
+        "sample_gap_seconds": 10
+      },
+      {
+        "start_seconds": 2340,
+        "end_seconds": 2540,
+        "sample_gap_seconds": 10
+      },
+      {
+        "start_seconds": 3540,
+        "end_seconds": 3670,
+        "sample_gap_seconds": 10
+      },
+      {
+        "start_seconds": 4500,
+        "end_seconds": 4740,
+        "sample_gap_seconds": 15
+      },
+      {
+        "start_seconds": 5160,
+        "end_seconds": 5610,
+        "sample_gap_seconds": 15
+      },
+      {
+        "start_seconds": 5600,
+        "end_seconds": 5618,
+        "sample_gap_seconds": 1
+      }
+    ],
+    "continuous_visual_watch": false,
+    "comms_source": "YouTube automatic English captions; selected independent local small.en ASR checks",
+    "manual_human_review": false,
+    "match_date_confirmed": false
+  },
+  "rejected_claims": [
+    "Red and Green intentionally allied: allegations in Blue comms are not proof.",
+    "A particular player cheated or used macros: not established by the footage review.",
+    "HUD counts above 33 prove an illegal roster: icon semantics and roster are not independently verified.",
+    "Result-screen intermediate totals are final: the animation must finish before reading the scores.",
+    "These tendencies are permanent clan identities: one POV from one match is insufficient."
+  ],
+  "review_type": "Agent-reviewed sampled footage; not independent human validation"
+}

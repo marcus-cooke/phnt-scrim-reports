@@ -1,0 +1,1018 @@
+{
+  "schema_version": 1,
+  "id": "black-sails-first-competitive-war",
+  "reviewed_on": "2026-11-10",
+  "source": {
+    "video_id": "EaqOp1Fh7D0",
+    "url": "https://www.youtube.com/watch?v=EaqOp1Fh7D0",
+    "title": "First Competitive War: Black Sails vs BNT, III vs OOPS, Merc | WARDOGS Frontline POV",
+    "author": "Mike Well Played",
+    "upload_date": "2026-10-04",
+    "match_date": null,
+    "duration_seconds": 5620.96535,
+    "width": 1920,
+    "height": 1080,
+    "fps": 59.94005994005994
+  },
+  "teams": [
+    {
+      "id": "blue",
+      "name": "Black Sails",
+      "color": "#59b9f3",
+      "perspective": "Blue / Lonestar · recorded POV and comms"
+    },
+    {
+      "id": "red",
+      "name": "BNT / III",
+      "color": "#f4777d",
+      "perspective": "Red / Valkyra · uploader-listed coalition"
+    },
+    {
+      "id": "green",
+      "name": "OOPS / Merc",
+      "color": "#65d998",
+      "perspective": "Green / Manticore · uploader-listed coalition"
+    }
+  ],
+  "result": {
+    "label": "Black Sails victory · 100 / 98 / 99",
+    "basis": "Blue / Red / Green · completed result screen at 1:33:34",
+    "evidence_id": "result",
+    "scores": {
+      "blue": 100,
+      "red": 98,
+      "green": 99
+    }
+  },
+  "summary": "Black Sails recover from 84–98–99 by sustaining their scoring population. Their active rotations and massed entry are credible threats; transport bottlenecks and uneven regroup execution offer openings.",
+  "scope_note": "This is scouting from one October-uploaded recording, viewed through Black Sails. BNT / III and OOPS / Merc are combined sides, not individually measured clans. Confidence describes support for this match-specific finding, not a calibrated probability or evidence of a permanent habit. Current patch and roster transfer are unverified.",
+  "priorities": [
+    {
+      "title": "Against Black Sails",
+      "text": "Pressure the reinforcement cycle and intercept the next rotation. In the endgame, track their safe bodies and APC rather than assuming a large score deficit ends the contest."
+    },
+    {
+      "title": "Against BNT / III",
+      "text": "Prepare for sustained midgame pressure and regroups. Keep a route back to the scoring area; their near-winning lead still leaves a recovery window in this match."
+    },
+    {
+      "title": "Against OOPS / Merc",
+      "text": "Read the next zone projection early and account for reported armour and anti-air. Their late surge is dangerous, but the final scoring contest remains decisive."
+    }
+  ],
+  "coverage_labels": [
+    "1 recording · 1 POV",
+    "21 visually reviewed score anchors",
+    "11 bounded scouting findings",
+    "Full-length caption pass + sampled visual review"
+  ],
+  "coverage": {
+    "video_download_complete": true,
+    "video_size_bytes": 3345474275,
+    "audio_size_bytes": 90970642,
+    "extracted_unique_frames": 214,
+    "overview_gap_seconds": 60,
+    "score_anchors": 21,
+    "detailed_review_windows": [
+      {
+        "start_seconds": 40,
+        "end_seconds": 180,
+        "sample_gap_seconds": 20
+      },
+      {
+        "start_seconds": 1260,
+        "end_seconds": 1450,
+        "sample_gap_seconds": 10
+      },
+      {
+        "start_seconds": 2340,
+        "end_seconds": 2540,
+        "sample_gap_seconds": 10
+      },
+      {
+        "start_seconds": 3540,
+        "end_seconds": 3670,
+        "sample_gap_seconds": 10
+      },
+      {
+        "start_seconds": 4500,
+        "end_seconds": 4740,
+        "sample_gap_seconds": 15
+      },
+      {
+        "start_seconds": 5160,
+        "end_seconds": 5610,
+        "sample_gap_seconds": 15
+      },
+      {
+        "start_seconds": 5600,
+        "end_seconds": 5618,
+        "sample_gap_seconds": 1
+      }
+    ],
+    "continuous_visual_watch": false,
+    "comms_source": "YouTube automatic English captions; selected independent local small.en ASR checks",
+    "manual_human_review": false,
+    "match_date_confirmed": false
+  },
+  "method": [
+    {
+      "title": "What was inspected",
+      "paragraphs": [
+        "The complete 1920 × 1080, 59.94 fps video and its separate audio were downloaded. The full automatic-caption transcript was read for tactical leads. A 60-second visual overview spans the recording, with denser sampled sequences at the opening, church entry, 39–42 minute transition, 59–61 minute pressure, 75–79 minute rotation and the finish.",
+        "Twenty-one score anchors were visually read, including the completed result animation. Additional frames support the evidence cards. This is sampled agent review, not a claim that every frame, fight or player was watched or tracked."
+      ]
+    },
+    {
+      "title": "How confidence is used",
+      "paragraphs": [
+        "High means the stated match-specific outcome is directly supported by readable HUD or result evidence. Moderate means a tactical interpretation combines sampled footage and Blue comms with incomplete visibility. Neither label is a probability or a clan-wide performance rating.",
+        "The observed field records what the sources support. Interpretation explains a plausible tactical meaning. Proposed responses are scouting hypotheses to test in play, not proven counters."
+      ]
+    },
+    {
+      "title": "Comms and attribution",
+      "paragraphs": [
+        "Speech is paraphrased from YouTube automatic captions. Selected logistics, late rotation and closing calls were cross-checked using a separate local speech recognizer. Both are machine transcripts; audio excerpts are provided for review. Exact speaker identification was not performed.",
+        "The uploader lists Blue as Black Sails, Red as BNT / III and Green as OOPS / Merc. Combined sides stay combined. No conclusion assigns a particular pilot, tank, drill or tactical decision to one member clan without supporting evidence."
+      ]
+    },
+    {
+      "title": "What remains unknown",
+      "paragraphs": [
+        "The actual match date, full lineups, hidden routes, defender comms, complete kill totals and full-team position history are unknown. The upload date is 4 October 2026; transfer to the current patch and roster is unverified.",
+        "Some HUD person-icon counts exceed 33. They remain displayed game counts, not independently verified roster sizes or proof of a rules breach. Complaints about teaming, cheating, macros and suspicious play are not accepted as findings.",
+        "Static scoring samples do not establish uninterrupted control, exact scoring onset or the cause of a stall. No heatmap, causal win probability, player skill ranking or fabricated aggregate clan rating is provided."
+      ]
+    }
+  ],
+  "rejected_claims": [
+    "Red and Green intentionally allied: allegations in Blue comms are not proof.",
+    "A particular player cheated or used macros: not established by the footage review.",
+    "HUD counts above 33 prove an illegal roster: icon semantics and roster are not independently verified.",
+    "Result-screen intermediate totals are final: the animation must finish before reading the scores.",
+    "These tendencies are permanent clan identities: one POV from one match is insufficient."
+  ],
+  "findings": [
+    {
+      "id": "blue-population",
+      "team": "blue",
+      "type": "adaptation",
+      "title": "They can win by preserving bodies, not taking the next tower",
+      "observation": "Blue trails 84–98–99 at 88:30, reaches 92–98–99 at 91:00 and wins 100–98–99. The late calls prioritise APC respawns, revives, staying alive and limiting pushes.",
+      "interpretation": "Their strongest closing adjustment is to sustain the scoring population in a favourable zone instead of continuing the earlier cycle of base assaults. The score evidence supports the recovery; it cannot assign all credit to one call.",
+      "response": "If facing them late, check the scoring population and their APC before chasing kills elsewhere. Keep enough pressure on their safe bodies to prevent an uncontested hold.",
+      "confidence": "High",
+      "limitation": "Verified match-specific adaptation. It is not a measured universal game rule or proof this works on every zone.",
+      "evidence_ids": [
+        "late-deficit",
+        "recovery",
+        "closing-hold",
+        "result"
+      ]
+    },
+    {
+      "id": "blue-manouevre",
+      "team": "blue",
+      "type": "strength",
+      "title": "Their intended attack is a wrap ahead of the zone",
+      "observation": "Early and middle-game calls repeatedly specify outer routes, getting ahead and making opponents chase. At 39–41 minutes, Blue scores while preparing the next building and approach.",
+      "interpretation": "Expect an active caller to try to change the angle and intercept the next rotation rather than remain in a static duel. Intent is clearer than full-team execution.",
+      "response": "Watch the next playable approach as well as the current contact. Keep a small lookout on the outside route so a visible firefight does not draw every defender inward.",
+      "confidence": "Moderate",
+      "limitation": "One Blue POV and its comms. No complete player-route reconstruction or measure of flank success.",
+      "evidence_ids": [
+        "rotation-intent",
+        "ambush-map"
+      ]
+    },
+    {
+      "id": "blue-entry",
+      "team": "blue",
+      "type": "strength",
+      "title": "A massed smoke entry can get them inside a fortified position",
+      "observation": "Around 21:50–23:10 the POV crosses a smoked approach and reaches the church interior. The surrounding calls request a gate opening, mass entry, spreading out and revives. The HUD is Blue by 23 minutes.",
+      "interpretation": "They can turn a group push into a local foothold when enough players reach the entrance together. The position remains contested afterwards, so this is not evidence of a secure long-term capture.",
+      "response": "Prepare layered coverage beyond the first entrance. Contest the interior and recovery space instead of relying entirely on the outer wall or first contact.",
+      "confidence": "Moderate",
+      "limitation": "One observed church entry. Defender numbers and every entrance are not visible.",
+      "evidence_ids": [
+        "church-approach",
+        "church-interior"
+      ]
+    },
+    {
+      "id": "blue-rotation",
+      "team": "blue",
+      "type": "weakness",
+      "title": "The planned rotation is sometimes faster than the regroup",
+      "observation": "At 41–42 minutes, a planned move is followed by incoming fire and the POV being downed. At 76 minutes, a drill pull coincides with a changed zone projection, destination confusion and another reset; by 78:00 Green has control.",
+      "interpretation": "Their plan depends on moving a group before the next approach is occupied. Late stragglers and a pull not understood by everyone create a window to catch the transition.",
+      "response": "After spotting a large move, occupy its likely exit and the next building. Force a second turn or regroup rather than following the column from behind.",
+      "confidence": "Moderate",
+      "limitation": "Two reviewed transitions and comms reports. These do not establish a whole-team wipe or prove the drill caused the failure.",
+      "evidence_ids": [
+        "ambush-map",
+        "ambush-hit",
+        "late-pull-before",
+        "late-pull-after",
+        "late-reset"
+      ]
+    },
+    {
+      "id": "blue-logistics",
+      "team": "blue",
+      "type": "weakness",
+      "title": "Transport and supply depend on a small pilot pool",
+      "observation": "The opening reports too few pilots; at about 11:15 a caller reports only two pilots. Around 61–62 minutes, transport demands compete with returning a pilot to a rocket helicopter, while an APC is being repaired.",
+      "interpretation": "Infantry resets, supplies and air support can compete for the same people. Repeatedly forcing a reset may disrupt several jobs at once, even without winning every infantry duel.",
+      "response": "Time pressure around their reinforcement cycle. Cover predictable drop approaches, pressure the spawn vehicle and be ready to advance while their force is rebuilding.",
+      "confidence": "Moderate",
+      "limitation": "Repeated, independently machine-transcribed comms reports; no full pilot roster, exact downtime or measured transport throughput.",
+      "evidence_ids": [
+        "opening-transport",
+        "pilot-bottleneck",
+        "transport-conflict"
+      ]
+    },
+    {
+      "id": "blue-awareness",
+      "team": "blue",
+      "type": "weakness",
+      "title": "Spotting and sector coverage need repeated correction",
+      "observation": "Around 46 minutes the callers report poor spotting. Around 57 minutes they complain of several players watching one direction; similar coverage instructions recur near 74 and 80 minutes.",
+      "interpretation": "The team understands the requirement, but execution appears inconsistent under pressure. A second angle can be more disruptive than adding more fire on the angle they are already watching.",
+      "response": "Use a coordinated second angle while maintaining the first contact. Also check for a response: the caller explicitly asks them to fan out, so the opening may close quickly.",
+      "confidence": "Moderate",
+      "limitation": "Primarily a self-reported execution issue in machine captions. No counted spotting rate, kill attribution or proof of a permanent clan weakness.",
+      "evidence_ids": [
+        "spotting-gap",
+        "coverage-discipline"
+      ]
+    },
+    {
+      "id": "red-midgame",
+      "team": "red",
+      "type": "strength",
+      "title": "Red converts the middle-game pressure into a large lead",
+      "observation": "The sampled scores move from Blue 58 / Red 51 at 42:00 to 67 / 90 at 65:00 and 67 / 93 at 70:00. Blue's 42-minute transition ends in a reset; later calls describe Red's regroups as stronger.",
+      "interpretation": "This recorded Red coalition sustains pressure and reaches scoring positions while Blue repeatedly rebuilds. Its observed advantage is objective conversion, not a proven aim or kill-rate statistic.",
+      "response": "Prepare the next reinforcement and scoring position before accepting a long attritional fight. Contest their mobile spawn when it is exposed and protect your own regroup route.",
+      "confidence": "Moderate",
+      "limitation": "The score lead is verified; its explanation is partial. BNT and III cannot be separated into individual clan styles from this POV.",
+      "evidence_ids": [
+        "ambush-hit",
+        "score-2520",
+        "score-3900",
+        "score-4200"
+      ]
+    },
+    {
+      "id": "red-church",
+      "team": "red",
+      "type": "weakness",
+      "title": "The church defence is breachable when Blue arrives together",
+      "observation": "Blue comms identify the church position with Red. The reviewed approach shows smoke, then Blue players inside and Blue control around 23–24 minutes.",
+      "interpretation": "In this sequence the fortification does not prevent a local foothold. A massed entry is a credible option when the approach and interior can both be contested.",
+      "response": "Scout the actual entrances and bring the group and smoke together. Exploit a foothold quickly, while keeping enough bodies in the scoring area; do not assume the base stays safe after entry.",
+      "confidence": "Moderate",
+      "limitation": "A single attack, with defender affiliation partly supplied by Blue comms. This does not show chronic poor base defence.",
+      "evidence_ids": [
+        "church-approach",
+        "church-interior",
+        "score-1440"
+      ]
+    },
+    {
+      "id": "red-finish",
+      "team": "red",
+      "type": "weakness",
+      "title": "Their near-winning lead does not close the match",
+      "observation": "Red shows 98 at every reviewed anchor from 88:30 through 93:15 and finishes on 98. Over the same sampled interval Blue rises from 84 to 99, then wins on 100.",
+      "interpretation": "The Red coalition fails to secure the remaining score in this endgame. Fighting and a near-win lead are insufficient if another side can preserve the stronger scoring population.",
+      "response": "Stay organised even when Red is almost at the target. Identify the live scoring requirement and deny it while protecting your own eligible bodies; the recording demonstrates a recoverable late state.",
+      "confidence": "High",
+      "limitation": "High confidence in the observed stall and result, lower confidence in its cause. No claim about Red's comms or future closing ability.",
+      "evidence_ids": [
+        "late-deficit",
+        "closing-hold",
+        "last-hud",
+        "result"
+      ]
+    },
+    {
+      "id": "green-zone",
+      "team": "green",
+      "type": "strength",
+      "title": "Green turns the late zone phase into a fast scoring surge",
+      "observation": "Green rises from 71 at 78:00 to 94 at 86:00, 98 at 87:00 and 99 at 88:30. Earlier Blue comms repeatedly react to Green drill pulls and report armour/anti-air obstructing a tower attack.",
+      "interpretation": "Green's observed strength is reaching and holding a useful scoring phase while Blue is displaced or rebuilding. Drill and vehicle explanations remain Blue-side reports, not a verified causal model.",
+      "response": "Watch the next zone projection early. Bring the means to contest vehicles before choosing a fortified approach, and avoid spending the entire rotation chasing the previous scoring area.",
+      "confidence": "Moderate",
+      "limitation": "OOPS and Merc form one recorded side. We cannot assign the building, armour or command decisions to either clan individually.",
+      "evidence_ids": [
+        "green-pressure",
+        "green-zone-map",
+        "late-reset",
+        "score-5160",
+        "score-5220"
+      ]
+    },
+    {
+      "id": "green-finish",
+      "team": "green",
+      "type": "weakness",
+      "title": "Green reaches 99 but cannot deny Blue's final hold",
+      "observation": "Green is on 99 at 88:30 and remains 99 at each later reviewed anchor and the final result. Blue gains the remaining 16 points from its 84-point deficit.",
+      "interpretation": "In this match, the late scoring surge does not translate into the last point or successful denial of Blue's recovery. The exposed opportunity is the endgame scoring contest, not proof of weak individual gunfights.",
+      "response": "Do not concede solely because Green is one point away. Check whether its bodies can still score, preserve your own regroup and contest the next safe scoring population rather than blindly assaulting a tower.",
+      "confidence": "High",
+      "limitation": "Verified outcome, incomplete view of defender choices. A persistent Green closing weakness would require more recordings.",
+      "evidence_ids": [
+        "late-deficit",
+        "recovery",
+        "closing-hold",
+        "result"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "opening-transport",
+      "seconds": 100,
+      "title": "Early deployment is already under time pressure",
+      "summary": "The opening call requests faster loading and says the group is behind schedule; a subsequent call reports too few pilots. This is an operational constraint reported by Blue, not a measured travel-time comparison.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording.",
+      "image": "assets/opening-transport.jpg",
+      "image_alt": "WARDOGS source frame at recording time 1:40: Early deployment is already under time pressure",
+      "library": true,
+      "clip": {
+        "src": "clips/opening-transport.mp4",
+        "start_seconds": 85,
+        "end_seconds": 130
+      },
+      "thumbnail": "assets/thumb-opening-transport.jpg"
+    },
+    {
+      "id": "pilot-bottleneck",
+      "seconds": 690,
+      "title": "Only two pilots are reported available",
+      "summary": "Blue comms link the two-pilot workload to supplies while infantry are told to leave a crowded position and join the train lanes. A reset or resupply demand can compete with combat aviation.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording.",
+      "image": "assets/pilot-bottleneck.jpg",
+      "image_alt": "WARDOGS source frame at recording time 11:30: Only two pilots are reported available",
+      "library": true,
+      "clip": {
+        "src": "clips/pilot-bottleneck.mp4",
+        "start_seconds": 665,
+        "end_seconds": 710
+      },
+      "thumbnail": "assets/thumb-pilot-bottleneck.jpg"
+    },
+    {
+      "id": "rotation-intent",
+      "seconds": 810,
+      "title": "The caller wants the enemy chasing the rotation",
+      "summary": "Blue calls for an east/southeast wrap and warns players against staying behind. This supports the intended manoeuvre, not proof that the entire team executed it.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified.",
+      "image": "assets/rotation-intent.jpg",
+      "image_alt": "WARDOGS source frame at recording time 13:30: The caller wants the enemy chasing the rotation",
+      "library": true,
+      "thumbnail": "assets/thumb-rotation-intent.jpg"
+    },
+    {
+      "id": "church-approach",
+      "seconds": 1310,
+      "title": "Smoke covers the approach to the church position",
+      "summary": "The POV approaches the church-side fortifications through visible smoke while comms call for a massed entry and opening the gate.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified.",
+      "image": "assets/church-approach.jpg",
+      "image_alt": "WARDOGS source frame at recording time 21:50: Smoke covers the approach to the church position",
+      "library": true,
+      "clip": {
+        "src": "clips/church-approach.mp4",
+        "start_seconds": 1300,
+        "end_seconds": 1345
+      },
+      "thumbnail": "assets/thumb-church-approach.jpg"
+    },
+    {
+      "id": "church-interior",
+      "seconds": 1390,
+      "title": "Blue players reach the church interior",
+      "summary": "The POV is inside the building with another Blue player and a downed teammate. Nearby samples show several friendlies in the defended compound; the HUD has switched to Blue control.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified.",
+      "image": "assets/church-interior.jpg",
+      "image_alt": "WARDOGS source frame at recording time 23:10: Blue players reach the church interior",
+      "library": true,
+      "clip": {
+        "src": "clips/church-interior.mp4",
+        "start_seconds": 1370,
+        "end_seconds": 1440
+      },
+      "thumbnail": "assets/thumb-church-interior.jpg"
+    },
+    {
+      "id": "ambush-map",
+      "seconds": 2460,
+      "title": "A scoring position still needs a safe exit",
+      "summary": "The map shows Blue's cluster near the edge of the moving scoring area. Comms are discussing the next building and limiting how many players leave the zone.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified.",
+      "image": "assets/ambush-map.jpg",
+      "image_alt": "WARDOGS source frame at recording time 41:00: A scoring position still needs a safe exit",
+      "library": true,
+      "thumbnail": "assets/thumb-ambush-map.jpg"
+    },
+    {
+      "id": "ambush-hit",
+      "seconds": 2530,
+      "title": "The attempted transition ends with the POV downed",
+      "summary": "The intervening samples show an exposed move, smoke and incoming damage. The POV is down by 42:10 and comms call for a reset. This proves a local failed transition, not a verified whole-team wipe.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified.",
+      "image": "assets/ambush-hit.jpg",
+      "image_alt": "WARDOGS source frame at recording time 42:10: The attempted transition ends with the POV downed",
+      "library": true,
+      "clip": {
+        "src": "clips/ambush-hit.mp4",
+        "start_seconds": 2460,
+        "end_seconds": 2545
+      },
+      "thumbnail": "assets/thumb-ambush-hit.jpg"
+    },
+    {
+      "id": "spotting-gap",
+      "seconds": 2760,
+      "title": "Blue reports a shortage of useful spotting",
+      "summary": "Around 46 minutes, callers complain that spotting is absent despite recon roles being present. The POV is also downed in the reviewed sequence; the causal link cannot be isolated from this one view.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified.",
+      "image": "assets/spotting-gap.jpg",
+      "image_alt": "WARDOGS source frame at recording time 46:00: Blue reports a shortage of useful spotting",
+      "library": true,
+      "thumbnail": "assets/thumb-spotting-gap.jpg"
+    },
+    {
+      "id": "coverage-discipline",
+      "seconds": 3420,
+      "title": "The caller asks for coverage in different directions",
+      "summary": "At about 57 minutes, Blue comms describe players watching one direction and being picked off. Similar sector-coverage instructions recur near 74 and 80 minutes. This is a reported execution issue, not a counted error rate.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified.",
+      "image": "assets/coverage-discipline.jpg",
+      "image_alt": "WARDOGS source frame at recording time 57:00: The caller asks for coverage in different directions",
+      "library": true,
+      "thumbnail": "assets/thumb-coverage-discipline.jpg"
+    },
+    {
+      "id": "green-pressure",
+      "seconds": 3600,
+      "title": "Green controls the HUD while Blue attacks from range",
+      "summary": "At 60:00 the scores are Blue 67, Red 74, Green 47 and the HUD shows Green control. Blue comms report a tank and anti-air frustrating the attack on Green's position; the POV does not show that whole assault.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified.",
+      "image": "assets/green-pressure.jpg",
+      "image_alt": "WARDOGS source frame at recording time 60:00: Green controls the HUD while Blue attacks from range",
+      "library": true,
+      "thumbnail": "assets/thumb-green-pressure.jpg"
+    },
+    {
+      "id": "transport-conflict",
+      "seconds": 3720,
+      "title": "Transport duties compete with attack-helicopter duties",
+      "summary": "The comms discuss returning a pilot to a rocket helicopter and using the repaired APC. Nearby calls describe transporting infantry preventing a pilot from dealing with the tank. The POV is back at the main base.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording.",
+      "image": "assets/transport-conflict.jpg",
+      "image_alt": "WARDOGS source frame at recording time 62:00: Transport duties compete with attack-helicopter duties",
+      "library": true,
+      "clip": {
+        "src": "clips/transport-conflict.mp4",
+        "start_seconds": 3690,
+        "end_seconds": 3755
+      },
+      "thumbnail": "assets/thumb-transport-conflict.jpg"
+    },
+    {
+      "id": "green-zone-map",
+      "seconds": 4080,
+      "title": "Blue is displaced from the active Green-side zone",
+      "summary": "This map sample shows the active Green zone and Blue's separated cluster. Surrounding comms report drill pulls and the need to cross back toward the scoring area. Drill ownership is a Blue comms report, not independent defender telemetry.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Comms are paraphrased from YouTube automatic captions; speaker identity and every word are not independently verified.",
+      "image": "assets/green-zone-map.jpg",
+      "image_alt": "WARDOGS source frame at recording time 68:00: Blue is displaced from the active Green-side zone",
+      "library": true,
+      "thumbnail": "assets/thumb-green-zone-map.jpg"
+    },
+    {
+      "id": "late-pull-before",
+      "seconds": 4560,
+      "title": "Before the pull: Blue 81, Red 93, Green 66",
+      "summary": "Blue has control at this anchor. Comms ask about a drill pull while infantry are told to move east with smoke. Compare the next map sample before treating a pull as an automatic advantage.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording.",
+      "image": "assets/late-pull-before.jpg",
+      "image_alt": "WARDOGS source frame at recording time 76:00: Before the pull: Blue 81, Red 93, Green 66",
+      "library": true,
+      "clip": {
+        "src": "clips/late-pull-before.mp4",
+        "start_seconds": 4535,
+        "end_seconds": 4620
+      },
+      "thumbnail": "assets/thumb-late-pull-before.jpg"
+    },
+    {
+      "id": "late-pull-after",
+      "seconds": 4575,
+      "title": "The projected zone changes during the regroup",
+      "summary": "Fifteen seconds after the preceding map sample, the zone projection has moved. The POV remains downed, and comms shortly afterwards question the timing and reveal confusion over the intended destination.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording.",
+      "image": "assets/late-pull-after.jpg",
+      "image_alt": "WARDOGS source frame at recording time 76:15: The projected zone changes during the regroup",
+      "library": true,
+      "thumbnail": "assets/thumb-late-pull-after.jpg"
+    },
+    {
+      "id": "late-reset",
+      "seconds": 4680,
+      "title": "A later reset gives Green a scoring window",
+      "summary": "At 78:00, Blue is at 83, Red 93 and Green 71, with Green control. The POV is at base after the failed transition. This is an association across sampled frames, not proof the drill alone caused the losses.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording.",
+      "image": "assets/late-reset.jpg",
+      "image_alt": "WARDOGS source frame at recording time 78:00: A later reset gives Green a scoring window",
+      "library": true,
+      "thumbnail": "assets/thumb-late-reset.jpg"
+    },
+    {
+      "id": "late-deficit",
+      "seconds": 5310,
+      "title": "The decisive deficit: 84–98–99",
+      "summary": "At 88:30 the HUD reads Blue 84, Red 98, Green 99. Blue comms are asking players to respawn on the APC, remain alive in the larger scoring area and let the other sides fight.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording.",
+      "image": "assets/late-deficit.jpg",
+      "image_alt": "WARDOGS source frame at recording time 88:30: The decisive deficit: 84–98–99",
+      "library": true,
+      "clip": {
+        "src": "clips/late-deficit.mp4",
+        "start_seconds": 5245,
+        "end_seconds": 5330
+      },
+      "thumbnail": "assets/thumb-late-deficit.jpg"
+    },
+    {
+      "id": "recovery",
+      "seconds": 5340,
+      "title": "Blue starts scoring again without a fresh base assault",
+      "summary": "At 89:00, Blue has 85 and the HUD shows Blue control; Red remains 98 and Green 99. The POV and nearby friendlies are in the woods, rather than inside an enemy tower.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording.",
+      "image": "assets/recovery.jpg",
+      "image_alt": "WARDOGS source frame at recording time 89:00: Blue starts scoring again without a fresh base assault",
+      "library": true,
+      "thumbnail": "assets/thumb-recovery.jpg"
+    },
+    {
+      "id": "closing-hold",
+      "seconds": 5460,
+      "title": "Preserve bodies and use the APC to sustain the hold",
+      "summary": "At 91:00, Blue has 92 while Red and Green remain 98 and 99. The closing comms emphasise revives, smoke, mutual coverage, the APC and avoiding unnecessary pushes.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent. Key comms were also checked with a separate local small.en speech recognizer. Both transcripts remain machine-derived; replay the audio to assess wording.",
+      "image": "assets/closing-hold.jpg",
+      "image_alt": "WARDOGS source frame at recording time 91:00: Preserve bodies and use the APC to sustain the hold",
+      "library": true,
+      "clip": {
+        "src": "clips/closing-hold.mp4",
+        "start_seconds": 5450,
+        "end_seconds": 5515
+      },
+      "thumbnail": "assets/thumb-closing-hold.jpg"
+    },
+    {
+      "id": "last-hud",
+      "seconds": 5595,
+      "title": "The last reviewed HUD: 99–98–99",
+      "summary": "At 93:15 Blue has reached 99; Red still shows 98 and Green 99. This is the final reviewed live HUD anchor before the win transition.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/last-hud.jpg",
+      "image_alt": "WARDOGS source frame at recording time 93:15: The last reviewed HUD: 99–98–99",
+      "library": true,
+      "thumbnail": "assets/thumb-last-hud.jpg"
+    },
+    {
+      "id": "result",
+      "seconds": 5614,
+      "title": "Verified result: Black Sails win 100–98–99",
+      "summary": "The completed result animation shows Lonestar victory: Blue 100, Green 99, Red 98. Earlier frames of this animation contain unfinished totals and are not final scores.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/result.jpg",
+      "image_alt": "WARDOGS source frame at recording time 93:34: Verified result: Black Sails win 100–98–99",
+      "library": true,
+      "clip": {
+        "src": "clips/result.mp4",
+        "start_seconds": 5590,
+        "end_seconds": 5615
+      },
+      "thumbnail": "assets/thumb-result.jpg"
+    },
+    {
+      "id": "score-120",
+      "seconds": 120,
+      "title": "Score anchor: 0–1–0",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-120.jpg",
+      "image_alt": "WARDOGS source frame at recording time 2:00: Score anchor: 0–1–0",
+      "library": false,
+      "thumbnail": "assets/thumb-score-120.jpg"
+    },
+    {
+      "id": "score-600",
+      "seconds": 600,
+      "title": "Score anchor: 21–7–0",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-600.jpg",
+      "image_alt": "WARDOGS source frame at recording time 10:00: Score anchor: 21–7–0",
+      "library": false,
+      "thumbnail": "assets/thumb-score-600.jpg"
+    },
+    {
+      "id": "score-1440",
+      "seconds": 1440,
+      "title": "Score anchor: 41–32–0",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-1440.jpg",
+      "image_alt": "WARDOGS source frame at recording time 24:00: Score anchor: 41–32–0",
+      "library": false,
+      "thumbnail": "assets/thumb-score-1440.jpg"
+    },
+    {
+      "id": "score-1680",
+      "seconds": 1680,
+      "title": "Score anchor: 44–32–9",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-1680.jpg",
+      "image_alt": "WARDOGS source frame at recording time 28:00: Score anchor: 44–32–9",
+      "library": false,
+      "thumbnail": "assets/thumb-score-1680.jpg"
+    },
+    {
+      "id": "score-2400",
+      "seconds": 2400,
+      "title": "Score anchor: 52–50–22",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-2400.jpg",
+      "image_alt": "WARDOGS source frame at recording time 40:00: Score anchor: 52–50–22",
+      "library": false,
+      "thumbnail": "assets/thumb-score-2400.jpg"
+    },
+    {
+      "id": "score-2520",
+      "seconds": 2520,
+      "title": "Score anchor: 58–51–22",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-2520.jpg",
+      "image_alt": "WARDOGS source frame at recording time 42:00: Score anchor: 58–51–22",
+      "library": false,
+      "thumbnail": "assets/thumb-score-2520.jpg"
+    },
+    {
+      "id": "score-3000",
+      "seconds": 3000,
+      "title": "Score anchor: 58–65–34",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-3000.jpg",
+      "image_alt": "WARDOGS source frame at recording time 50:00: Score anchor: 58–65–34",
+      "library": false,
+      "thumbnail": "assets/thumb-score-3000.jpg"
+    },
+    {
+      "id": "score-3540",
+      "seconds": 3540,
+      "title": "Score anchor: 67–74–44",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-3540.jpg",
+      "image_alt": "WARDOGS source frame at recording time 59:00: Score anchor: 67–74–44",
+      "library": false,
+      "thumbnail": "assets/thumb-score-3540.jpg"
+    },
+    {
+      "id": "score-3900",
+      "seconds": 3900,
+      "title": "Score anchor: 67–90–47",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-3900.jpg",
+      "image_alt": "WARDOGS source frame at recording time 65:00: Score anchor: 67–90–47",
+      "library": false,
+      "thumbnail": "assets/thumb-score-3900.jpg"
+    },
+    {
+      "id": "score-4200",
+      "seconds": 4200,
+      "title": "Score anchor: 67–93–60",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-4200.jpg",
+      "image_alt": "WARDOGS source frame at recording time 70:00: Score anchor: 67–93–60",
+      "library": false,
+      "thumbnail": "assets/thumb-score-4200.jpg"
+    },
+    {
+      "id": "score-4500",
+      "seconds": 4500,
+      "title": "Score anchor: 78–93–66",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-4500.jpg",
+      "image_alt": "WARDOGS source frame at recording time 75:00: Score anchor: 78–93–66",
+      "library": false,
+      "thumbnail": "assets/thumb-score-4500.jpg"
+    },
+    {
+      "id": "score-5040",
+      "seconds": 5040,
+      "title": "Score anchor: 83–93–90",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-5040.jpg",
+      "image_alt": "WARDOGS source frame at recording time 84:00: Score anchor: 83–93–90",
+      "library": false,
+      "thumbnail": "assets/thumb-score-5040.jpg"
+    },
+    {
+      "id": "score-5160",
+      "seconds": 5160,
+      "title": "Score anchor: 84–94–94",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-5160.jpg",
+      "image_alt": "WARDOGS source frame at recording time 86:00: Score anchor: 84–94–94",
+      "library": false,
+      "thumbnail": "assets/thumb-score-5160.jpg"
+    },
+    {
+      "id": "score-5220",
+      "seconds": 5220,
+      "title": "Score anchor: 84–94–98",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-5220.jpg",
+      "image_alt": "WARDOGS source frame at recording time 87:00: Score anchor: 84–94–98",
+      "library": false,
+      "thumbnail": "assets/thumb-score-5220.jpg"
+    },
+    {
+      "id": "score-5400",
+      "seconds": 5400,
+      "title": "Score anchor: 89–98–99",
+      "summary": "Visually read scores in Blue–Red–Green order. This anchor is a discrete observation; no continuous control or event count is inferred.",
+      "basis": "Native source frame and surrounding sampled frames visually inspected by the agent.",
+      "image": "assets/score-5400.jpg",
+      "image_alt": "WARDOGS source frame at recording time 90:00: Score anchor: 89–98–99",
+      "library": false,
+      "thumbnail": "assets/thumb-score-5400.jpg"
+    }
+  ],
+  "score_anchors": [
+    {
+      "seconds": 120,
+      "blue": 0,
+      "red": 1,
+      "green": 0,
+      "evidence_id": "score-120",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 600,
+      "blue": 21,
+      "red": 7,
+      "green": 0,
+      "evidence_id": "score-600",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 1440,
+      "blue": 41,
+      "red": 32,
+      "green": 0,
+      "evidence_id": "score-1440",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 1680,
+      "blue": 44,
+      "red": 32,
+      "green": 9,
+      "evidence_id": "score-1680",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 2400,
+      "blue": 52,
+      "red": 50,
+      "green": 22,
+      "evidence_id": "score-2400",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 2520,
+      "blue": 58,
+      "red": 51,
+      "green": 22,
+      "evidence_id": "score-2520",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 3000,
+      "blue": 58,
+      "red": 65,
+      "green": 34,
+      "evidence_id": "score-3000",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 3540,
+      "blue": 67,
+      "red": 74,
+      "green": 44,
+      "evidence_id": "score-3540",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 3900,
+      "blue": 67,
+      "red": 90,
+      "green": 47,
+      "evidence_id": "score-3900",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 4200,
+      "blue": 67,
+      "red": 93,
+      "green": 60,
+      "evidence_id": "score-4200",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 4500,
+      "blue": 78,
+      "red": 93,
+      "green": 66,
+      "evidence_id": "score-4500",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 4680,
+      "blue": 83,
+      "red": 93,
+      "green": 71,
+      "evidence_id": "late-reset",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 5040,
+      "blue": 83,
+      "red": 93,
+      "green": 90,
+      "evidence_id": "score-5040",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 5160,
+      "blue": 84,
+      "red": 94,
+      "green": 94,
+      "evidence_id": "score-5160",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 5220,
+      "blue": 84,
+      "red": 94,
+      "green": 98,
+      "evidence_id": "score-5220",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 5310,
+      "blue": 84,
+      "red": 98,
+      "green": 99,
+      "evidence_id": "late-deficit",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 5340,
+      "blue": 85,
+      "red": 98,
+      "green": 99,
+      "evidence_id": "recovery",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 5400,
+      "blue": 89,
+      "red": 98,
+      "green": 99,
+      "evidence_id": "score-5400",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 5460,
+      "blue": 92,
+      "red": 98,
+      "green": 99,
+      "evidence_id": "closing-hold",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 5595,
+      "blue": 99,
+      "red": 98,
+      "green": 99,
+      "evidence_id": "last-hud",
+      "method": "Agent visual reading of native HUD"
+    },
+    {
+      "seconds": 5614,
+      "blue": 100,
+      "red": 98,
+      "green": 99,
+      "evidence_id": "result",
+      "method": "Agent visual reading of completed result screen"
+    }
+  ],
+  "timeline": [
+    {
+      "start_seconds": 40,
+      "end_seconds": 180,
+      "title": "Urgent deployment and a constrained lift",
+      "text": "Blue tries to leave quickly, reports running behind and acknowledges too few pilots. Red has the first reviewed non-zero score at 02:00.",
+      "evidence_ids": [
+        "opening-transport",
+        "score-120"
+      ]
+    },
+    {
+      "start_seconds": 600,
+      "end_seconds": 1450,
+      "title": "Blue's early lead and the church entry",
+      "text": "Blue leads 21–7–0 at 10:00. Repeated rotation calls and a later smoked church approach produce an observed local foothold; at 24:00 Blue leads 41–32–0.",
+      "evidence_ids": [
+        "pilot-bottleneck",
+        "church-approach",
+        "church-interior",
+        "score-1440"
+      ]
+    },
+    {
+      "start_seconds": 2340,
+      "end_seconds": 3000,
+      "title": "A transition fails and Red takes the score lead",
+      "text": "Blue has control around 40–41 minutes, but the next move runs into pressure and a reset. By 50:00 the sampled scores are Blue 58, Red 65, Green 34.",
+      "evidence_ids": [
+        "ambush-map",
+        "ambush-hit",
+        "score-3000"
+      ]
+    },
+    {
+      "start_seconds": 3540,
+      "end_seconds": 4200,
+      "title": "Blue's score stalls while Red builds a large lead",
+      "text": "Blue is 67 at the 59:00, 60:00, 65:00 and 70:00 anchors. Red advances from 74 to 93 across these anchors while Green reaches 60. Comms discuss the failed approach, tank pressure and competing transport duties.",
+      "evidence_ids": [
+        "green-pressure",
+        "transport-conflict",
+        "score-3900",
+        "score-4200"
+      ]
+    },
+    {
+      "start_seconds": 4500,
+      "end_seconds": 5220,
+      "title": "A promising Blue recovery gives way to Green's surge",
+      "text": "Blue is 78 at 75:00 and 83 at 78:00. A late drill/rotation sequence ends in another reset, while Green moves from 71 at 78:00 to 98 at 87:00.",
+      "evidence_ids": [
+        "late-pull-before",
+        "late-pull-after",
+        "late-reset",
+        "score-5220"
+      ]
+    },
+    {
+      "start_seconds": 5310,
+      "end_seconds": 5614,
+      "title": "The 84–98–99 state is still recoverable",
+      "text": "Blue switches emphasis to preserving bodies, respawning through the APC and holding the scoring area. The reviewed HUD anchors climb to 85, 89, 92 and 99; the completed result verifies a 100–98–99 Blue victory.",
+      "evidence_ids": [
+        "late-deficit",
+        "recovery",
+        "closing-hold",
+        "last-hud",
+        "result"
+      ]
+    }
+  ]
+}

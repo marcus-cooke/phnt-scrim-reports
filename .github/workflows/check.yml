@@ -17,3 +17,5 @@ jobs:
         run: python tools/check_site.py
       - name: Validate original Phantom branding and self-hosted fonts
         run: python tools/check_brand.py
+      - name: Validate opponent scouting and evidence exports
+        run: python tools/check_scouting.py

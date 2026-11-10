@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.4.0 — 10 November 2026
+
+- Add the separate opponent scouting route, linked from the report shell, for the Black Sails / BNT–III / OOPS–Merc recording. Preserve the PHNT match catalog and existing datasets.
+- Publish 11 bounded tactical findings with distinct observations, interpretations, proposed responses and confidence limits, plus 21 visually reviewed score anchors and 35 source evidence records.
+- Verify the 100–98–99 Blue result and document the late recovery from 84–98–99. Retain the upload date separately from the unconfirmed match date, and keep coalition members combined.
+- Add team/type filters, a match timeline, shareable evidence dialogs, native screenshots, compact H.264/AAC excerpts and matching CSV/JSON/review-log exports. Keep full media and raw automatic transcripts offline.
+- Add source fingerprints, reusable review preparation, a portable static packager, scouting validation and desktop/mobile browser checks. Label the work as sampled agent review and reject unverified cheating or alliance allegations.
+
 ## 0.1.3.1 — 9 November 2026
 
 - Confirm the added recording as 8 November 2026 against RMNT and HTD, using WDL fixture #114 and user confirmation. Show the date and opponents in the selector, heading and downloads, retaining its existing share URL.

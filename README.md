@@ -4,6 +4,8 @@ Static, evidence-linked reports for PHNT's recorded War Dogs scrims.
 
 [Open the clan report](https://marcus-cooke.github.io/phnt-scrim-reports/) · [Release notes](CHANGELOG.md)
 
+[Opponent scouting](https://marcus-cooke.github.io/phnt-scrim-reports/scouting/) adds a separate evidence-linked briefing for non-PHNT recordings. The first dossier covers Black Sails vs BNT / III vs OOPS / Merc, with 11 bounded tactical findings, 21 visually reviewed score anchors and a verified 100–98–99 Blue victory. Team filters, timestamped screenshots, playable excerpts and data exports keep each interpretation inspectable. It is sampled agent review from one POV, not complete clan telemetry. See [scouting workflow and source fingerprints](tools/scouting/README.md).
+
 Choose a match to inspect ticket progression, sampled control, feed exchanges, team strength, map snapshots and selected source excerpts. The comparison view keeps PHNT's faction identity correct across both games, shows the verified result screens and provides a combined CSV/JSON download. Share links preserve the selected match and report section.
 
 The report uses the [official Phantom Regiment branding](https://phantomwardogs.com/): original SVG emblem and wordmark, self-hosted Oxanium and Instrument Sans fonts, signal-red accents and graphite surfaces. The shared assets and source fingerprints live in `site/brand/`; faction colours retain their data meaning. Run `python tools/apply_brand.py` to apply brand-only updates without reprocessing footage, and `python tools/check_brand.py` to verify the assets and styling links.

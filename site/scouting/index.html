@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Evidence-linked WARDOGS opponent scouting: observed tactics, strengths, weaknesses and practical responses.">
+  <title>Opponent scouting · Phantom Regiment</title>
+  <link rel="icon" href="../brand/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../brand/brand.css">
+  <link rel="stylesheet" href="scouting.css">
+</head>
+<body>
+<header class="masthead">
+  <a class="brand-lockup" href="../" aria-label="Phantom Regiment reports"><img class="brand-mark" src="../brand/phantom-logomark.svg" alt=""><img class="brand-wordmark" src="../brand/phantom-wordmark.svg" alt="Phantom"></a>
+  <nav aria-label="Report navigation"><a href="../">Match reports</a><a href="./" aria-current="page">Opponent scouting</a></nav>
+  <button id="share" type="button">Copy briefing link</button><span id="share-status" role="status"></span>
+</header>
+<main>
+  <section class="hero" aria-labelledby="page-title">
+    <div><p class="eyebrow">PHNT intelligence / opposition research / 001</p><h1 id="page-title">One match.<br>Three sides.<br><span>What to prepare for.</span></h1><p id="intro" class="intro"></p><p class="scope">Single recording · Black Sails frontline POV · findings apply to this match</p></div>
+    <aside class="match-card"><span class="eyebrow">Source dossier</span><h2 id="source-title"></h2><p id="source-meta" class="muted"></p><div id="team-key"></div><div id="result" class="result"></div><a id="source-link" target="_blank" rel="noopener">Watch original recording ↗</a></aside>
+  </section>
+  <div id="coverage-strip" class="coverage-strip"></div>
+  <nav class="section-tabs" aria-label="Scouting sections"><button data-view="briefing" aria-pressed="true">The briefing</button><button data-view="evidence" aria-pressed="false">Evidence library</button><button data-view="timeline" aria-pressed="false">Match timeline</button><button data-view="method" aria-pressed="false">Coverage & method</button></nav>
+  <section id="briefing" class="panel">
+    <div class="section-heading"><div><p class="eyebrow">Prepare your response</p><h2 id="brief-title">The tactical picture</h2></div><p class="muted">Observations, interpretations and proposed responses are shown separately.</p></div>
+    <div id="priorities" class="priorities"></div>
+    <div class="filters"><label>Recorded side<select id="team-filter"><option value="all">All three sides</option></select></label><label>Finding type<select id="type-filter"><option value="all">All findings</option><option value="strength">Strengths</option><option value="weakness">Weaknesses</option><option value="adaptation">Adaptations</option></select></label><span id="finding-count" role="status"></span></div>
+    <div id="findings" class="findings"></div><p id="empty" hidden>No findings match these filters.</p>
+    <aside class="caveat"><h3>Read the evidence at the right scale</h3><p id="scope-note"></p></aside>
+  </section>
+  <section id="evidence" class="panel" hidden><div class="section-heading"><div><p class="eyebrow">Inspect the source</p><h2>Evidence library</h2></div><p class="muted">Screenshots and selected playable excerpts. All times are recording time.</p></div><div id="evidence-grid" class="evidence-grid"></div></section>
+  <section id="timeline" class="panel" hidden><div class="section-heading"><div><p class="eyebrow">Decisions in context</p><h2>How the match developed</h2></div><p class="muted">Reviewed phases, with sampled score anchors. Lines do not imply continuous observation.</p></div><div id="score-chart"></div><div class="table-scroll"><table><caption>Visually reviewed score anchors</caption><thead><tr><th>Recording time</th><th>Black Sails</th><th>BNT / III</th><th>OOPS / Merc</th><th>Evidence</th></tr></thead><tbody id="score-rows"></tbody></table></div><ol id="timeline-list" class="timeline"></ol></section>
+  <section id="method" class="panel" hidden><div class="section-heading"><div><p class="eyebrow">Know what this can support</p><h2>Coverage & method</h2></div></div><div id="method-content" class="method-grid"></div><p><a href="data/scouting-report.json" download>Download the scouting dataset (JSON)</a> · <a href="data/findings.csv" download>Download findings (CSV)</a> · <a href="data/review-log.json" download>Review log</a></p></section>
+</main>
+<footer>Phantom Regiment · Evidence before inference · <a href="../">Return to match reports</a></footer>
+<dialog id="inspector" aria-labelledby="evidence-title"><div class="dialog-heading"><div><span id="evidence-time" class="eyebrow"></span><h2 id="evidence-title"></h2></div><button id="close-evidence" type="button" aria-label="Close evidence">Close ×</button></div><div class="media-controls" aria-label="Evidence media"><button id="show-frame" type="button" aria-pressed="true">Screenshot</button><button id="show-clip" type="button" aria-pressed="false">Play excerpt</button></div><p id="excerpt-range" class="muted"></p><img id="evidence-image" alt=""><video id="evidence-video" controls playsinline preload="metadata" hidden></video><p id="evidence-note"></p><p id="evidence-basis" class="muted"></p><p><a id="evidence-youtube" target="_blank" rel="noopener">Replay this moment on YouTube ↗</a> · <a id="evidence-original" target="_blank" rel="noopener">Open full-size screenshot ↗</a></p></dialog>
+<script id="scouting-data" type="application/json">__SCOUTING_DATA__</script>
+<script src="scouting.js"></script>
+</body></html>
