@@ -11,12 +11,13 @@
 <body>
 <header class="masthead">
   <a class="brand-lockup" href="../" aria-label="Phantom Regiment reports"><img class="brand-mark" src="../brand/phantom-logomark.svg" alt=""><img class="brand-wordmark" src="../brand/phantom-wordmark.svg" alt="Phantom"></a>
-  <nav aria-label="Report navigation"><a href="../">Match reports</a><a href="./" aria-current="page">Opponent scouting</a></nav>
+  <nav aria-label="Report navigation"><a href="../">Match reports</a><a href="./" aria-current="page">Opponent scouting</a><a href="patterns/">Across recordings</a></nav>
+  <label class="recording-switch">Recording<select id="recording-picker" aria-label="Choose scouting recording">__SCOUTING_OPTIONS__</select></label>
   <button id="share" type="button">Copy briefing link</button><span id="share-status" role="status"></span>
 </header>
 <main>
   <section class="hero" aria-labelledby="page-title">
-    <div><p class="eyebrow">PHNT intelligence / opposition research / 001</p><h1 id="page-title">One match.<br>Three sides.<br><span>What to prepare for.</span></h1><p id="intro" class="intro"></p><p class="scope">Single recording · Black Sails frontline POV · findings apply to this match</p></div>
+    <div><p id="dossier-label" class="eyebrow">PHNT intelligence / opposition research</p><h1 id="page-title">One recording.<br>Three sides.<br><span>What to prepare for.</span></h1><p id="intro" class="intro"></p><p id="recording-scope" class="scope"></p></div>
     <aside class="match-card"><span class="eyebrow">Source dossier</span><h2 id="source-title"></h2><p id="source-meta" class="muted"></p><div id="team-key"></div><div id="result" class="result"></div><a id="source-link" target="_blank" rel="noopener">Watch original recording ↗</a></aside>
   </section>
   <div id="coverage-strip" class="coverage-strip"></div>
@@ -29,7 +30,7 @@
     <aside class="caveat"><h3>Read the evidence at the right scale</h3><p id="scope-note"></p></aside>
   </section>
   <section id="evidence" class="panel" hidden><div class="section-heading"><div><p class="eyebrow">Inspect the source</p><h2>Evidence library</h2></div><p class="muted">Screenshots and selected playable excerpts. All times are recording time.</p></div><div id="evidence-grid" class="evidence-grid"></div></section>
-  <section id="timeline" class="panel" hidden><div class="section-heading"><div><p class="eyebrow">Decisions in context</p><h2>How the match developed</h2></div><p class="muted">Reviewed phases, with sampled score anchors. Lines do not imply continuous observation.</p></div><div id="score-chart"></div><div class="table-scroll"><table><caption>Visually reviewed score anchors</caption><thead><tr><th>Recording time</th><th>Black Sails</th><th>BNT / III</th><th>OOPS / Merc</th><th>Evidence</th></tr></thead><tbody id="score-rows"></tbody></table></div><ol id="timeline-list" class="timeline"></ol></section>
+  <section id="timeline" class="panel" hidden><div class="section-heading"><div><p class="eyebrow">Decisions in context</p><h2>How the recording developed</h2></div><p class="muted">Reviewed phases and score anchors. Separate round labels keep resets out of a single score series.</p></div><div id="score-chart"></div><div class="table-scroll"><table><caption>Visually reviewed score anchors</caption><thead><tr id="score-head"></tr></thead><tbody id="score-rows"></tbody></table></div><ol id="timeline-list" class="timeline"></ol></section>
   <section id="method" class="panel" hidden><div class="section-heading"><div><p class="eyebrow">Know what this can support</p><h2>Coverage & method</h2></div></div><div id="method-content" class="method-grid"></div><p><a href="data/scouting-report.json" download>Download the scouting dataset (JSON)</a> · <a href="data/findings.csv" download>Download findings (CSV)</a> · <a href="data/review-log.json" download>Review log</a></p></section>
 </main>
 <footer>Phantom Regiment · Evidence before inference · <a href="../">Return to match reports</a></footer>

@@ -1,0 +1,741 @@
+{
+  "schema_version": 1,
+  "id": "adversary-warcats-easy",
+  "reviewed_on": "2026-11-10",
+  "presentation": {
+    "label": "Adversary / WARCATS / EASY",
+    "selector_label": "Adversary / WARCATS / EASY",
+    "scope": "One ScottE Humvee POV. Crew decisions and Red comms are clearer than the off-screen infantry battle."
+  },
+  "source": {
+    "video_id": "bgnko5c07sA",
+    "url": "https://www.youtube.com/watch?v=bgnko5c07sA",
+    "title": "Adversary Dominates WARCATS and EASY company in Competitive WARDOGS Scrim",
+    "author": "ScottE",
+    "upload_date": "2026-09-27",
+    "match_date": null,
+    "duration_seconds": 5972.666666666667,
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "video_filename": "source.video.mp4",
+    "audio_filename": "source.audio.m4a"
+  },
+  "teams": [
+    {
+      "id": "blue",
+      "name": "WARCATS",
+      "color": "#59b9f3",
+      "perspective": "Blue / Lonestar; CATS tags on final scoreboard"
+    },
+    {
+      "id": "red",
+      "name": "Adversary",
+      "color": "#f4777d",
+      "perspective": "Red / Valkyra; ScottE Humvee POV and comms"
+    },
+    {
+      "id": "green",
+      "name": "EASY Company",
+      "color": "#65d998",
+      "perspective": "Green / Manticore; EASY tags on final scoreboard"
+    }
+  ],
+  "summary": "Adversary turns an early 2-38 deficit against WARCATS into a 100-56-26 victory. The Humvee crew scouts supply routes and shifts between interdiction, support and scoring calls; vehicle upkeep and slow base demolition create openings.",
+  "scope_note": "One ScottE Humvee POV. Crew decisions and Red comms are clearer than the off-screen infantry battle. Uploader-described rules exclude tanks and rocket helicopters, limit minigun helicopters and allow repeated drills. Those conditions differ from the other reports. Team colours are checked against the final scoreboard. Confidence applies to the stated match-specific finding; responses are hypotheses to test. Current patch and roster transfer are unverified.",
+  "priorities": [
+    {
+      "title": "Facing Adversary",
+      "text": "Protect logistics approaches and keep a response ready for mobile raiders; pressure the Humvee during repair stops. Watch for a prepared drill held in reserve."
+    },
+    {
+      "title": "Facing WARCATS",
+      "text": "Respect the strong early score position, but keep contesting transitions and sustain the supply loop. This match shows a substantial lead can be reversed."
+    },
+    {
+      "title": "Facing EASY Company",
+      "text": "Use the corridor episode to test delivery security. The recording offers much less evidence about EASY infantry or command decisions."
+    }
+  ],
+  "coverage_labels": [
+    "1 recording / 1 POV",
+    "15 visually reviewed score anchors",
+    "8 bounded scouting findings",
+    "Full caption pass + sampled visual review"
+  ],
+  "coverage": {
+    "video_download_complete": true,
+    "source_files": [
+      {
+        "filename": "source.video.mp4",
+        "bytes": 2860838091,
+        "sha256": "256017c9176857f94d0ad3eaf9ce2a59129189c8b33180031b9f006679c534dd",
+        "format_id": "137",
+        "language": null
+      },
+      {
+        "filename": "source.audio.m4a",
+        "bytes": 96662808,
+        "sha256": "93307480007853fb6cbc2a04c702c5ae17bd53924dc6931ba9cf22b4da2903d9",
+        "format_id": "140-12",
+        "language": "en-US"
+      }
+    ],
+    "extracted_unique_frames": 153,
+    "overview_gap_seconds": 60,
+    "score_anchors": 15,
+    "detailed_review_windows": [
+      {
+        "start_seconds": 480,
+        "end_seconds": 600,
+        "sample_gap_seconds": 15
+      },
+      {
+        "start_seconds": 2880,
+        "end_seconds": 3060,
+        "sample_gap_seconds": 30
+      },
+      {
+        "start_seconds": 4500,
+        "end_seconds": 4800,
+        "sample_gap_seconds": 30
+      },
+      {
+        "start_seconds": 5820,
+        "end_seconds": 5965,
+        "sample_gap_seconds": 5
+      },
+      {
+        "start_seconds": 5918,
+        "end_seconds": 5924,
+        "sample_gap_seconds": 1
+      }
+    ],
+    "continuous_visual_watch": false,
+    "comms_source": "YouTube automatic original English captions",
+    "manual_human_review": false,
+    "match_date_confirmed": false
+  },
+  "method": [
+    {
+      "title": "What was inspected",
+      "paragraphs": [
+        "The complete native-resolution video and separate original-language audio were downloaded and fingerprinted. A full caption pass supplied leads; a one-minute visual overview and denser selected sequences checked visible context. Native screenshots and short audio/video excerpts support the findings.",
+        "This is sampled agent review. It does not track every fight, hidden route, named player or off-screen asset. Score dots are isolated visual observations, not proof of uninterrupted control."
+      ]
+    },
+    {
+      "title": "Comms, identity and confidence",
+      "paragraphs": [
+        "YouTube automatic original English captions. Comms are paraphrased; exact speaker identification was not performed. A screenshot verifies the pictured context, not every off-screen statement. Excerpts retain original audio for inspection.",
+        "High means direct readable result/HUD or explicit UI support for the narrow observation. Moderate combines sampled visuals and comms with incomplete visibility. These labels are not calibrated probabilities or whole-clan skill ratings.",
+        "Uploader-described rules exclude tanks and rocket helicopters, limit minigun helicopters and allow repeated drills. Those conditions differ from the other reports. Team colours are checked against the final scoreboard."
+      ]
+    },
+    {
+      "title": "Limits and excluded claims",
+      "paragraphs": [
+        "One ScottE Humvee POV. Crew decisions and Red comms are clearer than the off-screen infantry battle.",
+        "The actual match date, full lineups, enemy comms, hidden drill status, complete final-kill totals and full-team position history are unknown. Upload dates are not match dates. A low score does not by itself explain a tactical failure.",
+        "Three-sided pressure does not prove an alliance. Complaints about cheating, macros, illegal builds or rules breaches are not accepted as findings. No invented heatmap, aggregate clan ranking or causal win probability is provided."
+      ]
+    }
+  ],
+  "rejected_claims": [
+    "Whole-clan identity or permanent habits from a single recorded role.",
+    "Intentional alliance or cheating inferred from frustrated comms.",
+    "Individual coalition-member attribution without evidence.",
+    "Final scores read before the result animation completes.",
+    "Rules and upload dates treated as verified match dates or current rules."
+  ],
+  "findings": [
+    {
+      "id": "red-interdiction",
+      "team": "red",
+      "type": "strength",
+      "title": "They look for the supply route before taking the shot",
+      "observation": "At 08:08 the crew withholds fire while trying to identify a logistics destination, then moves into woods and discusses mining the main supply artery. The sampled sequence shows the Humvee beside a logistics vehicle and supply crates.",
+      "interpretation": "This crew treats information, route denial and logistics disruption as useful work away from the infantry fight.",
+      "response": "Vary logistics routes, scout bridge exits and use a security element. A surviving supply truck may reveal the base even if the crew initially lets it pass.",
+      "confidence": "Moderate",
+      "limitation": "Mine kills, total supply denial and a resulting score change are not independently measured.",
+      "evidence_ids": [
+        "route-hunt"
+      ]
+    },
+    {
+      "id": "red-upkeep",
+      "team": "red",
+      "type": "weakness",
+      "title": "Tyres and repair access constrain the raiding crew",
+      "observation": "The crew reports a tyre out, exposed positions and a decision to move away around 11 minutes. Later overview frames also show wrench repairs and returns to service areas.",
+      "interpretation": "The Humvee can disengage quickly, but sustained harassment depends on vehicle health, crew cover and access to repairs.",
+      "response": "Pressure the vehicle when it has to stop; cover predictable bridge exits and repair approaches rather than chasing it through every back road.",
+      "confidence": "Moderate",
+      "limitation": "One crew is observed. The gas-can call is not evidence it actually ran out of fuel.",
+      "evidence_ids": [
+        "vehicle-upkeep"
+      ]
+    },
+    {
+      "id": "red-logistics",
+      "team": "red",
+      "type": "strength",
+      "title": "Repeated drill calls have an explicit support loop",
+      "observation": "At 26:16 the caller assigns someone to watch the drill cooldown and call immediately when available. Further calls request continued fuel; the Humvee offers to carry an extra crate.",
+      "interpretation": "Red links build readiness, fuel and call timing rather than treating each drill as an isolated action.",
+      "response": "Watch the supporting fuel and build routes as well as the active objective. Force the next call to compete with repairs or resupply.",
+      "confidence": "Moderate",
+      "limitation": "The crew offer is not a verified completed delivery; the builder and full supply inventory are off-camera.",
+      "evidence_ids": [
+        "cooldown",
+        "flex-support"
+      ]
+    },
+    {
+      "id": "red-task-conflict",
+      "team": "red",
+      "type": "weakness",
+      "title": "Slow demolition keeps useful players off the scoring task",
+      "observation": "Around 76-79 minutes the crew debates taking versus destroying an enemy FOB, says it needs to be in point and reports the demolition will take much longer. The walled-site sequence continues across several samples.",
+      "interpretation": "Even during the eventual recovery, task ownership and demolition equipment can make a successful local raid inefficient.",
+      "response": "If defending, make them spend time clearing a secondary site while protecting the scoring area. In PHNT practice, name a demolition owner and release the rest promptly.",
+      "confidence": "Moderate",
+      "limitation": "Time pressure is explicit; the exact points sacrificed to this decision cannot be isolated.",
+      "evidence_ids": [
+        "slow-demo",
+        "conditional-call"
+      ]
+    },
+    {
+      "id": "red-call-discipline",
+      "team": "red",
+      "type": "adaptation",
+      "title": "They will delay a drill instead of calling automatically",
+      "observation": "The earlier order is to call on cooldown; at 78:46 the caller changes this to waiting until control is lost. Red later reaches 100.",
+      "interpretation": "Their objective rhythm adapts to the current favourable zone. Expect a prepared call to remain unused while the existing situation scores.",
+      "response": "Track both the current scoring area and the reserved call. Do not assume a quiet cooldown means the support chain is broken.",
+      "confidence": "Moderate",
+      "limitation": "The final win does not prove the held call was its sole cause.",
+      "evidence_ids": [
+        "cooldown",
+        "conditional-call",
+        "result"
+      ]
+    },
+    {
+      "id": "red-base-awareness",
+      "team": "red",
+      "type": "weakness",
+      "title": "A base-loss call takes a correction to become actionable",
+      "observation": "Around 49:22 the Humvee crew first treats the destroyed FOB as an enemy loss, then corrects itself: its own FOB has been overrun.",
+      "interpretation": "Off-screen base status can arrive ambiguously to a roaming crew, delaying a useful task change.",
+      "response": "Exploit the gap between a base attack and the raiders receiving a clear recall. For PHNT, include owner, location and required response in every base-loss call.",
+      "confidence": "Moderate",
+      "limitation": "This is one documented misunderstanding, not a measured team-wide communications failure rate.",
+      "evidence_ids": [
+        "base-loss"
+      ]
+    },
+    {
+      "id": "blue-lead-conversion",
+      "team": "blue",
+      "type": "weakness",
+      "title": "WARCATS does not convert the large early lead",
+      "observation": "Blue leads 38-2-1 at 25:00. At 65:00 Red has moved ahead, 51 to 47; the completed result is Blue 56, Red 100, Green 26.",
+      "interpretation": "A major early lead is recoverable against this recorded side. The samples show a long mid-to-late scoring slowdown, without revealing every reason.",
+      "response": "Keep a viable scoring and resupply plan when trailing. Look for the transition that lets PHNT re-enter the objective instead of treating the early lead as decisive.",
+      "confidence": "High",
+      "limitation": "Direct score evidence; no causal blame is assigned to an unseen WARCATS caller or squad.",
+      "evidence_ids": [
+        "score-1500",
+        "score-3900",
+        "result"
+      ]
+    },
+    {
+      "id": "green-route-exposure",
+      "team": "green",
+      "type": "weakness",
+      "title": "Green logistics is discoverable from the road network",
+      "observation": "The Red crew identifies Green logistics moving toward the hot zone and discusses following it, then intercepts along the wooded supply corridor.",
+      "interpretation": "In this local episode, the delivery approach supplies the opponent with both route information and an interdiction opportunity.",
+      "response": "Scout before the delivery, vary the last leg and avoid driving a tailing vehicle directly to the FOB.",
+      "confidence": "Moderate",
+      "limitation": "The video does not establish how much EASY lost, whether every truck belonged to EASY, or whether this route recurred all match.",
+      "evidence_ids": [
+        "route-hunt"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "route-hunt",
+      "seconds": 540,
+      "title": "Woodland approach to a supply corridor",
+      "summary": "The Humvee leaves the bridge road and operates along the wooded approach to Green logistics.",
+      "basis": "Sampled 08:00-10:00 visuals; original comms at 08:08-09:50 describe observing logistics before firing, cutting a main road and mines.",
+      "image": "assets/route-hunt.jpg",
+      "thumbnail": "assets/thumb-route-hunt.jpg",
+      "image_alt": "Woodland approach to a supply corridor; source recording at 540 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/route-hunt.mp4",
+        "start_seconds": 510,
+        "end_seconds": 555
+      }
+    },
+    {
+      "id": "vehicle-upkeep",
+      "seconds": 690,
+      "title": "A mobile role still needs repair and withdrawal",
+      "summary": "The crew is operating near the bridge after reporting damaged tyres and being spotted.",
+      "basis": "Native context plus original comms at 11:10-11:40. A later gas-can request is not proof of an empty fuel tank.",
+      "image": "assets/vehicle-upkeep.jpg",
+      "thumbnail": "assets/thumb-vehicle-upkeep.jpg",
+      "image_alt": "A mobile role still needs repair and withdrawal; source recording at 690 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/vehicle-upkeep.mp4",
+        "start_seconds": 662,
+        "end_seconds": 707
+      }
+    },
+    {
+      "id": "cooldown",
+      "seconds": 1620,
+      "title": "A named watcher for the next drill call",
+      "summary": "Red requests direct cooldown watching and continued fuel supply.",
+      "basis": "Native Humvee context; original comms at 26:16-27:09. The full drill-builder screen is off-camera.",
+      "image": "assets/cooldown.jpg",
+      "thumbnail": "assets/thumb-cooldown.jpg",
+      "image_alt": "A named watcher for the next drill call; source recording at 1620 seconds",
+      "library": true
+    },
+    {
+      "id": "flex-support",
+      "seconds": 2340,
+      "title": "Interdiction crew offers a supply run",
+      "summary": "The Humvee crew offers spare crate capacity; the caller redirects it to mortar pits instead.",
+      "basis": "Native vehicle context; original comms at 38:16-39:40 distinguish the offer from an actually completed delivery.",
+      "image": "assets/flex-support.jpg",
+      "thumbnail": "assets/thumb-flex-support.jpg",
+      "image_alt": "Interdiction crew offers a supply run; source recording at 2340 seconds",
+      "library": true
+    },
+    {
+      "id": "base-loss",
+      "seconds": 2970,
+      "title": "Red reports its own FOB overrun",
+      "summary": "The crew initially misunderstands which base was destroyed, then corrects the call to its own FOB.",
+      "basis": "Sampled vehicle/zone sequence and explicit original comms at 49:22-49:57. The capture itself is off-camera.",
+      "image": "assets/base-loss.jpg",
+      "thumbnail": "assets/thumb-base-loss.jpg",
+      "image_alt": "Red reports its own FOB overrun; source recording at 2970 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/base-loss.mp4",
+        "start_seconds": 2955,
+        "end_seconds": 3000
+      }
+    },
+    {
+      "id": "slow-demo",
+      "seconds": 4680,
+      "title": "Captured-base demolition competes with scoring",
+      "summary": "The Humvee remains at a fortified position while the crew discusses capture versus demolition and time spent outside the point.",
+      "basis": "Native 75:00-80:00 sequence shows the occupied walled site; original comms at 76:20-79:35 explain the competing tasks.",
+      "image": "assets/slow-demo.jpg",
+      "thumbnail": "assets/thumb-slow-demo.jpg",
+      "image_alt": "Captured-base demolition competes with scoring; source recording at 4680 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/slow-demo.mp4",
+        "start_seconds": 4640,
+        "end_seconds": 4705
+      }
+    },
+    {
+      "id": "conditional-call",
+      "seconds": 4740,
+      "title": "Hold the drill while current control is favourable",
+      "summary": "The caller explicitly delays another drill call until control is lost.",
+      "basis": "Native base sequence; original call at 78:46-78:50. This is conditional tactical intent, not a universal timing rule.",
+      "image": "assets/conditional-call.jpg",
+      "thumbnail": "assets/thumb-conditional-call.jpg",
+      "image_alt": "Hold the drill while current control is favourable; source recording at 4740 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/conditional-call.mp4",
+        "start_seconds": 4718,
+        "end_seconds": 4763
+      }
+    },
+    {
+      "id": "team-identity",
+      "seconds": 5930,
+      "title": "Final scoreboard checks all three recorded sides",
+      "summary": "CATS rows are Blue, ADV rows Red and EASY rows Green.",
+      "basis": "Direct visual reading of the displayed scoreboard; guest and untagged players are not individually attributed.",
+      "image": "assets/team-identity.jpg",
+      "thumbnail": "assets/thumb-team-identity.jpg",
+      "image_alt": "Final scoreboard checks all three recorded sides; source recording at 5930 seconds",
+      "library": true
+    },
+    {
+      "id": "result",
+      "seconds": 5920,
+      "title": "Adversary victory / 56 / 100 / 26",
+      "summary": "Completed result: Blue 56, Red 100, Green 26.",
+      "basis": "Direct native result-screen reading after the animated totals finish.",
+      "image": "assets/result.jpg",
+      "thumbnail": "assets/thumb-result.jpg",
+      "image_alt": "Adversary victory / 56 / 100 / 26; source recording at 5920 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/result.mp4",
+        "start_seconds": 5908,
+        "end_seconds": 5922
+      }
+    },
+    {
+      "id": "score-300",
+      "seconds": 300,
+      "title": "Sampled score at 5:00",
+      "summary": "Blue 2, Red 1, Green 0.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-300.jpg",
+      "thumbnail": "assets/thumb-score-300.jpg",
+      "image_alt": "Sampled score at 5:00; source recording at 300 seconds",
+      "library": false
+    },
+    {
+      "id": "score-600",
+      "seconds": 600,
+      "title": "Sampled score at 10:00",
+      "summary": "Blue 11, Red 1, Green 0.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-600.jpg",
+      "thumbnail": "assets/thumb-score-600.jpg",
+      "image_alt": "Sampled score at 10:00; source recording at 600 seconds",
+      "library": false
+    },
+    {
+      "id": "score-900",
+      "seconds": 900,
+      "title": "Sampled score at 15:00",
+      "summary": "Blue 20, Red 2, Green 0.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-900.jpg",
+      "thumbnail": "assets/thumb-score-900.jpg",
+      "image_alt": "Sampled score at 15:00; source recording at 900 seconds",
+      "library": false
+    },
+    {
+      "id": "score-1500",
+      "seconds": 1500,
+      "title": "Sampled score at 25:00",
+      "summary": "Blue 38, Red 2, Green 1.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-1500.jpg",
+      "thumbnail": "assets/thumb-score-1500.jpg",
+      "image_alt": "Sampled score at 25:00; source recording at 1500 seconds",
+      "library": false
+    },
+    {
+      "id": "score-2100",
+      "seconds": 2100,
+      "title": "Sampled score at 35:00",
+      "summary": "Blue 38, Red 13, Green 10.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-2100.jpg",
+      "thumbnail": "assets/thumb-score-2100.jpg",
+      "image_alt": "Sampled score at 35:00; source recording at 2100 seconds",
+      "library": false
+    },
+    {
+      "id": "score-2700",
+      "seconds": 2700,
+      "title": "Sampled score at 45:00",
+      "summary": "Blue 40, Red 31, Green 10.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-2700.jpg",
+      "thumbnail": "assets/thumb-score-2700.jpg",
+      "image_alt": "Sampled score at 45:00; source recording at 2700 seconds",
+      "library": false
+    },
+    {
+      "id": "score-3300",
+      "seconds": 3300,
+      "title": "Sampled score at 55:00",
+      "summary": "Blue 44, Red 44, Green 13.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-3300.jpg",
+      "thumbnail": "assets/thumb-score-3300.jpg",
+      "image_alt": "Sampled score at 55:00; source recording at 3300 seconds",
+      "library": false
+    },
+    {
+      "id": "score-3900",
+      "seconds": 3900,
+      "title": "Sampled score at 65:00",
+      "summary": "Blue 47, Red 51, Green 20.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-3900.jpg",
+      "thumbnail": "assets/thumb-score-3900.jpg",
+      "image_alt": "Sampled score at 65:00; source recording at 3900 seconds",
+      "library": false
+    },
+    {
+      "id": "score-4500",
+      "seconds": 4500,
+      "title": "Sampled score at 75:00",
+      "summary": "Blue 47, Red 71, Green 20.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-4500.jpg",
+      "thumbnail": "assets/thumb-score-4500.jpg",
+      "image_alt": "Sampled score at 75:00; source recording at 4500 seconds",
+      "library": false
+    },
+    {
+      "id": "score-5100",
+      "seconds": 5100,
+      "title": "Sampled score at 85:00",
+      "summary": "Blue 47, Red 87, Green 24.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-5100.jpg",
+      "thumbnail": "assets/thumb-score-5100.jpg",
+      "image_alt": "Sampled score at 85:00; source recording at 5100 seconds",
+      "library": false
+    },
+    {
+      "id": "score-5460",
+      "seconds": 5460,
+      "title": "Sampled score at 91:00",
+      "summary": "Blue 53, Red 89, Green 25.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-5460.jpg",
+      "thumbnail": "assets/thumb-score-5460.jpg",
+      "image_alt": "Sampled score at 91:00; source recording at 5460 seconds",
+      "library": false
+    },
+    {
+      "id": "score-5700",
+      "seconds": 5700,
+      "title": "Sampled score at 95:00",
+      "summary": "Blue 56, Red 93, Green 26.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-5700.jpg",
+      "thumbnail": "assets/thumb-score-5700.jpg",
+      "image_alt": "Sampled score at 95:00; source recording at 5700 seconds",
+      "library": false
+    },
+    {
+      "id": "score-5820",
+      "seconds": 5820,
+      "title": "Sampled score at 97:00",
+      "summary": "Blue 56, Red 97, Green 26.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-5820.jpg",
+      "thumbnail": "assets/thumb-score-5820.jpg",
+      "image_alt": "Sampled score at 97:00; source recording at 5820 seconds",
+      "library": false
+    },
+    {
+      "id": "score-5880",
+      "seconds": 5880,
+      "title": "Sampled score at 98:00",
+      "summary": "Blue 56, Red 99, Green 26.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-5880.jpg",
+      "thumbnail": "assets/thumb-score-5880.jpg",
+      "image_alt": "Sampled score at 98:00; source recording at 5880 seconds",
+      "library": false
+    }
+  ],
+  "score_anchors": [
+    {
+      "seconds": 300,
+      "blue": 2,
+      "red": 1,
+      "green": 0,
+      "evidence_id": "score-300",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 600,
+      "blue": 11,
+      "red": 1,
+      "green": 0,
+      "evidence_id": "score-600",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 900,
+      "blue": 20,
+      "red": 2,
+      "green": 0,
+      "evidence_id": "score-900",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 1500,
+      "blue": 38,
+      "red": 2,
+      "green": 1,
+      "evidence_id": "score-1500",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 2100,
+      "blue": 38,
+      "red": 13,
+      "green": 10,
+      "evidence_id": "score-2100",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 2700,
+      "blue": 40,
+      "red": 31,
+      "green": 10,
+      "evidence_id": "score-2700",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 3300,
+      "blue": 44,
+      "red": 44,
+      "green": 13,
+      "evidence_id": "score-3300",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 3900,
+      "blue": 47,
+      "red": 51,
+      "green": 20,
+      "evidence_id": "score-3900",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 4500,
+      "blue": 47,
+      "red": 71,
+      "green": 20,
+      "evidence_id": "score-4500",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 5100,
+      "blue": 47,
+      "red": 87,
+      "green": 24,
+      "evidence_id": "score-5100",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 5460,
+      "blue": 53,
+      "red": 89,
+      "green": 25,
+      "evidence_id": "score-5460",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 5700,
+      "blue": 56,
+      "red": 93,
+      "green": 26,
+      "evidence_id": "score-5700",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 5820,
+      "blue": 56,
+      "red": 97,
+      "green": 26,
+      "evidence_id": "score-5820",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 5880,
+      "blue": 56,
+      "red": 99,
+      "green": 26,
+      "evidence_id": "score-5880",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 5920,
+      "blue": 56,
+      "red": 100,
+      "green": 26,
+      "evidence_id": "result",
+      "method": "Agent visual reading of native HUD or completed result"
+    }
+  ],
+  "timeline": [
+    {
+      "start_seconds": 480,
+      "end_seconds": 720,
+      "title": "Scouting the supply artery",
+      "text": "The Humvee observes logistics, uses a wooded approach, then deals with tyre damage and exposure.",
+      "evidence_ids": [
+        "route-hunt",
+        "vehicle-upkeep"
+      ]
+    },
+    {
+      "start_seconds": 1500,
+      "end_seconds": 2400,
+      "title": "Support timing while the early lead turns",
+      "text": "WARCATS leads heavily; Red coordinates cooldown and fuel while the Humvee offers extra capacity.",
+      "evidence_ids": [
+        "score-1500",
+        "cooldown",
+        "flex-support"
+      ]
+    },
+    {
+      "start_seconds": 2880,
+      "end_seconds": 3300,
+      "title": "Base loss and a closer score",
+      "text": "Red reports its FOB overrun. The 55:00 anchor is tied 44-44, with Green 13.",
+      "evidence_ids": [
+        "base-loss",
+        "score-3300"
+      ]
+    },
+    {
+      "start_seconds": 4500,
+      "end_seconds": 4800,
+      "title": "Demolition versus the scoring objective",
+      "text": "A slow captured-base task competes with the point; the caller holds the next drill while control is favourable.",
+      "evidence_ids": [
+        "slow-demo",
+        "conditional-call"
+      ]
+    },
+    {
+      "start_seconds": 5100,
+      "end_seconds": 5920,
+      "title": "Red converts the recovery",
+      "text": "Red moves from 87 at 85:00 to a completed 100-56-26 victory.",
+      "evidence_ids": [
+        "score-5100",
+        "result"
+      ]
+    }
+  ],
+  "result": {
+    "label": "Adversary victory / 56 / 100 / 26",
+    "basis": "Blue / Red / Green; completed result at recording time 98:40",
+    "evidence_id": "result",
+    "scores": {
+      "blue": 56,
+      "red": 100,
+      "green": 26
+    }
+  }
+}

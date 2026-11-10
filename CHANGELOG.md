@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.5.0 — 10 November 2026
+
+- Add four evidence-linked opponent dossiers for the Adversary Humvee, WOUF Tower 2, Silk competitive pilot and second Black Sails frontline recordings: 33 new bounded findings, 57 visually reviewed score anchors and 87 source screenshots with selected playable excerpts.
+- Verify all four completed results and faction mappings. Retain the reported Only Clans coalition separately from visually verified WDG tags; exclude Silk's public warmup and lobby/setup from competitive evidence and scores.
+- Connect all five scouting recordings through a selector and add an evidence-linked comparison of recurring preparation themes. Preserve the original scouting URL and PHNT match datasets.
+- Generalise packaging, score headings, analysis windows and round validation; check exports, source fingerprints, evidence timestamps, deep links, recording changes, every excerpt, and desktop/mobile layout across the collection.
+
 ## 0.1.4.0 — 10 November 2026
 
 - Add the separate opponent scouting route, linked from the report shell, for the Black Sails / BNT–III / OOPS–Merc recording. Preserve the PHNT match catalog and existing datasets.

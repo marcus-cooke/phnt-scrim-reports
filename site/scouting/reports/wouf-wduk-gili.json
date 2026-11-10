@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "id": "wouf-wduk-gili",
+  "reviewed_on": "2026-11-10",
+  "presentation": {
+    "label": "WOUF / WDUK / GI|I",
+    "selector_label": "WOUF / WDUK / GI|I",
+    "scope": "One WOUF tower-builder/defender POV. Off-screen manoeuvres are comms reports, not a complete picture of either opponent."
+  },
+  "source": {
+    "video_id": "32Pahm05pjI",
+    "url": "https://www.youtube.com/watch?v=32Pahm05pjI",
+    "title": "WARDOGS LEAGUE 🏆 | WOUF vs WDUK vs GI|I | TOWER 2 POV | FULL MATCH",
+    "author": "Djøula",
+    "upload_date": "2026-09-21",
+    "match_date": null,
+    "duration_seconds": 5050.016666666666,
+    "width": 1920,
+    "height": 1080,
+    "fps": 60.0,
+    "video_filename": "source.video.mp4",
+    "audio_filename": "source.audio.m4a"
+  },
+  "teams": [
+    {
+      "id": "blue",
+      "name": "WOUF",
+      "color": "#59b9f3",
+      "perspective": "Blue / Lonestar; Djoula Tower 2 POV and French comms"
+    },
+    {
+      "id": "red",
+      "name": "GI|I",
+      "color": "#f4777d",
+      "perspective": "Red / Valkyra; GI|I tags on final scoreboard"
+    },
+    {
+      "id": "green",
+      "name": "WDUK",
+      "color": "#65d998",
+      "perspective": "Green / Manticore; WDUK tags on final scoreboard"
+    }
+  ],
+  "summary": "WOUF wins 100-79-12 from a Tower 2 defence built around sandbags, restricted access and a small retained garrison. Roof pressure, supply mistakes and awkward exits expose the costs of that fortification; the team eventually leaves the tower to finish in the scoring area.",
+  "scope_note": "One WOUF tower-builder/defender POV. Off-screen manoeuvres are comms reports, not a complete picture of either opponent. Comms discuss a single-call restriction; that is unverified match-rule context and is not transferred to other recordings. Final scoreboard faction icons verify Blue WOUF, Red GI|I and Green WDUK; this does not identify every guest player. Confidence applies to the stated match-specific finding; responses are hypotheses to test. Current patch and roster transfer are unverified.",
+  "priorities": [
+    {
+      "title": "Facing WOUF",
+      "text": "Plan for hardened tower access, but look for the roof-warning gap and the reduced-garrison window. Track the scoring regroup when they leave the fort."
+    },
+    {
+      "title": "Facing GI|I",
+      "text": "Account for continued Red scoring despite the tower fight. The recording supports pressure and late progress, not a complete GI|I playbook."
+    },
+    {
+      "title": "Facing WDUK",
+      "text": "Green finishes on 12, but this tower POV does not explain the whole-team cause. Obtain a WDUK POV before assigning a strategic weakness from the score alone."
+    }
+  ],
+  "coverage_labels": [
+    "1 recording / 1 POV",
+    "13 visually reviewed score anchors",
+    "7 bounded scouting findings",
+    "Full caption pass + sampled visual review"
+  ],
+  "coverage": {
+    "video_download_complete": true,
+    "source_files": [
+      {
+        "filename": "source.video.mp4",
+        "bytes": 2983511438,
+        "sha256": "923047f6425d22e4883762ae0383274b3a6000c139795a2905d5ee0e4c575368",
+        "format_id": "299",
+        "language": null
+      },
+      {
+        "filename": "source.audio.m4a",
+        "bytes": 81730762,
+        "sha256": "a319a244e442978c56d80197a8563b67795d6a7689aed2de04e595588f7c92cc",
+        "format_id": "140",
+        "language": "fr"
+      }
+    ],
+    "extracted_unique_frames": 133,
+    "overview_gap_seconds": 60,
+    "score_anchors": 13,
+    "detailed_review_windows": [
+      {
+        "start_seconds": 120,
+        "end_seconds": 420,
+        "sample_gap_seconds": 30
+      },
+      {
+        "start_seconds": 1620,
+        "end_seconds": 1920,
+        "sample_gap_seconds": 30
+      },
+      {
+        "start_seconds": 4680,
+        "end_seconds": 5030,
+        "sample_gap_seconds": 15
+      },
+      {
+        "start_seconds": 5000,
+        "end_seconds": 5040,
+        "sample_gap_seconds": 2
+      }
+    ],
+    "continuous_visual_watch": false,
+    "comms_source": "YouTube automatic French original captions plus machine English translation; tactical passages checked against the French original",
+    "manual_human_review": false,
+    "match_date_confirmed": false
+  },
+  "method": [
+    {
+      "title": "What was inspected",
+      "paragraphs": [
+        "The complete native-resolution video and separate original-language audio were downloaded and fingerprinted. A full caption pass supplied leads; a one-minute visual overview and denser selected sequences checked visible context. Native screenshots and short audio/video excerpts support the findings.",
+        "This is sampled agent review. It does not track every fight, hidden route, named player or off-screen asset. Score dots are isolated visual observations, not proof of uninterrupted control."
+      ]
+    },
+    {
+      "title": "Comms, identity and confidence",
+      "paragraphs": [
+        "YouTube automatic French original captions plus machine English translation; tactical passages checked against the French original. Comms are paraphrased; exact speaker identification was not performed. A screenshot verifies the pictured context, not every off-screen statement. Excerpts retain original audio for inspection.",
+        "High means direct readable result/HUD or explicit UI support for the narrow observation. Moderate combines sampled visuals and comms with incomplete visibility. These labels are not calibrated probabilities or whole-clan skill ratings.",
+        "Comms discuss a single-call restriction; that is unverified match-rule context and is not transferred to other recordings. Final scoreboard faction icons verify Blue WOUF, Red GI|I and Green WDUK; this does not identify every guest player."
+      ]
+    },
+    {
+      "title": "Limits and excluded claims",
+      "paragraphs": [
+        "One WOUF tower-builder/defender POV. Off-screen manoeuvres are comms reports, not a complete picture of either opponent.",
+        "The actual match date, full lineups, enemy comms, hidden drill status, complete final-kill totals and full-team position history are unknown. Upload dates are not match dates. A low score does not by itself explain a tactical failure.",
+        "Three-sided pressure does not prove an alliance. Complaints about cheating, macros, illegal builds or rules breaches are not accepted as findings. No invented heatmap, aggregate clan ranking or causal win probability is provided."
+      ]
+    }
+  ],
+  "rejected_claims": [
+    "Whole-clan identity or permanent habits from a single recorded role.",
+    "Intentional alliance or cheating inferred from frustrated comms.",
+    "Individual coalition-member attribution without evidence.",
+    "Final scores read before the result animation completes.",
+    "Rules and upload dates treated as verified match dates or current rules."
+  ],
+  "findings": [
+    {
+      "id": "blue-hardening",
+      "team": "blue",
+      "type": "strength",
+      "title": "Tower access is deliberately made expensive",
+      "observation": "The opening sequence shows sandbags, wire and blocked approaches inside Tower 2. Comms emphasise window cover and friendly access while the builder stays on construction work.",
+      "interpretation": "This recorded squad invests in layered local denial and a defensible interior rather than spreading everyone immediately into open combat.",
+      "response": "Inspect alternate entries and roof access before committing to the obvious stairway. Bring demolition and an assigned entry group.",
+      "confidence": "Moderate",
+      "limitation": "It is a local fortification plan, not proof the entire tower is impenetrable.",
+      "evidence_ids": [
+        "tower-hardening",
+        "roof-pressure"
+      ]
+    },
+    {
+      "id": "blue-roof",
+      "team": "blue",
+      "type": "weakness",
+      "title": "Roof awareness and manpower lag behind the walls",
+      "observation": "Around 29 minutes comms report roughly five to ten roof attackers, request closed doors and ask why only two defenders are present. The POV is inside a heavily restricted tower.",
+      "interpretation": "A strong interior can still leave the roof and early warning dependent on a small garrison and outside spotters.",
+      "response": "Coordinate roof pressure with another entry threat; force the defenders to divide attention and report where the FOB actually sits.",
+      "confidence": "Moderate",
+      "limitation": "Attacker numbers and the separate main-base loss are comms reports; no complete roof count is claimed.",
+      "evidence_ids": [
+        "roof-pressure"
+      ]
+    },
+    {
+      "id": "blue-supply",
+      "team": "blue",
+      "type": "weakness",
+      "title": "The build plan is sensitive to supply quality",
+      "observation": "A requested building-supply delivery around 20 minutes is identified in the French original as a mechanical pallet. Construction and inventory management continue around that exchange.",
+      "interpretation": "Even when transport arrives, the wrong supply category can interrupt the fortification loop.",
+      "response": "Pressure builders while they wait for the correct stock. For PHNT, use a named supply type, destination and read-back before lifting the pallet.",
+      "confidence": "Moderate",
+      "limitation": "The footage does not isolate the delay in seconds or points lost.",
+      "evidence_ids": [
+        "supply-mismatch"
+      ]
+    },
+    {
+      "id": "blue-garrison",
+      "team": "blue",
+      "type": "adaptation",
+      "title": "They reduce the garrison when the tower is quiet",
+      "observation": "At 50 minutes the caller offers spare players, asks for two to remain with him and sends the others to help elsewhere; a scout outside is also requested.",
+      "interpretation": "The defence is not purely static. The team tries to turn a fortified position into a manpower saving once immediate pressure falls.",
+      "response": "Watch for the release window: renewed pressure may force the reduced garrison to call help back. PHNT can practise the same handover with a clear minimum guard.",
+      "confidence": "Moderate",
+      "limitation": "This is the explicit order; the exact number who successfully redeployed is not tracked.",
+      "evidence_ids": [
+        "garrison-release"
+      ]
+    },
+    {
+      "id": "blue-egress",
+      "team": "blue",
+      "type": "weakness",
+      "title": "Construction can make friendly movement awkward",
+      "observation": "Around 54 minutes the builder says a ring has no door and describes an exit/re-entry problem; the squad asks for a small door. At 75 minutes, after the order to leave, someone again asks how to get out.",
+      "interpretation": "Defensive density trades against easy reinforcement, withdrawal and regrouping.",
+      "response": "Time pressure when their squad must redeploy. In PHNT builds, test both directions of travel and reserve an identifiable exit before sealing the perimeter.",
+      "confidence": "Moderate",
+      "limitation": "This is a documented access problem, not a measured guarantee that attackers can trap every defender.",
+      "evidence_ids": [
+        "egress",
+        "leave-tower"
+      ]
+    },
+    {
+      "id": "blue-finish",
+      "team": "blue",
+      "type": "strength",
+      "title": "They eventually trade the tower for scoring survival",
+      "observation": "The team releases the tower around 75 minutes, then repeatedly asks players to stay alive, revive and regroup in the large circle. Blue advances from 89 at 75:00 to 99 at 81:00 and wins 100-79-12.",
+      "interpretation": "The fort is a means to the scoring plan; in the finish, preserved bodies take priority over more construction or chasing kills.",
+      "response": "Contest the safe regroup area and reinforcement route. Do not keep committing resources to an abandoned tower while their scoring population rebuilds elsewhere.",
+      "confidence": "Moderate",
+      "limitation": "The score/result is direct; the share of the win caused by this particular order is not isolated.",
+      "evidence_ids": [
+        "leave-tower",
+        "survival-hold",
+        "result"
+      ]
+    },
+    {
+      "id": "red-pressure",
+      "team": "red",
+      "type": "strength",
+      "title": "Red remains an active scoring threat late",
+      "observation": "Red reaches 51 against Blue 54 at 50:00, then 71 by 70:00. Late anchors show Red control and continued progress while Blue is stalled on 99.",
+      "interpretation": "GI|I is not eliminated by the tower defence; its scoring pressure makes the late regroup meaningful.",
+      "response": "Keep a reserve for the next zone transition rather than assigning every player to a tower assault.",
+      "confidence": "High",
+      "limitation": "HUD anchors establish progress and sampled control, not the hidden tactical route that produced it.",
+      "evidence_ids": [
+        "garrison-release",
+        "score-4200",
+        "survival-hold"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "tower-hardening",
+      "seconds": 330,
+      "title": "Sandbags and restricted tower access",
+      "summary": "The POV fortifies internal approaches and windows after insertion at Tower 2.",
+      "basis": "Native 02:00-07:00 sampled sequence; French comms request sandbags at windows and controlled access.",
+      "image": "assets/tower-hardening.jpg",
+      "thumbnail": "assets/thumb-tower-hardening.jpg",
+      "image_alt": "Sandbags and restricted tower access; source recording at 330 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/tower-hardening.mp4",
+        "start_seconds": 310,
+        "end_seconds": 355
+      }
+    },
+    {
+      "id": "supply-mismatch",
+      "seconds": 1200,
+      "title": "The delivered pallet is the wrong supply type",
+      "summary": "The builder checks supplies around the time comms identify a mechanical pallet instead of building supplies.",
+      "basis": "Native inventory context; French original at 20:18-20:46 explicitly distinguishes palette mecanique from building supply.",
+      "image": "assets/supply-mismatch.jpg",
+      "thumbnail": "assets/thumb-supply-mismatch.jpg",
+      "image_alt": "The delivered pallet is the wrong supply type; source recording at 1200 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/supply-mismatch.mp4",
+        "start_seconds": 1190,
+        "end_seconds": 1255
+      }
+    },
+    {
+      "id": "roof-pressure",
+      "seconds": 1770,
+      "title": "A fortified tower still faces roof insertion",
+      "summary": "Comms report multiple players on the roof, ask for doors closed and question why only two remain in the tower.",
+      "basis": "Native 27:00-32:00 interior sequence shows restricted sightlines; roof numbers are a comms estimate, not a visual count.",
+      "image": "assets/roof-pressure.jpg",
+      "thumbnail": "assets/thumb-roof-pressure.jpg",
+      "image_alt": "A fortified tower still faces roof insertion; source recording at 1770 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/roof-pressure.mp4",
+        "start_seconds": 1748,
+        "end_seconds": 1793
+      }
+    },
+    {
+      "id": "garrison-release",
+      "seconds": 3000,
+      "title": "Keep a small garrison and release the rest",
+      "summary": "The quiet tower prompts a request to send players elsewhere, leaving two with the caller.",
+      "basis": "Native tower context; French original at 50:00-51:09. The wording is two remaining with the caller, not exactly two defenders total.",
+      "image": "assets/garrison-release.jpg",
+      "thumbnail": "assets/thumb-garrison-release.jpg",
+      "image_alt": "Keep a small garrison and release the rest; source recording at 3000 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/garrison-release.mp4",
+        "start_seconds": 2994,
+        "end_seconds": 3039
+      }
+    },
+    {
+      "id": "egress",
+      "seconds": 3300,
+      "title": "Fortification needs a deliberate exit",
+      "summary": "Construction and comms expose an access problem; a small door is requested after a ring is closed.",
+      "basis": "Native 53:00-55:00 construction context and French original at 54:24-55:00. It allows exit but blocks re-entry in one described case.",
+      "image": "assets/egress.jpg",
+      "thumbnail": "assets/thumb-egress.jpg",
+      "image_alt": "Fortification needs a deliberate exit; source recording at 3300 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/egress.mp4",
+        "start_seconds": 3257,
+        "end_seconds": 3302
+      }
+    },
+    {
+      "id": "tower-call",
+      "seconds": 4080,
+      "title": "Tower ownership gates another call",
+      "summary": "The caller prepares a Tower 2 call and asks the team to take the tower before entering the code.",
+      "basis": "Native control-room context; French original at 68:00-68:30. The exact cooldown and rule legality are not independently verified.",
+      "image": "assets/tower-call.jpg",
+      "thumbnail": "assets/thumb-tower-call.jpg",
+      "image_alt": "Tower ownership gates another call; source recording at 4080 seconds",
+      "library": true
+    },
+    {
+      "id": "leave-tower",
+      "seconds": 4500,
+      "title": "Abandon the fort when the finish requires bodies",
+      "summary": "The group agrees to leave the tower and join the zone; the next samples show the POV moving outdoors.",
+      "basis": "Native 75:00-78:00 sequence; French original at 75:08-75:45 says the tower no longer matters and then asks how to leave.",
+      "image": "assets/leave-tower.jpg",
+      "thumbnail": "assets/thumb-leave-tower.jpg",
+      "image_alt": "Abandon the fort when the finish requires bodies; source recording at 4500 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/leave-tower.mp4",
+        "start_seconds": 4490,
+        "end_seconds": 4555
+      }
+    },
+    {
+      "id": "survival-hold",
+      "seconds": 4860,
+      "title": "At 99, regroup and stay alive",
+      "summary": "The POV remains near cover while comms ask for revives, regrouping and bodies in the large circle rather than another hot-zone push.",
+      "basis": "Native closing sequence plus French original at 79:40-82:00. The comms estimate of 25 required is not independently verified as a game rule.",
+      "image": "assets/survival-hold.jpg",
+      "thumbnail": "assets/thumb-survival-hold.jpg",
+      "image_alt": "At 99, regroup and stay alive; source recording at 4860 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/survival-hold.mp4",
+        "start_seconds": 4815,
+        "end_seconds": 4870
+      }
+    },
+    {
+      "id": "team-identity",
+      "seconds": 5016,
+      "title": "Final scoreboard verifies team colours",
+      "summary": "The scoreboard displays Blue WOUF rows, Red GI|I rows and Green WDUK rows.",
+      "basis": "Direct reading of native faction icons and clan tags. Individual guests and sub-units remain unassigned.",
+      "image": "assets/team-identity.jpg",
+      "thumbnail": "assets/thumb-team-identity.jpg",
+      "image_alt": "Final scoreboard verifies team colours; source recording at 5016 seconds",
+      "library": true
+    },
+    {
+      "id": "result",
+      "seconds": 5006,
+      "title": "WOUF victory / 100 / 79 / 12",
+      "summary": "Completed result: Blue 100, Red 79, Green 12.",
+      "basis": "Direct native result-screen reading after the animated totals finish.",
+      "image": "assets/result.jpg",
+      "thumbnail": "assets/thumb-result.jpg",
+      "image_alt": "WOUF victory / 100 / 79 / 12; source recording at 5006 seconds",
+      "library": true,
+      "clip": {
+        "src": "clips/result.mp4",
+        "start_seconds": 4994,
+        "end_seconds": 5008
+      }
+    },
+    {
+      "id": "score-120",
+      "seconds": 120,
+      "title": "Sampled score at 2:00",
+      "summary": "Blue 1, Red 0, Green 0.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-120.jpg",
+      "thumbnail": "assets/thumb-score-120.jpg",
+      "image_alt": "Sampled score at 2:00; source recording at 120 seconds",
+      "library": false
+    },
+    {
+      "id": "score-600",
+      "seconds": 600,
+      "title": "Sampled score at 10:00",
+      "summary": "Blue 7, Red 7, Green 4.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-600.jpg",
+      "thumbnail": "assets/thumb-score-600.jpg",
+      "image_alt": "Sampled score at 10:00; source recording at 600 seconds",
+      "library": false
+    },
+    {
+      "id": "score-1800",
+      "seconds": 1800,
+      "title": "Sampled score at 30:00",
+      "summary": "Blue 36, Red 26, Green 4.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-1800.jpg",
+      "thumbnail": "assets/thumb-score-1800.jpg",
+      "image_alt": "Sampled score at 30:00; source recording at 1800 seconds",
+      "library": false
+    },
+    {
+      "id": "score-2400",
+      "seconds": 2400,
+      "title": "Sampled score at 40:00",
+      "summary": "Blue 49, Red 34, Green 5.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-2400.jpg",
+      "thumbnail": "assets/thumb-score-2400.jpg",
+      "image_alt": "Sampled score at 40:00; source recording at 2400 seconds",
+      "library": false
+    },
+    {
+      "id": "score-3600",
+      "seconds": 3600,
+      "title": "Sampled score at 60:00",
+      "summary": "Blue 66, Red 63, Green 5.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-3600.jpg",
+      "thumbnail": "assets/thumb-score-3600.jpg",
+      "image_alt": "Sampled score at 60:00; source recording at 3600 seconds",
+      "library": false
+    },
+    {
+      "id": "score-4200",
+      "seconds": 4200,
+      "title": "Sampled score at 70:00",
+      "summary": "Blue 83, Red 71, Green 5.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-4200.jpg",
+      "thumbnail": "assets/thumb-score-4200.jpg",
+      "image_alt": "Sampled score at 70:00; source recording at 4200 seconds",
+      "library": false
+    },
+    {
+      "id": "score-4680",
+      "seconds": 4680,
+      "title": "Sampled score at 78:00",
+      "summary": "Blue 95, Red 71, Green 12.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-4680.jpg",
+      "thumbnail": "assets/thumb-score-4680.jpg",
+      "image_alt": "Sampled score at 78:00; source recording at 4680 seconds",
+      "library": false
+    },
+    {
+      "id": "score-4800",
+      "seconds": 4800,
+      "title": "Sampled score at 80:00",
+      "summary": "Blue 98, Red 73, Green 12.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-4800.jpg",
+      "thumbnail": "assets/thumb-score-4800.jpg",
+      "image_alt": "Sampled score at 80:00; source recording at 4800 seconds",
+      "library": false
+    },
+    {
+      "id": "score-4980",
+      "seconds": 4980,
+      "title": "Sampled score at 83:00",
+      "summary": "Blue 99, Red 79, Green 12.",
+      "basis": "Agent visual reading of the native HUD.",
+      "image": "assets/score-4980.jpg",
+      "thumbnail": "assets/thumb-score-4980.jpg",
+      "image_alt": "Sampled score at 83:00; source recording at 4980 seconds",
+      "library": false
+    }
+  ],
+  "score_anchors": [
+    {
+      "seconds": 120,
+      "blue": 1,
+      "red": 0,
+      "green": 0,
+      "evidence_id": "score-120",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 600,
+      "blue": 7,
+      "red": 7,
+      "green": 4,
+      "evidence_id": "score-600",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 1800,
+      "blue": 36,
+      "red": 26,
+      "green": 4,
+      "evidence_id": "score-1800",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 2400,
+      "blue": 49,
+      "red": 34,
+      "green": 5,
+      "evidence_id": "score-2400",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 3000,
+      "blue": 54,
+      "red": 51,
+      "green": 5,
+      "evidence_id": "garrison-release",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 3600,
+      "blue": 66,
+      "red": 63,
+      "green": 5,
+      "evidence_id": "score-3600",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 4200,
+      "blue": 83,
+      "red": 71,
+      "green": 5,
+      "evidence_id": "score-4200",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 4500,
+      "blue": 89,
+      "red": 71,
+      "green": 11,
+      "evidence_id": "leave-tower",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 4680,
+      "blue": 95,
+      "red": 71,
+      "green": 12,
+      "evidence_id": "score-4680",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 4800,
+      "blue": 98,
+      "red": 73,
+      "green": 12,
+      "evidence_id": "score-4800",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 4860,
+      "blue": 99,
+      "red": 74,
+      "green": 12,
+      "evidence_id": "survival-hold",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 4980,
+      "blue": 99,
+      "red": 79,
+      "green": 12,
+      "evidence_id": "score-4980",
+      "method": "Agent visual reading of native HUD or completed result"
+    },
+    {
+      "seconds": 5006,
+      "blue": 100,
+      "red": 79,
+      "green": 12,
+      "evidence_id": "result",
+      "method": "Agent visual reading of native HUD or completed result"
+    }
+  ],
+  "timeline": [
+    {
+      "start_seconds": 120,
+      "end_seconds": 420,
+      "title": "Make Tower 2 defensible",
+      "text": "The builder hardens interior approaches and windows.",
+      "evidence_ids": [
+        "tower-hardening"
+      ]
+    },
+    {
+      "start_seconds": 1200,
+      "end_seconds": 1920,
+      "title": "Supplies and roof pressure test the defence",
+      "text": "A wrong-category pallet and reported roof insertion complicate the hold.",
+      "evidence_ids": [
+        "supply-mismatch",
+        "roof-pressure"
+      ]
+    },
+    {
+      "start_seconds": 3000,
+      "end_seconds": 3300,
+      "title": "Release spare players; preserve an exit",
+      "text": "The squad shrinks the garrison while construction exposes an access trade-off.",
+      "evidence_ids": [
+        "garrison-release",
+        "egress"
+      ]
+    },
+    {
+      "start_seconds": 4080,
+      "end_seconds": 4550,
+      "title": "Call preparation gives way to leaving the tower",
+      "text": "Tower ownership is requested for the code; later the fort is abandoned to finish the scoring plan.",
+      "evidence_ids": [
+        "tower-call",
+        "leave-tower"
+      ]
+    },
+    {
+      "start_seconds": 4680,
+      "end_seconds": 5006,
+      "title": "A long final point",
+      "text": "Blue moves from 95 to 99, regroups under pressure and completes a 100-79-12 victory.",
+      "evidence_ids": [
+        "score-4680",
+        "survival-hold",
+        "result"
+      ]
+    }
+  ],
+  "result": {
+    "label": "WOUF victory / 100 / 79 / 12",
+    "basis": "Blue / Red / Green; completed result at recording time 83:26",
+    "evidence_id": "result",
+    "scores": {
+      "blue": 100,
+      "red": 79,
+      "green": 12
+    }
+  }
+}

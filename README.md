@@ -20,6 +20,20 @@ The 25 October recording begins with the tail of a preceding game, a round trans
 
 ## Reading the reports
 
+The separate [opponent scouting collection](docs/scouting/index.html) contains
+five recordings, including Adversary's Humvee POV, WOUF's Tower 2 defence, Silk's
+competitive pilot POV and two Black Sails frontline recordings. Each dossier links
+observations, interpretations and proposed responses to native screenshots,
+selected playable excerpts, reviewed score anchors and CSV/JSON exports. The
+[cross-recording preparation themes](docs/scouting/patterns/index.html) link back
+to their evidence. These games do not enter PHNT's match-comparison catalog.
+
+The four added recordings have 33 bounded findings and 57 reviewed score anchors.
+Silk's competitive evidence starts at 1:24:00; preceding public play and setup are
+excluded. Coverage is sampled agent review, not continuous telemetry. Match dates
+and transfer to current rosters/patches remain unverified. See the
+[scouting workflow](tools/scouting/README.md) for acquisition and review details.
+
 - **Team strength** means the small person-icon HUD count. A value **greater than 33** is flagged: 34 and above qualify; exactly 33 does not. Click a flagged observation or peak to inspect its screenshot.
 - Timestamps are elapsed **recording time**, rather than wall time or an exact server-event clock. The comparison ticket curves align to the first observed non-zero score for any faction within each report window.
 - Missing or unreadable readings remain unavailable. Gaps can split observed runs above 33; a run is not a measured continuous duration above the threshold.

@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "",
+    "route": "./",
+    "id": "black-sails-first-competitive-war",
+    "video_id": "EaqOp1Fh7D0",
+    "label": "Black Sails / first competitive war",
+    "findings": 11,
+    "score_anchors": 21,
+    "evidence": 35
+  },
+  {
+    "slug": "adversary-warcats-easy",
+    "route": "adversary-warcats-easy/",
+    "id": "adversary-warcats-easy",
+    "video_id": "bgnko5c07sA",
+    "label": "Adversary / WARCATS / EASY",
+    "findings": 8,
+    "score_anchors": 15,
+    "evidence": 23
+  },
+  {
+    "slug": "black-sails-everything-wrong",
+    "route": "black-sails-everything-wrong/",
+    "id": "black-sails-everything-wrong",
+    "video_id": "tyN7Tu7TAW8",
+    "label": "Black Sails / Merciless / BNT-III",
+    "findings": 9,
+    "score_anchors": 16,
+    "evidence": 22
+  },
+  {
+    "slug": "silk-first-competitive",
+    "route": "silk-first-competitive/",
+    "id": "silk-first-competitive",
+    "video_id": "8RAytkF3sA0",
+    "label": "Silk / TAB / Amnesty / WDG",
+    "findings": 9,
+    "score_anchors": 13,
+    "evidence": 23
+  },
+  {
+    "slug": "wouf-wduk-gili",
+    "route": "wouf-wduk-gili/",
+    "id": "wouf-wduk-gili",
+    "video_id": "32Pahm05pjI",
+    "label": "WOUF / WDUK / GI|I",
+    "findings": 7,
+    "score_anchors": 13,
+    "evidence": 19
+  }
+]

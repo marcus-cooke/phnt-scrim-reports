@@ -1,0 +1,278 @@
+{
+  "reviewed_evidence": [
+    {
+      "id": "competitive-start",
+      "seconds": 5040,
+      "decoded_seconds": 5040.0,
+      "source_frame": 302400,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native 83:00-86:00 sequence identifies the new round. Published competitive analysis begins at 84:00; preceding gameplay and setup are excluded."
+    },
+    {
+      "id": "opening-logistics",
+      "seconds": 5160,
+      "decoded_seconds": 5160.0,
+      "source_frame": 309600,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native opening flight and original comms at 84:20-86:00; the full construction inventory is not tracked."
+    },
+    {
+      "id": "whisper-gap",
+      "seconds": 5530,
+      "decoded_seconds": 5530.0,
+      "source_frame": 331800,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native transport context; original comms at 91:40-92:45 explicitly report the audio-path problem."
+    },
+    {
+      "id": "pull-warning",
+      "seconds": 7215,
+      "decoded_seconds": 7215.0,
+      "source_frame": 432900,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native flight/repair context; original comms at 120:12-120:28. This documents the report, not a full communications log."
+    },
+    {
+      "id": "artillery-gap",
+      "seconds": 7320,
+      "decoded_seconds": 7320.0,
+      "source_frame": 439200,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native flight context; original comms at 121:50-122:00. Unheard ground activity cannot be ruled out."
+    },
+    {
+      "id": "support-plan",
+      "seconds": 7800,
+      "decoded_seconds": 7800.0,
+      "source_frame": 468000,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native pilot resupply/attack sequence; original comms at 129:55-130:10. The artillery vehicle is off-camera."
+    },
+    {
+      "id": "paired-air",
+      "seconds": 9130,
+      "decoded_seconds": 9130.0,
+      "source_frame": 547800,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native 151:30-153:30 sequence and matching original comms; enemy helicopter destruction reports are not a full verified kill log."
+    },
+    {
+      "id": "aa-window",
+      "seconds": 9190,
+      "decoded_seconds": 9190.0,
+      "source_frame": 551400,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native approach context and original comms at 152:35-153:25. Complete AA coverage and the artillery operator's view are unavailable."
+    },
+    {
+      "id": "support-effect",
+      "seconds": 10080,
+      "decoded_seconds": 10080.0,
+      "source_frame": 604800,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native aerial overview plus original comms at 167:50-168:25. The claimed causal impact is the pilots' assessment, not an isolated experiment."
+    },
+    {
+      "id": "collision",
+      "seconds": 10580,
+      "decoded_seconds": 10580.0,
+      "source_frame": 634800,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Dense 175:10-176:30 source sequence and original comms at 175:00-176:40; no claim that the collision alone cost the match."
+    },
+    {
+      "id": "last-zone-call",
+      "seconds": 11150,
+      "decoded_seconds": 11150.0,
+      "source_frame": 669000,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native 183:00-186:40 sequence plus original comms at 185:15-186:30. Personal return travel remains visible."
+    },
+    {
+      "id": "team-identity",
+      "seconds": 11220,
+      "decoded_seconds": 11220.0,
+      "source_frame": 673200,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Direct native scoreboard reading. The Only Clans coalition comes from the spoken introduction, not inferred from hidden player identities."
+    },
+    {
+      "id": "result",
+      "seconds": 11210,
+      "decoded_seconds": 11210.0,
+      "source_frame": 672600,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Direct native result-screen reading after the animated totals finish."
+    },
+    {
+      "id": "score-5400",
+      "seconds": 5400,
+      "decoded_seconds": 5400.0,
+      "source_frame": 324000,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-6000",
+      "seconds": 6000,
+      "decoded_seconds": 6000.0,
+      "source_frame": 360000,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-6600",
+      "seconds": 6600,
+      "decoded_seconds": 6600.0,
+      "source_frame": 396000,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-7200",
+      "seconds": 7200,
+      "decoded_seconds": 7200.0,
+      "source_frame": 432000,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-8400",
+      "seconds": 8400,
+      "decoded_seconds": 8400.0,
+      "source_frame": 504000,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-9600",
+      "seconds": 9600,
+      "decoded_seconds": 9600.0,
+      "source_frame": 576000,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-10200",
+      "seconds": 10200,
+      "decoded_seconds": 10200.0,
+      "source_frame": 612000,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-10800",
+      "seconds": 10800,
+      "decoded_seconds": 10800.0,
+      "source_frame": 648000,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-11040",
+      "seconds": 11040,
+      "decoded_seconds": 11040.0,
+      "source_frame": 662400,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-11160",
+      "seconds": 11160,
+      "decoded_seconds": 11160.0,
+      "source_frame": 669600,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    }
+  ],
+  "coverage": {
+    "video_download_complete": true,
+    "source_files": [
+      {
+        "filename": "source.video.mp4",
+        "bytes": 7299124599,
+        "sha256": "640ddc40298efdda9bd7dce3b305075dabd83938b92f67daf6061597109ec0dc",
+        "format_id": "299",
+        "language": null
+      },
+      {
+        "filename": "source.audio.m4a",
+        "bytes": 196879022,
+        "sha256": "d69c99d051101ce5b812f37e64ebaebdc9dc616e6891f9c7c0bbb3dd1b807443",
+        "format_id": "140",
+        "language": "en"
+      }
+    ],
+    "extracted_unique_frames": 286,
+    "overview_gap_seconds": 60,
+    "score_anchors": 13,
+    "detailed_review_windows": [
+      {
+        "start_seconds": 4980,
+        "end_seconds": 5160,
+        "sample_gap_seconds": 20
+      },
+      {
+        "start_seconds": 5490,
+        "end_seconds": 5610,
+        "sample_gap_seconds": 20
+      },
+      {
+        "start_seconds": 7740,
+        "end_seconds": 7920,
+        "sample_gap_seconds": 30
+      },
+      {
+        "start_seconds": 9090,
+        "end_seconds": 9210,
+        "sample_gap_seconds": 20
+      },
+      {
+        "start_seconds": 10470,
+        "end_seconds": 10630,
+        "sample_gap_seconds": 20
+      },
+      {
+        "start_seconds": 10570,
+        "end_seconds": 10590,
+        "sample_gap_seconds": 2
+      },
+      {
+        "start_seconds": 10980,
+        "end_seconds": 11250,
+        "sample_gap_seconds": 10
+      },
+      {
+        "start_seconds": 11190,
+        "end_seconds": 11230,
+        "sample_gap_seconds": 2
+      }
+    ],
+    "continuous_visual_watch": false,
+    "comms_source": "YouTube automatic original English captions",
+    "manual_human_review": false,
+    "match_date_confirmed": false,
+    "analysis_start_seconds": 5040,
+    "analysis_end_seconds": 11210,
+    "excluded_ranges": [
+      {
+        "start_seconds": 0,
+        "end_seconds": 5040,
+        "reason": "Public play and lobby/setup; not the competitive round"
+      },
+      {
+        "start_seconds": 11230,
+        "end_seconds": 12165,
+        "reason": "Post-match discussion"
+      }
+    ]
+  },
+  "rejected_claims": [
+    "Whole-clan identity or permanent habits from a single recorded role.",
+    "Intentional alliance or cheating inferred from frustrated comms.",
+    "Individual coalition-member attribution without evidence.",
+    "Final scores read before the result animation completes.",
+    "Rules and upload dates treated as verified match dates or current rules."
+  ],
+  "review_type": "Agent-reviewed sampled footage; not independent human validation"
+}

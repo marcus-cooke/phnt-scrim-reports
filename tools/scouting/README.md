@@ -4,6 +4,35 @@ The separate static route is `docs/scouting/`, published at `/phnt-scrim-reports
 It does not insert a non-PHNT game into `matches.json` or the PHNT comparison catalog.
 The report source is `site/scouting/`; `report.json` contains the reviewed curation.
 
+The collection now also includes four separate dossiers under
+`site/scouting/reports/<slug>.json` and `docs/scouting/<slug>/`:
+
+| Recording ID | Route | POV | Completed Blue / Red / Green result |
+| --- | --- | --- | --- |
+| bgnko5c07sA | adversary-warcats-easy | ScottE / Adversary Humvee | 56 / 100 / 26 |
+| 32Pahm05pjI | wouf-wduk-gili | Djoula / WOUF Tower 2 | 100 / 79 / 12 |
+| 8RAytkF3sA0 | silk-first-competitive | Silk / Red TAB air unit | 100 / 94 / 40 |
+| tyN7Tu7TAW8 | black-sails-everything-wrong | Mike Well Played / Blue Black Sails | 99 / 72 / 100 |
+
+The four additions contain 33 findings, 57 score anchors and 87 evidence records.
+Faction mappings come from final scoreboard icons/tags where possible, or the
+uploader's explicit coalition description. Only Clans alongside Green WDG is
+reported in Silk's spoken introduction; separate coalition-member actions remain
+unknown. The actual match dates remain unconfirmed.
+
+Silk's competitive analysis begins at **5040 seconds (1:24:00), 0-0-0**, and runs
+through the completed result at **11210 seconds (3:06:50)**. Public play and
+lobby/setup are excluded from competitive anchors, findings and hosted excerpts.
+The competitive overview was visually inspected at one-minute intervals, with
+denser reviewed sequences. Full-source download does not mean continuous watching.
+
+These sources differ in language and download formats. ScottE has automatic
+translated audio tracks: select the original English `140-12` for this recording,
+not the first matching audio format. WOUF's source is French; English automatic
+translation supplies leads, with the French original checked for tactical wording.
+Retain any successfully fetched original captions if an optional translated
+caption request returns 429; resume media independently rather than redownloading it.
+
 The first dossier uses video `EaqOp1Fh7D0`, uploaded 4 October 2026 by Mike Well Played.
 The match date is unconfirmed. Blue is Black Sails, Red BNT / III, Green OOPS / Merc,
 following the uploader's description. Coalition members are not measured separately.
@@ -70,6 +99,21 @@ python tools/check_scouting.py
 Changing an evidence timestamp requires returning to the source; `--data-only`
 will refuse a time that differs from the retained review log.
 
+For an additional dossier, use its own slug and source filenames declared in the
+curated JSON (`source.video.mp4` and `source.audio.m4a` for the four additions):
+
+```powershell
+python tools/build_scouting.py --analysis 'C:/local-analysis/VIDEO_ID' --slug adversary-warcats-easy
+python tools/build_scouting_catalog.py
+python tools/check_scouting.py
+```
+
+Run the catalog builder after the source media/evidence is packaged for every
+new report. It rebuilds navigation without replacing the original dossier, and
+publishes `site/scouting/patterns.html` at `/scouting/patterns/`. The public JSON
+contains source byte sizes and SHA256 fingerprints, but no raw downloader metadata,
+signed media URLs, local storage paths or full captions.
+
 The public dataset, CSV and review log carry evidence IDs and scope limitations.
 The chart shows discrete score observations rather than interpolated control.
 The evidence library omits extra score-only anchors, which remain inspectable
@@ -87,4 +131,9 @@ and `browser-results.json` into the supplied ignored QA directory.
 
 ```powershell
 node tools/scouting/check_black_sails_browser.cjs http://127.0.0.1:8027 qa/scouting
+node tools/scouting/check_series_browser.cjs http://127.0.0.1:8027 qa/scouting-series
 ```
+
+The series check covers every selector route, team/type filter including empty
+results, persisted links, exported data, native images and each hosted excerpt's
+decoding and playback. Desktop/mobile screenshots and browser results stay local.

@@ -1,0 +1,241 @@
+{
+  "reviewed_evidence": [
+    {
+      "id": "opening-coverage",
+      "seconds": 350,
+      "decoded_seconds": 349.99965000000003,
+      "source_frame": 20979,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "One-minute native overview and original comms at 05:30-06:20; the full squad footprint is not tracked."
+    },
+    {
+      "id": "failed-crossing",
+      "seconds": 900,
+      "decoded_seconds": 899.9991,
+      "source_frame": 53946,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native 14:00-16:00 sequence plus comms requesting movement behind a tank; later criticism describes only a small group crossing in time."
+    },
+    {
+      "id": "low-walls",
+      "seconds": 2120,
+      "decoded_seconds": 2120.0012166666666,
+      "source_frame": 127073,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native 33:00-36:00 sequence and comms asking for jump-ups and anti-air; no complete base survey is claimed."
+    },
+    {
+      "id": "predicted-route",
+      "seconds": 2450,
+      "decoded_seconds": 2449.9975499999996,
+      "source_frame": 146853,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native forest/base context; original comms at 40:30-41:10 explicitly identify two Reds and praise their anticipated position."
+    },
+    {
+      "id": "radar-disabled",
+      "seconds": 4020,
+      "decoded_seconds": 4019.999316666667,
+      "source_frame": 240959,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Readable native UI at 67:00; subsequent comms discuss the reinforcement problem."
+    },
+    {
+      "id": "pull-conflict",
+      "seconds": 4080,
+      "decoded_seconds": 4079.9925833333336,
+      "source_frame": 244555,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native base-pressure context and original comms at 67:45-68:30. Exact causation and every speaker are not independently established."
+    },
+    {
+      "id": "wave-and-apc",
+      "seconds": 4440,
+      "decoded_seconds": 4440.002233333334,
+      "source_frame": 266134,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native airfield/transport context; original comms at 73:10-74:30 explain the held-APC problem and proposed response."
+    },
+    {
+      "id": "counter-denial",
+      "seconds": 4830,
+      "decoded_seconds": 4829.991833333334,
+      "source_frame": 289510,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native outside-base sequence; original comms at 80:30-80:56. The exact later respawn timer is not measured."
+    },
+    {
+      "id": "closing-survival",
+      "seconds": 5340,
+      "decoded_seconds": 5340.001333333334,
+      "source_frame": 320080,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Native 89:00-95:30 sequence plus original comms at 88:45-90:00. The source POV still suffers deaths and return travel."
+    },
+    {
+      "id": "last-contest",
+      "seconds": 5715,
+      "decoded_seconds": 5714.992616666667,
+      "source_frame": 342557,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Direct native HUD reading at 95:15; static counts do not prove why the next point goes to Green."
+    },
+    {
+      "id": "result",
+      "seconds": 5742,
+      "decoded_seconds": 5742.002933333333,
+      "source_frame": 344176,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Direct native result-screen reading after the animated totals finish."
+    },
+    {
+      "id": "score-120",
+      "seconds": 120,
+      "decoded_seconds": 120.00321666666667,
+      "source_frame": 7193,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-600",
+      "seconds": 600,
+      "decoded_seconds": 599.9994,
+      "source_frame": 35964,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-1500",
+      "seconds": 1500,
+      "decoded_seconds": 1499.9985000000001,
+      "source_frame": 89910,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-2100",
+      "seconds": 2100,
+      "decoded_seconds": 2099.9979000000003,
+      "source_frame": 125874,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-2700",
+      "seconds": 2700,
+      "decoded_seconds": 2699.9973,
+      "source_frame": 161838,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-3300",
+      "seconds": 3300,
+      "decoded_seconds": 3299.9967,
+      "source_frame": 197802,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-3900",
+      "seconds": 3900,
+      "decoded_seconds": 3899.9961000000003,
+      "source_frame": 233766,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-4200",
+      "seconds": 4200,
+      "decoded_seconds": 4199.995800000001,
+      "source_frame": 251748,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-4500",
+      "seconds": 4500,
+      "decoded_seconds": 4499.9955,
+      "source_frame": 269730,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-5460",
+      "seconds": 5460,
+      "decoded_seconds": 5460.004550000001,
+      "source_frame": 327273,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    },
+    {
+      "id": "score-5700",
+      "seconds": 5700,
+      "decoded_seconds": 5699.9943,
+      "source_frame": 341658,
+      "review_method": "Agent visual inspection of source frame and surrounding sampled sequence",
+      "basis": "Agent visual reading of the native HUD."
+    }
+  ],
+  "coverage": {
+    "video_download_complete": true,
+    "source_files": [
+      {
+        "filename": "source.video.mp4",
+        "bytes": 3643004307,
+        "sha256": "1d05f52d519b5e878a953676176dc76386cb372d99dcb049d6c10802f8390aa8",
+        "format_id": "299",
+        "language": null
+      },
+      {
+        "filename": "source.audio.m4a",
+        "bytes": 93228386,
+        "sha256": "e7ba9fc52dfedded73e562ece461263f8df7c2ed62844385a9b2c890d04ea737",
+        "format_id": "140",
+        "language": "en"
+      }
+    ],
+    "extracted_unique_frames": 160,
+    "overview_gap_seconds": 60,
+    "score_anchors": 16,
+    "detailed_review_windows": [
+      {
+        "start_seconds": 840,
+        "end_seconds": 960,
+        "sample_gap_seconds": 15
+      },
+      {
+        "start_seconds": 1980,
+        "end_seconds": 2160,
+        "sample_gap_seconds": 20
+      },
+      {
+        "start_seconds": 4500,
+        "end_seconds": 4660,
+        "sample_gap_seconds": 20
+      },
+      {
+        "start_seconds": 5340,
+        "end_seconds": 5730,
+        "sample_gap_seconds": 15
+      },
+      {
+        "start_seconds": 5720,
+        "end_seconds": 5756,
+        "sample_gap_seconds": 2
+      }
+    ],
+    "continuous_visual_watch": false,
+    "comms_source": "YouTube automatic original English captions",
+    "manual_human_review": false,
+    "match_date_confirmed": false
+  },
+  "rejected_claims": [
+    "Whole-clan identity or permanent habits from a single recorded role.",
+    "Intentional alliance or cheating inferred from frustrated comms.",
+    "Individual coalition-member attribution without evidence.",
+    "Final scores read before the result animation completes.",
+    "Rules and upload dates treated as verified match dates or current rules."
+  ],
+  "review_type": "Agent-reviewed sampled footage; not independent human validation"
+}
