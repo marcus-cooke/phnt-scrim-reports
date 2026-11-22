@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.6.0 — 22 November 2026
+
+- Add the 22 November PHNT clan recording to the main match catalog and comparison, separate from opponent scouting. Verify PHNT as Blue / Lonestar, second place at 96 points, against Red AK at 100 and Green PMF at 96.
+- Exclude the preceding round and loading transition before 06:10. Read 31,340 native feed frames at four observations per second, plus 1,567 five-second HUD samples, 29 reviewed ticket anchors and 12 map snapshots.
+- Publish 2,125 accepted feed display episodes, with 2,064 paired entries in faction charts and eight individually reviewed entries. Keep the automatic 25/26 development-window recovery separate from one visual recovery and four excluded duplicate fragments; these are not verified final-kill totals or a whole-match accuracy estimate.
+- Flag 112 accepted player-count observations strictly above 33. Native evidence verifies peaks of Blue 47, Red 41 and Green 42; unknown readings remain gaps.
+- Remove all 61 hosted video clips at the user's request and default to screenshot/data-only reports. Retain offline originals, every older gameplay reading, all 12,789 existing screenshots and the official Phantom branding.
+- Extend chart bins and time-axis labels for the longer recording, preserve recording-specific clan mappings, and verify category, boundaries, evidence, exports and desktop/mobile behavior.
+
 ## 0.1.5.0 — 10 November 2026
 
 - Add four evidence-linked opponent dossiers for the Adversary Humvee, WOUF Tower 2, Silk competitive pilot and second Black Sails frontline recordings: 33 new bounded findings, 57 visually reviewed score anchors and 87 source screenshots with selected playable excerpts.
