@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-22",
+  "phnt_team": "Blue",
+  "clan_teams": {
+    "PHNT": "Blue",
+    "AK": "Red",
+    "AKP": "Red",
+    "PMF": "Green"
+  },
+  "start_seconds": 370,
+  "end_seconds": 8205,
+  "feed_fps": 4,
+  "opponents": [
+    "AK",
+    "PMF"
+  ],
+  "result_seconds": 8220,
+  "final_scores": {
+    "Blue": 96,
+    "Red": 100,
+    "Green": 96
+  },
+  "review_windows_seconds": [
+    [
+      600,
+      630
+    ],
+    [
+      3000,
+      3030
+    ],
+    [
+      7800,
+      7830
+    ]
+  ]
+}
