@@ -22,7 +22,7 @@ unknown. The actual match dates remain unconfirmed.
 
 Silk's competitive analysis begins at **5040 seconds (1:24:00), 0-0-0**, and runs
 through the completed result at **11210 seconds (3:06:50)**. Public play and
-lobby/setup are excluded from competitive anchors, findings and hosted excerpts.
+lobby/setup are excluded from competitive anchors, findings and evidence.
 The competitive overview was visually inspected at one-minute intervals, with
 denser reviewed sequences. Full-source download does not mean continuous watching.
 
@@ -85,7 +85,7 @@ the two source media files:
 python tools/build_scouting.py --analysis 'C:/local-analysis/black-sails-EaqOp1Fh7D0'
 ```
 
-`imageio-ffmpeg` is needed only for packaging the selected H.264/AAC excerpts.
+`imageio-ffmpeg` is needed only for the legacy media-packaging step's H.264/AAC excerpts. That step can recreate MP4s. Before publishing, archive and remove them with `python tools/remove_hosted_clips.py --archive ../offline-clip-archive`, using an archive outside the checkout. This preserves screenshots and gameplay readings while restoring screenshot-only reports; `tools/check_site.py` rejects any remaining public MP4.
 Once evidence is packaged, editing the page, styling or curation does not need the
 full recording:
 
