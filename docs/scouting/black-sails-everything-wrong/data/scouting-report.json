@@ -308,12 +308,7 @@
       "image": "assets/failed-crossing.jpg",
       "thumbnail": "assets/thumb-failed-crossing.jpg",
       "image_alt": "The moving-zone crossing breaks into a reset; source recording at 900 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/failed-crossing.mp4",
-        "start_seconds": 850,
-        "end_seconds": 915
-      }
+      "library": true
     },
     {
       "id": "low-walls",
@@ -324,12 +319,7 @@
       "image": "assets/low-walls.jpg",
       "thumbnail": "assets/thumb-low-walls.jpg",
       "image_alt": "FOB cover constrains outward visibility; source recording at 2120 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/low-walls.mp4",
-        "start_seconds": 2080,
-        "end_seconds": 2125
-      }
+      "library": true
     },
     {
       "id": "predicted-route",
@@ -340,12 +330,7 @@
       "image": "assets/predicted-route.jpg",
       "thumbnail": "assets/thumb-predicted-route.jpg",
       "image_alt": "The next route is already contested; source recording at 2450 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/predicted-route.mp4",
-        "start_seconds": 2425,
-        "end_seconds": 2470
-      }
+      "library": true
     },
     {
       "id": "radar-disabled",
@@ -356,12 +341,7 @@
       "image": "assets/radar-disabled.jpg",
       "thumbnail": "assets/thumb-radar-disabled.jpg",
       "image_alt": "Spawn vehicle radar destroyed: awaiting repairs; source recording at 4020 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/radar-disabled.mp4",
-        "start_seconds": 4015,
-        "end_seconds": 4060
-      }
+      "library": true
     },
     {
       "id": "pull-conflict",
@@ -383,12 +363,7 @@
       "image": "assets/wave-and-apc.jpg",
       "thumbnail": "assets/thumb-wave-and-apc.jpg",
       "image_alt": "Wait for a full wave; recover the stranded APC; source recording at 4440 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/wave-and-apc.mp4",
-        "start_seconds": 4380,
-        "end_seconds": 4470
-      }
+      "library": true
     },
     {
       "id": "counter-denial",
@@ -399,12 +374,7 @@
       "image": "assets/counter-denial.jpg",
       "thumbnail": "assets/thumb-counter-denial.jpg",
       "image_alt": "Disable the enemy antenna without destroying the APC; source recording at 4830 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/counter-denial.mp4",
-        "start_seconds": 4815,
-        "end_seconds": 4860
-      }
+      "library": true
     },
     {
       "id": "closing-survival",
@@ -415,12 +385,7 @@
       "image": "assets/closing-survival.jpg",
       "thumbnail": "assets/thumb-closing-survival.jpg",
       "image_alt": "Late calls switch to smoke, revives and surviving in zone; source recording at 5340 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/closing-survival.mp4",
-        "start_seconds": 5320,
-        "end_seconds": 5365
-      }
+      "library": true
     },
     {
       "id": "last-contest",
@@ -442,12 +407,7 @@
       "image": "assets/result.jpg",
       "thumbnail": "assets/thumb-result.jpg",
       "image_alt": "BNT / Defcon III victory / 99 / 72 / 100; source recording at 5742 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/result.mp4",
-        "start_seconds": 5730,
-        "end_seconds": 5744
-      }
+      "library": true
     },
     {
       "id": "score-120",

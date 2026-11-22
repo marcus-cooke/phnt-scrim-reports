@@ -1,0 +1,34 @@
+{
+  "duplicates": [
+    {
+      "event_id": "D01991",
+      "duplicate_of": "D01992",
+      "reviewed_at_seconds": 3029,
+      "note": "Interleaved OCR fragment of LibiMcFly to Absynth; one visible source row"
+    },
+    {
+      "event_id": "D02001",
+      "duplicate_of": "D02006",
+      "reviewed_at_seconds": 3029.75,
+      "note": "Partial hok reading from the same hckAz to Steperfeeld row"
+    },
+    {
+      "event_id": "D02011",
+      "duplicate_of": "D02006",
+      "reviewed_at_seconds": 3036.75,
+      "note": "Partial PME reading from the same hckAz to Steperfeeld row; no co-visible duplicate"
+    },
+    {
+      "event_id": "D06100",
+      "duplicate_of": "D06101",
+      "reviewed_at_seconds": 7828.75,
+      "note": "Partial pJShidar reading from the same Shidar to Ch3wie row"
+    }
+  ],
+  "recovery": {
+    "event_id": "D06083",
+    "attacker": "[AK]SK1LLIUS",
+    "target": "[PMF]MaTej",
+    "note": "Readable native skull-marked row at7812.75 and surrounding source images; raw models split the distorted row into weak fragments"
+  }
+}

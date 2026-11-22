@@ -81,5 +81,29 @@
       ],
       "faction_discrepancy": "League page lists PHNT as Valkyra, RMNT as Lonestar and HTD as Manticore. Recorded footage shows PHNT as Blue / Lonestar and HTD-tagged players as Red / Valkyra. Charts and the recorded result follow the footage; league-listed factions are retained separately."
     }
+  },
+  {
+    "id": "2026-11-22",
+    "date": "22 November 2026",
+    "date_iso": "2026-11-22",
+    "short_label": "11-22",
+    "category": "phnt",
+    "recording_owner": "PHNT",
+    "phnt_team": "Blue",
+    "result": "2nd place",
+    "final_scores": {
+      "Blue": 96,
+      "Red": 100,
+      "Green": 96
+    },
+    "analysis_start_seconds": 370,
+    "outcome_seconds": 8220,
+    "recording": "2026-11-22 19-35-46.mp4",
+    "opponents": [
+      "AK",
+      "PMF"
+    ],
+    "opponent_names_source": "Visible in-game clan tags and faction glyphs; full clan names not independently confirmed",
+    "notes": "PHNT clan recording, Blue / Lonestar vs Red AK and Green PMF on Ozeti. Analysis begins at 06:10 with 0–0–0 after the prior-round ending and loading transition. Active-HUD extraction ends at 2:16:45; final result separately checked at 2:17:00: Red 100, Blue 96, Green 96. The result screen awards PHNT second place. Opponent labels are the visible in-game tags."
   }
 ]

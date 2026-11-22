@@ -1,0 +1,13 @@
+﻿event_id,decision,reviewed_at_seconds,attacker,target,attacker_team,target_team,icon_class,source_image,duplicate_of,note
+D00065,correct_existing_candidate,600,[PHNT]Marcus,[PMF]jULEEE,Blue,Green,skull-marked,assets/feed-0000597750-r1.webp,,
+D00064,correct_existing_candidate,600,[PHNT]Jensen,[PMF][EGO]Aky,Blue,Green,unclassified,assets/feed-0000599250-r2.webp,,
+D01984,correct_existing_candidate,3000,[AK]SK1LLIUS,[PMF]Breizher,Red,Green,unclassified,assets/feed-0002993500-r1.webp,,
+D06064,correct_existing_candidate,7800,[AK]Trigga,[PMF]AskYy,Red,Green,unclassified,assets/feed-0007796000-r1.webp,,
+D06063,correct_existing_candidate,7800,[AK]SK1LLIUS,[PMF]wokanswer,Red,Green,skull-marked,assets/feed-0007798500-r2.webp,,
+D06058,correct_existing_candidate,7800,[PMF]ypox_fps,[AK]Benegog,Green,Red,skull-marked,assets/feed-0007792000-r1.webp,,
+D06057,correct_existing_candidate,7800,[AK]Woxy,[PMF]Slyier,Red,Green,unclassified,assets/feed-0007791750-r1.webp,,
+D01991,exclude_duplicate,3029,,,,,,assets/feed-0003029250-r4.webp,D01992,Interleaved OCR fragment of LibiMcFly to Absynth; one visible source row
+D02001,exclude_duplicate,3029.75,,,,,,assets/feed-0003030250-r2.webp,D02006,Partial hok reading from the same hckAz to Steperfeeld row
+D02011,exclude_duplicate,3036.75,,,,,,assets/feed-0003037750-r4.webp,D02006,Partial PME reading from the same hckAz to Steperfeeld row; no co-visible duplicate
+D06100,exclude_duplicate,7828.75,,,,,,assets/feed-0007824750-r1.webp,D06101,Partial pJShidar reading from the same Shidar to Ch3wie row
+D06083,recover_readable_pair,7812.75,[AK]SK1LLIUS,[PMF]MaTej,Red,Green,skull-marked,assets/feed-0007812750-r1.webp,,Readable native skull-marked row at7812.75 and surrounding source images; raw models split the distorted row into weak fragments

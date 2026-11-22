@@ -1,6 +1,6 @@
 async(page)=>{
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
-  const origin=new URL(page.url()).origin;
+  const origin=new URL('./',page.url()).href.replace(/\/$/,'');
   await page.goto(origin+'/?match=2026-10-25&section=strength');
   const report=()=>page.frameLocator('#report-frame');
   await report().getByRole('tab',{name:'Team strength',exact:true}).waitFor({state:'visible'});
@@ -14,10 +14,7 @@ async(page)=>{
   await report().locator('#evidence').evaluate(el=>el.decode());
   const peak=await report().locator('#inspect-title').textContent();
   if(peak!=='Blue strength: 53')throw Error('New peak mismatch');
-  await report().getByRole('button',{name:'Play hosted source excerpt'}).click();
-  await report().locator('#source-video').evaluate(el=>new Promise((resolve,reject)=>{if(el.readyState>=1)return resolve();el.addEventListener('loadedmetadata',resolve,{once:true});el.addEventListener('error',()=>reject(Error(el.error?.message)),{once:true})}));
-  const clip=await report().locator('#source-video').evaluate(el=>({duration:el.duration,ready:el.readyState,src:el.currentSrc}));
-  if(clip.duration<9||clip.duration>11||!clip.src.includes('/clips/'))throw Error('Static excerpt playback mismatch');
+  if(newer.clips.length!==0||await report().getByRole('button',{name:'Play hosted source excerpt'}).isVisible())throw Error('Hosted clips should be removed');
   await report().getByRole('button',{name:'Close evidence'}).click();
   await page.screenshot({path:'qa/new-strength.png'});
   await page.getByLabel('Select match').selectOption('2026-10-24');
@@ -43,5 +40,5 @@ async(page)=>{
   await page.getByRole('tab',{name:'Match report',exact:true}).click();
   await page.getByLabel('Select match').selectOption('2026-10-25');
   if(errors.length)throw Error(errors.join('\n'));
-  return {newMatch:{phnt:newer.meta.phnt_team,rings:newRings,firstTicket:Math.min(...newer.tickets.map(r=>r.video_seconds))},oldMatch:{phnt:older.meta.phnt_team,rings:oldRings},staticClip:clip,comparisonRows,mobileOverflow:overflow,pageErrors:errors};
+  return {newMatch:{phnt:newer.meta.phnt_team,rings:newRings,firstTicket:Math.min(...newer.tickets.map(r=>r.video_seconds))},oldMatch:{phnt:older.meta.phnt_team,rings:oldRings},hostedClips:newer.clips.length,comparisonRows,mobileOverflow:overflow,pageErrors:errors};
 }

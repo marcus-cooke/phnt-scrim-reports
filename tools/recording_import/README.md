@@ -60,3 +60,60 @@ final kills. Date and opponents are confirmed by WDL fixture #114 and the user.
 The fixture snapshot is in `data/league-fixture.json`. Its faction assignments
 differ from the recorded round, so the report retains both sources separately.
 POV identity remains unconfirmed. Visible HTD/GIII player tags stay as observed.
+
+## 22 November PHNT clan recording
+
+The native **3440 × 1440, 60 FPS** recording belongs in the main PHNT match
+catalog, not opponent scouting. Its ID is `2026-11-22`. PHNT is Blue / Lonestar,
+AK/AKP is Red and PMF is Green, from visible tags and faction glyphs. The final
+screen at 8220 seconds awards PHNT second place: Blue 96, Red 100, Green 96.
+The date follows the supplied recording filename; no league fixture is inferred.
+
+Recording-specific review inputs are in `reference/2026-11-22/`. Copy the JSON
+config, ticket anchors, manual paired reference, visual decisions and curation decisions into a fresh
+external analysis folder. Put `team-strength-reviewed.csv` in its `data/` folder.
+Use `inspect_recording.py` to record metadata, and retain native source shots at
+each ticket-anchor time under `review/native-SECONDS.jpg` (the final result may
+also be `native-8220.jpg` at the analysis root). These decisions are specific to
+this footage and must not be inherited by another recording.
+
+Processing order:
+
+1. `extract_native.py VIDEO OUTPUT --start 370 --end 8205` samples 31,340 feed
+   images at 4 Hz and 1,567 HUD images at five-second intervals. The preceding
+   round and loading transition are excluded. Up-rounded sampling retains the
+   recording timestamps; do not apply the older import's bin-offset adjustment.
+2. Put the documented English v4/v5 model files in `feed-v2/models/`, then run
+   `read_batched_feed.py OUTPUT` and `read_native_hud.py OUTPUT --map-reference
+   OUTPUT/review/native-1200.jpg`. Both readers resume completed observations.
+   Recognizers share detector boxes; model calls never count as extra frames.
+3. After the HUD reader completes, run `check_strength_ocr.py OUTPUT`, then
+   `select_strength_consensus.py OUTPUT`, then `assemble_native.py OUTPUT
+   --legacy LEGACY_ANALYSIS`. The legacy analysis provides the previously
+   documented ticket/map/strength algorithms. Native reviewed peaks are Blue 47
+   at 6255s, Red 41 at 5145s and Green 42 at 7530s. Gaps remain unknown.
+4. After both complete feed streams exist, run `assemble_native_feed.py OUTPUT
+   --repo REPOSITORY`. It requires the full bounded coverage and uses this
+   recording's clan mapping. A delimiter prevents `AK` inside names such as
+   `[PMF][EGO]Aky` from being mistaken for another clan prefix. Public evidence
+   retains the selected native feed row at its original pixel scale; the full
+   feed crops stay offline. Single-name rows remain unresolved.
+5. Record the original video's SHA256 and bytes in external `video-sha256.json`,
+   plus the native timing comparisons in `source-timing-check.json`, then run
+   `finalize_native.py OUTPUT`. It evaluates automatic tracks before the seven
+   separate visual decisions against 26 readable paired episodes across three
+   30-second source windows. This development check tolerates spelling errors;
+   it is not held-out validation or a whole-match accuracy estimate. A visible
+   Shaddy single-name notice is outside the paired evaluation. Then run
+   `curate_native_feed.py OUTPUT` once to recover the separately reviewed MaTej
+   row and exclude four verified fragments. This yields eight reviewed entries
+   and keeps the raw automatic 25/26 recovery unchanged.
+6. Package using `build_site.py --only 2026-11-22`, with the existing templates,
+   analysis and video inputs. Existing match datasets and scouting dossiers are
+   preserved. Run the static, branding, scouting and browser checks.
+
+The public package is limited to **950 MiB** to leave room below GitHub Pages'
+[published-site size limit](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
+Reports publish charts, timestamped screenshots and CSV/JSON exports. Hosted video
+clips were removed at the user's request; originals and archived excerpts remain
+offline. The match packager defaults to screenshots-only.

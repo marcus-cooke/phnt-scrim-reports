@@ -22,7 +22,7 @@ unknown. The actual match dates remain unconfirmed.
 
 Silk's competitive analysis begins at **5040 seconds (1:24:00), 0-0-0**, and runs
 through the completed result at **11210 seconds (3:06:50)**. Public play and
-lobby/setup are excluded from competitive anchors, findings and hosted excerpts.
+lobby/setup are excluded from competitive anchors, findings and evidence.
 The competitive overview was visually inspected at one-minute intervals, with
 denser reviewed sequences. Full-source download does not mean continuous watching.
 
@@ -85,7 +85,7 @@ the two source media files:
 python tools/build_scouting.py --analysis 'C:/local-analysis/black-sails-EaqOp1Fh7D0'
 ```
 
-`imageio-ffmpeg` is needed only for packaging the selected H.264/AAC excerpts.
+`imageio-ffmpeg` is needed only for the legacy media-packaging step's H.264/AAC excerpts. That step can recreate MP4s. Before publishing, archive and remove them with `python tools/remove_hosted_clips.py --archive ../offline-clip-archive`, using an archive outside the checkout. This preserves screenshots and gameplay readings while restoring screenshot-only reports; `tools/check_site.py` rejects any remaining public MP4.
 Once evidence is packaged, editing the page, styling or curation does not need the
 full recording:
 
@@ -123,7 +123,7 @@ open evidence dialog.
 ## Browser checks
 
 `check_black_sails_browser.cjs` checks the route from the homepage, filtering,
-direct evidence URLs, excerpt decoding/playback, data exports, desktop/mobile
+direct evidence URLs, screenshot decoding, hidden clip controls, data exports, desktop/mobile
 layout, page errors and missing responses. It requires Playwright. If Playwright
 or Chromium lives outside the standard install, set `PLAYWRIGHT_MODULE` and
 `PLAYWRIGHT_CHROMIUM_EXECUTABLE` to those installed locations. It writes screenshots
@@ -135,5 +135,8 @@ node tools/scouting/check_series_browser.cjs http://127.0.0.1:8027 qa/scouting-s
 ```
 
 The series check covers every selector route, team/type filter including empty
-results, persisted links, exported data, native images and each hosted excerpt's
-decoding and playback. Desktop/mobile screenshots and browser results stay local.
+results, persisted links, exported data, native images and screenshot-only evidence dialogs. Desktop/mobile screenshots and browser results stay local.
+
+Hosted MP4 excerpts were removed at the user's request. Original footage and
+archived excerpts stay offline; the public reports retain timestamped screenshots,
+source links and data downloads.
