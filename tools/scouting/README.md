@@ -123,7 +123,7 @@ open evidence dialog.
 ## Browser checks
 
 `check_black_sails_browser.cjs` checks the route from the homepage, filtering,
-direct evidence URLs, excerpt decoding/playback, data exports, desktop/mobile
+direct evidence URLs, screenshot decoding, hidden clip controls, data exports, desktop/mobile
 layout, page errors and missing responses. It requires Playwright. If Playwright
 or Chromium lives outside the standard install, set `PLAYWRIGHT_MODULE` and
 `PLAYWRIGHT_CHROMIUM_EXECUTABLE` to those installed locations. It writes screenshots
@@ -135,5 +135,8 @@ node tools/scouting/check_series_browser.cjs http://127.0.0.1:8027 qa/scouting-s
 ```
 
 The series check covers every selector route, team/type filter including empty
-results, persisted links, exported data, native images and each hosted excerpt's
-decoding and playback. Desktop/mobile screenshots and browser results stay local.
+results, persisted links, exported data, native images and screenshot-only evidence dialogs. Desktop/mobile screenshots and browser results stay local.
+
+Hosted MP4 excerpts were removed at the user's request. Original footage and
+archived excerpts stay offline; the public reports retain timestamped screenshots,
+source links and data downloads.

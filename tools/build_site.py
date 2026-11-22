@@ -13,7 +13,7 @@ REPO=Path(__file__).resolve().parents[1];DOCS=REPO/'docs'
 COLORS={'Blue':'#59b9f3','Red':'#f4777d','Green':'#65d998'}
 def mapping(values):return dict(s.split('=',1) for s in values)
 def tc(t):return f'{int(t)//3600:02}:{int(t)//60%60:02}:{int(t)%60:02}'
-def pack_match(meta,source,video,templates,feed_data=None):
+def pack_match(meta,source,video,templates,feed_data=None,include_clips=False):
     dest=DOCS/'matches'/meta['id'];assets=dest/'assets';data=dest/'data';clipsdir=dest/'clips'
     for p in [assets,data,clipsdir]:p.mkdir(parents=True,exist_ok=True)
     d=json.loads(((feed_data or source/'data')/'match-data.json').read_text());d['meta']=meta
@@ -51,7 +51,8 @@ def pack_match(meta,source,video,templates,feed_data=None):
             draw.text((12,258),'POINTS AND PERSON-ICON COUNTS',fill='#cbd8d4')
             panel.paste(im.crop((35,640,395,755)),(12,278))
             panel.paste(im.crop((0,760,688,1048)),(36,397));im=panel
-        im.save(out,'WEBP',quality=83,method=4)
+        native_import=meta.get('category')=='phnt'
+        im.save(out,'WEBP',quality=78 if native_import else 83,method=6 if native_import else 4)
     # Always retain native outcome proof, also available independently of clips.
     outcome=assets/'outcome.webp'
     if not outcome.exists():
@@ -70,8 +71,8 @@ def pack_match(meta,source,video,templates,feed_data=None):
         if native:highlights.append((native[i]['representative_seconds'],'Map observation'))
     highlights.append((meta['outcome_seconds'],'Final result'))
     clips=[];dur=d['summary']['video_seconds']
-    for t,label in highlights:
-        start=max(0,min(dur-10,t-3));end=min(dur,start+10);ident=f'{round(start*1000):010d}'
+    for t,label in (highlights if include_clips else []):
+        start=max(meta['analysis_start_seconds'],min(dur-10,t-3));end=min(dur,start+10);ident=f'{round(start*1000):010d}'
         rel=f'clips/{ident}.mp4';out=dest/rel;poster=f'clips/{ident}.webp'
         if not out.exists():
             command=[imageio_ffmpeg.get_ffmpeg_exe(),'-hide_banner','-loglevel','error','-y','-hwaccel','cuda','-ss',str(start),'-i',str(video),'-t','10','-map','0:v:0','-map','0:a:0?','-vf','scale=1720:720,fps=30','-c:v','h264_nvenc','-preset','p4','-cq','28','-c:a','aac','-b:a','96k','-movflags','+faststart',str(out)]
@@ -125,7 +126,7 @@ as a measure of overall team performance across matches.
 Map symbols are anonymous observations; no continuous routes are inferred.
 Public source_image/source_file fields refer to compact screenshots under
 assets/, relative to the match report. Native feed and HUD strips are retained.
-Only selected excerpts are included; original videos are not hosted.
+Timestamped screenshots are included; video excerpts and originals stay offline.
 Manual records and review queues remain separate. See the report's Data &
 coverage section for sampling coverage and machine confidence rules.
 ''',encoding='utf-8')
@@ -171,7 +172,7 @@ coverage section for sampling coverage and machine confidence rules.
         html=html.replace('These are scoreboard totals for the visible players. They are independent of the sampled feed counts and do not cover the full PHNT roster.','No per-player totals are carried over from the other match. The final result is independently verified from the result screen.')
         html=html.replace('PHNT → Green; 26TH → Red; TLL, 1G and N1 → Blue','PHNT → Blue; PV → Red; AK-P and AK → Green')
         html=html.replace('Green symbols','Friendly-coloured symbols').replace('Green components','Friendly-coloured components').replace('green symbol candidates','friendly-coloured symbol candidates')
-    if d.get('source_recording'):
+    if d.get('source_recording') and meta['id']=='wdl-phantom-scrim-2':
         html=html.replace('36 manually reviewed anchors',f'{d["ticket_anchor_count"]} manually reviewed anchors')
         html=html.replace('Five visible PHNT rows at 1:43:15 · manually read',f'{len(d["scoreboard"])} visible PHNT rows at 1:52:25–1:52:30 · manually read')
         html=html.replace('PHNT → Green; 26TH → Red; TLL, 1G and N1 → Blue','PHNT → Blue; HTD and GIII → Red; other factions require repeated coloured glyph evidence')
@@ -180,6 +181,30 @@ coverage section for sampling coverage and machine confidence rules.
         html=html.replace('Readings are roughly 4.17 seconds apart','Readings are 5 seconds apart')
         html=html.replace('Filenames encode video presentation timestamps in milliseconds.','Filenames encode approximate source times in milliseconds. Sampling-bin offsets are corrected; timing uncertainty is about one source frame (0.034 seconds).')
         html=html.replace('<div id="coverage"></div>','<p>Player counts require agreement between two English recognizers at confidence ≥0.92 in both. Ambiguous 3/5 readings on the tiny green HUD remain unavailable. Selected peaks were checked against native frames.</p><p><a href="data/strength-model-reads.csv">Independent count reads and disagreements</a> · <a href="data/recording-provenance.json">Recording and calibration notes</a></p><div id="coverage"></div>')
+    if meta.get('category')=='phnt' and d.get('source_recording'):
+        html=html.replace('if(i===2)for(let m=10;m<=100;m+=10)', 'if(i===2)for(let m=10;m<=Math.floor(rootData.summary.video_seconds/60);m+=10)')
+        html=html.replace('m<=100;m+=10','m<=Math.floor(D.summary.video_seconds/60);m+=10')
+        html=html.replace('const bins=Array.from({length:11}', 'const binCount=Math.ceil(D.summary.video_seconds/600),binWidth=495/binCount;const bins=Array.from({length:binCount}')
+        html=html.replace('bins[Math.min(10,Math.floor', 'bins[Math.min(binCount-1,Math.floor')
+        html=html.replace('x:52+i*45,y:base-h,width:29', 'x:52+i*binWidth,y:base-h,width:binWidth*.65')
+        html=html.replace('Math.min(i*10+10,103.36)', 'Math.min(i*10+10,D.summary.video_seconds/60)')
+        html=html.replace('x:66+i*45,y:253', 'x:52+(i+.325)*binWidth,y:253')
+        html=html.replace('36 manually reviewed anchors',f'{d["ticket_anchor_count"]} manually reviewed anchors')
+        html=html.replace('Five visible PHNT rows at 1:43:15 · manually read','No verified per-player scoreboard totals extracted for this recording.')
+        html=html.replace('These are scoreboard totals for the visible players. They are independent of the sampled feed counts and do not cover the full PHNT roster.','The completed team result is separately verified from the source screen; no per-player totals are carried over from another match.')
+        html=html.replace('PHNT → Green; 26TH → Red; TLL, 1G and N1 → Blue','PHNT → Blue; AK and AKP → Red; PMF → Green, from visible faction glyphs')
+        html=html.replace('Green colour components','Blue colour components')
+        html=html.replace('green symbol candidates','blue symbol candidates').replace('Green components are anonymous','Blue components are anonymous')
+        html=html.replace('Green symbols are anonymous','Blue symbols are anonymous')
+        html=html.replace('Readings are roughly 4.17 seconds apart','Readings are 5 seconds apart')
+        html=html.replace('Single-name skull/hand notices are retained in the table and exports.','Isolated single-name rows remain unresolved without a verified icon classifier for this recording.')
+        html=html.replace('Validation measures readable display-episode recovery in selected source windows, with tolerant name matching. It does not establish exact spelling accuracy or whole-match completeness.','Selected native-source rows were visually checked, with decisions logged separately. These spot checks do not measure whole-match recovery or exact name accuracy.')
+        html=html.replace('<div id="coverage"></div>','<p>PHNT clan recording · native 3440 × 1440 · active-round analysis starts at 06:10. The preceding round and loading transition are excluded. Strength readings require two English recognizers to agree at confidence ≥0.92 in both; gaps remain unavailable.</p><p><a href="data/strength-model-reads.csv">Independent count reads and disagreements</a> · <a href="data/recording-provenance.json">Recording provenance and review limits</a></p><div id="coverage"></div>')
+        check=d['feed_sample_check']
+        sample=f'<h3>Native source spot check</h3><p>The automatic pass recovered {check["matched"]} of {check["reference_pairs"]} readable paired episodes across three selected 30-second windows, with {check["unmatched_predictions"]} unmatched accepted candidates. These may include OCR fragments or additional displays missed between the one-second reference images. This is a development check with tolerant spelling, not a whole-match accuracy estimate. A separate single-name notice is outside the paired evaluation.</p><p><a href="data/manual-feed-reference.csv">Manual paired reference</a> · <a href="data/feed-validation.json">Automatic check and remaining misses</a> · <a href="data/feed-manual-decisions.csv">Separate visual decisions</a></p>'
+        if check.get('visual_recoveries'):
+            sample+=f'<p>Separate native-source reviews recovered {check["visual_recoveries"]} missed pair and excluded {check["visual_duplicate_exclusions"]} duplicate fragments. The automatic figures above remain unchanged for audit.</p>'
+        html=html.replace('<div id="coverage"></div>','<div id="coverage"></div>'+sample)
     if meta.get('opponents'):
         from html import escape
         details=escape(meta['date']+' · PHNT vs '+' / '.join(meta['opponents']))
@@ -194,14 +219,14 @@ coverage section for sampling coverage and machine confidence rules.
     html=html.replace('currentTime=t;',"currentTime=t;const hostedClip=D.clips.find(c=>t>=c.start_seconds&&t<=c.end_seconds);$('play-source').hidden=!hostedClip;")
     html=html.replace('Play 12-second source excerpt','Play hosted source excerpt')
     html=html.replace('<a href="findings.txt">Original proof-of-concept notes</a>','<a href="data/README.txt">Data notes</a>')
-    html=re.sub(r'<p>Original: C:.*?</p>','<p>Original video remains offline. Selected excerpts and screenshots are included.</p>',html)
+    html=re.sub(r'<p>Original: C:.*?</p>','<p>Original video and excerpts remain offline. Timestamped screenshots are included.</p>',html)
     html=html.replace('<a href="charts/match-overview.png">Chart image</a>','<a href="data/match-data.json">Combined dataset</a>')
     html=html.replace('<a href="charts/team-strength.png">Chart image ↗</a>','')
-    clipnav='<button role="tab" id="tab-clips" aria-selected="false" aria-controls="clips" data-tab="clips">Evidence clips</button>'
+    clipnav='<button role="tab" id="tab-clips" aria-selected="false" aria-controls="clips" data-tab="clips">Evidence clips</button>' if clips else ''
     html=html.replace('<button role="tab" id="tab-data"',clipnav+'<button role="tab" id="tab-data"')
     cliphtml='<section id="clips" role="tabpanel" aria-labelledby="tab-clips" hidden><h2>Selected source excerpts</h2><p class="muted">Portable H.264 excerpts · recording timestamps · original videos remain offline</p><div class="maps">'
     for c in clips:cliphtml+=f'<article><h3>{c["title"]} · {c["timecode"]}</h3><video controls preload="none" playsinline poster="{c["poster"]}" src="{c["src"]}" style="width:100%"></video></article>'
-    cliphtml+='</div></section>';html=html.replace('<footer>',cliphtml+'<footer>')
+    cliphtml+='</div></section>';html=html.replace('<footer>',(cliphtml if clips else '')+'<footer>')
     html=html.replace('<script id="match-data"', '<script id="match-data"')
     html=html.replace('__MATCH_DATA__',json.dumps(d,ensure_ascii=True,separators=(',',':')).replace('</','<\\/'))
     sync='''<script>document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('video').forEach(v=>v.pause());window.parent.postMessage({type:'report-tab',tab:b.dataset.tab},location.origin)}));const requested=new URLSearchParams(location.hash.slice(1)).get('view')||location.hash.slice(1);const target=document.getElementById('tab-'+requested);if(target)target.click();window.addEventListener('load',()=>window.scrollTo(0,0),{once:true});</script>'''
@@ -253,17 +278,17 @@ def apply_dense_feed_ui(html,d):
     return html
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--templates',required=True);p.add_argument('--analysis',action='append',required=True);p.add_argument('--video',action='append',required=True);p.add_argument('--feed-data',action='append',default=[]);p.add_argument('--only',action='append',default=[],help='Repackage only these match IDs, preserving existing reports');args=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--templates',required=True);p.add_argument('--analysis',action='append',required=True);p.add_argument('--video',action='append',required=True);p.add_argument('--feed-data',action='append',default=[]);p.add_argument('--only',action='append',default=[],help='Repackage only these match IDs, preserving existing reports');p.add_argument('--include-clips',action='store_true',help='Explicit opt-in; screenshots-only is the default');args=p.parse_args()
     analyses=mapping(args.analysis);videos=mapping(args.video);DOCS.mkdir(exist_ok=True)
     catalog=[]
     feeds=mapping(args.feed_data)
     existing={m['meta']['id']:m for m in json.loads((DOCS/'catalog.json').read_text())} if args.only else {}
-    configured=json.loads((REPO/'matches.json').read_text())
+    configured=json.loads((REPO/'matches.json').read_text(encoding='utf-8'))
     if set(args.only)-{m['id'] for m in configured}:raise ValueError('Unknown --only match ID')
     for m in configured:
         if args.only and m['id'] not in args.only:
             catalog.append(existing[m['id']]);continue
-        catalog.append(pack_match(m,Path(analyses[m['id']]),Path(videos[m['id']]),Path(args.templates),Path(feeds[m['id']]) if m['id'] in feeds else None))
+        catalog.append(pack_match(m,Path(analyses[m['id']]),Path(videos[m['id']]),Path(args.templates),Path(feeds[m['id']]) if m['id'] in feeds else None,args.include_clips))
     (DOCS/'catalog.json').write_text(json.dumps(catalog,separators=(',',':')))
     index=(REPO/'site/index.html').read_text(encoding='utf-8').replace('__CATALOG__',json.dumps(catalog,ensure_ascii=True,separators=(',',':')))
     (DOCS/'index.html').write_text(index,encoding='utf-8');(DOCS/'.nojekyll').write_text('')

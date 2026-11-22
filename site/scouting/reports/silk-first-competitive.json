@@ -354,12 +354,7 @@
       "image": "assets/whisper-gap.jpg",
       "thumbnail": "assets/thumb-whisper-gap.jpg",
       "image_alt": "The command whisper is not reaching the pilots; source recording at 5530 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/whisper-gap.mp4",
-        "start_seconds": 5500,
-        "end_seconds": 5545
-      }
+      "library": true
     },
     {
       "id": "pull-warning",
@@ -370,12 +365,7 @@
       "image": "assets/pull-warning.jpg",
       "thumbnail": "assets/thumb-pull-warning.jpg",
       "image_alt": "Another missing whisper affects pull warning; source recording at 7215 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/pull-warning.mp4",
-        "start_seconds": 7208,
-        "end_seconds": 7253
-      }
+      "library": true
     },
     {
       "id": "artillery-gap",
@@ -397,12 +387,7 @@
       "image": "assets/support-plan.jpg",
       "thumbnail": "assets/thumb-support-plan.jpg",
       "image_alt": "Artillery is tasked to remove rooftop anti-air; source recording at 7800 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/support-plan.mp4",
-        "start_seconds": 7790,
-        "end_seconds": 7835
-      }
+      "library": true
     },
     {
       "id": "paired-air",
@@ -413,12 +398,7 @@
       "image": "assets/paired-air.jpg",
       "thumbnail": "assets/thumb-paired-air.jpg",
       "image_alt": "The pilots coordinate the same air fight; source recording at 9130 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/paired-air.mp4",
-        "start_seconds": 9105,
-        "end_seconds": 9150
-      }
+      "library": true
     },
     {
       "id": "aa-window",
@@ -451,12 +431,7 @@
       "image": "assets/collision.jpg",
       "thumbnail": "assets/thumb-collision.jpg",
       "image_alt": "Two-aircraft response loses deconfliction; source recording at 10580 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/collision.mp4",
-        "start_seconds": 10560,
-        "end_seconds": 10605
-      }
+      "library": true
     },
     {
       "id": "last-zone-call",
@@ -467,12 +442,7 @@
       "image": "assets/last-zone-call.jpg",
       "thumbnail": "assets/thumb-last-zone-call.jpg",
       "image_alt": "The last play prioritises zone access over the air duel; source recording at 11150 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/last-zone-call.mp4",
-        "start_seconds": 11135,
-        "end_seconds": 11180
-      }
+      "library": true
     },
     {
       "id": "team-identity",
@@ -494,12 +464,7 @@
       "image": "assets/result.jpg",
       "thumbnail": "assets/thumb-result.jpg",
       "image_alt": "Amnesty victory / 100 / 94 / 40; source recording at 11210 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/result.mp4",
-        "start_seconds": 11198,
-        "end_seconds": 11212
-      }
+      "library": true
     },
     {
       "id": "score-5400",

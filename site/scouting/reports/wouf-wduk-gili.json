@@ -259,12 +259,7 @@
       "image": "assets/tower-hardening.jpg",
       "thumbnail": "assets/thumb-tower-hardening.jpg",
       "image_alt": "Sandbags and restricted tower access; source recording at 330 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/tower-hardening.mp4",
-        "start_seconds": 310,
-        "end_seconds": 355
-      }
+      "library": true
     },
     {
       "id": "supply-mismatch",
@@ -275,12 +270,7 @@
       "image": "assets/supply-mismatch.jpg",
       "thumbnail": "assets/thumb-supply-mismatch.jpg",
       "image_alt": "The delivered pallet is the wrong supply type; source recording at 1200 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/supply-mismatch.mp4",
-        "start_seconds": 1190,
-        "end_seconds": 1255
-      }
+      "library": true
     },
     {
       "id": "roof-pressure",
@@ -291,12 +281,7 @@
       "image": "assets/roof-pressure.jpg",
       "thumbnail": "assets/thumb-roof-pressure.jpg",
       "image_alt": "A fortified tower still faces roof insertion; source recording at 1770 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/roof-pressure.mp4",
-        "start_seconds": 1748,
-        "end_seconds": 1793
-      }
+      "library": true
     },
     {
       "id": "garrison-release",
@@ -307,12 +292,7 @@
       "image": "assets/garrison-release.jpg",
       "thumbnail": "assets/thumb-garrison-release.jpg",
       "image_alt": "Keep a small garrison and release the rest; source recording at 3000 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/garrison-release.mp4",
-        "start_seconds": 2994,
-        "end_seconds": 3039
-      }
+      "library": true
     },
     {
       "id": "egress",
@@ -323,12 +303,7 @@
       "image": "assets/egress.jpg",
       "thumbnail": "assets/thumb-egress.jpg",
       "image_alt": "Fortification needs a deliberate exit; source recording at 3300 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/egress.mp4",
-        "start_seconds": 3257,
-        "end_seconds": 3302
-      }
+      "library": true
     },
     {
       "id": "tower-call",
@@ -350,12 +325,7 @@
       "image": "assets/leave-tower.jpg",
       "thumbnail": "assets/thumb-leave-tower.jpg",
       "image_alt": "Abandon the fort when the finish requires bodies; source recording at 4500 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/leave-tower.mp4",
-        "start_seconds": 4490,
-        "end_seconds": 4555
-      }
+      "library": true
     },
     {
       "id": "survival-hold",
@@ -366,12 +336,7 @@
       "image": "assets/survival-hold.jpg",
       "thumbnail": "assets/thumb-survival-hold.jpg",
       "image_alt": "At 99, regroup and stay alive; source recording at 4860 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/survival-hold.mp4",
-        "start_seconds": 4815,
-        "end_seconds": 4870
-      }
+      "library": true
     },
     {
       "id": "team-identity",
@@ -393,12 +358,7 @@
       "image": "assets/result.jpg",
       "thumbnail": "assets/thumb-result.jpg",
       "image_alt": "WOUF victory / 100 / 79 / 12; source recording at 5006 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/result.mp4",
-        "start_seconds": 4994,
-        "end_seconds": 5008
-      }
+      "library": true
     },
     {
       "id": "score-120",

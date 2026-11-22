@@ -1,0 +1,418 @@
+{
+  "source_frames": 31340,
+  "sampling_hz": 4,
+  "automatic_accepted_before_visual_review": 2128,
+  "visually_reviewed_entries": 8,
+  "visual_additions": 0,
+  "review_windows_seconds": [
+    [
+      600,
+      630
+    ],
+    [
+      3000,
+      3030
+    ],
+    [
+      7800,
+      7830
+    ]
+  ],
+  "limitations": "Three selected development spot-check windows, not a held-out test or whole-match accuracy estimate. Matching tolerates OCR spelling differences and measures episode recovery, not exact name accuracy. Automatic results precede separately logged visual corrections. Reference images are sampled at one-second intervals with an additional quarter-second window-end check. Unmatched predictions may be fragments or additional displays; they are not all proven false positives.",
+  "reference_pairs": 26,
+  "sample_seconds": 90,
+  "matched": 25,
+  "unmatched_predictions": 3,
+  "windows": [
+    {
+      "start_seconds": 600,
+      "duration_seconds": 30,
+      "reference_pairs": 9,
+      "matched": 9,
+      "matches": [
+        {
+          "reference": {
+            "window_start": "600",
+            "seen_seconds": "600",
+            "attacker": "[PMF]BABY SharK",
+            "target": "[PHNT]Jornii",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D00066",
+          "attacker": "[PMF]BABY SharK",
+          "target": "[PHNT]Jornii",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "600",
+            "seen_seconds": "600",
+            "attacker": "[PHNT]Marcus",
+            "target": "[PMF]jULEEE",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D00065",
+          "attacker": "[PHNT]Marcus",
+          "target": "[PMF]jULEEE",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "600",
+            "seen_seconds": "600",
+            "attacker": "[PHNT]Jensen",
+            "target": "[PMF][EGO]Aky",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D00064",
+          "attacker": "[PHNT]Jensen",
+          "target": "[PMF][EGO]Aky",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "600",
+            "seen_seconds": "601",
+            "attacker": "[PMF]DYDSO",
+            "target": "[PMF]BABY SharK",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D00067",
+          "attacker": "[PMF]DYDSO",
+          "target": "[PMF]BABY SharK",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "600",
+            "seen_seconds": "602",
+            "attacker": "[PHNT]Kokiro",
+            "target": "[PMF]DYDSO",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D00068",
+          "attacker": "[PHNT]Kokiro",
+          "target": "[PMF]DYDSO*",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "600",
+            "seen_seconds": "613",
+            "attacker": "[PHNT]Jensen",
+            "target": "[PMF]MaTej",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D00069",
+          "attacker": "[PHNT]Jensen",
+          "target": "[PMF]MaTej\"",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "600",
+            "seen_seconds": "619",
+            "attacker": "[PMF]TweeZy",
+            "target": "[PHNT]BlackShadow",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D00071",
+          "attacker": "[PMF]TweeZy",
+          "target": "[PHNT]BlackShadow",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "600",
+            "seen_seconds": "624",
+            "attacker": "[PMF]jULEEE",
+            "target": "[PHNT]Marcus",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D00074",
+          "attacker": "[PMF]jULEEE",
+          "target": "[PHNT]Marcus",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "600",
+            "seen_seconds": "626",
+            "attacker": "[PMF]roum",
+            "target": "[PHNT]Benny Leone",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D00075",
+          "attacker": "[PMF]roum",
+          "target": "[PHNT]Benny Leone",
+          "name_similarity": 1.0
+        }
+      ],
+      "missed": [],
+      "unmatched_predictions": []
+    },
+    {
+      "start_seconds": 3000,
+      "duration_seconds": 30,
+      "reference_pairs": 9,
+      "matched": 9,
+      "matches": [
+        {
+          "reference": {
+            "window_start": "3000",
+            "seen_seconds": "3000",
+            "attacker": "[AK]SK1LLIUS",
+            "target": "[PMF]Breizher",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D01984",
+          "attacker": "[AK]SK1LLIUS",
+          "target": "[PMF]Breizher",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "3000",
+            "seen_seconds": "3014",
+            "attacker": "[AK]Philllicious",
+            "target": "[PMF]Ch3wie the Fobbit",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D01987",
+          "attacker": "[AK]Phillicious",
+          "target": "[PMF]Ch3wie the Fobbit",
+          "name_similarity": 0.9782608695652174
+        },
+        {
+          "reference": {
+            "window_start": "3000",
+            "seen_seconds": "3015",
+            "attacker": "[PMF]roum",
+            "target": "[AK]Friado",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D01989",
+          "attacker": "[PMF]roum",
+          "target": "[AK]Friado",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "3000",
+            "seen_seconds": "3017",
+            "attacker": "[PMF][EGO]Aky",
+            "target": "[AK]Woxy",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D01990",
+          "attacker": "[PMF][EGO]Aky",
+          "target": "[AK]Woxy",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "3000",
+            "seen_seconds": "3021",
+            "attacker": "[AK]LibiMcFly",
+            "target": "[PHNT]Absynth",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D01992",
+          "attacker": "[AK]LibiMcFly",
+          "target": "[PHNT]Absynth",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "3000",
+            "seen_seconds": "3022",
+            "attacker": "[AK]Senmove",
+            "target": "[AK]Senmove",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D01995",
+          "attacker": "[AK]Senmove",
+          "target": "[AK]Senmove",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "3000",
+            "seen_seconds": "3022",
+            "attacker": "[PMF]Holostile",
+            "target": "[PMF]Holostile",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D01994",
+          "attacker": "[PMF]Holostile",
+          "target": "[PMF]Holostile",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "3000",
+            "seen_seconds": "3029.25",
+            "attacker": "[PMF]Holostile",
+            "target": "[PMF]Holostile",
+            "method": "Native source at quarter-second end-of-window check; distinct co-visible feed rows"
+          },
+          "event_id": "D02000",
+          "attacker": "[PMF]Holostile",
+          "target": "[PMF]Holostile",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "3000",
+            "seen_seconds": "3029.25",
+            "attacker": "[PMF]hckaz",
+            "target": "[AK]Steperfeeld",
+            "method": "Native source at quarter-second end-of-window check; distinct co-visible feed rows"
+          },
+          "event_id": "D02006",
+          "attacker": "[PMF]hckAz",
+          "target": "[AK]Steperfeeld",
+          "name_similarity": 1.0
+        }
+      ],
+      "missed": [],
+      "unmatched_predictions": [
+        {
+          "event_id": "D01991",
+          "first": 3021.0,
+          "last": 3029.25,
+          "attacker": "[AK]LibiMcFly",
+          "target": "PHNTJADS"
+        },
+        {
+          "event_id": "D02001",
+          "first": 3029.5,
+          "last": 3030.25,
+          "attacker": "[PMF]hok",
+          "target": "[AK]Steperfeeld"
+        }
+      ]
+    },
+    {
+      "start_seconds": 7800,
+      "duration_seconds": 30,
+      "reference_pairs": 8,
+      "matched": 7,
+      "matches": [
+        {
+          "reference": {
+            "window_start": "7800",
+            "seen_seconds": "7800",
+            "attacker": "[AK]Trigga",
+            "target": "[PMF]AskYy",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D06064",
+          "attacker": "[AK]Trigga",
+          "target": "[PMF]AskYy",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "7800",
+            "seen_seconds": "7800",
+            "attacker": "[AK]SK1LLIUS",
+            "target": "[PMF]wokanswer",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D06063",
+          "attacker": "[AK]SK1LLIUS",
+          "target": "[PMF]wokanswer",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "7800",
+            "seen_seconds": "7800",
+            "attacker": "[PMF]ypox_fps",
+            "target": "[AK]Benegog",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D06058",
+          "attacker": "[PMF]ypox_fps",
+          "target": "[AK]Benegog",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "7800",
+            "seen_seconds": "7800",
+            "attacker": "[AK]Woxy",
+            "target": "[PMF]Slyier",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D06057",
+          "attacker": "[AK]Woxy",
+          "target": "[PMF]Slyier",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "7800",
+            "seen_seconds": "7801",
+            "attacker": "[PMF]DYDSO",
+            "target": "[AK]Philllicious",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D06073",
+          "attacker": "[PMF]DYDSO",
+          "target": "[AK]Phillicious",
+          "name_similarity": 0.9782608695652174
+        },
+        {
+          "reference": {
+            "window_start": "7800",
+            "seen_seconds": "7803",
+            "attacker": "[AK]Salbei",
+            "target": "[PMF]ypox_fps",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D06074",
+          "attacker": "[AK]Salbei",
+          "target": "[PMF]ypox_fps",
+          "name_similarity": 1.0
+        },
+        {
+          "reference": {
+            "window_start": "7800",
+            "seen_seconds": "7820",
+            "attacker": "[AKp]Shidar",
+            "target": "[PMF]Ch3wie the Fobbit",
+            "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+          },
+          "event_id": "D06101",
+          "attacker": "[AKP]Shidar",
+          "target": "[PMF]Ch3wie the Fobbit",
+          "name_similarity": 1.0
+        }
+      ],
+      "missed": [
+        {
+          "window_start": "7800",
+          "seen_seconds": "7813",
+          "attacker": "[AK]SK1LLIUS",
+          "target": "[PMF]MaTej",
+          "method": "One-second native contact sheet; readable paired rows only, punctuation simplified for tolerant episode matching"
+        }
+      ],
+      "unmatched_predictions": [
+        {
+          "event_id": "D06100",
+          "first": 7824.75,
+          "last": 7828.75,
+          "attacker": "pJShidar",
+          "target": "[PMF]Ch3wie the Fobbit"
+        }
+      ]
+    }
+  ],
+  "unsupported_notice": "One readable Shaddy single-name notice at 7800s is excluded from paired evaluation; single-name notices are not classified in this import.",
+  "match_timing_tolerance": "A readable source sample may precede reliable OCR by up to ten seconds; matching includes ten seconds of context after each window. Unmatched predictions are restricted to tracks observed before the window end.",
+  "separate_visual_recoveries": 1,
+  "separate_visual_duplicate_exclusions": 4
+}

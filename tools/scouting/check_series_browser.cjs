@@ -36,23 +36,11 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
     assert(await page.locator('#score-chart circle').count()===d.score_anchors.reduce((n,r)=>n+['blue','red','green'].filter(k=>r[k]!==null).length,0),'Score dots missing');
     const headers=await page.locator('#score-head th').allTextContents();
     assert(headers.slice(2,5).join('|')===d.teams.map(t=>t.name).join('|'),'Score headings leak another recording');
-    for(const e of d.evidence.filter(e=>e.clip).filter((e,i)=>!process.env.SCOUTING_QUICK_CHECK||i===0)){
-      await page.evaluate(id=>window.scoutingReport.inspect(id),e.id);
-      await page.locator('#evidence-image').evaluate(e=>e.decode());
-      const meta=await page.locator('#evidence-video').evaluate(el=>new Promise((resolve,reject)=>{
-        const done=()=>resolve({duration:el.duration,width:el.videoWidth});
-        if(el.readyState>=1)return done();
-        el.addEventListener('loadedmetadata',done,{once:true});el.addEventListener('error',()=>reject(Error(el.error?.message||'decode failed')),{once:true});
-      }));
-      assert(Math.abs(meta.duration-(e.clip.end_seconds-e.clip.start_seconds))<.25&&meta.width===1280,'Excerpt mismatch '+e.id);
-      await page.getByRole('button',{name:'Play excerpt',exact:true}).click();
-      await page.locator('#evidence-video').evaluate(async el=>{el.muted=true;await el.play()});
-      await page.waitForFunction(()=>document.getElementById('evidence-video').currentTime>.3);
-      await page.getByRole('button',{name:'Close evidence',exact:true}).click();
-      assert(!await page.locator('#inspector').evaluate(el=>el.open),'Close reopened dialog');
-    }
+    assert(!d.evidence.some(e=>e.clip),'Hosted clip metadata should be removed');
     await page.goto(route+'?view=timeline&team=red&evidence='+d.result.evidence_id);
     await page.locator('#inspector[open]').waitFor();await page.locator('#evidence-image').evaluate(e=>e.decode());
+    assert(!await page.getByRole('button',{name:'Play excerpt',exact:true}).isVisible(),'Hosted clip button visible');
+    assert(await page.locator('#evidence-image').isVisible(),'Source screenshot should remain visible');
     await page.screenshot({path:out+'/'+label+'-result.png'});
     await page.keyboard.press('Escape');
     assert(!page.url().includes('evidence='),'Closed dialog retained share parameter');

@@ -346,11 +346,6 @@
       "image": "assets/opening-transport.jpg",
       "image_alt": "WARDOGS source frame at recording time 1:40: Early deployment is already under time pressure",
       "library": true,
-      "clip": {
-        "src": "clips/opening-transport.mp4",
-        "start_seconds": 85,
-        "end_seconds": 130
-      },
       "thumbnail": "assets/thumb-opening-transport.jpg"
     },
     {
@@ -362,11 +357,6 @@
       "image": "assets/pilot-bottleneck.jpg",
       "image_alt": "WARDOGS source frame at recording time 11:30: Only two pilots are reported available",
       "library": true,
-      "clip": {
-        "src": "clips/pilot-bottleneck.mp4",
-        "start_seconds": 665,
-        "end_seconds": 710
-      },
       "thumbnail": "assets/thumb-pilot-bottleneck.jpg"
     },
     {
@@ -389,11 +379,6 @@
       "image": "assets/church-approach.jpg",
       "image_alt": "WARDOGS source frame at recording time 21:50: Smoke covers the approach to the church position",
       "library": true,
-      "clip": {
-        "src": "clips/church-approach.mp4",
-        "start_seconds": 1300,
-        "end_seconds": 1345
-      },
       "thumbnail": "assets/thumb-church-approach.jpg"
     },
     {
@@ -405,11 +390,6 @@
       "image": "assets/church-interior.jpg",
       "image_alt": "WARDOGS source frame at recording time 23:10: Blue players reach the church interior",
       "library": true,
-      "clip": {
-        "src": "clips/church-interior.mp4",
-        "start_seconds": 1370,
-        "end_seconds": 1440
-      },
       "thumbnail": "assets/thumb-church-interior.jpg"
     },
     {
@@ -432,11 +412,6 @@
       "image": "assets/ambush-hit.jpg",
       "image_alt": "WARDOGS source frame at recording time 42:10: The attempted transition ends with the POV downed",
       "library": true,
-      "clip": {
-        "src": "clips/ambush-hit.mp4",
-        "start_seconds": 2460,
-        "end_seconds": 2545
-      },
       "thumbnail": "assets/thumb-ambush-hit.jpg"
     },
     {
@@ -481,11 +456,6 @@
       "image": "assets/transport-conflict.jpg",
       "image_alt": "WARDOGS source frame at recording time 62:00: Transport duties compete with attack-helicopter duties",
       "library": true,
-      "clip": {
-        "src": "clips/transport-conflict.mp4",
-        "start_seconds": 3690,
-        "end_seconds": 3755
-      },
       "thumbnail": "assets/thumb-transport-conflict.jpg"
     },
     {
@@ -508,11 +478,6 @@
       "image": "assets/late-pull-before.jpg",
       "image_alt": "WARDOGS source frame at recording time 76:00: Before the pull: Blue 81, Red 93, Green 66",
       "library": true,
-      "clip": {
-        "src": "clips/late-pull-before.mp4",
-        "start_seconds": 4535,
-        "end_seconds": 4620
-      },
       "thumbnail": "assets/thumb-late-pull-before.jpg"
     },
     {
@@ -546,11 +511,6 @@
       "image": "assets/late-deficit.jpg",
       "image_alt": "WARDOGS source frame at recording time 88:30: The decisive deficit: 84–98–99",
       "library": true,
-      "clip": {
-        "src": "clips/late-deficit.mp4",
-        "start_seconds": 5245,
-        "end_seconds": 5330
-      },
       "thumbnail": "assets/thumb-late-deficit.jpg"
     },
     {
@@ -573,11 +533,6 @@
       "image": "assets/closing-hold.jpg",
       "image_alt": "WARDOGS source frame at recording time 91:00: Preserve bodies and use the APC to sustain the hold",
       "library": true,
-      "clip": {
-        "src": "clips/closing-hold.mp4",
-        "start_seconds": 5450,
-        "end_seconds": 5515
-      },
       "thumbnail": "assets/thumb-closing-hold.jpg"
     },
     {
@@ -600,11 +555,6 @@
       "image": "assets/result.jpg",
       "image_alt": "WARDOGS source frame at recording time 93:34: Verified result: Black Sails win 100–98–99",
       "library": true,
-      "clip": {
-        "src": "clips/result.mp4",
-        "start_seconds": 5590,
-        "end_seconds": 5615
-      },
       "thumbnail": "assets/thumb-result.jpg"
     },
     {

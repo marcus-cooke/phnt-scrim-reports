@@ -27,6 +27,7 @@ def run_legacy(name):
 run_legacy('prepare_data.py');run_legacy('build_strength.py')
 d=json.loads((root/'data/match-data.json').read_text())
 for r in d['tickets']:
+ r['control_raw']=r.get('control_raw','').strip()
  if r['status']=='reviewed':
   t=r['video_seconds'];src=root/'review'/f'native-{int(t)}.jpg'
   if not src.exists():src=root/f'native-{int(t)}.jpg'

@@ -278,12 +278,7 @@
       "image": "assets/route-hunt.jpg",
       "thumbnail": "assets/thumb-route-hunt.jpg",
       "image_alt": "Woodland approach to a supply corridor; source recording at 540 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/route-hunt.mp4",
-        "start_seconds": 510,
-        "end_seconds": 555
-      }
+      "library": true
     },
     {
       "id": "vehicle-upkeep",
@@ -294,12 +289,7 @@
       "image": "assets/vehicle-upkeep.jpg",
       "thumbnail": "assets/thumb-vehicle-upkeep.jpg",
       "image_alt": "A mobile role still needs repair and withdrawal; source recording at 690 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/vehicle-upkeep.mp4",
-        "start_seconds": 662,
-        "end_seconds": 707
-      }
+      "library": true
     },
     {
       "id": "cooldown",
@@ -332,12 +322,7 @@
       "image": "assets/base-loss.jpg",
       "thumbnail": "assets/thumb-base-loss.jpg",
       "image_alt": "Red reports its own FOB overrun; source recording at 2970 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/base-loss.mp4",
-        "start_seconds": 2955,
-        "end_seconds": 3000
-      }
+      "library": true
     },
     {
       "id": "slow-demo",
@@ -348,12 +333,7 @@
       "image": "assets/slow-demo.jpg",
       "thumbnail": "assets/thumb-slow-demo.jpg",
       "image_alt": "Captured-base demolition competes with scoring; source recording at 4680 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/slow-demo.mp4",
-        "start_seconds": 4640,
-        "end_seconds": 4705
-      }
+      "library": true
     },
     {
       "id": "conditional-call",
@@ -364,12 +344,7 @@
       "image": "assets/conditional-call.jpg",
       "thumbnail": "assets/thumb-conditional-call.jpg",
       "image_alt": "Hold the drill while current control is favourable; source recording at 4740 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/conditional-call.mp4",
-        "start_seconds": 4718,
-        "end_seconds": 4763
-      }
+      "library": true
     },
     {
       "id": "team-identity",
@@ -391,12 +366,7 @@
       "image": "assets/result.jpg",
       "thumbnail": "assets/thumb-result.jpg",
       "image_alt": "Adversary victory / 56 / 100 / 26; source recording at 5920 seconds",
-      "library": true,
-      "clip": {
-        "src": "clips/result.mp4",
-        "start_seconds": 5908,
-        "end_seconds": 5922
-      }
+      "library": true
     },
     {
       "id": "score-300",

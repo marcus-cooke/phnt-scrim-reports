@@ -102,7 +102,7 @@ d=json.loads((analysis/'data/match-data.json').read_text());d['events']=sorted(e
 d['summary'].update(candidate_events=len(events),charted_events=sum(e['included_in_charts'] for e in events),
     reviewed_events=len(manual),accepted_feed_entries=sum(e['accepted_feed_entry'] for e in events),single_name_notices=0,
     feed_frames=len(records),feed_start_seconds=cfg['start_seconds'],feed_end_seconds=cfg['end_seconds']-1/cfg['feed_fps'],feed_sample_gap_seconds=1/cfg['feed_fps'])
-d['feed_method']=dict(version=2,sampling_hz=cfg['feed_fps'],recognizers=['English PP-OCRv4','English PP-OCRv5'],
+d['feed_method']=dict(version=2,sampling_hz=cfg['feed_fps'],clan_teams=cfg['clan_teams'],recognizers=['English PP-OCRv4','English PP-OCRv5'],
     inclusion='At least 3 distinct source frames and OCR score >=0.80, or 2 source frames with both recognizers agreeing at >=0.92; separate visual reviews.',
     limits='Motion blur, foliage and compressed HUD text. Unreadable and isolated single-name rows are not automatically classified. No whole-match accuracy or final-kill claim.',
     validation_file='feed-validation.json')

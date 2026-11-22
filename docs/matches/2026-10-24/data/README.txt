@@ -11,6 +11,6 @@ as a measure of overall team performance across matches.
 Map symbols are anonymous observations; no continuous routes are inferred.
 Public source_image/source_file fields refer to compact screenshots under
 assets/, relative to the match report. Native feed and HUD strips are retained.
-Only selected excerpts are included; original videos are not hosted.
+Timestamped screenshots are included; video excerpts and originals stay offline.
 Manual records and review queues remain separate. See the report's Data &
 coverage section for sampling coverage and machine confidence rules.

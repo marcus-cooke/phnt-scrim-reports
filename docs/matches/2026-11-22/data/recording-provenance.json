@@ -1,0 +1,135 @@
+{
+  "recording": "2026-11-22 19-35-46.mp4",
+  "recording_date": "2026-11-22",
+  "category": "phnt",
+  "recording_owner": "PHNT",
+  "source_video_sha256": "65e0568ecb3f2d92cd5fc90f75eb5dfd19e122debeca2c404aa740820ff9eaea",
+  "source_video_bytes": 10865974426,
+  "source_video_width": 3440.0,
+  "source_video_height": 1440.0,
+  "source_fps": 60.0,
+  "duration_seconds": 8316.683333333332,
+  "opponents": [
+    "AK",
+    "PMF"
+  ],
+  "clan_factions": {
+    "PHNT": "Blue",
+    "AK": "Red",
+    "AKP": "Red",
+    "PMF": "Green"
+  },
+  "verified_result": {
+    "Blue": 96,
+    "Red": 100,
+    "Green": 96
+  },
+  "result_screen_seconds": 8220,
+  "analysis_start_seconds": 370,
+  "active_hud_end_seconds": 8205,
+  "score_anchors": 29,
+  "reviewed_scoreboard_rows": 0,
+  "reviewed_feed_entries": 8,
+  "sampling": {
+    "feed_hz": 4,
+    "hud_gap_seconds": 5,
+    "feed_frames": 31340
+  },
+  "source_timing_checks": [
+    {
+      "label_seconds": 600,
+      "best_source_offset_frames": 0,
+      "mean_absolute_pixel_difference": 1.1095043572984749,
+      "comparisons": [
+        [
+          -2,
+          2.727459694989107
+        ],
+        [
+          -1,
+          2.1590283224400872
+        ],
+        [
+          0,
+          1.1095043572984749
+        ],
+        [
+          1,
+          1.8293235294117647
+        ],
+        [
+          2,
+          2.2398202614379086
+        ]
+      ]
+    },
+    {
+      "label_seconds": 1200,
+      "best_source_offset_frames": 0,
+      "mean_absolute_pixel_difference": 1.9196851851851853,
+      "comparisons": [
+        [
+          -2,
+          7.874322440087146
+        ],
+        [
+          -1,
+          6.819078431372549
+        ],
+        [
+          0,
+          1.9196851851851853
+        ],
+        [
+          1,
+          5.1331350762527235
+        ],
+        [
+          2,
+          6.655572984749456
+        ]
+      ]
+    },
+    {
+      "label_seconds": 3000,
+      "best_source_offset_frames": 0,
+      "mean_absolute_pixel_difference": 1.1255936819172114,
+      "comparisons": [
+        [
+          -2,
+          1.5769694989106753
+        ],
+        [
+          -1,
+          1.3991873638344225
+        ],
+        [
+          0,
+          1.1255936819172114
+        ],
+        [
+          1,
+          1.3197755991285403
+        ],
+        [
+          2,
+          1.4754183006535948
+        ]
+      ]
+    }
+  ],
+  "strength": "Two English recognizers agree on two digits at >=0.92 each; visible ticket HUD required. Missing data stays unavailable. Values strictly above 33 are flagged; selected extrema separately reviewed.",
+  "limits": "PHNT clan recording supplied by user. Opponent names are visible tags, not independently confirmed full clan names. Feed rows are display episodes, not verified final kills. Single-name notices remain unresolved. No per-player final scoreboard totals were transcribed. Anonymous map markers do not identify continuous routes.",
+  "models": [
+    {
+      "file": "en_PP-OCRv4_rec.onnx",
+      "sha256": "e8770c967605983d1570cdf5352041dfb68fa0c21664f49f47b155abd3e0e318"
+    },
+    {
+      "file": "en_PP-OCRv5_rec.onnx",
+      "sha256": "c3461add59bb4323ecba96a492ab75e06dda42467c9e3d0c18db5d1d21924be8"
+    }
+  ],
+  "visual_duplicate_exclusions": 4,
+  "automatic_reference_recovery": "25/26 before separate visual decisions"
+}
